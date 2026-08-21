@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/sitemap.xml
