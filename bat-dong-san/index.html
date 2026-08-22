@@ -5,24 +5,398 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
 <title>Bất Động Sản Tuấn Nguyên | Nhà đất Đà Lạt - Lâm Đồng</title>
 
 <meta name="description"
-      content="Tuấn Nguyên Bất Động Sản chuyên mua bán nhà đất, đất nền, villa, khách sạn tại Đà Lạt và Lâm Đồng.">
-<link rel="stylesheet" href="../assets/css/style.css">
+      content="Danh sách bất động sản Tuấn Nguyên tại Đà Lạt - Lâm Đồng. Nhà đất, đất nền, villa, khách sạn và căn hộ.">
+
+<meta name="robots"
+      content="index, follow">
+
+<style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+
+header {
+    background: #111;
+    color: white;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #d4af37;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* HERO */
+
+.hero {
+    background:
+        linear-gradient(
+            rgba(0,0,0,.6),
+            rgba(0,0,0,.6)
+        ),
+        url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1800&q=80")
+        center/cover;
+
+    min-height: 380px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 19px;
+}
+
+.button {
+    display: inline-block;
+
+    background: #d4af37;
+    color: #111;
+
+    padding: 12px 24px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    margin-top: 25px;
+}
+
+/* CONTENT */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 60px 20px;
+}
+
+.section-title {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #777;
+}
+
+/* FILTER */
+
+.filter-box {
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 20px rgba(0,0,0,.08);
+
+    margin-bottom: 40px;
+}
+
+.filter-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 12px;
+}
+
+select,
+input {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+.filter-button {
+
+    background: #111;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+/* PRODUCTS */
+
+.products {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.product {
+
+    background: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 4px 18px rgba(0,0,0,.1);
+
+    transition: .3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+.product-content {
+
+    padding: 20px;
+}
+
+.tag {
+
+    color: #c49a00;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.product h3 {
+
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.price {
+
+    color: #b88b00;
+
+    font-size: 21px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.location {
+
+    color: #777;
+
+    margin-bottom: 12px;
+}
+
+.description {
+
+    color: #555;
+
+    margin-bottom: 15px;
+}
+
+.detail-button {
+
+    display: inline-block;
+
+    background: #111;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+/* CONTACT */
+
+.contact {
+
+    background: #111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.contact h2 {
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.phone {
+
+    color: #d4af37;
+
+    font-size: 27px;
+
+    font-weight: bold;
+
+    margin: 12px;
+}
+
+/* FOOTER */
+
+footer {
+
+    background: #080808;
+
+    color: #aaa;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px) {
+
+    nav {
+        display: none;
+    }
+
+    .products {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .filter-grid {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:600px) {
+
+    .hero h1 {
+
+        font-size: 32px;
+    }
+
+    .products {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
 
 </head>
 
+
 <body>
+
+
+<!-- HEADER -->
 
 <header>
 
 <div class="header-container">
 
 <div class="logo">
-TUẤN NGUYÊN <span>BĐS</span>
+
+TUẤN NGUYÊN
+<span>BĐS</span>
+
 </div>
 
 <nav>
@@ -46,36 +420,30 @@ Liên hệ
 </header>
 
 
+
+<!-- HERO -->
+
 <section class="hero">
 
-<div class="hero-content">
-
-<div class="hero-label">
-TUẤN NGUYÊN BĐS
-</div>
+<div>
 
 <h1>
-BẤT ĐỘNG SẢN<br>
-TUẤN NGUYÊN
+BẤT ĐỘNG SẢN TUẤN NGUYÊN
 </h1>
 
 <p>
 Nhà đất • Đất nền • Villa • Khách sạn
-<br>
+</p>
+
+<p>
 Đà Lạt – Lâm Đồng
 </p>
 
-<a class="button"
+<a
+class="button"
 href="tel:0843156768">
 
-📞 Gọi ngay
-
-</a>
-
-<a class="button button-dark"
-href="../index.html">
-
-← Về trang chủ
+📞 Gọi Tuấn Nguyên
 
 </a>
 
@@ -84,132 +452,258 @@ href="../index.html">
 </section>
 
 
-<section id="danh-sach">
+
+<!-- DANH SÁCH -->
+
+<main
+class="container"
+id="danh-sach">
+
 
 <div class="section-title">
 
-<div class="section-label">
-DANH MỤC
-
-</div>
-
 <h2>
-Bất động sản Đà Lạt
+Bất động sản đang bán
 </h2>
 
 <p>
-Những sản phẩm đang được Tuấn Nguyên BĐS giới thiệu
+Những sản phẩm được Tuấn Nguyên BĐS chọn lọc
 </p>
 
 </div>
 
 
-<div class="categories">
 
+<!-- FILTER -->
 
-<a class="category"
-href="../index.html#bat-dong-san">
+<div class="filter-box">
 
-<div class="category-icon">
-🏠
-</div>
+<div class="filter-grid">
 
-<h3>
-Nhà
-</h3>
+<select>
 
-<p>
-Nhà phố, nhà riêng
-</p>
+<option>
+Tất cả loại bất động sản
+</option>
 
-</a>
-
-
-<a class="category"
-href="../index.html#bat-dong-san">
-
-<div class="category-icon">
-🌳
-</div>
-
-<h3>
+<option>
 Đất
-</h3>
+</option>
 
-<p>
-Đất Đà Lạt và Lâm Đồng
-</p>
+<option>
+Nhà
+</option>
 
-</a>
-
-
-<a class="category"
-href="../index.html#bat-dong-san">
-
-<div class="category-icon">
-🏡
-</div>
-
-<h3>
+<option>
 Villa
-</h3>
+</option>
 
-<p>
-Villa nghỉ dưỡng
-</p>
-
-</a>
-
-
-<a class="category"
-href="../index.html#bat-dong-san">
-
-<div class="category-icon">
-🏨
-</div>
-
-<h3>
+<option>
 Khách sạn
-</h3>
+</option>
 
-<p>
-Khách sạn kinh doanh
-</p>
+<option>
+Căn hộ
+</option>
 
-</a>
+</select>
 
 
-<a class="category"
-href="../index.html#bat-dong-san">
+<select>
 
-<div class="category-icon">
-🏢
+<option>
+Tất cả khu vực
+</option>
+
+<option>
+Đà Lạt
+</option>
+
+<option>
+Đức Trọng
+</option>
+
+<option>
+Bảo Lộc
+</option>
+
+</select>
+
+
+<input
+type="text"
+placeholder="Tìm kiếm bất động sản..."
+>
+
+<button
+class="filter-button">
+
+TÌM KIẾM
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- PRODUCTS -->
+
+<div class="products">
+
+
+
+<!-- TIN 1 -->
+
+<article class="product">
+
+<img
+src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+alt="Nhà đẹp trung tâm Đà Lạt"
+>
+
+<div class="product-content">
+
+<div class="tag">
+NHÀ ĐẤT
 </div>
 
 <h3>
-Căn hộ
+Nhà đẹp trung tâm Đà Lạt
 </h3>
 
-<p>
-Căn hộ Đà Lạt
+<div class="price">
+Liên hệ
+</div>
+
+<div class="location">
+📍 Đà Lạt – Lâm Đồng
+</div>
+
+<p class="description">
+Nhà đẹp, vị trí thuận tiện,
+phù hợp để ở, nghỉ dưỡng
+hoặc đầu tư.
 </p>
+
+<a
+class="detail-button"
+href="../tin/nha-trung-tam-da-lat.html">
+
+Xem chi tiết →
 
 </a>
 
+</div>
+
+</article>
+
+
+
+<!-- TIN 2 -->
+
+<article class="product">
+
+<img
+src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+alt="Villa nghỉ dưỡng Đà Lạt"
+>
+
+<div class="product-content">
+
+<div class="tag">
+VILLA
+</div>
+
+<h3>
+Villa nghỉ dưỡng Đà Lạt
+</h3>
+
+<div class="price">
+Liên hệ
+</div>
+
+<div class="location">
+📍 Đà Lạt – Lâm Đồng
+</div>
+
+<p class="description">
+Villa đẹp, không gian nghỉ dưỡng,
+phù hợp khai thác lưu trú.
+</p>
+
+<a
+class="detail-button"
+href="../tin/villa-da-lat.html">
+
+Xem chi tiết →
+
+</a>
 
 </div>
 
-</section>
+</article>
 
 
-<section id="lien-he"
-class="contact">
 
-<div class="contact-content">
+<!-- TIN 3 -->
 
-<div class="section-label">
-LIÊN HỆ
+<article class="product">
+
+<img
+src="https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85"
+alt="Khách sạn kinh doanh Đà Lạt"
+>
+
+<div class="product-content">
+
+<div class="tag">
+KHÁCH SẠN
 </div>
+
+<h3>
+Khách sạn kinh doanh Đà Lạt
+</h3>
+
+<div class="price">
+Liên hệ
+</div>
+
+<div class="location">
+📍 Đà Lạt – Lâm Đồng
+</div>
+
+<p class="description">
+Phù hợp khai thác lưu trú,
+kinh doanh hoặc đầu tư.
+</p>
+
+<a
+class="detail-button"
+href="../tin/khach-san-da-lat.html">
+
+Xem chi tiết →
+
+</a>
+
+</div>
+
+</article>
+
+
+
+</div>
+
+</main>
+
+
+
+<!-- CONTACT -->
+
+<section
+class="contact"
+id="lien-he">
 
 <h2>
 TUẤN NGUYÊN BẤT ĐỘNG SẢN
@@ -228,17 +722,19 @@ Tư vấn mua bán bất động sản
 077 315 67 67
 </div>
 
-<a class="button"
+<a
+class="button"
 href="tel:0843156768">
 
 📞 Gọi Tuấn Nguyên
 
 </a>
 
-</div>
-
 </section>
 
+
+
+<!-- FOOTER -->
 
 <footer>
 
