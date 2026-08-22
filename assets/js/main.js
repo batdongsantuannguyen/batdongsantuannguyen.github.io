@@ -1,82 +1,38 @@
-document.addEventListener("DOMContentLoaded", function () {
+function searchProperty() {
 
-    // Tìm kiếm bất động sản
-    const searchButton = document.querySelector(".search-button");
+    const type = document.getElementById("propertyType").value;
+    const location = document.getElementById("propertyLocation").value;
+    const keyword = document.getElementById("propertyKeyword").value.toLowerCase();
 
-    if (searchButton) {
+    const products = document.querySelectorAll(".product");
 
-        searchButton.addEventListener("click", function () {
+    products.forEach(function(product) {
 
-            const type = document.querySelector("#property-type")?.value || "";
-            const location = document.querySelector("#property-location")?.value || "";
-            const keyword = document.querySelector("#keyword")?.value.toLowerCase() || "";
+        const text = product.innerText.toLowerCase();
 
-            const products = document.querySelectorAll(".product");
+        let show = true;
 
-            products.forEach(function (product) {
+        // Lọc loại bất động sản
+        if (type !== "" && !text.includes(type)) {
+            show = false;
+        }
 
-                const productText = product.innerText.toLowerCase();
+        // Lọc khu vực
+        if (location !== "" && !text.includes(location)) {
+            show = false;
+        }
 
-                let show = true;
+        // Lọc từ khóa
+        if (keyword !== "" && !text.includes(keyword)) {
+            show = false;
+        }
 
-                if (type && type !== "all") {
-                    if (!productText.includes(type.toLowerCase())) {
-                        show = false;
-                    }
-                }
-
-                if (location && location !== "all") {
-                    if (!productText.includes(location.toLowerCase())) {
-                        show = false;
-                    }
-                }
-
-                if (keyword) {
-                    if (!productText.includes(keyword)) {
-                        show = false;
-                    }
-                }
-
-                product.style.display = show ? "" : "none";
-
-            });
-
-        });
-
-    }
-
-
-    // Nút gọi điện
-    const phoneButtons = document.querySelectorAll(".phone-button");
-
-    phoneButtons.forEach(function (button) {
-
-        button.addEventListener("click", function () {
-
-            window.location.href = "tel:0843156768";
-
-        });
-
-    });
-
-
-    // Hiệu ứng khi cuộn trang
-    window.addEventListener("scroll", function () {
-
-        const header = document.querySelector("header");
-
-        if (!header) return;
-
-        if (window.scrollY > 50) {
-
-            header.classList.add("scrolled");
-
+        if (show) {
+            product.style.display = "";
         } else {
-
-            header.classList.remove("scrolled");
-
+            product.style.display = "none";
         }
 
     });
 
-});
+}
