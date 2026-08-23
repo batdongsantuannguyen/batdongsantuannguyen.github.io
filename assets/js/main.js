@@ -1,3 +1,9 @@
+/*
+ * =========================================
+ * TÌM KIẾM BẤT ĐỘNG SẢN
+ * =========================================
+ */
+
 function searchProperty() {
 
     const type =
@@ -16,6 +22,7 @@ function searchProperty() {
 
     let found = 0;
 
+
     products.forEach(function(product) {
 
         const productType =
@@ -27,13 +34,14 @@ function searchProperty() {
         const productText =
             product.innerText.toLowerCase();
 
+
         let matchType = true;
         let matchLocation = true;
         let matchKeyword = true;
 
 
         /*
-         * KIỂM TRA LOẠI BẤT ĐỘNG SẢN
+         * KIỂM TRA LOẠI
          */
 
         if (type !== "") {
@@ -69,7 +77,7 @@ function searchProperty() {
 
 
         /*
-         * HIỂN THỊ SẢN PHẨM
+         * HIỂN THỊ
          */
 
         if (
@@ -106,16 +114,18 @@ function searchProperty() {
 }
 
 
-
 /*
+ * =========================================
  * HIỂN THỊ SẢN PHẨM
  * LẤY TỪ properties.js
+ * =========================================
  */
 
 function renderProperties() {
 
     const container =
         document.querySelector(".products");
+
 
     if (
         !container ||
@@ -128,17 +138,100 @@ function renderProperties() {
 
 
     /*
-     * XÓA DANH SÁCH HTML CŨ
+     * XÁC ĐỊNH TRANG HIỆN TẠI
+     */
+
+    const path =
+        window.location.pathname;
+
+
+    let currentType = "";
+
+
+    /*
+     * TRANG NHÀ
+     */
+
+    if (
+        path.includes("/bat-dong-san/nha/")
+    ) {
+
+        currentType = "nha";
+
+    }
+
+
+    /*
+     * TRANG ĐẤT
+     */
+
+    else if (
+        path.includes("/bat-dong-san/dat/")
+    ) {
+
+        currentType = "dat";
+
+    }
+
+
+    /*
+     * TRANG VILLA
+     */
+
+    else if (
+        path.includes("/bat-dong-san/villa/")
+    ) {
+
+        currentType = "villa";
+
+    }
+
+
+    /*
+     * TRANG KHÁCH SẠN
+     */
+
+    else if (
+        path.includes("/bat-dong-san/khach-san/")
+    ) {
+
+        currentType = "khach-san";
+
+    }
+
+
+    /*
+     * XÓA SẢN PHẨM CŨ
      */
 
     container.innerHTML = "";
 
 
     /*
-     * TẠO SẢN PHẨM TỪ KHO DỮ LIỆU
+     * LẤY SẢN PHẨM TỪ KHO DỮ LIỆU
      */
 
     properties.forEach(function(property) {
+
+
+        /*
+         * NẾU ĐANG Ở TRANG DANH MỤC
+         * CHỈ HIỂN THỊ ĐÚNG LOẠI
+         */
+
+        if (
+            currentType !== "" &&
+            property.type !== currentType
+        ) {
+
+            return;
+
+        }
+
+
+        /*
+         * TẠO THẺ SẢN PHẨM
+         */
 
         const article =
             document.createElement("article");
@@ -215,9 +308,10 @@ function renderProperties() {
 }
 
 
-
 /*
+ * =========================================
  * CHẠY KHI TRANG ĐÃ TẢI XONG
+ * =========================================
  */
 
 document.addEventListener(
