@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="vi">
 
@@ -8,10 +9,10 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>Bất Động Sản Tuấn Nguyên | Nhà đất Đà Lạt - Lâm Đồng</title>
+<title>Bất Động Sản Tuấn Nguyên | Nhà, Đất, Biệt Thự, Khách Sạn</title>
 
 <meta name="description"
-      content="Danh sách bất động sản Tuấn Nguyên tại Đà Lạt - Lâm Đồng. Nhà đất, đất nền, villa, khách sạn và căn hộ.">
+      content="Bất động sản Tuấn Nguyên - Nhà, đất, biệt thự, khách sạn, căn hộ và homestay. Tìm kiếm bất động sản tại Đà Lạt, Lâm Đồng và các khu vực khác.">
 
 <meta name="robots"
       content="index, follow">
@@ -65,6 +66,7 @@ header {
 nav {
     display: flex;
     gap: 25px;
+    align-items: center;
 }
 
 nav a {
@@ -197,7 +199,10 @@ input {
     cursor: pointer;
 
     font-weight: bold;
+
+    padding: 13px;
 }
+
 /* CATEGORIES */
 
 .categories {
@@ -254,6 +259,7 @@ input {
 
     color: #777;
 }
+
 /* PRODUCTS */
 
 .products {
@@ -413,11 +419,13 @@ footer {
         grid-template-columns:
             repeat(2, 1fr);
     }
-.categories {
 
-    grid-template-columns:
-        repeat(2, 1fr);
-}
+    .categories {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
     .filter-grid {
 
         grid-template-columns: 1fr;
@@ -430,10 +438,12 @@ footer {
 
         font-size: 32px;
     }
-.categories {
 
-    grid-template-columns: 1fr;
-}
+    .categories {
+
+        grid-template-columns: 1fr;
+    }
+
     .products {
 
         grid-template-columns: 1fr;
@@ -463,8 +473,6 @@ TUẤN NGUYÊN
 
 <nav>
 
-<nav>
-
 <a href="../index.html">
 Trang chủ
 </a>
@@ -490,7 +498,7 @@ Khách sạn
 </a>
 
 <a href="./villa/">
-Villa
+Biệt Thự
 </a>
 
 <a href="./homestay/">
@@ -508,7 +516,6 @@ Liên hệ
 </header>
 
 
-
 <!-- HERO -->
 
 <section class="hero">
@@ -520,11 +527,11 @@ BẤT ĐỘNG SẢN TUẤN NGUYÊN
 </h1>
 
 <p>
-Nhà đất • Đất nền • Villa • Khách sạn
+Nhà • Đất • Biệt Thự • Khách Sạn • Căn Hộ • Homestay
 </p>
 
 <p>
-Đà Lạt – Lâm Đồng
+Đà Lạt – Lâm Đồng và các khu vực khác
 </p>
 
 <a
@@ -538,7 +545,6 @@ href="tel:0843156768">
 </div>
 
 </section>
-
 
 
 <!-- DANH SÁCH -->
@@ -561,7 +567,6 @@ Những sản phẩm được Tuấn Nguyên BĐS chọn lọc
 </div>
 
 
-
 <!-- FILTER -->
 
 <div class="filter-box">
@@ -575,15 +580,15 @@ Tất cả loại bất động sản
 </option>
 
 <option>
-Đất
-</option>
-
-<option>
 Nhà
 </option>
 
 <option>
-Villa
+Đất
+</option>
+
+<option>
+Biệt Thự
 </option>
 
 <option>
@@ -592,6 +597,10 @@ Khách sạn
 
 <option>
 Căn hộ
+</option>
+
+<option>
+Homestay
 </option>
 
 </select>
@@ -634,50 +643,132 @@ TÌM KIẾM
 
 </div>
 
+
+<!-- CATEGORIES -->
+
 <section class="categories">
 
-<a class="category" href="./nha/">
-<div class="category-icon">🏠</div>
-<h3>Nhà Đà Lạt</h3>
-<p>Nhà phố, nhà riêng, nhà kinh doanh</p>
+
+<a
+class="category"
+href="./nha/">
+
+<div class="category-icon">
+🏠
+</div>
+
+<h3>
+Nhà
+</h3>
+
+<p>
+Nhà phố, nhà riêng, nhà kinh doanh
+</p>
+
 </a>
 
-<a class="category" href="./dat/">
-<div class="category-icon">🌳</div>
-<h3>Đất Đà Lạt</h3>
-<p>Đất nền, đất nghỉ dưỡng, đất đầu tư</p>
+
+<a
+class="category"
+href="./dat/">
+
+<div class="category-icon">
+🌳
+</div>
+
+<h3>
+Đất
+</h3>
+
+<p>
+Đất nền, đất nghỉ dưỡng, đất đầu tư
+</p>
+
 </a>
 
-<a class="category" href="./can-ho/">
-<div class="category-icon">🏢</div>
-<h3>Căn hộ</h3>
-<p>Căn hộ ở, căn hộ đầu tư</p>
+
+<a
+class="category"
+href="./villa/">
+
+<div class="category-icon">
+🏡
+</div>
+
+<h3>
+Biệt Thự
+</h3>
+
+<p>
+Biệt thự nghỉ dưỡng, kinh doanh
+</p>
+
 </a>
 
-<a class="category" href="./khach-san/">
-<div class="category-icon">🏨</div>
-<h3>Khách sạn</h3>
-<p>Khách sạn kinh doanh, đầu tư</p>
+
+<a
+class="category"
+href="./khach-san/">
+
+<div class="category-icon">
+🏨
+</div>
+
+<h3>
+Khách Sạn
+</h3>
+
+<p>
+Khách sạn kinh doanh, đầu tư
+</p>
+
 </a>
 
-<a class="category" href="./villa/">
-<div class="category-icon">🏡</div>
-<h3>Villa</h3>
-<p>Villa nghỉ dưỡng, kinh doanh</p>
+
+<a
+class="category"
+href="./can-ho/">
+
+<div class="category-icon">
+🏢
+</div>
+
+<h3>
+Căn Hộ
+</h3>
+
+<p>
+Căn hộ ở, căn hộ đầu tư
+</p>
+
 </a>
 
-<a class="category" href="./homestay/">
-<div class="category-icon">🛏️</div>
-<h3>Homestay</h3>
-<p>Homestay và mô hình lưu trú</p>
+
+<a
+class="category"
+href="./homestay/">
+
+<div class="category-icon">
+🛏️
+</div>
+
+<h3>
+Homestay
+</h3>
+
+<p>
+Homestay và mô hình lưu trú
+</p>
+
 </a>
+
 
 </section>
+
 
 <!-- PRODUCTS -->
 
 <div class="products">
-
 
 
 <!-- TIN 1 -->
@@ -692,7 +783,7 @@ alt="Nhà đẹp trung tâm Đà Lạt"
 <div class="product-content">
 
 <div class="tag">
-NHÀ ĐẤT
+NHÀ
 </div>
 
 <h3>
@@ -715,7 +806,7 @@ hoặc đầu tư.
 
 <a
 class="detail-button"
-href="./nha/nha-trung-tam-da-lat/"
+href="./nha/nha-trung-tam-da-lat/">
 
 Xem chi tiết →
 
@@ -726,24 +817,23 @@ Xem chi tiết →
 </article>
 
 
-
 <!-- TIN 2 -->
 
 <article class="product">
 
 <img
 src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
-alt="Villa nghỉ dưỡng Đà Lạt"
+alt="Biệt thự nghỉ dưỡng Đà Lạt"
 >
 
 <div class="product-content">
 
 <div class="tag">
-VILLA
+BIỆT THỰ
 </div>
 
 <h3>
-Villa nghỉ dưỡng Đà Lạt
+Biệt thự nghỉ dưỡng Đà Lạt
 </h3>
 
 <div class="price">
@@ -755,7 +845,7 @@ Liên hệ
 </div>
 
 <p class="description">
-Villa đẹp, không gian nghỉ dưỡng,
+Biệt thự đẹp, không gian nghỉ dưỡng,
 phù hợp khai thác lưu trú.
 </p>
 
@@ -770,7 +860,6 @@ Xem chi tiết →
 </div>
 
 </article>
-
 
 
 <!-- TIN 3 -->
@@ -818,11 +907,9 @@ Xem chi tiết →
 </article>
 
 
-
 </div>
 
 </main>
-
 
 
 <!-- CONTACT -->
@@ -837,7 +924,7 @@ TUẤN NGUYÊN BẤT ĐỘNG SẢN
 
 <p>
 Tư vấn mua bán bất động sản
-Đà Lạt – Lâm Đồng
+Đà Lạt – Lâm Đồng và các khu vực khác
 </p>
 
 <div class="phone">
@@ -859,7 +946,6 @@ href="tel:0843156768">
 </section>
 
 
-
 <!-- FOOTER -->
 
 <footer>
@@ -878,3 +964,4 @@ href="tel:0843156768">
 </body>
 
 </html>
+```
