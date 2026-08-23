@@ -26,7 +26,7 @@ const properties = [
         url: "bat-dong-san/villa/villa-da-lat/"
     },
 
-    {
+        {
         id: "khach-san-da-lat",
         type: "khach-san",
         typeName: "Khách sạn",
@@ -37,6 +37,19 @@ const properties = [
         description: "Phù hợp khai thác lưu trú, kinh doanh hoặc đầu tư.",
         image: "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85",
         url: "bat-dong-san/khach-san/khach-san-da-lat/"
+    },
+
+    {
+        id: "dat-trung-tam-da-lat",
+        type: "dat",
+        typeName: "Đất",
+        location: "da-lat",
+        locationName: "Đà Lạt",
+        title: "Đất trung tâm Đà Lạt",
+        price: "Liên hệ",
+        description: "Đất phù hợp đầu tư, xây dựng hoặc khai thác nghỉ dưỡng.",
+        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+        url: "bat-dong-san/dat/dat-trung-tam-da-lat/"
     }
 
 ];
