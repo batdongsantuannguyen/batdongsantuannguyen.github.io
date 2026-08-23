@@ -42,82 +42,8 @@ function searchProperty() {
                 productType === type;
 
         }
-function renderProperties() {
 
-    const container =
-        document.querySelector(".products");
 
-    if (!container || typeof properties === "undefined") {
-        return;
-    }
-
-    container.innerHTML = "";
-
-    properties.forEach(function(property) {
-
-        const article =
-            document.createElement("article");
-
-        article.className = "product";
-
-        article.dataset.type =
-            property.type;
-
-        article.dataset.location =
-            property.location;
-
-        article.innerHTML = `
-
-            <img
-                src="${property.image}"
-                alt="${property.title}"
-                loading="lazy"
-            >
-
-            <div class="product-content">
-
-                <div class="product-tag">
-                    ${property.typeName}
-                </div>
-
-                <h3>
-                    ${property.title}
-                </h3>
-
-                <div class="price">
-                    ${property.price}
-                </div>
-
-                <div class="location">
-                    📍 ${property.locationName} – Lâm Đồng
-                </div>
-
-                <p>
-                    ${property.description}
-                </p>
-
-                <a
-                    class="product-button"
-                    href="${property.url}">
-
-                    Xem chi tiết →
-
-                </a>
-
-            </div>
-
-        `;
-
-        container.appendChild(article);
-
-    });
-
-}
-document.addEventListener("DOMContentLoaded", function() {
-
-    renderProperties();
-
-});
         /*
          * KIỂM TRA KHU VỰC
          */
@@ -178,3 +104,127 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 }
+
+
+
+/*
+ * HIỂN THỊ SẢN PHẨM
+ * LẤY TỪ properties.js
+ */
+
+function renderProperties() {
+
+    const container =
+        document.querySelector(".products");
+
+    if (
+        !container ||
+        typeof properties === "undefined"
+    ) {
+
+        return;
+
+    }
+
+
+    /*
+     * XÓA DANH SÁCH HTML CŨ
+     */
+
+    container.innerHTML = "";
+
+
+    /*
+     * TẠO SẢN PHẨM TỪ KHO DỮ LIỆU
+     */
+
+    properties.forEach(function(property) {
+
+        const article =
+            document.createElement("article");
+
+        article.className = "product";
+
+
+        /*
+         * DỮ LIỆU CHO BỘ LỌC
+         */
+
+        article.dataset.type =
+            property.type;
+
+        article.dataset.location =
+            property.location;
+
+
+        /*
+         * NỘI DUNG SẢN PHẨM
+         */
+
+        article.innerHTML = `
+
+            <img
+                src="${property.image}"
+                alt="${property.title}"
+                loading="lazy"
+            >
+
+            <div class="product-content">
+
+                <div class="product-tag">
+                    ${property.typeName}
+                </div>
+
+                <h3>
+                    ${property.title}
+                </h3>
+
+                <div class="price">
+                    ${property.price}
+                </div>
+
+                <div class="location">
+                    📍 ${property.locationName} – Lâm Đồng
+                </div>
+
+                <p>
+                    ${property.description}
+                </p>
+
+                <a
+                    class="product-button"
+                    href="${property.url}">
+
+                    Xem chi tiết →
+
+                </a>
+
+            </div>
+
+        `;
+
+
+        /*
+         * ĐƯA SẢN PHẨM VÀO TRANG
+         */
+
+        container.appendChild(article);
+
+    });
+
+}
+
+
+
+/*
+ * CHẠY KHI TRANG ĐÃ TẢI XONG
+ */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
+
+        renderProperties();
+
+    }
+);
