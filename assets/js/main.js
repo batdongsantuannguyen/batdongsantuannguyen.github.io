@@ -6,14 +6,31 @@
 
 function searchProperty() {
 
+    const typeElement =
+        document.getElementById("propertyType");
+
+    const locationElement =
+        document.getElementById("propertyLocation");
+
+    const keywordElement =
+        document.getElementById("propertyKeyword");
+
+    if (
+        !typeElement ||
+        !locationElement ||
+        !keywordElement
+    ) {
+        return;
+    }
+
     const type =
-        document.getElementById("propertyType").value;
+        typeElement.value;
 
     const location =
-        document.getElementById("propertyLocation").value;
+        locationElement.value;
 
     const keyword =
-        document.getElementById("propertyKeyword").value
+        keywordElement.value
         .toLowerCase()
         .trim();
 
@@ -21,7 +38,6 @@ function searchProperty() {
         document.querySelectorAll(".product");
 
     let found = 0;
-
 
     products.forEach(function(product) {
 
@@ -34,51 +50,17 @@ function searchProperty() {
         const productText =
             product.innerText.toLowerCase();
 
+        const matchType =
+            type === "" ||
+            productType === type;
 
-        let matchType = true;
-        let matchLocation = true;
-        let matchKeyword = true;
+        const matchLocation =
+            location === "" ||
+            productLocation === location;
 
-
-        /*
-         * KIỂM TRA LOẠI
-         */
-
-        if (type !== "") {
-
-            matchType =
-                productType === type;
-
-        }
-
-
-        /*
-         * KIỂM TRA KHU VỰC
-         */
-
-        if (location !== "") {
-
-            matchLocation =
-                productLocation === location;
-
-        }
-
-
-        /*
-         * KIỂM TRA TỪ KHÓA
-         */
-
-        if (keyword !== "") {
-
-            matchKeyword =
-                productText.includes(keyword);
-
-        }
-
-
-        /*
-         * HIỂN THỊ
-         */
+        const matchKeyword =
+            keyword === "" ||
+            productText.includes(keyword);
 
         if (
             matchType &&
@@ -98,11 +80,6 @@ function searchProperty() {
 
     });
 
-
-    /*
-     * KHÔNG TÌM THẤY
-     */
-
     if (found === 0) {
 
         alert(
@@ -117,7 +94,6 @@ function searchProperty() {
 /*
  * =========================================
  * HIỂN THỊ SẢN PHẨM
- * LẤY TỪ properties.js
  * =========================================
  */
 
@@ -125,7 +101,6 @@ function renderProperties() {
 
     const container =
         document.querySelector(".products");
-
 
     if (
         !container ||
@@ -136,21 +111,10 @@ function renderProperties() {
 
     }
 
-
-    /*
-     * XÁC ĐỊNH TRANG HIỆN TẠI
-     */
-
     const path =
         window.location.pathname;
 
-
     let currentType = "";
-
-
-    /*
-     * TRANG NHÀ
-     */
 
     if (
         path.includes("/bat-dong-san/nha/")
@@ -160,11 +124,6 @@ function renderProperties() {
 
     }
 
-
-    /*
-     * TRANG ĐẤT
-     */
-
     else if (
         path.includes("/bat-dong-san/dat/")
     ) {
@@ -172,11 +131,6 @@ function renderProperties() {
         currentType = "dat";
 
     }
-
-
-    /*
-     * TRANG VILLA
-     */
 
     else if (
         path.includes("/bat-dong-san/villa/")
@@ -186,11 +140,6 @@ function renderProperties() {
 
     }
 
-
-    /*
-     * TRANG KHÁCH SẠN
-     */
-
     else if (
         path.includes("/bat-dong-san/khach-san/")
     ) {
@@ -199,25 +148,27 @@ function renderProperties() {
 
     }
 
+    else if (
+        path.includes("/bat-dong-san/can-ho/")
+    ) {
 
-    /*
-     * XÓA SẢN PHẨM CŨ
-     */
+        currentType = "can-ho";
+
+    }
+
+    else if (
+        path.includes("/bat-dong-san/homestay/")
+    ) {
+
+        currentType = "homestay";
+
+    }
+
 
     container.innerHTML = "";
 
 
-    /*
-     * LẤY SẢN PHẨM TỪ KHO DỮ LIỆU
-     */
-
     properties.forEach(function(property) {
-
-
-        /*
-         * NẾU ĐANG Ở TRANG DANH MỤC
-         * CHỈ HIỂN THỊ ĐÚNG LOẠI
-         */
 
         if (
             currentType !== "" &&
@@ -228,20 +179,10 @@ function renderProperties() {
 
         }
 
-
-        /*
-         * TẠO THẺ SẢN PHẨM
-         */
-
         const article =
             document.createElement("article");
 
         article.className = "product";
-
-
-        /*
-         * DỮ LIỆU CHO BỘ LỌC
-         */
 
         article.dataset.type =
             property.type;
@@ -251,8 +192,29 @@ function renderProperties() {
 
 
         /*
-         * NỘI DUNG SẢN PHẨM
+         * URL CHI TIẾT
          */
+
+        let productUrl =
+            property.url || "#";
+
+
+        /*
+         * Đảm bảo URL bắt đầu
+         * từ thư mục GitHub Pages
+         */
+
+        if (
+            productUrl.startsWith("/") &&
+            !productUrl.startsWith("/tuannguyen-batdongsan/")
+        ) {
+
+            productUrl =
+                "/tuannguyen-batdongsan" +
+                productUrl;
+
+        }
+
 
         article.innerHTML = `
 
@@ -286,7 +248,7 @@ function renderProperties() {
 
                 <a
                     class="product-button"
-                    href="${property.url}">
+                    href="${productUrl}">
 
                     Xem chi tiết →
 
@@ -295,11 +257,6 @@ function renderProperties() {
             </div>
 
         `;
-
-
-        /*
-         * ĐƯA SẢN PHẨM VÀO TRANG
-         */
 
         container.appendChild(article);
 
@@ -310,7 +267,7 @@ function renderProperties() {
 
 /*
  * =========================================
- * CHẠY KHI TRANG ĐÃ TẢI XONG
+ * CHẠY KHI TRANG ĐÃ TẢI
  * =========================================
  */
 
