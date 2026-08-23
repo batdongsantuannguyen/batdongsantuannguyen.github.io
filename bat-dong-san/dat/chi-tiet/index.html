@@ -11,10 +11,166 @@ content="width=device-width, initial-scale=1.0">
 <title>Đất Đà Lạt – Lâm Đồng | Tuấn Nguyên BĐS</title>
 
 <meta name="description"
-content="Thông tin chi tiết đất bán tại Đà Lạt – Lâm Đồng. Vị trí, diện tích, giá bán và thông tin liên hệ Tuấn Nguyên BĐS.">
+content="Thông tin chi tiết đất Đà Lạt – Lâm Đồng. Vị trí, diện tích, giá bán, pháp lý và thông tin đầu tư. Tuấn Nguyên Bất Động Sản.">
 
 <link rel="stylesheet"
 href="../../../assets/css/style.css">
+
+<style>
+
+.detail-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+.breadcrumb {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.detail-image {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+}
+
+.detail-tag {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.detail-title {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+.detail-location {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.detail-price {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.detail-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.info-box {
+    padding: 20px;
+    border-radius: 12px;
+    background: #f5f5f5;
+}
+
+.info-label {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.info-value {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.detail-section {
+    margin-top: 45px;
+}
+
+.detail-section h2 {
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.detail-section p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.detail-list {
+    line-height: 2;
+    padding-left: 20px;
+}
+
+.contact-detail {
+    margin-top: 50px;
+    padding: 35px;
+    border-radius: 14px;
+    background: #f5f5f5;
+}
+
+.contact-detail h2 {
+    margin-top: 0;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 14px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .detail-page {
+        padding: 25px 15px 60px;
+    }
+
+    .detail-image {
+        height: 300px;
+    }
+
+    .detail-title {
+        font-size: 29px;
+    }
+
+    .detail-price {
+        font-size: 24px;
+    }
+
+    .detail-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .detail-info {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+</style>
 
 </head>
 
@@ -29,7 +185,6 @@ href="../../../assets/css/style.css">
 <div class="logo">
 TUẤN NGUYÊN <span>BĐS</span>
 </div>
-
 
 <nav>
 
@@ -56,171 +211,256 @@ Liên hệ
 </header>
 
 
+<main class="detail-page">
 
-<section class="hero">
 
-<div class="hero-content">
+<div class="breadcrumb">
 
-<div class="hero-label">
-ĐẤT BÁN ĐÀ LẠT
-</div>
-
-<h1>
-ĐẤT ĐÀ LẠT – LÂM ĐỒNG
-</h1>
-
-<p>
-Đất nền • Đầu tư • Nghỉ dưỡng
-<br>
-Đà Lạt – Lâm Đồng
-</p>
-
-<a class="button"
-href="tel:0843156768">
-
-📞 Gọi Tuấn Nguyên
-
+<a href="../../../index.html">
+Trang chủ
 </a>
 
-</div>
+→
 
-</section>
+<a href="../../index.html">
+Bất động sản
+</a>
 
+→
 
+<a href="../index.html">
+Đất
+</a>
 
-<section>
+→
 
-<div class="section-title">
-
-<div class="section-label">
-THÔNG TIN SẢN PHẨM
-</div>
-
-<h2>
-Đất Đà Lạt – Lâm Đồng
-</h2>
-
-<p>
-Thông tin chi tiết sản phẩm
-</p>
+Chi tiết
 
 </div>
-
-
-<div class="products">
-
-<article class="product">
 
 
 <img
-src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85"
-alt="Đất bán Đà Lạt Lâm Đồng">
+class="detail-image"
+src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=90"
+alt="Đất Đà Lạt – Lâm Đồng"
+>
 
 
-<div class="product-content">
-
-
-<div class="product-tag">
-ĐẤT
+<div class="detail-tag">
+ĐẤT ĐÀ LẠT
 </div>
 
 
-<h3>
+<h1 class="detail-title">
 Đất Đà Lạt – Lâm Đồng
-</h3>
+</h1>
 
 
-<div class="price">
-Liên hệ
-</div>
-
-
-<div class="location">
+<div class="detail-location">
 📍 Đà Lạt – Lâm Đồng
 </div>
 
 
-<p>
-Sản phẩm đất tại Đà Lạt, phù hợp
-đầu tư, nghỉ dưỡng hoặc xây dựng.
-</p>
-
-
-<p>
-<strong>Diện tích:</strong>
+<div class="detail-price">
 Liên hệ
-</p>
+</div>
 
 
-<p>
-<strong>Pháp lý:</strong>
-Liên hệ
-</p>
+<div class="detail-info">
 
 
-<p>
-<strong>Giá bán:</strong>
-Liên hệ
-</p>
+<div class="info-box">
+
+<div class="info-label">
+Diện tích
+</div>
+
+<div class="info-value">
+Đang cập nhật
+</div>
+
+</div>
 
 
-<a class="button"
-href="tel:0843156768">
+<div class="info-box">
 
-📞 Liên hệ xem đất
+<div class="info-label">
+Loại đất
+</div>
 
-</a>
+<div class="info-value">
+Đất ở / Đất đầu tư
+</div>
+
+</div>
+
+
+<div class="info-box">
+
+<div class="info-label">
+Pháp lý
+</div>
+
+<div class="info-value">
+Đang cập nhật
+</div>
+
+</div>
+
+
+<div class="info-box">
+
+<div class="info-label">
+Vị trí
+</div>
+
+<div class="info-value">
+Đà Lạt
+</div>
+
+</div>
 
 
 </div>
 
-</article>
 
-</div>
+<section class="detail-section">
+
+<h2>
+Thông tin sản phẩm
+</h2>
+
+<p>
+
+Sản phẩm đất tại Đà Lạt – Lâm Đồng,
+phù hợp cho khách hàng có nhu cầu đầu tư,
+xây dựng nhà ở, nghỉ dưỡng hoặc khai thác
+giá trị bất động sản lâu dài.
+
+</p>
+
+<p>
+
+Thông tin diện tích, pháp lý, giá bán và vị trí
+chi tiết sẽ được Tuấn Nguyên Bất Động Sản
+cập nhật theo từng sản phẩm thực tế.
+
+</p>
 
 </section>
 
 
+<section class="detail-section">
 
-<section class="contact"
-id="lien-he">
+<h2>
+Lợi thế sản phẩm
+</h2>
 
-<div class="contact-content">
+<ul class="detail-list">
 
-<div class="section-label">
-LIÊN HỆ
-</div>
+<li>📍 Vị trí tại Đà Lạt – Lâm Đồng</li>
+
+<li>🏡 Phù hợp xây dựng nhà ở</li>
+
+<li>🌿 Có thể khai thác nghỉ dưỡng</li>
+
+<li>📈 Phù hợp nhu cầu đầu tư dài hạn</li>
+
+<li>🚗 Có khả năng tiếp cận giao thông thuận tiện</li>
+
+</ul>
+
+</section>
+
+
+<section class="detail-section">
+
+<h2>
+Pháp lý
+</h2>
+
+<p>
+
+Thông tin pháp lý sẽ được cung cấp và kiểm tra
+theo hồ sơ thực tế của từng sản phẩm trước khi
+khách hàng quyết định giao dịch.
+
+</p>
+
+</section>
+
+
+<section class="detail-section">
+
+<h2>
+Tư vấn sản phẩm
+</h2>
+
+<p>
+
+Quý khách cần thông tin chính xác về giá bán,
+diện tích, vị trí, pháp lý hoặc xem đất thực tế,
+vui lòng liên hệ trực tiếp Tuấn Nguyên.
+
+</p>
+
+</section>
+
+
+<div class="contact-detail">
 
 <h2>
 TUẤN NGUYÊN BẤT ĐỘNG SẢN
 </h2>
 
 <p>
-Tư vấn mua bán đất Đà Lạt
+Tư vấn mua bán bất động sản Đà Lạt – Lâm Đồng
+</p>
+
+<p>
+<strong>084 315 67 68</strong>
+</p>
+
+<p>
+<strong>077 315 67 67</strong>
 </p>
 
 
-<div class="phone">
-084 315 67 68
-</div>
+<div class="contact-buttons">
 
-
-<div class="phone">
-077 315 67 67
-</div>
-
-
-<a class="button"
+<a
+class="contact-button"
 href="tel:0843156768">
 
 📞 Gọi Tuấn Nguyên
 
 </a>
 
+
+<a
+class="contact-button"
+href="https://zalo.me/0843156768"
+target="_blank">
+
+💬 Nhắn Zalo
+
+</a>
+
 </div>
 
-</section>
+</div>
 
+
+<a
+class="back-link"
+href="../index.html">
+
+← Quay lại danh mục đất
+
+</a>
+
+
+</main>
 
 
 <footer>
