@@ -42,8 +42,82 @@ function searchProperty() {
                 productType === type;
 
         }
+function renderProperties() {
 
+    const container =
+        document.querySelector(".products");
 
+    if (!container || typeof properties === "undefined") {
+        return;
+    }
+
+    container.innerHTML = "";
+
+    properties.forEach(function(property) {
+
+        const article =
+            document.createElement("article");
+
+        article.className = "product";
+
+        article.dataset.type =
+            property.type;
+
+        article.dataset.location =
+            property.location;
+
+        article.innerHTML = `
+
+            <img
+                src="${property.image}"
+                alt="${property.title}"
+                loading="lazy"
+            >
+
+            <div class="product-content">
+
+                <div class="product-tag">
+                    ${property.typeName}
+                </div>
+
+                <h3>
+                    ${property.title}
+                </h3>
+
+                <div class="price">
+                    ${property.price}
+                </div>
+
+                <div class="location">
+                    📍 ${property.locationName} – Lâm Đồng
+                </div>
+
+                <p>
+                    ${property.description}
+                </p>
+
+                <a
+                    class="product-button"
+                    href="${property.url}">
+
+                    Xem chi tiết →
+
+                </a>
+
+            </div>
+
+        `;
+
+        container.appendChild(article);
+
+    });
+
+}
+document.addEventListener("DOMContentLoaded", function() {
+
+    renderProperties();
+
+});
         /*
          * KIỂM TRA KHU VỰC
          */
