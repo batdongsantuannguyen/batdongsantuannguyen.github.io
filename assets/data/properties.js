@@ -51,5 +51,29 @@ const properties = [
         image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
  url: "/tuannguyen-batdongsan/bat-dong-san/dat/dat-trung-tam-da-lat/"
     }
+{
+    id: "can-ho-da-lat",
+    type: "can-ho",
+    typeName: "Căn hộ",
+    location: "da-lat",
+    locationName: "Đà Lạt",
+    title: "Căn hộ Đà Lạt",
+    price: "Liên hệ",
+    description: "Căn hộ phù hợp để ở, nghỉ dưỡng hoặc đầu tư.",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=85",
+    url: "/tuannguyen-batdongsan/bat-dong-san/can-ho/can-ho-da-lat/"
+},
 
+{
+    id: "homestay-da-lat",
+    type: "homestay",
+    typeName: "Homestay",
+    location: "da-lat",
+    locationName: "Đà Lạt",
+    title: "Homestay Đà Lạt",
+    price: "Liên hệ",
+    description: "Homestay phù hợp nghỉ dưỡng, khai thác lưu trú hoặc đầu tư.",
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+    url: "/tuannguyen-batdongsan/bat-dong-san/homestay/homestay-da-lat/"
+},
 ];
