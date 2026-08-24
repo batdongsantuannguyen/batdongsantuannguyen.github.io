@@ -172,5 +172,29 @@ const properties = [
     description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Lạc Dương.",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/dat/dat-lac-duong/"
+},
+    {
+    id: "nha-don-duong-001",
+    type: "nha",
+    typeName: "Nhà",
+    location: "don-duong",
+    locationName: "Đơn Dương",
+    title: "Nhà Đơn Dương",
+    price: "Liên hệ",
+    description: "Nhà phù hợp để ở hoặc đầu tư tại Đơn Dương.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/nha/nha-don-duong/"
+},
+{
+    id: "dat-don-duong-001",
+    type: "dat",
+    typeName: "Đất",
+    location: "don-duong",
+    locationName: "Đơn Dương",
+    title: "Đất Đơn Dương",
+    price: "Liên hệ",
+    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Đơn Dương.",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/dat/dat-don-duong/"
 }
 ];
