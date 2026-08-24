@@ -198,27 +198,27 @@ const properties = [
     url: "bat-dong-san/dat/dat-don-duong/"
 },
     {
-    id: "nha-xuan-truong-xuan-tho-001",
+    id: "nha-xuan-tho-xuan-truong-001",
     type: "nha",
     typeName: "Nhà",
-    location: "xuan-truong-xuan-tho",
-    locationName: "Xuân Trường - Xuân Thọ",
-    title: "Nhà Xuân Trường - Xuân Thọ",
+    location: "xuan-tho-xuan-truong",
+    locationName: "Xuân Thọ - Xuân Trường",
+    title: "Nhà Xuân Thọ - Xuân Trường",
     price: "Liên hệ",
-    description: "Nhà phù hợp để ở hoặc đầu tư tại Xuân Trường - Xuân Thọ.",
+    description: "Nhà phù hợp để ở hoặc đầu tư tại Xuân Thọ - Xuân Trường.",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/nha/nha-xuan-truong-xuan-tho/"
+    url: "bat-dong-san/nha/nha-xuan-tho-xuan-truong/"
 },
 {
-    id: "dat-xuan-truong-xuan-tho-001",
+    id: "dat-xuan-tho-xuan-truong-001",
     type: "dat",
     typeName: "Đất",
-    location: "xuan-truong-xuan-tho",
-    locationName: "Xuân Trường - Xuân Thọ",
-    title: "Đất Xuân Trường - Xuân Thọ",
+    location: "xuan-tho-xuan-truong",
+    locationName: "Xuân Thọ - Xuân Trường",
+    title: "Đất Xuân Thọ - Xuân Trường",
     price: "Liên hệ",
-    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Xuân Trường - Xuân Thọ.",
+    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Xuân Thọ - Xuân Trường.",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/dat/dat-xuan-truong-xuan-tho/"
+    url: "bat-dong-san/dat/dat-xuan-tho-xuan-truong/"
 }
 ];
