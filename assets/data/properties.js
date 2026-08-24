@@ -88,5 +88,17 @@ const properties = [
     description: "Nhà phù hợp để ở hoặc đầu tư tại Đức Trọng.",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/nha/nha-dep-duc-trong/"
+},
+    {
+    id: "dat-duc-trong-001",
+    type: "dat",
+    typeName: "Đất",
+    location: "duc-trong",
+    locationName: "Đức Trọng",
+    title: "Đất Đức Trọng",
+    price: "Liên hệ",
+    description: "Đất phù hợp đầu tư, xây dựng hoặc khai thác tại Đức Trọng.",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/dat/dat-duc-trong/"
 }
 ];
