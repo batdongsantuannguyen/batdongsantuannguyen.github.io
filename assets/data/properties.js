@@ -124,5 +124,17 @@ const properties = [
     description: "Khách sạn phù hợp kinh doanh lưu trú hoặc đầu tư tại Đức Trọng.",
     image: "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/khach-san/khach-san-duc-trong/"
+},
+    {
+    id: "nha-bao-loc-001",
+    type: "nha",
+    typeName: "Nhà",
+    location: "bao-loc",
+    locationName: "Bảo Lộc",
+    title: "Nhà Bảo Lộc",
+    price: "Liên hệ",
+    description: "Nhà phù hợp để ở, kinh doanh hoặc đầu tư tại Bảo Lộc.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/nha/nha-bao-loc/"
 }
 ];
