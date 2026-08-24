@@ -148,5 +148,29 @@ const properties = [
     description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Bảo Lộc.",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/dat/dat-bao-loc/"
+},
+    {
+    id: "nha-lac-duong-001",
+    type: "nha",
+    typeName: "Nhà",
+    location: "lac-duong",
+    locationName: "Lạc Dương",
+    title: "Nhà Lạc Dương",
+    price: "Liên hệ",
+    description: "Nhà phù hợp để ở hoặc đầu tư tại Lạc Dương.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/nha/nha-lac-duong/"
+},
+{
+    id: "dat-lac-duong-001",
+    type: "dat",
+    typeName: "Đất",
+    location: "lac-duong",
+    locationName: "Lạc Dương",
+    title: "Đất Lạc Dương",
+    price: "Liên hệ",
+    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Lạc Dương.",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/dat/dat-lac-duong/"
 }
 ];
