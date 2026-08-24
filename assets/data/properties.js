@@ -76,6 +76,17 @@ const properties = [
     description: "Homestay phù hợp nghỉ dưỡng, khai thác lưu trú hoặc đầu tư.",
     image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/homestay/homestay-da-lat/"
+},
+{
+    id: "nha-duc-trong-001",
+    type: "nha",
+    typeName: "Nhà",
+    location: "duc-trong",
+    locationName: "Đức Trọng",
+    title: "Nhà đẹp Đức Trọng",
+    price: "Liên hệ",
+    description: "Nhà phù hợp để ở hoặc đầu tư tại Đức Trọng.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/nha/nha-dep-duc-trong/"
 }
-
 ];
