@@ -220,5 +220,29 @@ const properties = [
     description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Xuân Thọ - Xuân Trường.",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/dat/dat-xuan-tho-xuan-truong/"
+},
+    {
+    id: "nha-lam-ha-001",
+    type: "nha",
+    typeName: "Nhà",
+    location: "lam-ha",
+    locationName: "Lâm Hà",
+    title: "Nhà Lâm Hà",
+    price: "Liên hệ",
+    description: "Nhà phù hợp để ở, nghỉ dưỡng hoặc đầu tư tại Lâm Hà.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/nha/nha-lam-ha/"
+},
+{
+    id: "dat-lam-ha-001",
+    type: "dat",
+    typeName: "Đất",
+    location: "lam-ha",
+    locationName: "Lâm Hà",
+    title: "Đất Lâm Hà",
+    price: "Liên hệ",
+    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Lâm Hà.",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/dat/dat-lam-ha/"
 }
 ];
