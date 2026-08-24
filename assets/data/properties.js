@@ -136,5 +136,17 @@ const properties = [
     description: "Nhà phù hợp để ở, kinh doanh hoặc đầu tư tại Bảo Lộc.",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/nha/nha-bao-loc/"
+},
+    {
+    id: "dat-bao-loc-001",
+    type: "dat",
+    typeName: "Đất",
+    location: "bao-loc",
+    locationName: "Bảo Lộc",
+    title: "Đất Bảo Lộc",
+    price: "Liên hệ",
+    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Bảo Lộc.",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/dat/dat-bao-loc/"
 }
 ];
