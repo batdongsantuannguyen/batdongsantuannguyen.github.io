@@ -195,6 +195,25 @@ function renderProperties() {
  */
 
 let productUrl = property.url || "#";
+
+if (
+    productUrl !== "#" &&
+    !productUrl.startsWith("http") &&
+    !productUrl.startsWith("../") &&
+    !productUrl.startsWith("./")
+) {
+
+    const depth =
+        window.location.pathname
+        .split("/")
+        .filter(Boolean)
+        .length - 1;
+
+    productUrl =
+        "../".repeat(depth) +
+        productUrl;
+
+}
         article.innerHTML = `
 
             <img
