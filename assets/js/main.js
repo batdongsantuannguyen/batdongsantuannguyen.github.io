@@ -195,14 +195,12 @@ function renderProperties() {
          * URL CHI TIẾT
          */
 
-      let productUrl = property.url || "#";
+   let productUrl = property.url || "#";
 
 if (!productUrl.startsWith("http")) {
     productUrl =
-        new URL(
-            "/" + productUrl.replace(/^\/+/, ""),
-            window.location.origin + "/tuannguyen-batdongsan/"
-        ).href;
+        "/tuannguyen-batdongsan/" +
+        productUrl.replace(/^\/+/, "");
 }
         article.innerHTML = `
 
