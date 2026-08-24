@@ -198,20 +198,27 @@ let productUrl = property.url || "#";
 
 if (
     productUrl !== "#" &&
-    !productUrl.startsWith("http") &&
-    !productUrl.startsWith("../") &&
-    !productUrl.startsWith("./")
+    !productUrl.startsWith("http")
 ) {
 
-    const depth =
+    const pathParts =
         window.location.pathname
         .split("/")
-        .filter(Boolean)
-        .length - 1;
+        .filter(Boolean);
+
+    const repoIndex =
+        pathParts.indexOf("tuannguyen-batdongsan");
+
+    const currentDepth =
+        repoIndex >= 0
+            ? pathParts.length - repoIndex - 1
+            : 0;
 
     productUrl =
-        "../".repeat(depth) +
-        productUrl;
+        "../".repeat(
+            Math.max(0, currentDepth - 1)
+        ) +
+        productUrl.replace(/^\/+/, "");
 
 }
         article.innerHTML = `
