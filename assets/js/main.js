@@ -195,26 +195,8 @@ function renderProperties() {
          * URL CHI TIẾT
          */
 
-        let productUrl =
-            property.url || "#";
-
-
-        /*
-         * Đảm bảo URL bắt đầu
-         * từ thư mục GitHub Pages
-         */
-
-        if (
-            productUrl.startsWith("/") &&
-            !productUrl.startsWith("/tuannguyen-batdongsan/")
-        ) {
-
-            productUrl =
-                "/tuannguyen-batdongsan" +
-                productUrl;
-
-        }
-
+       let productUrl =
+    property.url || "#";
 
         article.innerHTML = `
 
