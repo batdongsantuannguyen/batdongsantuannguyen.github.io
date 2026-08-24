@@ -194,8 +194,21 @@ function renderProperties() {
  * URL CHI TIẾT
  */
 
-let productUrl =
-    property.url || "#";
+let productUrl = property.url || "#";
+
+if (
+    productUrl !== "#" &&
+    !productUrl.startsWith("http")
+) {
+
+    productUrl =
+        new URL(
+            productUrl,
+            window.location.origin +
+            "/tuannguyen-batdongsan/"
+        ).href;
+
+}
         article.innerHTML = `
 
             <img
