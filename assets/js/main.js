@@ -194,33 +194,8 @@ function renderProperties() {
  * URL CHI TIẾT
  */
 
-let productUrl = property.url || "#";
-
-if (
-    productUrl !== "#" &&
-    !productUrl.startsWith("http")
-) {
-
-    const pathParts =
-        window.location.pathname
-        .split("/")
-        .filter(Boolean);
-
-    const repoIndex =
-        pathParts.indexOf("tuannguyen-batdongsan");
-
-    const currentDepth =
-        repoIndex >= 0
-            ? pathParts.length - repoIndex - 1
-            : 0;
-
-    productUrl =
-        "../".repeat(
-            Math.max(0, currentDepth - 1)
-        ) +
-        productUrl.replace(/^\/+/, "");
-
-}
+let productUrl =
+    property.url || "#";
         article.innerHTML = `
 
             <img
