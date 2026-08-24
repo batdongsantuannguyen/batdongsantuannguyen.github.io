@@ -190,18 +190,11 @@ function renderProperties() {
         article.dataset.location =
             property.location;
 
+/*
+ * URL CHI TIẾT
+ */
 
-        /*
-         * URL CHI TIẾT
-         */
-
-   let productUrl = property.url || "#";
-
-if (!productUrl.startsWith("http")) {
-    productUrl =
-        "/tuannguyen-batdongsan/" +
-        productUrl.replace(/^\/+/, "");
-}
+let productUrl = property.url || "#";
         article.innerHTML = `
 
             <img
