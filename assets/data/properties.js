@@ -100,5 +100,17 @@ const properties = [
     description: "Đất phù hợp đầu tư, xây dựng hoặc khai thác tại Đức Trọng.",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/dat/dat-duc-trong/"
+},
+    {
+    id: "villa-duc-trong-001",
+    type: "villa",
+    typeName: "Biệt Thự",
+    location: "duc-trong",
+    locationName: "Đức Trọng",
+    title: "Biệt thự Đức Trọng",
+    price: "Liên hệ",
+    description: "Biệt thự phù hợp nghỉ dưỡng, sinh sống hoặc đầu tư tại Đức Trọng.",
+    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
+    url: "bat-dong-san/villa/villa-duc-trong/"
 }
 ];
