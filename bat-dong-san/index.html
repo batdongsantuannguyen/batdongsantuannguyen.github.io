@@ -140,67 +140,77 @@ Những sản phẩm được Tuấn Nguyên BĐS chọn lọc
 
 <div class="filter-grid">
 
-<select>
+<select id="propertyType">
 
-<option>
+<option value="">
 Tất cả loại bất động sản
 </option>
 
-<option>
+<option value="nha">
 Nhà
 </option>
 
-<option>
+<option value="dat">
 Đất
 </option>
 
-<option>
+<option value="villa">
 Biệt Thự
 </option>
 
-<option>
+<option value="khach-san">
 Khách sạn
 </option>
 
-<option>
+<option value="can-ho">
 Căn hộ
 </option>
 
-<option>
+<option value="homestay">
 Homestay
 </option>
 
 </select>
 
+<select id="propertyLocation">
 
-<select>
-
-<option>
+<option value="">
 Tất cả khu vực
 </option>
 
-<option>
+<option value="da-lat">
 Đà Lạt
 </option>
 
-<option>
+<option value="duc-trong">
 Đức Trọng
 </option>
 
-<option>
+<option value="bao-loc">
 Bảo Lộc
+</option>
+
+<option value="lac-duong">
+Lạc Dương
+</option>
+
+<option value="di-linh">
+Di Linh
 </option>
 
 </select>
 
-
 <input
 type="text"
+id="propertyKeyword"
 placeholder="Tìm kiếm bất động sản..."
+
 >
 
 <button
-class="filter-button">
+type="button"
+class="filter-button"
+onclick="searchProperty()">
 
 TÌM KIẾM
 
@@ -209,6 +219,7 @@ TÌM KIẾM
 </div>
 
 </div>
+
 
 
 <!-- CATEGORIES -->
