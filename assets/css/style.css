@@ -1217,3 +1217,32 @@ body {
         object-fit: cover;
     }
 }
+
+
+/* =====================================================
+   VIDEO BẤT ĐỘNG SẢN
+===================================================== */
+
+.property-video {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.property-video h2 {
+    margin-bottom: 15px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-wrapper iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
