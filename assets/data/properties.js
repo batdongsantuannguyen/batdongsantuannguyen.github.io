@@ -359,7 +359,23 @@ const properties = [
     description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Lâm Hà.",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
     url: "bat-dong-san/dat/dat-lam-ha/"
+},
+
+
+/* =====================================================
+   ĐẤT MÊ LINH - NAM BAN 180M2
+===================================================== */
+
+{
+    id: "dat-me-linh-nam-ban-180m2",
+    type: "dat",
+    typeName: "Đất",
+    location: "lam-ha",
+    locationName: "Mê Linh - Nam Ban",
+    title: "Đất Mê Linh - Nam Ban 180m², 132m² thổ cư",
+    price: "1,6 tỷ",
+    description: "Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m, cách ĐT725 khoảng 200m.",
+    image: "assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg",
+    url: "bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/"
 }
-
-
 ];
