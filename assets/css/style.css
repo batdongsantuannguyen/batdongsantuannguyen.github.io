@@ -940,22 +940,30 @@ footer {
         font-size: 23px;
     }
 /* =====================================================
-   GIAO DIỆN BÀI VIẾT BĐS KIỂU PORTAL
+   GIAO DIỆN BÀI VIẾT BĐS KIỂU PORTAL - BẢN CHUẨN
 ===================================================== */
 
 body {
     background: #e7e7e7;
 }
 
+
+/* KHUNG WEBSITE CĂN GIỮA */
+
 .page-wrap {
-    width: min(1200px, calc(100% - 24px));
-    margin: 20px auto;
+    width: 1180px;
+    max-width: calc(100% - 30px);
+    margin: 20px auto 40px;
 }
 
+
+/* BREADCRUMB */
+
 .breadcrumb {
+    width: 100%;
     background: #ffffff;
     padding: 12px 18px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     font-size: 14px;
     color: #666666;
 }
@@ -965,20 +973,32 @@ body {
     text-decoration: none;
 }
 
+
+/* =====================================================
+   BỐ CỤC 2 CỘT
+===================================================== */
+
 .content-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 320px;
+    grid-template-columns: minmax(0, 820px) 320px;
     gap: 20px;
     align-items: start;
+    justify-content: center;
 }
 
+
+/* =====================================================
+   BÀI VIẾT
+===================================================== */
+
 .article {
+    min-width: 0;
     background: #ffffff;
     padding: 22px;
 }
 
 .article h1 {
-    margin: 0 0 10px;
+    margin: 0 0 12px;
     font-size: 30px;
     line-height: 1.3;
     color: #15945f;
@@ -999,16 +1019,19 @@ body {
 }
 
 .article p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.75;
-    margin: 18px 0;
+    margin: 14px 0;
 }
 
 .article h2,
 .article h3 {
-    margin-top: 28px;
+    margin-top: 26px;
     margin-bottom: 10px;
 }
+
+
+/* TAG */
 
 .tags {
     display: flex;
@@ -1018,58 +1041,78 @@ body {
 }
 
 .tags span {
-    background: #dddddd;
-    color: #666666;
+    background: #eeeeee;
+    color: #777777;
     padding: 7px 10px;
-    border-radius: 6px;
+    border-radius: 5px;
     font-size: 14px;
 }
 
+
+/* =====================================================
+   ẢNH TRONG BÀI CHI TIẾT
+   RỘNG TỐI ĐA 900PX - CAO TỰ DO
+===================================================== */
+
 .article-image {
     display: block;
-    width: 92%;
-    max-width: 900px;
+    width: 900px;
+    max-width: 100%;
     height: auto;
-    margin: 24px auto;
+    object-fit: contain;
+    margin: 20px auto 6px;
 }
 
 .image-caption {
     text-align: center;
-    color: #999999;
+    color: #777777;
+    font-size: 14px;
     font-style: italic;
-    margin-top: -14px;
-    margin-bottom: 24px;
+    margin: 5px 0 20px;
 }
 
+
+/* =====================================================
+   SIDEBAR
+===================================================== */
+
 .sidebar {
+    width: 320px;
+    min-width: 0;
     position: sticky;
     top: 90px;
 }
 
 .sidebar-box {
+    width: 100%;
     background: #ffffff;
-    padding: 15px;
+    padding: 18px;
     margin-bottom: 18px;
+    border: 1px solid #dddddd;
 }
 
 .sidebar-box h3 {
-    margin: -15px -15px 15px;
-    padding: 9px 12px;
-    background: #d71920;
+    margin: -18px -18px 15px;
+    padding: 10px 12px;
+    background: #111111;
     color: #ffffff;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
 }
 
-.property-info p {
-    margin: 10px 0;
+.sidebar-box p {
+    margin: 0;
+    padding: 8px 0;
     line-height: 1.5;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .property-price {
-    font-size: 24px;
+    margin: 18px 0;
+    font-size: 28px;
     font-weight: 700;
-    color: #d71920;
+    color: #b88b00;
+    text-align: center;
 }
 
 .sidebar-contact {
@@ -1083,13 +1126,40 @@ body {
     text-decoration: none;
 }
 
+
+/* =====================================================
+   AVATAR / ẢNH ĐẠI DIỆN BÀI ĐĂNG
+   400PX X 600PX
+===================================================== */
+
+.product img {
+    display: block;
+    width: 400px;
+    height: 600px;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
 @media (max-width: 900px) {
+
+    .page-wrap {
+        width: auto;
+        max-width: calc(100% - 20px);
+        margin: 12px auto 30px;
+    }
 
     .content-layout {
         grid-template-columns: 1fr;
     }
 
     .sidebar {
+        width: 100%;
         position: static;
     }
 
@@ -1097,21 +1167,21 @@ body {
         font-size: 25px;
     }
 
-    .article p,
-    .article-summary {
-        font-size: 17px;
-    }
-
     .article-image {
         width: 100%;
     }
 }
 
+
+/* =====================================================
+   ĐIỆN THOẠI
+===================================================== */
+
 @media (max-width: 600px) {
 
     .page-wrap {
-        width: calc(100% - 16px);
-        margin: 8px auto;
+        max-width: calc(100% - 16px);
+        margin: 8px auto 20px;
     }
 
     .article {
@@ -1122,138 +1192,24 @@ body {
         font-size: 22px;
     }
 
+    .article h2 {
+        font-size: 20px;
+    }
+
+    .article p,
+    .article-summary {
+        font-size: 16px;
+    }
+
     .breadcrumb {
         padding: 10px 12px;
         font-size: 13px;
     }
-    /* =====================================================
-   FIX GIAO DIỆN TRANG CHI TIẾT BẤT ĐỘNG SẢN
-===================================================== */
 
-.page-wrap {
-    width: min(1180px, calc(100% - 30px));
-    margin: 20px auto 40px;
-}
-
-/* Bố cục bài viết + cột thông tin */
-
-.content-layout {
-    display: grid;
-    grid-template-columns: minmax(0, 2.2fr) minmax(280px, 0.8fr);
-    gap: 22px;
-    align-items: start;
-}
-
-/* Bài viết */
-
-.article {
-    background: #fff;
-    padding: 22px;
-    min-width: 0;
-}
-
-.article h1 {
-    font-size: 30px;
-    line-height: 1.25;
-    margin-bottom: 12px;
-}
-
-.article h2 {
-    font-size: 23px;
-    margin: 24px 0 10px;
-}
-
-.article p {
-    margin: 12px 0;
-    line-height: 1.7;
-}
-
-/* Ảnh trong bài */
-
-.article-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 560px;
-    object-fit: contain;
-    margin: 18px auto 6px;
-}
-
-.image-caption {
-    text-align: center;
-    font-size: 14px;
-    font-style: italic;
-    color: #777;
-    margin-bottom: 18px;
-}
-
-/* Sidebar */
-
-.sidebar {
-    min-width: 0;
-}
-
-.sidebar-box {
-    background: #fff;
-    padding: 18px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-}
-
-.sidebar-box h3 {
-    background: #111;
-    color: #fff;
-    padding: 10px 12px;
-    margin: -18px -18px 16px;
-    font-size: 17px;
-}
-
-.sidebar-box p {
-    padding: 7px 0;
-    margin: 0;
-    border-bottom: 1px solid #eee;
-}
-
-.property-price {
-    font-size: 28px;
-    font-weight: 700;
-    color: #b88b00;
-    margin: 18px 0;
-}
-
-/* Tablet */
-
-@media (max-width: 900px) {
-
-    .content-layout {
-        grid-template-columns: 1fr;
+    .product img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2 / 3;
+        object-fit: cover;
     }
-
-    .article-image {
-        max-height: none;
-    }
-}
-
-/* Điện thoại */
-
-@media (max-width: 600px) {
-
-    .page-wrap {
-        width: calc(100% - 20px);
-        margin-top: 10px;
-    }
-
-    .article {
-        padding: 15px;
-    }
-
-    .article h1 {
-        font-size: 25px;
-    }
-
-    .article h2 {
-        font-size: 21px;
-    }
-}
-}
 }
