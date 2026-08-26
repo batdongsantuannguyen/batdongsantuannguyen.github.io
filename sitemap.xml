@@ -1,182 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- TRANG CHỦ -->
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/</loc>
-        <priority>1.0</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/</loc>
+</url>
 
-    <!-- BẤT ĐỘNG SẢN -->
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/</loc>
-        <priority>0.9</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/</loc>
+</url>
 
-    <!-- DANH MỤC -->
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/</loc>
-        <priority>0.9</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/</loc>
-        <priority>0.9</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/villa/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/villa/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/khach-san/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/khach-san/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/can-ho/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/can-ho/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/homestay/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/homestay/</loc>
+</url>
 
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-trung-tam-da-lat/</loc>
+</url>
 
-    <!-- =========================
-         ĐÀ LẠT
-    ========================== -->
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-trung-tam-da-lat/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-trung-tam-da-lat/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/villa/villa-da-lat/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-trung-tam-da-lat/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/khach-san/khach-san-da-lat/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/villa/villa-da-lat/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/can-ho/can-ho-da-lat/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/khach-san/khach-san-da-lat/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/homestay/homestay-da-lat/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/can-ho/can-ho-da-lat/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-dep-duc-trong/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/homestay/homestay-da-lat/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-duc-trong/</loc>
+</url>
 
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/villa/villa-duc-trong/</loc>
+</url>
 
-    <!-- =========================
-         ĐỨC TRỌNG
-    ========================== -->
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/khach-san/khach-san-duc-trong/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-dep-duc-trong/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-bao-loc/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-duc-trong/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-bao-loc/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/villa/villa-duc-trong/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-lac-duong/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/khach-san/khach-san-duc-trong/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-lac-duong/</loc>
+</url>
 
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-don-duong/</loc>
+</url>
 
-    <!-- =========================
-         BẢO LỘC
-    ========================== -->
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-don-duong/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-bao-loc/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-xuan-tho-xuan-truong/</loc>
+</url>
 
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-bao-loc/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-xuan-tho-xuan-truong/</loc>
+</url>
 
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-lam-ha/</loc>
+</url>
 
-    <!-- =========================
-         LẠC DƯƠNG
-    ========================== -->
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-lac-duong/</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-lac-duong/</loc>
-        <priority>0.8</priority>
-    </url>
-
-
-    <!-- =========================
-         ĐƠN DƯƠNG
-    ========================== -->
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-don-duong/</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-don-duong/</loc>
-        <priority>0.8</priority>
-    </url>
-
-
-    <!-- =========================
-         XUÂN THỌ - XUÂN TRƯỜNG
-    ========================== -->
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-xuan-tho-xuan-truong/</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-xuan-tho-xuan-truong/</loc>
-        <priority>0.8</priority>
-    </url>
-
-
-    <!-- =========================
-         LÂM HÀ
-    ========================== -->
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/nha/nha-lam-ha/</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-lam-ha/</loc>
-        <priority>0.8</priority>
-    </url>
+<url>
+<loc>https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/dat/dat-lam-ha/</loc>
+</url>
 
 </urlset>
