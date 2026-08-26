@@ -935,10 +935,14 @@ footer {
         font-size: 27px;
     }
 
-    .phone {
+   .phone {
 
-        font-size: 23px;
-    }
+    font-size: 23px;
+}
+
+}  /* ĐÓNG @media (max-width: 600px) CŨ */
+
+
 /* =====================================================
    GIAO DIỆN BÀI VIẾT BĐS KIỂU PORTAL - BẢN CHUẨN
 ===================================================== */
