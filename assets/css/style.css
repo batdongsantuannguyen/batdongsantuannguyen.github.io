@@ -1224,3 +1224,34 @@ body {
     height: 100%;
     border: 0;
 }
+/* =====================================================
+   TỐI ƯU TÌM KIẾM TRÊN ĐIỆN THOẠI
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .search-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .search-grid select,
+    .search-grid input,
+    .search-grid .search-button {
+        width: 100%;
+        min-height: 46px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .search-grid select,
+    .search-grid input {
+        padding: 10px 12px;
+    }
+
+    .search-grid .search-button {
+        padding: 10px 15px;
+    }
+}
