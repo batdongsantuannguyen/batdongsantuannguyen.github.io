@@ -164,7 +164,13 @@ function renderProperties() {
 
     }
 
+else if (
+    path.includes("/bat-dong-san/cho-thue/")
+) {
 
+    currentType = "cho-thue";
+
+}
     container.innerHTML = "";
 
 
