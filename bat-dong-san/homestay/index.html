@@ -8,14 +8,29 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>Homestay Đà Lạt | Tuấn Nguyên BĐS</title>
-
+<title>Homestay Đà Lạt - Lâm Đồng | Tuấn Nguyên BĐS</title>
 <meta name="description"
       content="Danh sách Homestay đang bán tại Đà Lạt, Bảo Lộc, Đức Trọng, Lâm Đồng và các khu vực khác. Homestay nghỉ dưỡng, kinh doanh và đầu tư từ Tuấn Nguyên Bất Động Sản.">
 
 <meta name="robots"
       content="index, follow">
+<link rel="canonical"
+      href="https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/homestay/">
 
+<meta property="og:title"
+      content="Homestay Đà Lạt - Lâm Đồng | Tuấn Nguyên BĐS">
+
+<meta property="og:description"
+      content="Danh sách Homestay đang bán tại Đà Lạt - Lâm Đồng và các khu vực khác. Homestay nghỉ dưỡng, kinh doanh và đầu tư.">
+
+<meta property="og:type"
+      content="website">
+
+<meta property="og:locale"
+      content="vi_VN">
+
+<meta property="og:url"
+      content="https://tuannguyenbdsdalat68-alt.github.io/tuannguyen-batdongsan/bat-dong-san/homestay/">
 <link rel="stylesheet"
       href="../../assets/css/style.css">
 
@@ -140,52 +155,55 @@ Homestay được Tuấn Nguyên BĐS chọn lọc tại nhiều khu vực
 
 <div class="filter-grid">
 
+<select id="propertyType">
 
-<select>
-
-<option>
-Tất cả khu vực
+<option value="">
+Tất cả loại bất động sản
 </option>
 
-<option>
-Đà Lạt
-</option>
-
-<option>
-Bảo Lộc
-</option>
-
-<option>
-Đức Trọng
-</option>
-
-<option>
-Lạc Dương
-</option>
-
-<option>
-Di Linh
+<option value="homestay" selected>
+Homestay
 </option>
 
 </select>
 
 
-<select>
+<select id="propertyLocation">
 
-<option>
-Tất cả loại Homestay
+<option value="">
+Tất cả khu vực
 </option>
 
-<option>
-Homestay nghỉ dưỡng
+<option value="da-lat">
+Đà Lạt
 </option>
 
-<option>
-Homestay kinh doanh
+<option value="duc-trong">
+Đức Trọng
 </option>
 
-<option>
-Homestay đầu tư
+<option value="bao-loc">
+Bảo Lộc
+</option>
+
+<option value="lac-duong">
+Lạc Dương
+</option>
+
+<option value="don-duong">
+Đơn Dương
+</option>
+
+<option value="xuan-tho-xuan-truong">
+Xuân Thọ - Xuân Trường
+</option>
+
+<option value="lam-ha">
+Lâm Hà
+</option>
+
+<option value="di-linh">
+Di Linh
 </option>
 
 </select>
@@ -193,16 +211,18 @@ Homestay đầu tư
 
 <input
 type="text"
-placeholder="Tìm kiếm Homestay..."
->
+id="propertyKeyword"
+placeholder="Nhập vị trí hoặc từ khóa...">
 
 
-<button class="filter-button">
+<button
+type="button"
+class="filter-button"
+onclick="searchProperty()">
 
 TÌM KIẾM
 
 </button>
-
 
 </div>
 
@@ -212,61 +232,6 @@ TÌM KIẾM
 <!-- PRODUCTS -->
 
 <div class="products">
-
-
-<!-- HOMESTAY 1 -->
-
-<article class="product">
-
-
-<img
-src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
-alt="Homestay Đà Lạt"
->
-
-
-<div class="product-content">
-
-
-<div class="product-tag">
-HOMESTAY
-</div>
-
-
-<h3>
-Homestay Đà Lạt
-</h3>
-
-
-<div class="price">
-Liên hệ
-</div>
-
-
-<div class="location">
-📍 Đà Lạt – Lâm Đồng
-</div>
-
-
-<p>
-Homestay phù hợp nghỉ dưỡng,
-khai thác lưu trú hoặc đầu tư.
-</p>
-
-
-<a
-class="product-button"
-href="./homestay-da-lat/">
-
-Xem chi tiết →
-
-</a>
-
-
-</div>
-
-</article>
-
 
 </div>
 
