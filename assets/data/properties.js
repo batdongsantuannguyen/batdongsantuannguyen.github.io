@@ -201,23 +201,59 @@ const properties = [
         "bat-dong-san/can-ho/can-ho-da-lat/"
 },
 
-
 /* HOMESTAY ĐÀ LẠT */
 
 {
     id: "homestay-da-lat",
+
     type: "homestay",
     typeName: "Homestay",
+
     location: "da-lat",
     locationName: "Đà Lạt",
+
     title: "Homestay Đà Lạt",
+
     price: "Liên hệ",
-    description: "Homestay phù hợp nghỉ dưỡng, khai thác lưu trú hoặc đầu tư.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/homestay/homestay-da-lat/"
+
+    description:
+        "Homestay phù hợp nghỉ dưỡng, khai thác lưu trú hoặc đầu tư.",
+
+    image:
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+
+    images: [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85"
+    ],
+
+    address:
+        "Đà Lạt, Lâm Đồng",
+
+    area: "",
+    residentialArea: "",
+    frontage: "",
+    direction: "",
+    road: "",
+    legal: "",
+
+    deposit: "",
+    leaseTerm: "",
+    furniture: "",
+
+    summary:
+        "Homestay tại Đà Lạt, phù hợp nghỉ dưỡng, khai thác lưu trú hoặc đầu tư.",
+
+    content:
+        "Homestay nằm tại khu vực Đà Lạt, Lâm Đồng, phù hợp nhu cầu nghỉ dưỡng, khai thác kinh doanh lưu trú hoặc đầu tư. Thông tin chi tiết về diện tích, quy mô, hiện trạng và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
+
+    highlights:
+        "Phù hợp nghỉ dưỡng, khai thác lưu trú hoặc đầu tư tại Đà Lạt.",
+
+    videoId: "",
+
+    url:
+        "bat-dong-san/homestay/homestay-da-lat/"
 },
-
-
 
 /* =====================================================
    ĐỨC TRỌNG
