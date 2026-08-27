@@ -658,15 +658,54 @@ const properties = [
 
 {
     id: "dat-xuan-tho-xuan-truong-001",
+
     type: "dat",
     typeName: "Đất",
+
     location: "xuan-tho-xuan-truong",
     locationName: "Xuân Thọ - Xuân Trường",
+
     title: "Đất Xuân Thọ - Xuân Trường",
+
     price: "Liên hệ",
-    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Xuân Thọ - Xuân Trường.",
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/dat/dat-xuan-tho-xuan-truong/"
+
+    description:
+        "Đất phù hợp xây dựng, nghỉ dưỡng hoặc đầu tư tại khu vực Xuân Thọ - Xuân Trường.",
+
+    image:
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+
+    images: [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=85"
+    ],
+
+    address:
+        "Xuân Thọ - Xuân Trường, Đà Lạt, Lâm Đồng",
+
+    area: "",
+    residentialArea: "",
+    frontage: "",
+    direction: "",
+    road: "",
+    legal: "",
+
+    deposit: "",
+    leaseTerm: "",
+    furniture: "",
+
+    summary:
+        "Đất tại khu vực Xuân Thọ - Xuân Trường, phù hợp xây dựng, nghỉ dưỡng hoặc đầu tư.",
+
+    content:
+        "Bất động sản nằm tại khu vực Xuân Thọ - Xuân Trường. Thông tin chi tiết về diện tích, hiện trạng, vị trí và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
+
+    highlights:
+        "Khu vực phù hợp nhiều nhu cầu sử dụng, nghỉ dưỡng và đầu tư.",
+
+    videoId: "",
+
+    url:
+        "bat-dong-san/dat/dat-xuan-tho-xuan-truong/"
 },
 
 
