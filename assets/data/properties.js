@@ -312,17 +312,55 @@ const properties = [
 
 {
     id: "dat-bao-loc-001",
+
     type: "dat",
     typeName: "Đất",
+
     location: "bao-loc",
     locationName: "Bảo Lộc",
-    title: "Đất Bảo Lộc",
-    price: "Liên hệ",
-    description: "Đất phù hợp đầu tư, xây dựng hoặc nghỉ dưỡng tại Bảo Lộc.",
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/dat/dat-bao-loc/"
-},
 
+    title: "Đất Bảo Lộc",
+
+    price: "Liên hệ",
+
+    description:
+        "Đất phù hợp đầu tư, xây dựng hoặc khai thác tại Bảo Lộc.",
+
+    image:
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85",
+
+    images: [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=85"
+    ],
+
+    address:
+        "Bảo Lộc, Lâm Đồng",
+
+    area: "",
+    residentialArea: "",
+    frontage: "",
+    direction: "",
+    road: "",
+    legal: "",
+
+    deposit: "",
+    leaseTerm: "",
+    furniture: "",
+
+    summary:
+        "Đất tại Bảo Lộc, Lâm Đồng, phù hợp đầu tư, xây dựng hoặc khai thác theo nhu cầu.",
+
+    content:
+        "Bất động sản nằm tại khu vực Bảo Lộc, Lâm Đồng. Thông tin chi tiết về diện tích, hiện trạng, vị trí và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
+
+    highlights:
+        "Vị trí tại Bảo Lộc, phù hợp nhiều nhu cầu sử dụng và đầu tư.",
+
+    videoId: "",
+
+    url:
+        "bat-dong-san/dat/dat-bao-loc/"
+},
 
 
 /* =====================================================
