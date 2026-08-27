@@ -387,7 +387,7 @@ const properties = [
     location: "da-lat",
     locationName: "Đà Lạt",
 
-    title: "Cho thuê nhà trung tâm Đà Lạt",
+    title: "Cho thuê nhà Phường Lâm Viên Đà Lạt – 500m²",
 
     price: "Liên hệ",
 
