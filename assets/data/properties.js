@@ -377,5 +377,27 @@ const properties = [
     description: "Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m, cách ĐT725 khoảng 200m.",
     image: "/tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg",
     url: "/tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/"
+},
+   {
+    id: "cho-thue-nha-trung-tam-da-lat",
+
+    type: "cho-thue",
+    typeName: "Cho thuê",
+
+    location: "da-lat",
+    locationName: "Đà Lạt",
+
+    title: "Cho thuê nhà trung tâm Đà Lạt",
+
+    price: "Liên hệ",
+
+    description:
+        "Nhà cho thuê tại Đà Lạt, phù hợp ở lâu dài, kinh doanh hoặc khai thác theo nhu cầu.",
+
+    image:
+        "/tuannguyen-batdongsan/assets/images/cho-thue-nha-trung-tam-da-lat/cover.jpg",
+
+    url:
+        "/tuannguyen-batdongsan/bat-dong-san/cho-thue/cho-thue-nha-trung-tam-da-lat/"
 }
 ];
