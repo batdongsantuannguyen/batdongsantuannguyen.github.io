@@ -172,7 +172,7 @@ const properties = [
     highlights:
         "Vị trí tại Đức Trọng, phù hợp nhiều nhu cầu sử dụng và đầu tư.",
 
-    videoId: "N--4djY6ZYY",
+    videoId: "",
     url:
         "bat-dong-san/dat/dat-duc-trong/"
 },
