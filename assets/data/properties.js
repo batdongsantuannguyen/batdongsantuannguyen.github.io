@@ -97,17 +97,55 @@ const properties = [
 
 {
     id: "khach-san-da-lat",
+
     type: "khach-san",
     typeName: "Khách sạn",
+
     location: "da-lat",
     locationName: "Đà Lạt",
-    title: "Khách sạn kinh doanh Đà Lạt",
-    price: "Liên hệ",
-    description: "Phù hợp khai thác lưu trú, kinh doanh hoặc đầu tư.",
-    image: "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/khach-san/khach-san-da-lat/"
-},
 
+    title: "Khách sạn kinh doanh Đà Lạt",
+
+    price: "Liên hệ",
+
+    description:
+        "Phù hợp khai thác lưu trú, kinh doanh hoặc đầu tư.",
+
+    image:
+        "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85",
+
+    images: [
+        "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1600&q=85"
+    ],
+
+    address:
+        "Đà Lạt, Lâm Đồng",
+
+    area: "",
+    residentialArea: "",
+    frontage: "",
+    direction: "",
+    road: "",
+    legal: "",
+
+    deposit: "",
+    leaseTerm: "",
+    furniture: "",
+
+    summary:
+        "Khách sạn tại Đà Lạt, phù hợp khai thác lưu trú, kinh doanh hoặc đầu tư.",
+
+    content:
+        "Khách sạn nằm tại khu vực Đà Lạt, Lâm Đồng, phù hợp khai thác lưu trú, kinh doanh hoặc đầu tư. Thông tin chi tiết về diện tích, quy mô, số phòng, hiện trạng và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
+
+    highlights:
+        "Phù hợp khai thác lưu trú, kinh doanh hoặc đầu tư tại Đà Lạt.",
+
+    videoId: "",
+
+    url:
+        "bat-dong-san/khach-san/khach-san-da-lat/"
+},
 
 /* CĂN HỘ ĐÀ LẠT */
 
@@ -259,15 +297,54 @@ const properties = [
 
 {
     id: "villa-duc-trong-001",
+
     type: "villa",
     typeName: "Biệt Thự",
+
     location: "duc-trong",
     locationName: "Đức Trọng",
+
     title: "Biệt thự Đức Trọng",
+
     price: "Liên hệ",
-    description: "Biệt thự phù hợp nghỉ dưỡng, sinh sống hoặc đầu tư tại Đức Trọng.",
-    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/villa/villa-duc-trong/"
+
+    description:
+        "Biệt thự phù hợp nghỉ dưỡng, sinh sống hoặc đầu tư tại Đức Trọng.",
+
+    image:
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
+
+    images: [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85"
+    ],
+
+    address:
+        "Đức Trọng, Lâm Đồng",
+
+    area: "",
+    residentialArea: "",
+    frontage: "",
+    direction: "",
+    road: "",
+    legal: "",
+
+    deposit: "",
+    leaseTerm: "",
+    furniture: "",
+
+    summary:
+        "Biệt thự tại Đức Trọng, Lâm Đồng, phù hợp nghỉ dưỡng, sinh sống hoặc đầu tư.",
+
+    content:
+        "Biệt thự nằm tại khu vực Đức Trọng, Lâm Đồng, phù hợp nhu cầu sinh sống, nghỉ dưỡng hoặc đầu tư. Thông tin chi tiết về diện tích, hiện trạng và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
+
+    highlights:
+        "Phù hợp nhu cầu sinh sống, nghỉ dưỡng hoặc đầu tư tại Đức Trọng.",
+
+    videoId: "",
+
+    url:
+        "bat-dong-san/villa/villa-duc-trong/"
 },
 
 
@@ -275,15 +352,54 @@ const properties = [
 
 {
     id: "khach-san-duc-trong-001",
+
     type: "khach-san",
     typeName: "Khách sạn",
+
     location: "duc-trong",
     locationName: "Đức Trọng",
+
     title: "Khách sạn Đức Trọng",
+
     price: "Liên hệ",
-    description: "Khách sạn phù hợp kinh doanh lưu trú hoặc đầu tư tại Đức Trọng.",
-    image: "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85",
-    url: "bat-dong-san/khach-san/khach-san-duc-trong/"
+
+    description:
+        "Khách sạn phù hợp kinh doanh lưu trú hoặc đầu tư tại Đức Trọng.",
+
+    image:
+        "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85",
+
+    images: [
+        "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1600&q=85"
+    ],
+
+    address:
+        "Đức Trọng, Lâm Đồng",
+
+    area: "",
+    residentialArea: "",
+    frontage: "",
+    direction: "",
+    road: "",
+    legal: "",
+
+    deposit: "",
+    leaseTerm: "",
+    furniture: "",
+
+    summary:
+        "Khách sạn tại Đức Trọng, phù hợp kinh doanh lưu trú hoặc đầu tư.",
+
+    content:
+        "Khách sạn nằm tại khu vực Đức Trọng, Lâm Đồng, phù hợp khai thác kinh doanh lưu trú hoặc đầu tư. Thông tin chi tiết về diện tích, quy mô, hiện trạng và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
+
+    highlights:
+        "Phù hợp khai thác kinh doanh lưu trú hoặc đầu tư tại Đức Trọng.",
+
+    videoId: "",
+
+    url:
+        "bat-dong-san/khach-san/khach-san-duc-trong/"
 },
 
 
