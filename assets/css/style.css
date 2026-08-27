@@ -1122,16 +1122,14 @@ body {
 
 /* =====================================================
    AVATAR / ẢNH ĐẠI DIỆN BÀI ĐĂNG
-   TỶ LỆ 2:3 RESPONSIVE
+   TỶ LỆ 4:3 RESPONSIVE
 ===================================================== */
 .product img {
     display: block;
     width: 100%;
-    height: auto;
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
 }
-
 
 /* =====================================================
    TABLET
