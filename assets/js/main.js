@@ -197,22 +197,47 @@ else if (
             property.location;
 
 /*
- * URL CHI TIẾT
+ * =========================================
+ * URL CHI TIẾT SẢN PHẨM
+ * =========================================
  */
 
-let productUrl = property.url || "#";
+let productUrl = "#";
 
-if (
-    productUrl !== "#" &&
-    !productUrl.startsWith("http")
-) {
+/*
+ * CHO THUÊ:
+ * Giữ trang chi tiết hiện tại
+ */
+
+if (property.type === "cho-thue") {
+
+    productUrl = property.url || "#";
+
+    if (
+        productUrl !== "#" &&
+        !productUrl.startsWith("http")
+    ) {
+
+        productUrl =
+            new URL(
+                productUrl,
+                window.location.origin +
+                "/tuannguyen-batdongsan/"
+            ).href;
+    }
+
+}
+
+/*
+ * CÁC DANH MỤC CÒN LẠI:
+ * Dùng trang chi tiết tự động
+ */
+
+else {
 
     productUrl =
-        new URL(
-            productUrl,
-            window.location.origin +
-            "/tuannguyen-batdongsan/"
-        ).href;
+        "/tuannguyen-batdongsan/bat-dong-san/chi-tiet/?id=" +
+        encodeURIComponent(property.id);
 
 }
         article.innerHTML = `
