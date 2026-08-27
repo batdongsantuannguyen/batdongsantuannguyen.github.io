@@ -8,12 +8,12 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>Mẫu bất động sản cho thuê | Tuấn Nguyên BĐS</title>
+<title>{{TIEU_DE}} | Tuấn Nguyên BĐS</title>
 
 <meta name="description"
-      content="Mẫu trang chi tiết bất động sản cho thuê của Tuấn Nguyên Bất Động Sản.">
+      content="{{META_DESCRIPTION}}">
 
-<!-- KHÔNG CHO GOOGLE LẬP CHỈ MỤC TRANG MẪU -->
+<!-- TRANG MẪU: KHÔNG CHO GOOGLE LẬP CHỈ MỤC -->
 <meta name="robots"
       content="noindex, nofollow">
 
@@ -22,9 +22,13 @@
 
 </head>
 
+
 <body>
 
-<!-- HEADER -->
+
+<!-- =====================================
+HEADER
+===================================== -->
 
 <header>
 
@@ -83,7 +87,9 @@ Liên hệ
 </header>
 
 
-<!-- BREADCRUMB -->
+<!-- =====================================
+BREADCRUMB
+===================================== -->
 
 <div class="page-wrap">
 
@@ -108,63 +114,98 @@ Cho thuê
 &gt;
 
 <span>
-Tên sản phẩm
+{{TIEU_DE}}
 </span>
 
 </div>
-<!-- NỘI DUNG SẢN PHẨM -->
+
+
+<!-- =====================================
+NỘI DUNG SẢN PHẨM
+===================================== -->
 
 <div class="content-layout">
+
+
+<!-- CỘT NỘI DUNG -->
 
 <main class="article">
 
 <h1>
-Tên bất động sản cho thuê
+{{TIEU_DE}}
 </h1>
 
 <div class="article-meta">
 Tuấn Nguyên BĐS
 </div>
 
+
+<!-- TÓM TẮT -->
+
 <p class="article-summary">
-Thông tin tóm tắt về bất động sản cho thuê sẽ được cập nhật tại đây.
+{{TOM_TAT}}
 </p>
+
+
+<!-- ẢNH ĐẠI DIỆN -->
+
 <img
 class="article-image"
-src="../../../assets/images/cho-thue-ten-san-pham/cover.jpg"
-alt="Bất động sản cho thuê"
+src="../../../assets/images/{{SLUG}}/cover.jpg"
+alt="{{TIEU_DE}}"
 loading="lazy">
 
 <div class="image-caption">
-Hình ảnh thực tế bất động sản cho thuê
+Hình ảnh thực tế {{TIEU_DE}}
 </div>
-<h2>Thông tin bất động sản</h2>
+
+
+<!-- THÔNG TIN -->
+
+<h2>
+Thông tin bất động sản
+</h2>
 
 <p>
-Địa chỉ: Đang cập nhật<br>
-Diện tích: Đang cập nhật<br>
-Giá thuê: Đang cập nhật<br>
-Đặt cọc: Đang cập nhật<br>
-Thời hạn thuê: Đang cập nhật<br>
-Tình trạng nội thất: Đang cập nhật
+Địa chỉ: {{DIA_CHI}}<br>
+Diện tích: {{DIEN_TICH}}<br>
+Giá thuê: {{GIA_THUE}}<br>
+Đặt cọc: {{DAT_COC}}<br>
+Thời hạn thuê: {{THOI_HAN_THUE}}<br>
+Tình trạng nội thất: {{NOI_THAT}}
 </p>
 
-<h2>Mô tả</h2>
+
+<!-- MÔ TẢ -->
+
+<h2>
+Mô tả
+</h2>
 
 <p>
-Thông tin chi tiết về bất động sản cho thuê sẽ được cập nhật tại đây.
+{{MO_TA_1}}
 </p>
-<!-- VIDEO BẤT ĐỘNG SẢN -->
+
+<p>
+{{MO_TA_2}}
+</p>
+
+
+<!-- =====================================
+VIDEO
+===================================== -->
 
 <div class="property-video">
 
-<h2>Video thực tế bất động sản</h2>
+<h2>
+Video thực tế bất động sản
+</h2>
 
 <div class="video-wrapper">
 
 <iframe
-    src="https://www.youtube.com/embed/VIDEO_ID"
-    title="Video thực tế bất động sản cho thuê"
+    src="https://www.youtube.com/embed/{{VIDEO_ID}}"
+    title="Video thực tế {{TIEU_DE}}"
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
@@ -173,9 +214,15 @@ Thông tin chi tiết về bất động sản cho thuê sẽ được cập nh�
 </div>
 
 </div>
-      <!-- LIÊN HỆ -->
 
-<h2 id="lien-he">Liên hệ xem bất động sản</h2>
+
+<!-- =====================================
+LIÊN HỆ
+===================================== -->
+
+<h2 id="lien-he">
+Liên hệ xem bất động sản
+</h2>
 
 <p>
 Khách hàng quan tâm vui lòng liên hệ Tuấn Nguyên Bất Động Sản
@@ -197,28 +244,58 @@ Khách hàng quan tâm vui lòng liên hệ Tuấn Nguyên Bất Động Sản
 </a>
 
 </div>
+
 </main>
+
+
+<!-- =====================================
+SIDEBAR
+===================================== -->
+
 <aside class="sidebar">
 
 <div class="sidebar-box property-info">
 
-<h3>THÔNG TIN CHO THUÊ</h3>
+<h3>
+THÔNG TIN CHO THUÊ
+</h3>
 
-<p>📍 Khu vực: <strong>Đang cập nhật</strong></p>
+<p>
+📍 Khu vực:
+<strong>{{KHU_VUC}}</strong>
+</p>
 
-<p>📐 Diện tích: <strong>Đang cập nhật</strong></p>
+<p>
+📐 Diện tích:
+<strong>{{DIEN_TICH}}</strong>
+</p>
 
-<p>🏠 Loại hình: <strong>Đang cập nhật</strong></p>
+<p>
+🏠 Loại hình:
+<strong>{{LOAI_HINH}}</strong>
+</p>
 
-<p>🛋 Nội thất: <strong>Đang cập nhật</strong></p>
+<p>
+🛋 Nội thất:
+<strong>{{NOI_THAT}}</strong>
+</p>
 
-<p>💰 Đặt cọc: <strong>Đang cập nhật</strong></p>
+<p>
+💰 Đặt cọc:
+<strong>{{DAT_COC}}</strong>
+</p>
 
-<p>📅 Thời hạn thuê: <strong>Đang cập nhật</strong></p>
+<p>
+📅 Thời hạn thuê:
+<strong>{{THOI_HAN_THUE}}</strong>
+</p>
 
 <div class="property-price">
-Giá thuê: Đang cập nhật
+Giá thuê: {{GIA_THUE}}
 </div>
+
+
+<!-- LIÊN HỆ SIDEBAR -->
 
 <div class="sidebar-contact">
 
@@ -239,9 +316,15 @@ Giá thuê: Đang cập nhật
 </div>
 
 </aside>
+
+
 </div>
 </div>
-      <!-- FOOTER -->
+
+
+<!-- =====================================
+FOOTER
+===================================== -->
 
 <footer>
 
@@ -254,6 +337,8 @@ Giá thuê: Đang cập nhật
 </p>
 
 </footer>
+
+
 </body>
 
 </html>
