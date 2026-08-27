@@ -139,56 +139,55 @@ Nhà được Tuấn Nguyên BĐS chọn lọc tại nhiều khu vực
 
 <div class="filter-grid">
 
+<select id="propertyType">
 
-<select>
-
-<option>
-Tất cả khu vực
+<option value="">
+Tất cả loại bất động sản
 </option>
 
-<option>
-Đà Lạt
-</option>
-
-<option>
-Bảo Lộc
-</option>
-
-<option>
-Đức Trọng
-</option>
-
-<option>
-Lạc Dương
-</option>
-
-<option>
-Di Linh
+<option value="nha" selected>
+Nhà
 </option>
 
 </select>
 
 
-<select>
+<select id="propertyLocation">
 
-<option>
-Tất cả loại nhà
+<option value="">
+Tất cả khu vực
 </option>
 
-<option>
-Nhà riêng
+<option value="da-lat">
+Đà Lạt
 </option>
 
-<option>
-Nhà phố
+<option value="duc-trong">
+Đức Trọng
 </option>
 
-<option>
-Nhà kinh doanh
+<option value="bao-loc">
+Bảo Lộc
 </option>
 
-<option>
-Nhà nghỉ dưỡng
+<option value="lac-duong">
+Lạc Dương
+</option>
+
+<option value="don-duong">
+Đơn Dương
+</option>
+
+<option value="xuan-tho-xuan-truong">
+Xuân Thọ - Xuân Trường
+</option>
+
+<option value="lam-ha">
+Lâm Hà
+</option>
+
+<option value="di-linh">
+Di Linh
 </option>
 
 </select>
@@ -196,17 +195,18 @@ Nhà nghỉ dưỡng
 
 <input
 type="text"
-placeholder="Tìm kiếm nhà..."
->
+id="propertyKeyword"
+placeholder="Nhập vị trí hoặc từ khóa...">
 
 
 <button
-class="filter-button">
+type="button"
+class="filter-button"
+onclick="searchProperty()">
 
 TÌM KIẾM
 
 </button>
-
 
 </div>
 
