@@ -375,7 +375,7 @@ const properties = [
     title: "Đất Mê Linh - Nam Ban 180m², 132m² thổ cư",
     price: "1,6 tỷ",
     description: "Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m, cách ĐT725 khoảng 200m.",
-    image: "assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg",
-    url: "bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/"
+    image: "/tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg",
+    url: "/tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/"
 }
 ];
