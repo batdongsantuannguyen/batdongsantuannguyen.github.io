@@ -1,0 +1,133 @@
+media:
+  input: assets/images
+  output: /tuannguyen-batdongsan/assets/images
+
+content:
+  - name: properties
+    label: Bất động sản
+    type: file
+    path: assets/data/properties.json
+    format: json
+    list: true
+
+    fields:
+      - name: id
+        label: Mã sản phẩm / Slug
+        type: string
+        required: true
+
+      - name: type
+        label: Loại bất động sản
+        type: select
+        required: true
+        options:
+          values:
+            - value: nha
+              label: Nhà
+            - value: dat
+              label: Đất
+            - value: villa
+              label: Biệt thự
+            - value: khach-san
+              label: Khách sạn
+            - value: can-ho
+              label: Căn hộ
+            - value: homestay
+              label: Homestay
+            - value: cho-thue
+              label: Cho thuê
+
+      - name: typeName
+        label: Tên loại
+        type: string
+
+      - name: location
+        label: Mã khu vực
+        type: string
+
+      - name: locationName
+        label: Tên khu vực
+        type: string
+
+      - name: title
+        label: Tiêu đề
+        type: string
+        required: true
+
+      - name: price
+        label: Giá
+        type: string
+
+      - name: description
+        label: Mô tả ngắn
+        type: text
+
+      - name: image
+        label: Ảnh đại diện
+        type: image
+
+      - name: images
+        label: Thư viện hình ảnh
+        type: image
+        list: true
+
+      - name: address
+        label: Địa chỉ
+        type: string
+
+      - name: area
+        label: Diện tích
+        type: string
+
+      - name: residentialArea
+        label: Diện tích thổ cư
+        type: string
+
+      - name: frontage
+        label: Mặt tiền
+        type: string
+
+      - name: direction
+        label: Hướng
+        type: string
+
+      - name: road
+        label: Đường
+        type: string
+
+      - name: legal
+        label: Pháp lý
+        type: string
+
+      - name: deposit
+        label: Tiền đặt cọc
+        type: string
+
+      - name: leaseTerm
+        label: Thời hạn thuê
+        type: string
+
+      - name: furniture
+        label: Nội thất
+        type: string
+
+      - name: summary
+        label: Tóm tắt
+        type: text
+
+      - name: content
+        label: Nội dung chi tiết
+        type: rich-text
+
+      - name: highlights
+        label: Điểm nổi bật
+        type: text
+
+      - name: videoId
+        label: YouTube Video ID
+        type: string
+
+      - name: url
+        label: Đường dẫn sản phẩm
+        type: string
+        required: true
