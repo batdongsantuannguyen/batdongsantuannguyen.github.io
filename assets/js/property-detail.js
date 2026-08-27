@@ -29,8 +29,16 @@ document.addEventListener("DOMContentLoaded", function () {
             .split("/")
             .filter(Boolean);
 
-    const currentSlug =
-        pathParts[pathParts.length - 1] || "";
+    const params =
+    new URLSearchParams(window.location.search);
+
+const idFromQuery =
+    params.get("id") || "";
+
+const currentSlug =
+    idFromQuery ||
+    pathParts[pathParts.length - 1] ||
+    "";
 
 
     /*
