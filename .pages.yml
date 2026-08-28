@@ -1,3 +1,7 @@
+settings:
+  content:
+    merge: true
+
 media:
   input: assets/images
   output: /tuannguyen-batdongsan/assets/images
@@ -12,9 +16,12 @@ content:
 
     fields:
       - name: id
-        label: Mã sản phẩm / Slug
+        label: Mã sản phẩm
         type: string
         required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: "Chỉ dùng chữ thường không dấu, số và dấu gạch ngang."
 
       - name: type
         label: Loại bất động sản
@@ -22,32 +29,41 @@ content:
         required: true
         options:
           values:
-            - value: nha
+            - name: nha
               label: Nhà
-            - value: dat
+            - name: dat
               label: Đất
-            - value: villa
+            - name: villa
               label: Biệt thự
-            - value: khach-san
+            - name: khach-san
               label: Khách sạn
-            - value: can-ho
+            - name: can-ho
               label: Căn hộ
-            - value: homestay
+            - name: homestay
               label: Homestay
-            - value: cho-thue
+            - name: cho-thue
               label: Cho thuê
 
-      - name: typeName
-        label: Tên loại
-        type: string
-
       - name: location
-        label: Mã khu vực
-        type: string
-
-      - name: locationName
-        label: Tên khu vực
-        type: string
+        label: Khu vực
+        type: select
+        required: true
+        options:
+          values:
+            - name: da-lat
+              label: Đà Lạt
+            - name: duc-trong
+              label: Đức Trọng
+            - name: bao-loc
+              label: Bảo Lộc
+            - name: lac-duong
+              label: Lạc Dương
+            - name: don-duong
+              label: Đơn Dương
+            - name: xuan-tho-xuan-truong
+              label: Xuân Thọ – Xuân Trường
+            - name: lam-ha
+              label: Lâm Hà
 
       - name: title
         label: Tiêu đề
@@ -126,8 +142,3 @@ content:
       - name: videoId
         label: YouTube Video ID
         type: string
-
-      - name: url
-        label: Đường dẫn sản phẩm
-        type: string
-        required: true
