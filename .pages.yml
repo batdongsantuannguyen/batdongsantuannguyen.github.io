@@ -7,13 +7,13 @@ media:
   output: /tuannguyen-batdongsan/assets/images
 
 content:
-  - name: properties
+    - name: properties
     label: Bất động sản
     type: collection
     path: content/properties
     format: json
 
-   filename: "{id}.json"
+    filename: "{primary}.json"
 
     view:
       primary: title
