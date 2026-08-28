@@ -210,7 +210,75 @@ document.addEventListener(
          * HÀM HỖ TRỢ
          * =========================================
          */
+/*
+ * =========================================
+ * TỰ ĐỘNG TÊN LOẠI BẤT ĐỘNG SẢN
+ * =========================================
+ */
 
+function getTypeName(property) {
+
+    if (
+        property.typeName &&
+        String(property.typeName).trim() !== ""
+    ) {
+        return property.typeName;
+    }
+
+    const typeNames = {
+        "nha": "Nhà",
+        "dat": "Đất",
+        "villa": "Biệt thự",
+        "khach-san": "Khách sạn",
+        "can-ho": "Căn hộ",
+        "homestay": "Homestay",
+        "cho-thue": "Cho thuê"
+    };
+
+    return (
+        typeNames[property.type] ||
+        "Bất động sản"
+    );
+}
+
+
+/*
+ * =========================================
+ * TỰ ĐỘNG TÊN KHU VỰC
+ * =========================================
+ */
+
+function getLocationName(property) {
+
+    if (
+        property.locationName &&
+        String(property.locationName).trim() !== ""
+    ) {
+        return property.locationName;
+    }
+
+    const locationNames = {
+        "da-lat": "Đà Lạt",
+        "duc-trong": "Đức Trọng",
+        "bao-loc": "Bảo Lộc",
+        "lac-duong": "Lạc Dương",
+        "don-duong": "Đơn Dương",
+        "xuan-tho-xuan-truong":
+            "Xuân Thọ – Xuân Trường",
+        "lam-ha": "Lâm Hà"
+    };
+
+    return (
+        locationNames[property.location] ||
+        property.location ||
+        ""
+    );
+}
+        const typeName =
+    getTypeName(property);
+
+const locationName =
+    getLocationName(property);
         function valueOrDefault(
             value,
             fallback = "Liên hệ"
@@ -456,7 +524,7 @@ document.addEventListener(
                 <a
                     href="/tuannguyen-batdongsan/bat-dong-san/${property.type}/"
                 >
-                    ${property.typeName}
+                   ${typeName}
                 </a>
 
                 &gt;
@@ -498,11 +566,11 @@ document.addEventListener(
 
                     <p>
                         Loại hình:
-                        ${property.typeName}
+                       ${typeName}
                         <br>
 
                         Khu vực:
-                        ${property.locationName}
+                       ${locationName}
                         <br>
 
                         Giá:
