@@ -556,6 +556,30 @@
     "url": "bat-dong-san/nha/nha-trung-tam-da-lat/"
   },
   {
+    "type": "nha",
+    "location": "duc-trong",
+    "title": "Nhà Vườn 1667m2 Không Gian Nghỉ Dưỡng Tiện Nghi|Gần Sân Bay Quốc Tế Liên",
+    "price": "3.200.000.000",
+    "description": "Nhà Vườn, gần sân bay Quốc Tế Liên Khương, Sổ Hổng Riêng",
+    "image": "/tuannguyen-batdongsan/assets/images/c473924e6a6cb432ed7d13.jpg",
+    "images": [
+      "/tuannguyen-batdongsan/assets/images/c3fde9f411d6cf8896c76.jpg"
+    ],
+    "address": "Liên Hiệp",
+    "area": "1667",
+    "residentialArea": "0",
+    "frontage": "25",
+    "direction": "Đông nam",
+    "road": "Bê tông 4m",
+    "legal": "Sổ riêng",
+    "furniture": "Cơ bản",
+    "summary": "Nhà vườn tại Liên Hiệp, Đức Trọng, không gian rộng rãi, gần sân bay",
+    "content": ">-",
+    "highlights": "|-",
+    "videoId": "https://www.youtube.com/watch?v=4kbD6MLiWg4",
+    "id": "nha-vuon-1667m2-khong-gian-nghi-duong-tien-nghiorgan-san-bay-quoc-te-lien-khuongorbds-ven-dalat"
+  },
+  {
     "id": "nha-xuan-tho-xuan-truong-001",
     "type": "nha",
     "typeName": "Nhà",
@@ -585,7 +609,8 @@
     "url": "bat-dong-san/nha/nha-xuan-tho-xuan-truong/"
   },
   {
-    "title": "Sản phẩm thử nghiệm"
+    "title": "Sản phẩm thử nghiệm",
+    "id": "test"
   },
   {
     "id": "villa-da-lat",
