@@ -13,9 +13,7 @@ content:
     path: content/properties
     format: json
 
-    filename:
-      template: "{id}.json"
-      field: false
+   filename: "{id}.json"
 
     view:
       primary: title
