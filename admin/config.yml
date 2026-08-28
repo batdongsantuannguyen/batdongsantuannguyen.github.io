@@ -1,1 +1,138 @@
+backend:
+  name: github
+  repo: tuannguyenbdsdalat68-alt/tuannguyen-batdongsan
+  branch: main
 
+media_folder: "assets/images"
+public_folder: "/tuannguyen-batdongsan/assets/images"
+
+collections:
+  - name: "properties"
+    label: "Bất động sản"
+    folder: "content/properties"
+    create: true
+
+    slug: "{{slug}}"
+
+    fields:
+      - label: "Loại bất động sản"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "Nhà", value: "nha" }
+          - { label: "Đất", value: "dat" }
+          - { label: "Biệt thự", value: "villa" }
+          - { label: "Khách sạn", value: "khach-san" }
+          - { label: "Căn hộ", value: "can-ho" }
+          - { label: "Homestay", value: "homestay" }
+          - { label: "Cho thuê", value: "cho-thue" }
+
+      - label: "Khu vực"
+        name: "location"
+        widget: "select"
+        options:
+          - { label: "Đà Lạt", value: "da-lat" }
+          - { label: "Đức Trọng", value: "duc-trong" }
+          - { label: "Bảo Lộc", value: "bao-loc" }
+          - { label: "Lạc Dương", value: "lac-duong" }
+          - { label: "Đơn Dương", value: "don-duong" }
+          - { label: "Xuân Thọ – Xuân Trường", value: "xuan-tho-xuan-truong" }
+          - { label: "Lâm Hà", value: "lam-ha" }
+
+      - label: "Tiêu đề"
+        name: "title"
+        widget: "string"
+
+      - label: "Giá"
+        name: "price"
+        widget: "string"
+        required: false
+
+      - label: "Mô tả ngắn"
+        name: "description"
+        widget: "text"
+        required: false
+
+      - label: "Ảnh đại diện"
+        name: "image"
+        widget: "image"
+        required: false
+
+      - label: "Thư viện hình ảnh"
+        name: "images"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            multiple: true
+            max_files: 30
+
+      - label: "Địa chỉ"
+        name: "address"
+        widget: "string"
+        required: false
+
+      - label: "Diện tích"
+        name: "area"
+        widget: "string"
+        required: false
+
+      - label: "Diện tích thổ cư"
+        name: "residentialArea"
+        widget: "string"
+        required: false
+
+      - label: "Mặt tiền"
+        name: "frontage"
+        widget: "string"
+        required: false
+
+      - label: "Hướng"
+        name: "direction"
+        widget: "string"
+        required: false
+
+      - label: "Đường"
+        name: "road"
+        widget: "string"
+        required: false
+
+      - label: "Pháp lý"
+        name: "legal"
+        widget: "string"
+        required: false
+
+      - label: "Tiền đặt cọc"
+        name: "deposit"
+        widget: "string"
+        required: false
+
+      - label: "Thời hạn thuê"
+        name: "leaseTerm"
+        widget: "string"
+        required: false
+
+      - label: "Nội thất"
+        name: "furniture"
+        widget: "string"
+        required: false
+
+      - label: "Tóm tắt"
+        name: "summary"
+        widget: "text"
+        required: false
+
+      - label: "Nội dung chi tiết"
+        name: "content"
+        widget: "markdown"
+        required: false
+
+      - label: "Điểm nổi bật"
+        name: "highlights"
+        widget: "text"
+        required: false
+
+      - label: "Link video YouTube"
+        name: "videoId"
+        widget: "string"
+        required: false
