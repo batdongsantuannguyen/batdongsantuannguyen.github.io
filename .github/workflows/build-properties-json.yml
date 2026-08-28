@@ -113,8 +113,19 @@ jobs:
             .sort();
 
           const properties = files
-            .map(file => parseMarkdown(path.join(sourceDir, file)))
-            .filter(Boolean);
+  .map(file => {
+    const filePath = path.join(sourceDir, file);
+    const property = parseMarkdown(filePath);
+
+    if (!property) return null;
+
+    if (!property.id || String(property.id).trim() === "") {
+      property.id = path.basename(file, ".md");
+    }
+
+    return property;
+  })
+  .filter(Boolean);
 
           if (properties.length === 0) {
             console.error("No properties found.");
