@@ -8,7 +8,140 @@ content:
     type: collection
     path: content/properties
 
+    view:
+      primary: title
+      fields:
+        - title
+        - type
+        - location
+        - price
+      search:
+        - title
+        - id
+        - address
+
     fields:
+      - name: id
+        label: Mã sản phẩm
+        type: string
+        required: true
+
+      - name: type
+        label: Loại bất động sản
+        type: select
+        required: true
+        options:
+          values:
+            - name: nha
+              label: Nhà
+            - name: dat
+              label: Đất
+            - name: villa
+              label: Biệt thự
+            - name: khach-san
+              label: Khách sạn
+            - name: can-ho
+              label: Căn hộ
+            - name: homestay
+              label: Homestay
+            - name: cho-thue
+              label: Cho thuê
+
+      - name: location
+        label: Khu vực
+        type: select
+        required: true
+        options:
+          values:
+            - name: da-lat
+              label: Đà Lạt
+            - name: duc-trong
+              label: Đức Trọng
+            - name: bao-loc
+              label: Bảo Lộc
+            - name: lac-duong
+              label: Lạc Dương
+            - name: don-duong
+              label: Đơn Dương
+            - name: xuan-tho-xuan-truong
+              label: Xuân Thọ – Xuân Trường
+            - name: lam-ha
+              label: Lâm Hà
+
       - name: title
         label: Tiêu đề
+        type: string
+        required: true
+
+      - name: price
+        label: Giá
+        type: string
+
+      - name: description
+        label: Mô tả ngắn
+        type: text
+
+      - name: image
+        label: Ảnh đại diện
+        type: image
+
+      - name: images
+        label: Thư viện hình ảnh
+        type: image
+        list: true
+
+      - name: address
+        label: Địa chỉ
+        type: string
+
+      - name: area
+        label: Diện tích
+        type: string
+
+      - name: residentialArea
+        label: Diện tích thổ cư
+        type: string
+
+      - name: frontage
+        label: Mặt tiền
+        type: string
+
+      - name: direction
+        label: Hướng
+        type: string
+
+      - name: road
+        label: Đường
+        type: string
+
+      - name: legal
+        label: Pháp lý
+        type: string
+
+      - name: deposit
+        label: Tiền đặt cọc
+        type: string
+
+      - name: leaseTerm
+        label: Thời hạn thuê
+        type: string
+
+      - name: furniture
+        label: Nội thất
+        type: string
+
+      - name: summary
+        label: Tóm tắt
+        type: text
+
+      - name: content
+        label: Nội dung chi tiết
+        type: rich-text
+
+      - name: highlights
+        label: Điểm nổi bật
+        type: text
+
+      - name: videoId
+        label: YouTube Video ID
         type: string
