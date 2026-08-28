@@ -7,17 +7,8 @@ content:
     label: Bất động sản
     type: collection
     path: content/properties
-    format: yaml
-
-    view:
-      primary: title
 
     fields:
       - name: title
         label: Tiêu đề
-        type: string
-        required: true
-
-      - name: price
-        label: Giá
         type: string
