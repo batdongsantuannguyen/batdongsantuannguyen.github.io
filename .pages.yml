@@ -9,10 +9,33 @@ media:
 content:
   - name: properties
     label: Bất động sản
-    type: file
-    path: assets/data/properties.json
+    type: collection
+    path: content/properties
     format: json
-    list: true
+
+    filename:
+      template: "{id}.json"
+      field: false
+
+    view:
+      primary: title
+      fields:
+        - title
+        - type
+        - location
+        - price
+      search:
+        - title
+        - id
+        - address
+      sort:
+        - title
+        - type
+        - location
+        - price
+      default:
+        sort: title
+        order: asc
 
     fields:
       - name: id
