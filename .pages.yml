@@ -7,7 +7,10 @@ content:
     label: Bất động sản
     type: collection
     path: content/properties
-
+    filename:
+      template: "{fields.id}.md"
+      field: false
+      
     view:
       primary: title
       fields:
