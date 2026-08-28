@@ -8,7 +8,7 @@ content:
     type: collection
     path: content/properties
     filename:
-      template: "{fields.id}.md"
+      template: "{primary}.md"
       field: false
       
     view:
@@ -24,11 +24,6 @@ content:
         - address
 
     fields:
-      - name: id
-        label: Mã sản phẩm
-        type: string
-        required: true
-
       - name: type
         label: Loại bất động sản
         type: select
