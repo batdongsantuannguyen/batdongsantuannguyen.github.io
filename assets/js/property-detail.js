@@ -647,7 +647,7 @@ const locationName =
                         ${createInfoRow(
                             "📍",
                             "Khu vực",
-                            property.locationName
+                           locationName
                         )}
 
 
