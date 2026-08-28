@@ -1255,3 +1255,35 @@ body {
         padding: 10px 15px;
     }
 }
+/* ===== TRANG CHI TIẾT - NỘI DUNG ===== */
+
+.property-description {
+    margin-top: 12px;
+}
+
+.property-description p {
+    margin: 0 0 18px;
+    line-height: 1.7;
+}
+
+.property-description p:first-child {
+    margin-top: 0;
+}
+
+.property-highlights {
+    margin: 12px 0 28px;
+    padding-left: 24px;
+}
+
+.property-highlights li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+.property-content h2 {
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+.property-content .property-description {
+    margin-top: 0;
+}
