@@ -141,5 +141,5 @@ content:
         type: text
 
       - name: videoId
-        label: YouTube Video ID
+        label: Link video YouTube
         type: string
