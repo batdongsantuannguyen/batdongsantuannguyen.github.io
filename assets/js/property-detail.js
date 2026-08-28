@@ -38,7 +38,51 @@ async function loadProperties() {
  * CHẠY TRANG CHI TIẾT
  * =========================================
  */
+function getYouTubeVideoId(value) {
+    if (!value) return "";
 
+    const input = String(value).trim();
+
+    // Nếu người dùng nhập sẵn Video ID
+    if (/^[a-zA-Z0-9_-]{11}$/.test(input)) {
+        return input;
+    }
+
+    try {
+        const url = new URL(input);
+
+        // https://youtu.be/VIDEO_ID
+        if (url.hostname.includes("youtu.be")) {
+            return url.pathname
+                .split("/")
+                .filter(Boolean)[0] || "";
+        }
+
+        // youtube.com
+        if (url.hostname.includes("youtube.com")) {
+
+            // https://www.youtube.com/watch?v=VIDEO_ID
+            if (url.pathname === "/watch") {
+                return url.searchParams.get("v") || "";
+            }
+
+            // https://www.youtube.com/shorts/VIDEO_ID
+            if (url.pathname.startsWith("/shorts/")) {
+                return url.pathname.split("/")[2] || "";
+            }
+
+            // https://www.youtube.com/embed/VIDEO_ID
+            if (url.pathname.startsWith("/embed/")) {
+                return url.pathname.split("/")[2] || "";
+            }
+        }
+
+    } catch (error) {
+        return "";
+    }
+
+    return "";
+}
 document.addEventListener(
     "DOMContentLoaded",
     async function () {
@@ -389,11 +433,7 @@ const locationName =
                 property.videoId
             ).trim() !== ""
         ) {
-
-            const cleanVideoId =
-                String(
-                    property.videoId
-                ).trim();
+            const cleanVideoId = getYouTubeVideoId(property.videoId);
 
             videoHtml = `
                 <div class="property-video">
