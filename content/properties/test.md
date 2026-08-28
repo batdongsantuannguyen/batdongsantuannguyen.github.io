@@ -1,2 +1,3 @@
+---
 title: Sản phẩm thử nghiệm
-price: Liên hệ
+---
