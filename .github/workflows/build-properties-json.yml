@@ -1,1 +1,149 @@
+name: Build properties JSON
 
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "content/properties/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build properties.json from Markdown
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+          const path = require("path");
+
+          const sourceDir = "content/properties";
+          const outputFile = "assets/data/properties.json";
+
+          function parseValue(value) {
+            value = value.trim();
+
+            if (value === "") return "";
+
+            try {
+              return JSON.parse(value);
+            } catch {
+              return value
+                .replace(/^"(.*)"$/, "$1")
+                .replace(/^'(.*)'$/, "$1");
+            }
+          }
+
+          function parseMarkdown(filePath) {
+            const text = fs.readFileSync(filePath, "utf8");
+
+            const match = text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*(?:\r?\n)?([\s\S]*)$/);
+
+            if (!match) {
+              console.warn(`Skipping ${filePath}: no front matter`);
+              return null;
+            }
+
+            const frontMatter = match[1];
+            const body = match[2].trim();
+
+            const data = {};
+
+            const lines = frontMatter.split(/\r?\n/);
+
+            for (let i = 0; i < lines.length; i++) {
+              const line = lines[i];
+
+              const keyMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+
+              if (!keyMatch) continue;
+
+              const key = keyMatch[1];
+              const rawValue = keyMatch[2];
+
+              if (rawValue === "") {
+                const list = [];
+                let j = i + 1;
+
+                while (j < lines.length) {
+                  const listMatch = lines[j].match(/^\s*-\s+(.*)$/);
+
+                  if (!listMatch) break;
+
+                  list.push(parseValue(listMatch[1]));
+                  j++;
+                }
+
+                if (list.length > 0) {
+                  data[key] = list;
+                  i = j - 1;
+                } else {
+                  data[key] = "";
+                }
+              } else {
+                data[key] = parseValue(rawValue);
+              }
+            }
+
+            if (body && !data.content) {
+              data.content = body;
+            }
+
+            return data;
+          }
+
+          if (!fs.existsSync(sourceDir)) {
+            console.error(`Folder not found: ${sourceDir}`);
+            process.exit(1);
+          }
+
+          const files = fs
+            .readdirSync(sourceDir)
+            .filter(file => file.endsWith(".md"))
+            .sort();
+
+          const properties = files
+            .map(file => parseMarkdown(path.join(sourceDir, file)))
+            .filter(Boolean);
+
+          if (properties.length === 0) {
+            console.error("No properties found.");
+            process.exit(1);
+          }
+
+          fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+
+          fs.writeFileSync(
+            outputFile,
+            JSON.stringify(properties, null, 2) + "\n",
+            "utf8"
+          );
+
+          console.log(`Built ${properties.length} properties.`);
+          console.log(`Output: ${outputFile}`);
+          NODE
+
+      - name: Commit generated properties.json
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/data/properties.json; then
+            echo "properties.json is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/data/properties.json
+          git commit -m "Build properties.json from CMS entries"
+          git push
