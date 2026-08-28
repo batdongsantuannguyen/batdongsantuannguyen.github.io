@@ -59,41 +59,95 @@ jobs:
 
             const data = {};
 
-            const lines = frontMatter.split(/\r?\n/);
+                     const lines = frontMatter.split(/\r?\n/);
 
-            for (let i = 0; i < lines.length; i++) {
-              const line = lines[i];
+          for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
 
-              const keyMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+            const keyMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
 
-              if (!keyMatch) continue;
+            if (!keyMatch) continue;
 
-              const key = keyMatch[1];
-              const rawValue = keyMatch[2];
+            const key = keyMatch[1];
+            const rawValue = keyMatch[2];
 
-              if (rawValue === "") {
-                const list = [];
-                let j = i + 1;
+            const blockMatch = rawValue.match(/^([>|])([+-])?$/);
 
-                while (j < lines.length) {
-                  const listMatch = lines[j].match(/^\s*-\s+(.*)$/);
+            if (blockMatch) {
+              const blockLines = [];
+              let j = i + 1;
 
-                  if (!listMatch) break;
+              while (j < lines.length) {
+                const nextLine = lines[j];
 
-                  list.push(parseValue(listMatch[1]));
-                  j++;
+                if (/^[A-Za-z0-9_-]+:\s*/.test(nextLine)) {
+                  break;
                 }
 
-                if (list.length > 0) {
-                  data[key] = list;
-                  i = j - 1;
-                } else {
-                  data[key] = "";
-                }
-              } else {
-                data[key] = parseValue(rawValue);
+                blockLines.push(nextLine);
+                j++;
               }
+
+              const nonEmptyLines = blockLines.filter(
+                item => item.trim() !== ""
+              );
+
+              let minIndent = 0;
+
+              if (nonEmptyLines.length > 0) {
+                minIndent = Math.min(
+                  ...nonEmptyLines.map(item => {
+                    const match = item.match(/^(\s*)/);
+                    return match ? match[1].length : 0;
+                  })
+                );
+              }
+
+              const cleanedLines = blockLines.map(item => {
+                if (item.trim() === "") return "";
+                return item.slice(minIndent);
+              });
+
+              while (
+                cleanedLines.length > 0 &&
+                cleanedLines[cleanedLines.length - 1] === ""
+              ) {
+                cleanedLines.pop();
+              }
+
+              data[key] = cleanedLines.join("\n").trim();
+
+              i = j - 1;
+              continue;
             }
+
+            if (rawValue === "") {
+              const list = [];
+              let j = i + 1;
+
+              while (j < lines.length) {
+                const listMatch =
+                  lines[j].match(/^\s*-\s+(.*)$/);
+
+                if (!listMatch) break;
+
+                list.push(
+                  parseValue(listMatch[1])
+                );
+
+                j++;
+              }
+
+              if (list.length > 0) {
+                data[key] = list;
+                i = j - 1;
+              } else {
+                data[key] = "";
+              }
+            } else {
+              data[key] = parseValue(rawValue);
+            }
+          }
 
             if (body && !data.content) {
               data.content = body;
