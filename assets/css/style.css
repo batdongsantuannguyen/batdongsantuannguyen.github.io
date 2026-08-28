@@ -1287,3 +1287,29 @@ body {
 .property-content .property-description {
     margin-top: 0;
 }
+/* ===== RESET KHOẢNG CÁCH PHẦN MÔ TẢ ===== */
+
+.article > h2 {
+    display: block;
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin: 26px 0 10px;
+}
+
+.article .property-description {
+    display: block;
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.article .property-description p {
+    display: block;
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin: 0 0 18px;
+    line-height: 1.7;
+}
