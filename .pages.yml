@@ -83,10 +83,14 @@ content:
         label: Ảnh đại diện
         type: image
 
-      - name: images
-        label: Thư viện hình ảnh
-        type: image
-        list: true
+- name: images
+  label: Thư viện hình ảnh
+  type: image
+  options:
+    multiple:
+      max: 30
+    unique: true
+    extensions: [jpg, jpeg, png, webp]
 
       - name: address
         label: Địa chỉ
