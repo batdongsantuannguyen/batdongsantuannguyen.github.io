@@ -1,99 +1,6 @@
 /*
  * =========================================
- * TÌM KIẾM BẤT ĐỘNG SẢN
- * =========================================
- */
-
-function searchProperty() {
-
-    const typeElement =
-        document.getElementById("propertyType");
-
-    const locationElement =
-        document.getElementById("propertyLocation");
-
-    const keywordElement =
-        document.getElementById("propertyKeyword");
-
-    if (
-        !typeElement ||
-        !locationElement ||
-        !keywordElement
-    ) {
-        return;
-    }
-
-    const type =
-        typeElement.value;
-
-    const location =
-        locationElement.value;
-
-    const keyword =
-        keywordElement.value
-            .toLowerCase()
-            .trim();
-
-    const products =
-        document.querySelectorAll(".product");
-
-    let found = 0;
-
-    products.forEach(function(product) {
-
-        const productType =
-            product.dataset.type || "";
-
-        const productLocation =
-            product.dataset.location || "";
-
-        const productText =
-            product.innerText.toLowerCase();
-
-        const matchType =
-            type === "" ||
-            productType === type;
-
-        const matchLocation =
-            location === "" ||
-            productLocation === location;
-
-        const matchKeyword =
-            keyword === "" ||
-            productText.includes(keyword);
-
-        if (
-            matchType &&
-            matchLocation &&
-            matchKeyword
-        ) {
-
-            product.style.display = "";
-
-            found++;
-
-        } else {
-
-            product.style.display = "none";
-
-        }
-
-    });
-
-    if (found === 0) {
-
-        alert(
-            "Không tìm thấy bất động sản phù hợp. Vui lòng thử lại."
-        );
-
-    }
-
-}
-
-
-/*
- * =========================================
- * ĐỌC DỮ LIỆU TỪ properties.json
+ * TẢI DỮ LIỆU TỪ properties.json
  * =========================================
  */
 
@@ -115,7 +22,224 @@ async function loadProperties() {
     }
 
     return await response.json();
+}
 
+
+/*
+ * =========================================
+ * TÊN LOẠI BẤT ĐỘNG SẢN
+ * =========================================
+ */
+
+function getTypeName(property) {
+
+    if (
+        property.typeName &&
+        String(property.typeName).trim() !== ""
+    ) {
+        return property.typeName;
+    }
+
+    const typeNames = {
+        "nha": "Nhà",
+        "dat": "Đất",
+        "villa": "Biệt thự",
+        "khach-san": "Khách sạn",
+        "can-ho": "Căn hộ",
+        "homestay": "Homestay",
+        "cho-thue": "Cho thuê"
+    };
+
+    return (
+        typeNames[property.type] ||
+        "Bất động sản"
+    );
+}
+
+
+/*
+ * =========================================
+ * TÊN KHU VỰC
+ * =========================================
+ */
+
+function getLocationName(property) {
+
+    if (
+        property.locationName &&
+        String(property.locationName).trim() !== ""
+    ) {
+        return property.locationName;
+    }
+
+    const locationNames = {
+        "da-lat": "Đà Lạt",
+        "duc-trong": "Đức Trọng",
+        "bao-loc": "Bảo Lộc",
+        "lac-duong": "Lạc Dương",
+        "don-duong": "Đơn Dương",
+        "xuan-tho-xuan-truong":
+            "Xuân Thọ – Xuân Trường",
+        "lam-ha": "Lâm Hà"
+    };
+
+    return (
+        locationNames[property.location] ||
+        property.location ||
+        ""
+    );
+}
+
+
+/*
+ * =========================================
+ * URL CHI TIẾT SẢN PHẨM
+ * =========================================
+ */
+
+function getPropertyUrl(property) {
+
+    /*
+     * Các sản phẩm Cho thuê cũ
+     * nếu đã có URL riêng thì giữ nguyên
+     */
+
+    if (
+        property.type === "cho-thue" &&
+        property.url &&
+        String(property.url).trim() !== ""
+    ) {
+
+        if (
+            property.url.startsWith("http")
+        ) {
+            return property.url;
+        }
+
+        return new URL(
+            property.url,
+            window.location.origin +
+            "/tuannguyen-batdongsan/"
+        ).href;
+    }
+
+
+    /*
+     * Tất cả sản phẩm mới:
+     * tự tạo URL từ ID
+     */
+
+    return (
+        "/tuannguyen-batdongsan/" +
+        "bat-dong-san/chi-tiet/?id=" +
+        encodeURIComponent(property.id)
+    );
+}
+
+
+/*
+ * =========================================
+ * TÌM KIẾM BẤT ĐỘNG SẢN
+ * =========================================
+ */
+
+function searchProperty() {
+
+    const typeElement =
+        document.getElementById(
+            "propertyType"
+        );
+
+    const locationElement =
+        document.getElementById(
+            "propertyLocation"
+        );
+
+    const keywordElement =
+        document.getElementById(
+            "propertyKeyword"
+        );
+
+    if (
+        !typeElement ||
+        !locationElement ||
+        !keywordElement
+    ) {
+        return;
+    }
+
+    const type =
+        typeElement.value;
+
+    const location =
+        locationElement.value;
+
+    const keyword =
+        keywordElement.value
+            .toLowerCase()
+            .trim();
+
+    const products =
+        document.querySelectorAll(
+            ".product"
+        );
+
+    let found = 0;
+
+    products.forEach(
+        function (product) {
+
+            const productType =
+                product.dataset.type || "";
+
+            const productLocation =
+                product.dataset.location || "";
+
+            const productText =
+                product.innerText
+                    .toLowerCase();
+
+            const matchType =
+                type === "" ||
+                productType === type;
+
+            const matchLocation =
+                location === "" ||
+                productLocation === location;
+
+            const matchKeyword =
+                keyword === "" ||
+                productText.includes(
+                    keyword
+                );
+
+            if (
+                matchType &&
+                matchLocation &&
+                matchKeyword
+            ) {
+
+                product.style.display = "";
+
+                found++;
+
+            } else {
+
+                product.style.display =
+                    "none";
+
+            }
+
+        }
+    );
+
+    if (found === 0) {
+
+        alert(
+            "Không tìm thấy bất động sản phù hợp. Vui lòng thử lại."
+        );
+
+    }
 }
 
 
@@ -128,13 +252,14 @@ async function loadProperties() {
 async function renderProperties() {
 
     const container =
-        document.querySelector(".products");
+        document.querySelector(
+            ".products"
+        );
 
     if (!container) {
-
         return;
-
     }
+
 
     let properties = [];
 
@@ -146,18 +271,11 @@ async function renderProperties() {
     } catch (error) {
 
         console.error(
-            "Lỗi tải dữ liệu bất động sản:",
+            "Lỗi tải dữ liệu:",
             error
         );
 
-        container.innerHTML = `
-            <p>
-                Không thể tải dữ liệu bất động sản.
-            </p>
-        `;
-
         return;
-
     }
 
 
@@ -168,7 +286,9 @@ async function renderProperties() {
 
 
     if (
-        path.includes("/bat-dong-san/nha/")
+        path.includes(
+            "/bat-dong-san/nha/"
+        )
     ) {
 
         currentType = "nha";
@@ -176,7 +296,9 @@ async function renderProperties() {
     }
 
     else if (
-        path.includes("/bat-dong-san/dat/")
+        path.includes(
+            "/bat-dong-san/dat/"
+        )
     ) {
 
         currentType = "dat";
@@ -184,7 +306,9 @@ async function renderProperties() {
     }
 
     else if (
-        path.includes("/bat-dong-san/villa/")
+        path.includes(
+            "/bat-dong-san/villa/"
+        )
     ) {
 
         currentType = "villa";
@@ -192,7 +316,9 @@ async function renderProperties() {
     }
 
     else if (
-        path.includes("/bat-dong-san/khach-san/")
+        path.includes(
+            "/bat-dong-san/khach-san/"
+        )
     ) {
 
         currentType = "khach-san";
@@ -200,7 +326,9 @@ async function renderProperties() {
     }
 
     else if (
-        path.includes("/bat-dong-san/can-ho/")
+        path.includes(
+            "/bat-dong-san/can-ho/"
+        )
     ) {
 
         currentType = "can-ho";
@@ -208,7 +336,9 @@ async function renderProperties() {
     }
 
     else if (
-        path.includes("/bat-dong-san/homestay/")
+        path.includes(
+            "/bat-dong-san/homestay/"
+        )
     ) {
 
         currentType = "homestay";
@@ -216,7 +346,9 @@ async function renderProperties() {
     }
 
     else if (
-        path.includes("/bat-dong-san/cho-thue/")
+        path.includes(
+            "/bat-dong-san/cho-thue/"
+        )
     ) {
 
         currentType = "cho-thue";
@@ -227,134 +359,94 @@ async function renderProperties() {
     container.innerHTML = "";
 
 
-    properties.forEach(function(property) {
-
-        if (
-            currentType !== "" &&
-            property.type !== currentType
-        ) {
-
-            return;
-
-        }
-
-
-        const article =
-            document.createElement("article");
-
-        article.className =
-            "product";
-
-        article.dataset.type =
-            property.type || "";
-
-        article.dataset.location =
-            property.location || "";
-
-
-        /*
-         * =========================================
-         * URL CHI TIẾT SẢN PHẨM
-         * =========================================
-         */
-
-        let productUrl = "#";
-
-
-        /*
-         * CHO THUÊ:
-         * Tạm giữ URL hiện tại
-         * để không làm thay đổi trang đang chạy.
-         */
-
-        if (
-            property.type === "cho-thue"
-        ) {
-
-            productUrl =
-                property.url || "#";
+    properties.forEach(
+        function (property) {
 
             if (
-                productUrl !== "#" &&
-                !productUrl.startsWith("http")
+                currentType !== "" &&
+                property.type !== currentType
             ) {
-
-                productUrl =
-                    new URL(
-                        productUrl,
-                        window.location.origin +
-                        "/tuannguyen-batdongsan/"
-                    ).href;
-
+                return;
             }
 
-        }
 
-        /*
-         * CÁC DANH MỤC CÒN LẠI:
-         * Dùng trang chi tiết tự động
-         */
-
-        else {
-
-            productUrl =
-                "/tuannguyen-batdongsan/" +
-                "bat-dong-san/chi-tiet/?id=" +
-                encodeURIComponent(
-                    property.id
+            const article =
+                document.createElement(
+                    "article"
                 );
 
-        }
+
+            article.className =
+                "product";
 
 
-        article.innerHTML = `
+            article.dataset.type =
+                property.type || "";
 
-            <img
-                src="${property.image || ""}"
-                alt="${property.title || ""}"
-                loading="lazy"
-            >
 
-            <div class="product-content">
+            article.dataset.location =
+                property.location || "";
 
-                <div class="product-tag">
-                    ${property.typeName || ""}
-                </div>
 
-                <h3>
-                    ${property.title || ""}
-                </h3>
+            const typeName =
+                getTypeName(property);
 
-                <div class="price">
-                    ${property.price || "Liên hệ"}
-                </div>
 
-                <div class="location">
-                    📍 ${property.locationName || ""}
-                </div>
+            const locationName =
+                getLocationName(property);
 
-                <p>
-                    ${property.description || ""}
-                </p>
 
-                <a
-                    class="product-button"
-                    href="${productUrl}"
+            const productUrl =
+                getPropertyUrl(property);
+
+
+            article.innerHTML = `
+
+                <img
+                    src="${property.image || ""}"
+                    alt="${property.title || ""}"
+                    loading="lazy"
                 >
-                    Xem chi tiết →
-                </a>
 
-            </div>
+                <div class="product-content">
 
-        `;
+                    <div class="product-tag">
+                        ${typeName}
+                    </div>
+
+                    <h3>
+                        ${property.title || ""}
+                    </h3>
+
+                    <div class="price">
+                        ${property.price || "Liên hệ"}
+                    </div>
+
+                    <div class="location">
+                        📍 ${locationName}
+                    </div>
+
+                    <p>
+                        ${property.description || ""}
+                    </p>
+
+                    <a
+                        class="product-button"
+                        href="${productUrl}"
+                    >
+                        Xem chi tiết →
+                    </a>
+
+                </div>
+            `;
 
 
-        container.appendChild(
-            article
-        );
+            container.appendChild(
+                article
+            );
 
-    });
-
+        }
+    );
 }
 
 
@@ -366,7 +458,7 @@ async function renderProperties() {
 
 document.addEventListener(
     "DOMContentLoaded",
-    function() {
+    function () {
 
         renderProperties();
 
