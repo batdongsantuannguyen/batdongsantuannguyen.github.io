@@ -31,8 +31,8 @@ function searchProperty() {
 
     const keyword =
         keywordElement.value
-        .toLowerCase()
-        .trim();
+            .toLowerCase()
+            .trim();
 
     const products =
         document.querySelectorAll(".product");
@@ -93,28 +93,79 @@ function searchProperty() {
 
 /*
  * =========================================
+ * ĐỌC DỮ LIỆU TỪ properties.json
+ * =========================================
+ */
+
+async function loadProperties() {
+
+    const response = await fetch(
+        "/tuannguyen-batdongsan/assets/data/properties.json",
+        {
+            cache: "no-store"
+        }
+    );
+
+    if (!response.ok) {
+
+        throw new Error(
+            "Không thể tải properties.json"
+        );
+
+    }
+
+    return await response.json();
+
+}
+
+
+/*
+ * =========================================
  * HIỂN THỊ SẢN PHẨM
  * =========================================
  */
 
-function renderProperties() {
+async function renderProperties() {
 
     const container =
         document.querySelector(".products");
 
-    if (
-        !container ||
-        typeof properties === "undefined"
-    ) {
+    if (!container) {
 
         return;
 
     }
 
+    let properties = [];
+
+    try {
+
+        properties =
+            await loadProperties();
+
+    } catch (error) {
+
+        console.error(
+            "Lỗi tải dữ liệu bất động sản:",
+            error
+        );
+
+        container.innerHTML = `
+            <p>
+                Không thể tải dữ liệu bất động sản.
+            </p>
+        `;
+
+        return;
+
+    }
+
+
     const path =
         window.location.pathname;
 
     let currentType = "";
+
 
     if (
         path.includes("/bat-dong-san/nha/")
@@ -164,13 +215,15 @@ function renderProperties() {
 
     }
 
-else if (
-    path.includes("/bat-dong-san/cho-thue/")
-) {
+    else if (
+        path.includes("/bat-dong-san/cho-thue/")
+    ) {
 
-    currentType = "cho-thue";
+        currentType = "cho-thue";
 
-}
+    }
+
+
     container.innerHTML = "";
 
 
@@ -185,104 +238,120 @@ else if (
 
         }
 
+
         const article =
             document.createElement("article");
 
-        article.className = "product";
+        article.className =
+            "product";
 
         article.dataset.type =
-            property.type;
+            property.type || "";
 
         article.dataset.location =
-            property.location;
+            property.location || "";
 
-/*
- * =========================================
- * URL CHI TIẾT SẢN PHẨM
- * =========================================
- */
 
-let productUrl = "#";
+        /*
+         * =========================================
+         * URL CHI TIẾT SẢN PHẨM
+         * =========================================
+         */
 
-/*
- * CHO THUÊ:
- * Giữ trang chi tiết hiện tại
- */
+        let productUrl = "#";
 
-if (property.type === "cho-thue") {
 
-    productUrl = property.url || "#";
+        /*
+         * CHO THUÊ:
+         * Tạm giữ URL hiện tại
+         * để không làm thay đổi trang đang chạy.
+         */
 
-    if (
-        productUrl !== "#" &&
-        !productUrl.startsWith("http")
-    ) {
+        if (
+            property.type === "cho-thue"
+        ) {
 
-        productUrl =
-            new URL(
-                productUrl,
-                window.location.origin +
-                "/tuannguyen-batdongsan/"
-            ).href;
-    }
+            productUrl =
+                property.url || "#";
 
-}
+            if (
+                productUrl !== "#" &&
+                !productUrl.startsWith("http")
+            ) {
 
-/*
- * CÁC DANH MỤC CÒN LẠI:
- * Dùng trang chi tiết tự động
- */
+                productUrl =
+                    new URL(
+                        productUrl,
+                        window.location.origin +
+                        "/tuannguyen-batdongsan/"
+                    ).href;
 
-else {
+            }
 
-    productUrl =
-        "/tuannguyen-batdongsan/bat-dong-san/chi-tiet/?id=" +
-        encodeURIComponent(property.id);
+        }
 
-}
+        /*
+         * CÁC DANH MỤC CÒN LẠI:
+         * Dùng trang chi tiết tự động
+         */
+
+        else {
+
+            productUrl =
+                "/tuannguyen-batdongsan/" +
+                "bat-dong-san/chi-tiet/?id=" +
+                encodeURIComponent(
+                    property.id
+                );
+
+        }
+
+
         article.innerHTML = `
 
             <img
-                src="${property.image}"
-                alt="${property.title}"
+                src="${property.image || ""}"
+                alt="${property.title || ""}"
                 loading="lazy"
             >
 
             <div class="product-content">
 
                 <div class="product-tag">
-                    ${property.typeName}
+                    ${property.typeName || ""}
                 </div>
 
                 <h3>
-                    ${property.title}
+                    ${property.title || ""}
                 </h3>
 
                 <div class="price">
-                    ${property.price}
+                    ${property.price || "Liên hệ"}
                 </div>
 
                 <div class="location">
-                    📍 ${property.locationName} – Lâm Đồng
+                    📍 ${property.locationName || ""}
                 </div>
 
                 <p>
-                    ${property.description}
+                    ${property.description || ""}
                 </p>
 
                 <a
                     class="product-button"
-                    href="${productUrl}">
-
+                    href="${productUrl}"
+                >
                     Xem chi tiết →
-
                 </a>
 
             </div>
 
         `;
 
-        container.appendChild(article);
+
+        container.appendChild(
+            article
+        );
 
     });
 
