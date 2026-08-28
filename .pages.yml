@@ -3,7 +3,7 @@ media:
   output: /tuannguyen-batdongsan/assets/images
 
 content:
-  - name: properties
+  - name: properties-v2
     label: Bất động sản
     type: collection
     path: content/properties
