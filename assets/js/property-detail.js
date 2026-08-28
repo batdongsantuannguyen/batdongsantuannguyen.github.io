@@ -483,21 +483,23 @@ const locationName =
                 property.highlights,
                 ""
             );
+const highlightsHtml =
+    highlights
+        ? `
+            <h2>
+                Ưu điểm nổi bật
+            </h2>
 
-
-        const highlightsHtml =
-            highlights
-                ? `
-                    <h2>
-                        Ưu điểm nổi bật
-                    </h2>
-
-                    <p>
-                        ${highlights}
-                    </p>
-                `
-                : "";
-
+            <ul class="property-highlights">
+                ${String(highlights)
+                    .split(/\r?\n/)
+                    .map(item => item.trim())
+                    .filter(Boolean)
+                    .map(item => `<li>${item}</li>`)
+                    .join("")}
+            </ul>
+        `
+        : "";
 
         /*
          * =========================================
@@ -620,14 +622,18 @@ const locationName =
                     </p>
 
 
-                    <h2>
-                        Mô tả
-                    </h2>
+      <h2>
+    Mô tả
+</h2>
 
-
-                    <p>
-                        ${content}
-                    </p>
+<div class="property-description">
+    ${String(content)
+        .split(/\r?\n\s*\r?\n/)
+        .map(item => item.trim())
+        .filter(Boolean)
+        .map(item => `<p>${item}</p>`)
+        .join("")}
+</div>
 
 
                     ${highlightsHtml}
