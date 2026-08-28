@@ -1050,7 +1050,7 @@ body {
 .article-image {
     display: block;
     width: 100%;
-    max-width: 720px;
+    max-width: 900px;
     max-height: 520px;
     height: auto;
     object-fit: contain;
