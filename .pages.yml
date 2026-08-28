@@ -8,7 +8,6 @@ content:
     type: collection
     path: content/properties
     format: yaml
-    filename: "{primary}.yml"
 
     view:
       primary: title
