@@ -7,8 +7,8 @@ content:
     label: Bất động sản
     type: collection
     path: content/properties
-    format: json
-    filename: "{primary}.json"
+    format: yaml
+    filename: "{primary}.yml"
 
     view:
       primary: title
