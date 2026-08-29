@@ -43,6 +43,8 @@ jobs:
               result = subprocess.run(
                   [
                       "git",
+                      "-c",
+                      "core.quotepath=false",
                       "log",
                       "--diff-filter=A",
                       "--name-only",
@@ -67,6 +69,8 @@ jobs:
               result = subprocess.run(
                   [
                       "git",
+                      "-c",
+                      "core.quotepath=false",
                       "diff",
                       "--name-only",
                       "--diff-filter=A",
