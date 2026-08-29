@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test Facebook Page Access Token
+      - name: Post test to Facebook
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-      run: |
-        response=$(curl -s -X POST \
-          "https://graph.facebook.com/v26.0/111778976892983/feed" \
-          --data-urlencode "message=Kiểm tra kết nối tự động từ website Bất Động Sản Tuấn Nguyên." \
-          --data-urlencode "access_token=$FACEBOOK_PAGE_ACCESS_TOKEN")
+        run: |
+          response=$(curl -s -X POST \
+            "https://graph.facebook.com/v26.0/111778976892983/feed" \
+            --data-urlencode "message=Kiểm tra kết nối tự động từ website Bất Động Sản Tuấn Nguyên." \
+            --data-urlencode "access_token=$FACEBOOK_PAGE_ACCESS_TOKEN")
 
-        echo "$response"
+          echo "$response"
