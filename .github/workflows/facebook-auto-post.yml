@@ -36,7 +36,7 @@ jobs:
           before = os.environ["BEFORE_SHA"]
           current = os.environ["CURRENT_SHA"]
 
-              result = subprocess.run(
+          result = subprocess.run(
               [
                   "git",
                   "diff-tree",
