@@ -177,6 +177,31 @@ jobs:
 
               message = "\n".join(message_parts)
 
+
+          image = property_data.get("image", "").strip()
+
+          if image:
+              if image.startswith("http://") or image.startswith("https://"):
+                  image_url = image
+              else:
+                  image_url = (
+                      "https://tuannguyenbdsdalat68-alt.github.io"
+                      + image
+                  )
+
+              payload = urllib.parse.urlencode({
+                  "url": image_url,
+                  "caption": message,
+                  "access_token": token
+              }).encode("utf-8")
+
+              request = urllib.request.Request(
+                  "https://graph.facebook.com/v26.0/111778976892983/photos",
+                  data=payload,
+                  method="POST"
+              )
+
+          else:
               payload = urllib.parse.urlencode({
                   "message": message,
                   "access_token": token
