@@ -438,6 +438,15 @@
   {
     "type": "nha",
     "location": "da-lat",
+    "title": "Kiểm tra Facebook tự động lần cuối",
+    "price": "Liên hệ",
+    "description": "Liên hệ",
+    "image": "/tuannguyen-batdongsan/assets/images/c3fde9f411d6cf8896c76.jpg",
+    "id": "kiểm-tra-facebook-tự-động-lần-cuối"
+  },
+  {
+    "type": "nha",
+    "location": "da-lat",
     "title": "Kiểm tra đăng Facebook có hình ảnh",
     "price": "Liên hệ",
     "description": "Kiểm tra hệ thống tự động đăng bài kèm hình ảnh.",
