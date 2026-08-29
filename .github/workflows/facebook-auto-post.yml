@@ -11,10 +11,10 @@ jobs:
       - name: Test Facebook Page Access Token
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-        run: |
-          response=$(curl -s -G \
-            "https://graph.facebook.com/v23.0/me" \
-            --data-urlencode "fields=id,name" \
-            --data-urlencode "access_token=$FACEBOOK_PAGE_ACCESS_TOKEN")
+      run: |
+        response=$(curl -s -X POST \
+          "https://graph.facebook.com/v26.0/111778976892983/feed" \
+          --data-urlencode "message=Kiểm tra kết nối tự động từ website Bất Động Sản Tuấn Nguyên." \
+          --data-urlencode "access_token=$FACEBOOK_PAGE_ACCESS_TOKEN")
 
-          echo "$response"
+        echo "$response"
