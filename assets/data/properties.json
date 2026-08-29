@@ -741,6 +741,26 @@
     "id": "test-facebook-tự-động-01"
   },
   {
+    "type": "nha",
+    "location": "bao-loc",
+    "title": "TEST TỰ ĐỘNG TOÀN HỆ THỐNG 03",
+    "price": "3",
+    "description": "đgfgfgfhghghfhfhfhf",
+    "image": "/tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2024-12-05-lúc-09.31.39.png",
+    "address": "fgdgdg",
+    "area": "g35",
+    "residentialArea": "35",
+    "frontage": "45",
+    "direction": "zzzzzzzdb",
+    "road": "4m",
+    "legal": "sh",
+    "deposit": "3tr",
+    "summary": "đgdgdg",
+    "content": "\"Bình yên thật sự bên căn nhà 3 ngủ, rộng rãi, có sẵn vườn cây ăn quả",
+    "videoId": "https://www.youtube.com/watch?v=leiZL0PHj4I",
+    "id": "test-tự-động-toàn-hệ-thống-03"
+  },
+  {
     "title": "Sản phẩm thử nghiệm",
     "id": "test"
   },
