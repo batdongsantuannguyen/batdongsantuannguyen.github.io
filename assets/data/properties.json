@@ -651,6 +651,14 @@
     "url": "bat-dong-san/nha/nha-xuan-tho-xuan-truong/"
   },
   {
+    "type": "nha",
+    "location": "da-lat",
+    "title": "Nhà thử nghiệm tự động Facebook",
+    "price": "Liên hệ",
+    "description": "Kiểm tra hệ thống đăng bất động sản tự động từ website lên Facebook.",
+    "id": "nhà-thử-nghiệm-tự-động-facebook"
+  },
+  {
     "title": "Sản phẩm thử nghiệm",
     "id": "test"
   },
