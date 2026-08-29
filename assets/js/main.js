@@ -357,9 +357,16 @@ async function renderProperties() {
 
 
     container.innerHTML = "";
+const isHomePage =
+    path === "/tuannguyen-batdongsan/" ||
+    path.endsWith("/index.html");
 
+const propertiesToShow =
+    isHomePage
+        ? properties.slice(0, 8)
+        : properties;
 
-    properties.forEach(
+    propertiesToShow.forEach(
         function (property) {
 
             if (
