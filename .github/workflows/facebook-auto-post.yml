@@ -172,13 +172,13 @@ jobs:
               if description:
                   message_parts.extend(["", description])
 
-              message_parts.extend([
-                  "",
-                  "🔗 Xem thông tin chi tiết:",
-                  detail_url
-              ])
+        message_parts.extend([
+            "",
+            "🔗 Xem thông tin chi tiết:",
+            detail_url
+        ])
 
-              message = "\n".join(message_parts)
+        message = "\n".join(message_parts)
 
         image = property_data.get("image", "").strip()
 
