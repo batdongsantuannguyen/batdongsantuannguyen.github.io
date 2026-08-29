@@ -99,15 +99,30 @@ jobs:
           for path in files:
               property_data = read_frontmatter(path)
 
-              property_id = property_data.get("id", "").strip()
-              title = property_data.get("title", "Bất động sản mới").strip()
-              price = property_data.get("price", "Liên hệ").strip()
-              location = property_data.get("locationName", "").strip()
-              description = property_data.get("description", "").strip()
+property_id = property_data.get("id", "").strip()
 
-              if not property_id:
-                  print(f"Bỏ qua {path}: không có id.")
-                  continue
+if not property_id:
+    property_id = os.path.splitext(os.path.basename(path))[0]
+
+title = property_data.get("title", "Bất động sản mới").strip()
+price = property_data.get("price", "Liên hệ").strip()
+description = property_data.get("description", "").strip()
+
+location_code = property_data.get("location", "").strip()
+
+location_names = {
+    "da-lat": "Đà Lạt",
+    "duc-trong": "Đức Trọng",
+    "bao-loc": "Bảo Lộc",
+    "lac-duong": "Lạc Dương",
+    "don-duong": "Đơn Dương",
+    "xuan-tho-xuan-truong": "Xuân Thọ – Xuân Trường",
+    "lam-ha": "Lâm Hà",
+}
+
+location = property_data.get("locationName", "").strip()
+if not location:
+    location = location_names.get(location_code, location_code)
 
               detail_url = (
                   "https://tuannguyenbdsdalat68-alt.github.io/"
