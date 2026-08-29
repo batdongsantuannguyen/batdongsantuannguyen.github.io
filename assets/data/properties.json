@@ -725,10 +725,19 @@
   {
     "type": "nha",
     "location": "da-lat",
-    "title": "TEST FACEBOOK TỰ ĐỘNG 01",
+    "title": "TEST FACEBOOK TỰ ĐỘNG 02",
     "price": "Liên hệ",
     "description": "Kiểm tra đăng tự động sau khi sửa tên file tiến",
-    "image": "",
+    "image": "/tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2024-12-05-lúc-09.28.40.png",
+    "address": "Liên Hiêp - Đức trong",
+    "area": "1667m2",
+    "residentialArea": "1667m2",
+    "frontage": "25m",
+    "direction": "Đông Nam",
+    "road": "Bê Tông 4m",
+    "legal": "Sổ Hồng Riêng",
+    "content": "\"Bình yên thật sự bên căn nhà 3 ngủ, rộng rãi, có sẵn vườn cây ăn quả",
+    "videoId": "https://www.youtube.com/watch?v=leiZL0PHj4I",
     "id": "test-facebook-tự-động-01"
   },
   {
