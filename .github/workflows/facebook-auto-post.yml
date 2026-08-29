@@ -216,11 +216,11 @@ jobs:
                   method="POST"
               )
 
-              try:
-                  with urllib.request.urlopen(request) as response:
-                      result_text = response.read().decode("utf-8")
-                      print(f"Đã đăng Facebook: {path}")
-                      print(result_text)
+            try:
+                with urllib.request.urlopen(request) as response:
+                    result_text = response.read().decode("utf-8")
+                    print(f"Đã đăng Facebook: {path}")
+                    print(result_text)
 
               except urllib.error.HTTPError as error:
                   error_text = error.read().decode("utf-8")
