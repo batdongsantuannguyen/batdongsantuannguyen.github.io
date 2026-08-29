@@ -13,7 +13,7 @@ area: 171m2
 residentialArea: 147m2
 frontage: 6,5m
 direction: Tây
-road: "12"
+road: Đường Nhựa 12m (cả vỉa hè)
 legal: Sổ hồng riêng
 content: >-
   Vị trí căn nhà nằm ngay mặt tiền của trung tâm phường LangBiang, 
