@@ -1,6 +1,7 @@
 name: Facebook Auto Post
-
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - main
