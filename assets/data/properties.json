@@ -723,6 +723,15 @@
     "id": "nhà-vườn-gần-sân-bay-liên-khương"
   },
   {
+    "type": "nha",
+    "location": "da-lat",
+    "title": "TEST FACEBOOK TỰ ĐỘNG 01",
+    "price": "Liên hệ",
+    "description": "Kiểm tra đăng tự động sau khi sửa tên file tiến",
+    "image": "",
+    "id": "test-facebook-tự-động-01"
+  },
+  {
     "title": "Sản phẩm thử nghiệm",
     "id": "test"
   },
