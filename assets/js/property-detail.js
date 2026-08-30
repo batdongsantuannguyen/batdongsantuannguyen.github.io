@@ -658,7 +658,7 @@ const highlightsHtml =
                 `;
             }
 const formatMatch = item.match(
-    /^:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::$/
+    /^:::format align="(left|center|right|justify)" line="([0-9.]+)"\n([\s\S]*?)\n:::$/
 );
 
 if (formatMatch) {
