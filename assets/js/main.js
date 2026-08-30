@@ -447,7 +447,17 @@ const propertiesToShow =
                 </div>
             `;
 
+article.style.cursor = "pointer";
 
+article.addEventListener("click", function (event) {
+
+    if (event.target.closest("a")) {
+        return;
+    }
+
+    window.location.href = productUrl;
+
+});
             container.appendChild(
                 article
             );
