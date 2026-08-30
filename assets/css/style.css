@@ -1316,3 +1316,301 @@ body {
     margin: 0 0 18px;
     line-height: 1.7;
 }
+/* =========================================
+   TUAN NGUYEN GLOBAL THEME
+   Đồng bộ các trang với giao diện trang chủ
+========================================= */
+
+:root {
+    --tn-green: #124f3a;
+    --tn-green-dark: #0b3b2b;
+    --tn-gold: #d79b16;
+    --tn-cream: #faf8f3;
+    --tn-text: #26332e;
+    --tn-muted: #69756f;
+}
+
+/* BODY */
+
+body {
+    background: var(--tn-cream);
+    color: var(--tn-text);
+}
+
+
+/* HEADER */
+
+header {
+    background: #ffffff;
+    color: var(--tn-text);
+
+    border-bottom: 1px solid rgba(18,79,58,.08);
+
+    box-shadow:
+        0 2px 14px rgba(24,45,37,.05);
+}
+
+.header-container {
+    max-width: 1460px;
+}
+
+.logo {
+    color: var(--tn-green);
+    font-weight: 800;
+}
+
+.logo span {
+    color: var(--tn-gold);
+}
+
+nav a {
+    color: #1f2c27;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: var(--tn-gold);
+}
+
+
+/* HERO */
+
+.hero {
+    background:
+        linear-gradient(
+            rgba(8,47,35,.28),
+            rgba(8,47,35,.52)
+        ),
+        url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1800&q=85")
+        center / cover;
+
+    color: white;
+}
+
+.hero-label {
+    color: var(--tn-gold);
+}
+
+.hero h1 {
+    color: white;
+}
+
+.hero p {
+    color: rgba(255,255,255,.94);
+}
+
+
+/* BUTTON */
+
+.button {
+    background: var(--tn-gold);
+    color: #173226;
+
+    border-radius: 8px;
+}
+
+.button-dark {
+    background: var(--tn-green);
+    color: white;
+}
+
+.button-dark:hover,
+.filter-button:hover {
+    background: var(--tn-green-dark);
+    color: white;
+}
+
+
+/* SECTION */
+
+.section-label {
+    color: var(--tn-gold);
+}
+
+.section-title h2 {
+    color: var(--tn-green);
+}
+
+.section-title p {
+    color: var(--tn-muted);
+}
+
+
+/* FILTER */
+
+.filter-box {
+    border: 1px solid rgba(18,79,58,.07);
+
+    box-shadow:
+        0 8px 26px rgba(31,48,41,.08);
+}
+
+.filter-grid select:focus,
+.filter-grid input:focus {
+    border-color: var(--tn-green);
+}
+
+.filter-button {
+    background: var(--tn-green);
+}
+
+
+/* CATEGORY */
+
+.category {
+    border: 1px solid rgba(18,79,58,.06);
+
+    box-shadow:
+        0 6px 22px rgba(38,52,46,.07);
+}
+
+.category:hover {
+    border-color: rgba(215,155,22,.35);
+
+    box-shadow:
+        0 12px 28px rgba(38,52,46,.11);
+}
+
+.category h3 {
+    color: var(--tn-green);
+}
+
+.category p {
+    color: var(--tn-muted);
+}
+
+
+/* PRODUCTS */
+
+.product {
+    border: 1px solid rgba(18,79,58,.07);
+
+    box-shadow:
+        0 7px 22px rgba(31,48,41,.08);
+}
+
+.product-tag {
+    color: white;
+
+    background: var(--tn-green);
+
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    border-radius: 7px;
+}
+
+.product h3 {
+    color: #202a26;
+}
+
+.price {
+    color: var(--tn-green);
+}
+
+.location {
+    color: var(--tn-muted);
+}
+
+.product-button {
+    background: var(--tn-green);
+    color: white;
+
+    border-radius: 7px;
+}
+
+.product-button:hover {
+    background: var(--tn-gold);
+    color: #173226;
+}
+
+
+/* BREADCRUMB */
+
+.breadcrumb {
+    background: var(--tn-cream);
+    color: var(--tn-muted);
+}
+
+.breadcrumb a {
+    color: var(--tn-green);
+}
+
+.breadcrumb a:hover {
+    color: var(--tn-gold);
+}
+
+
+/* PROPERTY DETAIL */
+
+.property-content h1 {
+    color: var(--tn-green);
+}
+
+.property-intro {
+    color: var(--tn-muted);
+}
+
+.property-image {
+    border: 1px solid rgba(18,79,58,.07);
+
+    box-shadow:
+        0 8px 28px rgba(31,48,41,.10);
+}
+
+
+/* PROPERTY INFO */
+
+.property-info {
+    background: #fffdf9;
+}
+
+.info-grid {
+    background: #e7ece8;
+    border-color: #e7ece8;
+}
+
+.info-item strong {
+    color: var(--tn-muted);
+}
+
+.info-item span {
+    color: var(--tn-green);
+}
+
+
+/* DESCRIPTION */
+
+.property-description p,
+.property-location p {
+    color: #4f6059;
+}
+
+.property-location {
+    background: #f4f6f2;
+}
+
+
+/* CONTACT */
+
+.contact {
+    background: var(--tn-green-dark);
+    color: white;
+}
+
+.contact p {
+    color: rgba(255,255,255,.78);
+}
+
+.phone {
+    color: var(--tn-gold);
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #082f23;
+    color: rgba(255,255,255,.70);
+}
