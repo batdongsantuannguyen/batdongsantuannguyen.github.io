@@ -31,77 +31,55 @@ content: >-
   Ngoài giá trị của một căn nhà trung tâm để định cư, căn nhà còn thuận lợi vị trí để cho thuê và đầu tư. Sổ hồng riêng nhà đã hoàn công, yên tâm sở hữu - hồ sơ giao dịch nhanh chóng thuận lợi 
 
 
+  ![](/tuannguyen-batdongsan/assets/images/z7719679904562_059ab77a22c387ebf06a75793cd612f3.jpg)
+
+
   Giá cần bán hiện nay của căn nhà chỉ 6,6tỷ.
 
 
   Liên hệ Tuấn Nguyên 0843156768 để tham khảo không gian, vị trí nhà và kiểm tra pháp lý, quy hoạch.
 
 
-
-
   +Địa chỉ: Lê Hồng Phong – Đà Lạt
-
-
 
 
   +Diện tích: 67,11m2 – mặt tiền rộng 4,46m
 
 
-
-
   +Kiến trúc bất động sản: Nhà Liên Kế Sân Vườn
-
-
 
 
   +Cấu trúc nhà: 1 trệt, 1 sàn gỗ
 
 
-
-
   +Số phòng: phòng khách, bếp, 3 ngủ, 2toilet (có thể thiết kế thành 4 phòng ngủ).
-
-
 
 
   +Hướng nhà: Nam
 
 
-
-
   +Lộ giới: Đường hẻm nhựa 3,5m – quy hoạch thông với đường Ngô Thỳ Nhậm
-
-
 
 
   +Pháp lý nhà: Sổ hồng riêng – nhà đã hoàn công
 
 
-
-
   +Giá bán; 6,6tỷ
 
 
+  ![](/tuannguyen-batdongsan/assets/images/z7720847814468_42c95a693a8d50cbb74977a5bf181272.jpg)
 
 
   Khoảng Cách:
 
 
-
-
   \- Cách Bệnh viện Paster 700m
-
-
 
 
   \- Cách Trung tâm hành chính 1km
 
 
-
-
   \- Cách Quảng trường lâm Viên Đà Lạt 3km
-
-
 
 
   \- Cách Chợ Đêm Đà Lạt 2,5km
