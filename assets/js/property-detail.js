@@ -341,7 +341,36 @@ const locationName =
             return value;
         }
 
+function renderInlineMarkdown(text) {
 
+    let html = String(text || "");
+
+    // Link Markdown: [Tên link](https://...)
+    html = html.replace(
+        /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+        '<a href="$2" target="_blank" rel="noopener">$1</a>'
+    );
+
+    // URL viết trực tiếp
+    html = html.replace(
+        /(^|[\s>])(https?:\/\/[^\s<]+)/g,
+        '$1<a href="$2" target="_blank" rel="noopener">$2</a>'
+    );
+
+    // Chữ đậm: **text**
+    html = html.replace(
+        /\*\*(.+?)\*\*/g,
+        '<strong>$1</strong>'
+    );
+
+    // Chữ nghiêng: *text*
+    html = html.replace(
+        /(^|[^*])\*([^*\n]+?)\*(?!\*)/g,
+        '$1<em>$2</em>'
+    );
+
+    return html;
+}
         function createInfoRow(
             icon,
             label,
@@ -673,11 +702,11 @@ if (formatMatch) {
             data-align="${align}"
             data-line="${lineHeight}"
         >
-            ${text}
+           ${renderInlineMarkdown(text)}
         </div>
     `;
 }
-            return `<p>${item}</p>`;
+            return `<p>${renderInlineMarkdown(item)}</p>`;
         })
         .join("")}
 </div>
