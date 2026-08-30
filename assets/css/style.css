@@ -1758,3 +1758,19 @@ header .logo span,
         0 11px 5px rgba(48, 23, 0, .56),
         0 17px 12px rgba(34, 16, 0, .42) !important;
 }
+/* ẢNH CHÈN TRONG NỘI DUNG CHI TIẾT */
+
+.content-image {
+    margin: 22px 0;
+}
+
+.content-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+
+    object-fit: cover;
+}
