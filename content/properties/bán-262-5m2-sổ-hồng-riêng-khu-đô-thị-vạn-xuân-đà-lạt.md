@@ -35,16 +35,10 @@ content: >-
   Giao thông đường nội khu rộng 9m có vỉa hè rất rộng rãi - hạ tầng đồng bộ hoàn thiện đẹp thoải mái cho xe cộ tránh nhau - đậu, đỗ - và hành lang đi bộ thể dục.
 
 
-
-
   Sổ hồng riêng biệt toàn bộ đã được chuyển đổi thổ cư - công việc sau khi nhận chuyển nhượng chỉ chỉ là nghiên cứu kiến trúc phù hợp, xin giấy phép và xây dựng.
 
 
-
-
   Giá bán hiện nay cho thửa đất ngày chỉ 6,6tỷ
-
-
 
 
   LH 0843156768
