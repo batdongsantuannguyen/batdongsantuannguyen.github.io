@@ -172,56 +172,56 @@ jobs:
               if description:
                   message_parts.extend(["", description])
 
-        message_parts.extend([
-            "",
-            "🔗 Xem thông tin chi tiết:",
-            detail_url
-        ])
+          message_parts.extend([
+              "",
+              "🔗 Xem thông tin chi tiết:",
+              detail_url
+          ])
 
-        message = "\n".join(message_parts)
+          message = "\n".join(message_parts)
 
-        image = property_data.get("image", "").strip()
+          image = property_data.get("image", "").strip()
 
-        if image:
-            if image.startswith("http://") or image.startswith("https://"):
-                image_url = image
-            else:
-                image_url = (
-                    "https://tuannguyenbdsdalat68-alt.github.io"
-                    + image
-                )
+          if image:
+              if image.startswith("http://") or image.startswith("https://"):
+                  image_url = image
+          else:
+              image_url = (
+                  "https://tuannguyenbdsdalat68-alt.github.io"
+                  + image
+              )
 
-            payload = urllib.parse.urlencode({
-                "url": image_url,
-                "caption": message,
-                "access_token": token
-            }).encode("utf-8")
+          payload = urllib.parse.urlencode({
+              "url": image_url,
+              "caption": message,
+              "access_token": token
+          }).encode("utf-8")
 
-            request = urllib.request.Request(
+          request = urllib.request.Request(
                 "https://graph.facebook.com/v26.0/111778976892983/photos",
                 data=payload,
                 method="POST"
             )
 
-        else:
+          else:
             payload = urllib.parse.urlencode({
                 "message": message,
                 "access_token": token
             }).encode("utf-8")
 
-            request = urllib.request.Request(
+          request = urllib.request.Request(
                 "https://graph.facebook.com/v26.0/111778976892983/feed",
                 data=payload,
                 method="POST"
             )
 
-        try:
+          try:
             with urllib.request.urlopen(request) as response:
                 result_text = response.read().decode("utf-8")
                 print(f"Đã đăng Facebook: {path}")
                 print(result_text)
 
-        except urllib.error.HTTPError as error:
+          except urllib.error.HTTPError as error:
             error_text = error.read().decode("utf-8")
             print(f"Lỗi Facebook khi đăng {path}:")
             print(error_text)
