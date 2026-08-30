@@ -631,7 +631,35 @@ const highlightsHtml =
         .split(/\r?\n\s*\r?\n/)
         .map(item => item.trim())
         .filter(Boolean)
-        .map(item => `<p>${item}</p>`)
+        .map(item => {
+
+            const imageMatch = item.match(
+                /^!\[(.*?)\]\((.*?)\)$/
+            );
+
+            if (imageMatch) {
+
+                const alt =
+                    imageMatch[1] ||
+                    property.title ||
+                    "Hình ảnh bất động sản";
+
+                const src =
+                    imageMatch[2];
+
+                return `
+                    <figure class="content-image">
+                        <img
+                            src="${src}"
+                            alt="${alt}"
+                            loading="lazy"
+                        >
+                    </figure>
+                `;
+            }
+
+            return `<p>${item}</p>`;
+        })
         .join("")}
 </div>
 
