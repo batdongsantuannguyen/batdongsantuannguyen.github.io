@@ -657,7 +657,26 @@ const highlightsHtml =
                     </figure>
                 `;
             }
+const formatMatch = item.match(
+    /^:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::$/
+);
 
+if (formatMatch) {
+
+    const align = formatMatch[1];
+    const lineHeight = formatMatch[2];
+    const text = formatMatch[3];
+
+    return `
+        <div
+            class="formatted-text"
+            data-align="${align}"
+            data-line="${lineHeight}"
+        >
+            ${text}
+        </div>
+    `;
+}
             return `<p>${item}</p>`;
         })
         .join("")}
