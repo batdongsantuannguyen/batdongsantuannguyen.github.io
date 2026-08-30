@@ -191,16 +191,16 @@ jobs:
                   + image
               )
 
-          payload = urllib.parse.urlencode({
-              "url": image_url,
-              "caption": message,
-              "access_token": token
-          }).encode("utf-8")
+              payload = urllib.parse.urlencode({
+                  "url": image_url,
+                  "caption": message,
+                  "access_token": token
+              }).encode("utf-8")
 
-          request = urllib.request.Request(
-                "https://graph.facebook.com/v26.0/111778976892983/photos",
-                data=payload,
-                method="POST"
+              request = urllib.request.Request(
+                  "https://graph.facebook.com/v26.0/111778976892983/photos",
+                  data=payload,
+                  method="POST"
             )
 
           else:
