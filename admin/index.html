@@ -41,10 +41,8 @@ CMS.registerEditorComponent({
             widget: "text"
         }
     ],
-
-   patterns: [
-    /^:::format align="(left|center|right|justify)" line="([0-9.]+)"\n([\s\S]*?)\n:::$/
-],
+pattern: /^:::format align="(left|center|right|justify)" line="([0-9.]+)"\n([\s\S]*?)\n:::$/ms,
+  
     fromBlock: function(match) {
         return {
             align: match[1],
