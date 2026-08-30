@@ -41,7 +41,7 @@ content: >-
   Giá bán hiện nay cho thửa đất ngày chỉ 6,6tỷ
 
 
-  \     ** * LangBinag Xây Dựng***: LDXD75
+  \    **  *LangBinag Xây Dựng***: LDXD75
 
 
   \    0843156768 – Tuấn Nguyên
