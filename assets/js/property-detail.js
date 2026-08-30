@@ -345,16 +345,19 @@ function renderInlineMarkdown(text) {
 
     let html = String(text || "");
 
+    // Xóa ký tự escape Markdown dư do editor sinh ra
+    html = html.replace(/\\([\\`*_[\]{}()#+\-.!])/g, "$1");
+
     // Link Markdown: [Tên link](https://...)
     html = html.replace(
         /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
-        '<a href="$2" target="_blank" rel="noopener">$1</a>'
+        '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
     );
 
-    // URL viết trực tiếp
+    // Chữ đậm + nghiêng: ***text***
     html = html.replace(
-        /(^|[\s>])(https?:\/\/[^\s<]+)/g,
-        '$1<a href="$2" target="_blank" rel="noopener">$2</a>'
+        /\*\*\*(.+?)\*\*\*/g,
+        '<strong><em>$1</em></strong>'
     );
 
     // Chữ đậm: **text**
@@ -367,6 +370,12 @@ function renderInlineMarkdown(text) {
     html = html.replace(
         /(^|[^*])\*([^*\n]+?)\*(?!\*)/g,
         '$1<em>$2</em>'
+    );
+
+    // URL viết trực tiếp
+    html = html.replace(
+        /(^|[\s>])(https?:\/\/[^\s<]+)/g,
+        '$1<a href="$2" target="_blank" rel="noopener noreferrer">$2</a>'
     );
 
     return html;
