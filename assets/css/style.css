@@ -1716,3 +1716,45 @@ header .logo span {
         0 11px 5px rgba(48, 23, 0, .56),
         0 17px 12px rgba(34, 16, 0, .42);
 }
+/* =========================================
+   LOGO LUỒNG TRONG - GIỐNG HỆT TRANG CHỦ
+========================================= */
+
+header .logo,
+header .logo span,
+.header-container .logo,
+.header-container .logo span {
+    background: linear-gradient(
+        180deg,
+        #fffbd2 0%,
+        #fff083 8%,
+        #ffd52f 18%,
+        #f0ad0d 32%,
+        #d07b00 46%,
+        #9a5000 61%,
+        #633000 78%,
+        #b76600 89%,
+        #f4b617 96%,
+        #fff1a0 100%
+    ) !important;
+
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+    color: #d99a12 !important;
+
+    font-weight: 900 !important;
+
+    text-shadow:
+        0 1px 0 #fff8c3,
+        0 2px 0 #f6ca36,
+        0 3px 0 #dc9309,
+        0 4px 0 #bd7000,
+        0 5px 0 #995300,
+        0 6px 0 #7a3d00,
+        0 7px 0 #5c2c00,
+        0 8px 0 #421e00,
+        0 11px 5px rgba(48, 23, 0, .56),
+        0 17px 12px rgba(34, 16, 0, .42) !important;
+}
