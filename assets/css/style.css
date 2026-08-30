@@ -1780,3 +1780,42 @@ header .logo span,
 
     object-fit: contain;
 }
+/* =========================================
+   ĐOẠN VĂN ĐỊNH DẠNG TỪ DECAP
+========================================= */
+
+.formatted-text {
+    margin: 18px 0;
+}
+
+.formatted-text[data-align="left"] {
+    text-align: left;
+}
+
+.formatted-text[data-align="center"] {
+    text-align: center;
+}
+
+.formatted-text[data-align="right"] {
+    text-align: right;
+}
+
+.formatted-text[data-align="justify"] {
+    text-align: justify;
+}
+
+.formatted-text[data-line="1.4"] {
+    line-height: 1.4;
+}
+
+.formatted-text[data-line="1.6"] {
+    line-height: 1.6;
+}
+
+.formatted-text[data-line="1.8"] {
+    line-height: 1.8;
+}
+
+.formatted-text[data-line="2.0"] {
+    line-height: 2;
+}
