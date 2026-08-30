@@ -998,17 +998,24 @@
 
     font-weight: 800;
 }
-/* HERO TITLE - VÀNG KIM 3D */
+/* =========================================
+   HERO TITLE - VÀNG KIM 3D BẢN CHỐT
+========================================= */
 
 #home .hero h1,
 #home .hero h1 span {
     background: linear-gradient(
         180deg,
-        #fff2a8 0%,
-        #f6c94c 18%,
-        #d99a12 45%,
-        #9b5b00 72%,
-        #e5aa20 100%
+        #fffbd1 0%,
+        #fff09a 7%,
+        #ffd84a 15%,
+        #f2b318 28%,
+        #d78a00 43%,
+        #a85e00 58%,
+        #754000 72%,
+        #b56b00 84%,
+        #f0b51b 93%,
+        #fff1a4 100%
     );
 
     -webkit-background-clip: text;
@@ -1017,12 +1024,25 @@
 
     color: #d99a12;
 
-    text-shadow:
-        0 1px 0 #9c6200,
-        0 2px 0 #805000,
-        0 3px 1px rgba(75, 42, 0, 0.30);
+    font-weight: 900;
 
-    font-weight: 800;
+    text-shadow:
+        0 1px 0 #fff7b8,
+        0 2px 0 #f7c63a,
+        0 3px 0 #dd940b,
+        0 4px 0 #bf7400,
+        0 5px 0 #9d5900,
+        0 6px 0 #7d4300,
+        0 7px 0 #603000,
+        0 8px 0 #492300,
+        2px 11px 4px rgba(49, 25, 0, .55),
+        4px 16px 10px rgba(37, 18, 0, .40),
+        0 22px 25px rgba(30, 15, 0, .28);
+
+    letter-spacing: -1px;
+
+    filter:
+        drop-shadow(0 2px 1px rgba(255, 230, 110, .35));
 }
 /* =========================================
    THƯƠNG HIỆU - VÀNG KIM 3D TOÀN WEBSITE
