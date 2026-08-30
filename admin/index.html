@@ -10,6 +10,77 @@
 <body>
 
 <script src="https://unpkg.com/decap-cms@^3.8.3/dist/decap-cms.js"></script>
+<script>
+CMS.registerEditorComponent({
+    id: "formatted-text",
+    label: "Đoạn văn định dạng",
 
+    fields: [
+        {
+            name: "align",
+            label: "Căn lề",
+            widget: "select",
+            options: [
+                { label: "Căn trái", value: "left" },
+                { label: "Căn giữa", value: "center" },
+                { label: "Căn phải", value: "right" },
+                { label: "Căn đều hai bên", value: "justify" }
+            ],
+            default: "left"
+        },
+        {
+            name: "lineHeight",
+            label: "Giãn dòng",
+            widget: "select",
+            options: [
+                { label: "1.4", value: "1.4" },
+                { label: "1.6", value: "1.6" },
+                { label: "1.8", value: "1.8" },
+                { label: "2.0", value: "2.0" }
+            ],
+            default: "1.6"
+        },
+        {
+            name: "text",
+            label: "Nội dung",
+            widget: "text"
+        }
+    ],
+
+    pattern: /^:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::$/,
+
+    fromBlock: function(match) {
+        return {
+            align: match[1],
+            lineHeight: match[2],
+            text: match[3]
+        };
+    },
+
+    toBlock: function(obj) {
+        return (
+            ':::format align="' +
+            obj.align +
+            '" line="' +
+            obj.lineHeight +
+            '"\n' +
+            obj.text +
+            '\n:::'
+        );
+    },
+
+    toPreview: function(obj) {
+        return (
+            '<div style="text-align:' +
+            obj.align +
+            '; line-height:' +
+            obj.lineHeight +
+            ';">' +
+            obj.text +
+            '</div>'
+        );
+    }
+});
+</script>
 </body>
 </html>
