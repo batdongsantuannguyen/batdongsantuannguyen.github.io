@@ -1640,3 +1640,39 @@ footer {
 
     font-weight: 800;
 }
+/* LOGO THƯƠNG HIỆU 2 DÒNG */
+
+.logo.brand-two-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.05;
+    gap: 3px;
+}
+
+.logo.brand-two-lines .brand-line {
+    display: block;
+
+    background: linear-gradient(
+        180deg,
+        #fff2a8 0%,
+        #f6c94c 18%,
+        #d99a12 45%,
+        #9b5b00 72%,
+        #e5aa20 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    color: #d99a12;
+
+    text-shadow:
+        0 1px 0 #9c6200,
+        0 2px 0 #805000,
+        0 3px 1px rgba(75, 42, 0, 0.30);
+
+    font-weight: 800;
+    white-space: nowrap;
+}
