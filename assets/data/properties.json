@@ -517,15 +517,6 @@
     "url": "bat-dong-san/khach-san/khach-san-duc-trong/"
   },
   {
-    "type": "nha",
-    "location": "da-lat",
-    "title": "Kiểm tra đăng Facebook có hình ảnh",
-    "price": "Liên hệ",
-    "description": "Kiểm tra hệ thống tự động đăng bài kèm hình ảnh.",
-    "image": "/assets/images/ảnh-màn-hình-2025-07-30-lúc-22.51.18.png",
-    "id": "kiểm-tra-đăng-facebook-có-hình-ảnh"
-  },
-  {
     "id": "nha-bao-loc-001",
     "type": "nha",
     "typeName": "Nhà",
