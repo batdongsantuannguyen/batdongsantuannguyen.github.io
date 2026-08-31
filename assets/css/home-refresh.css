@@ -39,18 +39,27 @@
 }
 
 #home .logo {
-    color: var(--tn-green);
-
+    color: #124f3a;
     font-size: 25px;
     font-weight: 800;
-
     letter-spacing: -.4px;
-
     line-height: 1.05;
+
+    /* Bỏ hoàn toàn hiệu ứng 3D */
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: currentColor;
+    text-shadow: none;
+    filter: none;
 }
 
 #home .logo span {
-    color: var(--tn-gold);
+    color: #d79b16;
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: currentColor;
+    text-shadow: none;
+    filter: none;
 }
 
 
