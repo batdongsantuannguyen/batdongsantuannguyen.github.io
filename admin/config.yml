@@ -122,14 +122,14 @@ collections:
         widget: "text"
         required: false
 
-- label: "Nội dung chi tiết"
-  name: "content"
-  widget: "markdown"
-  required: false
-  editor_components:
-    - "formatted-text"
-    - "image"
-    - "code-block"
+      - label: "Nội dung chi tiết"
+        name: "content"
+        widget: "markdown"
+        required: false
+        editor_components:
+          - "formatted-text"
+          - "image"
+          - "code-block"
 
       - label: "Điểm nổi bật"
         name: "highlights"
