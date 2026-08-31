@@ -173,11 +173,39 @@ jobs:
 
               if (!property) return null;
 
-              if (!property.id || String(property.id).trim() === "") {
-                property.id = path.basename(file, ".md");
-              }
+if (!property.id || String(property.id).trim() === "") {
+    property.id = path.basename(file, ".md");
+}
 
-              return property;
+/* Chuẩn hóa đường dẫn sau khi chuyển sang User Pages */
+const oldBase = "/tuannguyen-batdongsan";
+
+if (
+    property.image &&
+    typeof property.image === "string"
+) {
+    property.image =
+        property.image.replace(oldBase, "");
+}
+
+if (Array.isArray(property.images)) {
+    property.images =
+        property.images.map(image =>
+            typeof image === "string"
+                ? image.replace(oldBase, "")
+                : image
+        );
+}
+
+if (
+    property.url &&
+    typeof property.url === "string"
+) {
+    property.url =
+        property.url.replace(oldBase, "");
+}
+
+return property;
             })
             .filter(Boolean);
 
