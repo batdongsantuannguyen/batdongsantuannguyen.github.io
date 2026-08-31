@@ -779,10 +779,14 @@ if (formatMatch) {
 
 
                 <aside class="sidebar">
-                    <div class="sidebar-box highlights-box">
-                    <div
-                        class="sidebar-box property-info"
-                    >
+
+    <div class="sidebar-box highlights-box">
+        ${highlightsHtml}
+    </div>
+
+    <div
+        class="sidebar-box property-info"
+    >
 
                         <h3>
                             THÔNG TIN BẤT ĐỘNG SẢN
