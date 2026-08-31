@@ -7,7 +7,7 @@
 async function loadProperties() {
 
     const response = await fetch(
-        "/tuannguyen-batdongsan/assets/data/properties.json",
+        "/assets/data/properties.json"
         {
             cache: "no-store"
         }
@@ -118,8 +118,7 @@ function getPropertyUrl(property) {
 
         return new URL(
             property.url,
-            window.location.origin +
-            "/tuannguyen-batdongsan/"
+            window.location.origin + "/"
         ).href;
     }
 
@@ -130,8 +129,8 @@ function getPropertyUrl(property) {
      */
 
     return (
-        "/tuannguyen-batdongsan/" +
-        "bat-dong-san/chi-tiet/?id=" +
+    
+        "/bat-dong-san/chi-tiet/?id=" +
         encodeURIComponent(property.id)
     );
 }
@@ -358,7 +357,7 @@ async function renderProperties() {
 
     container.innerHTML = "";
 const isHomePage =
-    path === "/tuannguyen-batdongsan/" ||
+    path === "/" ||
     path.endsWith("/index.html");
 
 const propertiesToShow =
