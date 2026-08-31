@@ -654,28 +654,6 @@ const highlightsHtml =
 
                     ${imagesHtml}
 
-
-                    <h2>
-                        Thông tin bất động sản
-                    </h2>
-
-
-                    <p>
-                        Loại hình:
-                       ${typeName}
-                        <br>
-
-                        Khu vực:
-                       ${locationName}
-                        <br>
-
-                        Giá:
-                        ${valueOrDefault(
-                            property.price
-                        )}
-                    </p>
-
-
       <h2>
     Mô tả
 </h2>
