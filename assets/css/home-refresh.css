@@ -979,4 +979,30 @@
     }
 
 }
+/* ===== LOGO HEADER - FLAT BRAND ===== */
 
+#home header .logo {
+    color: #124f3a !important;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #124f3a !important;
+
+    text-shadow: none !important;
+    filter: none !important;
+    transform: none !important;
+}
+
+#home header .logo span {
+    color: #d79b16 !important;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #d79b16 !important;
+
+    text-shadow: none !important;
+    filter: none !important;
+    transform: none !important;
+}
