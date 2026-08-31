@@ -741,40 +741,6 @@ if (formatMatch) {
 
 </div>
 
-                    <h2 id="lien-he">
-                        Liên hệ xem bất động sản
-                    </h2>
-
-
-                    <p>
-                        Khách hàng quan tâm vui lòng
-                        liên hệ Tuấn Nguyên Bất Động Sản
-                        để nhận thêm thông tin và
-                        hẹn xem bất động sản thực tế.
-                    </p>
-
-
-                    <div class="contact-buttons">
-
-                        <a
-                            class="button"
-                            href="tel:0843156768"
-                        >
-                            📞 Gọi 084 315 67 68
-                        </a>
-
-
-                        <a
-                            class="button zalo-button"
-                            href="https://zalo.me/0843156768"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            💬 Zalo
-                        </a>
-
-                    </div>
-
                 </main>
 
 
@@ -860,7 +826,7 @@ if (formatMatch) {
                                 class="button"
                                 href="tel:0843156768"
                             >
-                                📞 Gọi ngay
+                                📞 084 315 67 68
                             </a>
 
 
