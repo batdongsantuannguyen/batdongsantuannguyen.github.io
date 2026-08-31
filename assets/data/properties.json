@@ -745,14 +745,6 @@
   },
   {
     "type": "nha",
-    "location": "da-lat",
-    "title": "Nhà thử nghiệm tự động Facebook",
-    "price": "Liên hệ",
-    "description": "Kiểm tra hệ thống đăng bất động sản tự động từ website lên Facebook.",
-    "id": "nhà-thử-nghiệm-tự-động-facebook"
-  },
-  {
-    "type": "nha",
     "location": "duc-trong",
     "title": "Nhà Vườn Gần Sân Bay Liên Khương",
     "price": "3,2tỷ",
