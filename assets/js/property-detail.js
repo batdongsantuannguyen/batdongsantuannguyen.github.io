@@ -345,8 +345,17 @@ function renderInlineMarkdown(text) {
 
     let html = String(text || "");
 
-    // Xóa ký tự escape Markdown dư do editor sinh ra
-    html = html.replace(/\\([\\`*_[\]{}()#+\-.!])/g, "$1");
+    // Xóa dấu "\" và khoảng trắng ở đầu dòng do Decap sinh ra
+    html = html.replace(
+        /^[ \t]*\\[ \t]*/gm,
+        ""
+    );
+
+    // Link dạng Decap: <https://...>
+    html = html.replace(
+        /<((?:https?:\/\/)[^>\s]+)>/g,
+        '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+    );
 
     // Link Markdown: [Tên link](https://...)
     html = html.replace(
@@ -354,27 +363,33 @@ function renderInlineMarkdown(text) {
         '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
     );
 
-    // Chữ đậm + nghiêng: ***text***
+    // Đậm + nghiêng
     html = html.replace(
         /\*\*\*(.+?)\*\*\*/g,
         '<strong><em>$1</em></strong>'
     );
 
-    // Chữ đậm: **text**
+    // Xử lý kiểu Decap có khoảng trắng: **  *text***
+    html = html.replace(
+        /\*\*\s*\*(.+?)\*\*\*/g,
+        '<strong><em>$1</em></strong>'
+    );
+
+    // Đậm
     html = html.replace(
         /\*\*(.+?)\*\*/g,
         '<strong>$1</strong>'
     );
 
-    // Chữ nghiêng: *text*
+    // Nghiêng
     html = html.replace(
         /(^|[^*])\*([^*\n]+?)\*(?!\*)/g,
         '$1<em>$2</em>'
     );
 
-    // URL viết trực tiếp
+    // URL viết trực tiếp, nhưng tránh xử lý link đã nằm trong href
     html = html.replace(
-        /(^|[\s>])(https?:\/\/[^\s<]+)/g,
+        /(^|[\s>])(https?:\/\/[^\s<"]+)/g,
         '$1<a href="$2" target="_blank" rel="noopener noreferrer">$2</a>'
     );
 
