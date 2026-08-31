@@ -647,9 +647,6 @@ const highlightsHtml =
 
                     ${imagesHtml}
 
-      <h2>
-    Mô tả
-</h2>
 
 <div class="property-description">
     ${String(content)
