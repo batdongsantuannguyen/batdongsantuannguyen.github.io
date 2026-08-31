@@ -3,9 +3,7 @@ type: nha
 location: da-lat
 title: Bán Nhà Mặt Tiền , Phường Lang Biang - Đà Lạt| SHR| Chỉ 4,7tỷ
 price: 4,700,000,000
-description: Căn nhà xây dựng kiên cố, 1 trệt, 1lầu, có sân đậu xe hơi rộng rãi,
-  trung tâm của đầy đủ các tiện ích, vị trí thuận tiện kinh doanh, buôn bán -
-  view núi LangBiang.
+description: ""
 image: /tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2026-06-24-lúc-13.15.15.png
 address: Phường LangBiang - Đà Lạt
 area: 146,7m2
