@@ -1914,3 +1914,15 @@ header .logo.brand-two-lines .brand-line:last-child {
 header .logo.brand-two-lines .brand-line:first-child {
     letter-spacing: -1px !important;
 }
+/* CĂN GIỮA DÒNG BẤT ĐỘNG SẢN SO VỚI TUẤN NGUYÊN */
+
+.logo.brand-two-lines {
+    align-items: center !important;
+}
+
+.logo.brand-two-lines .brand-line:first-child {
+    color: #124f3a !important;
+    -webkit-text-fill-color: #124f3a !important;
+    letter-spacing: -1px !important;
+    text-align: center;
+}
