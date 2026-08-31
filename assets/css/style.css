@@ -1842,24 +1842,24 @@ header .logo span,
     align-items: center;
     justify-content: center;
 
-    height: 34px;
-    min-width: 34px;
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
 
-    padding: 0 10px;
+    padding: 0;
 
     border: 0;
-    border-radius: 6px;
+    border-radius: 7px;
 
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 800;
 
     line-height: 1;
 
     text-decoration: none;
-
     cursor: pointer;
 
-    white-space: nowrap;
+    flex: 0 0 38px;
 
     transition:
         transform .18s ease,
