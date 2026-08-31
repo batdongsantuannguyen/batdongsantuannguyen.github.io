@@ -15,11 +15,11 @@
 async function loadProperties() {
 
     const response = await fetch(
-        "/tuannguyen-batdongsan/assets/data/properties.json",
-        {
-            cache: "no-store"
-        }
-    );
+    "/assets/data/properties.json",
+    {
+        cache: "no-store"
+    }
+);
 
     if (!response.ok) {
 
