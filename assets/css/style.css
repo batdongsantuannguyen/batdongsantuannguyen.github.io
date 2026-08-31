@@ -1910,3 +1910,7 @@ header .logo.brand-two-lines .brand-line:last-child {
 .zalo-share-wrap .zalo-share-button {
     display: inline-block;
 }
+/* BẤT ĐỘNG SẢN - THU HẸP KHOẢNG CÁCH CHỮ */
+header .logo.brand-two-lines .brand-line:first-child {
+    letter-spacing: -1px !important;
+}
