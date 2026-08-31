@@ -7,7 +7,7 @@
 async function loadProperties() {
 
     const response = await fetch(
-        "/assets/data/properties.json"
+        "/assets/data/properties.json",
         {
             cache: "no-store"
         }
