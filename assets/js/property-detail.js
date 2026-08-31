@@ -640,10 +640,12 @@ const highlightsHtml =
                         ${property.title}
                     </h1>
 
-                    <div class="article-meta">
-                        Tuấn Nguyên BĐS
-                    </div>
-
+<div class="article-meta">
+    Tuấn Nguyên BĐS ·
+    <span id="goatcounter-views">
+        đang tải lượt xem...
+    </span>
+</div>
 
                     <p class="article-summary">
                         ${summary}
@@ -910,7 +912,67 @@ if (formatMatch) {
 
                       </div>
         `;
+const viewsElement =
+    document.getElementById(
+        "goatcounter-views"
+    );
 
+if (viewsElement) {
+
+    const loadGoatCounterViews =
+        function () {
+
+            if (
+                !window.goatcounter ||
+                !window.goatcounter.get_data
+            ) {
+
+                setTimeout(
+                    loadGoatCounterViews,
+                    200
+                );
+
+                return;
+            }
+
+            const path =
+                window.goatcounter
+                    .get_data()["p"];
+
+            const counterUrl =
+                "https://tuannguyen.goatcounter.com/counter/" +
+                encodeURIComponent(path) +
+                ".json";
+
+            fetch(counterUrl)
+                .then(function (response) {
+
+                    if (!response.ok) {
+                        throw new Error(
+                            "Không lấy được lượt xem"
+                        );
+                    }
+
+                    return response.json();
+                })
+                .then(function (data) {
+
+                    viewsElement.textContent =
+                        data.count +
+                        " lượt xem";
+
+                })
+                .catch(function () {
+
+                    viewsElement.textContent =
+                        "0 lượt xem";
+
+                });
+
+        };
+
+    loadGoatCounterViews();
+}
         if (
             window.ZaloSocialSDK &&
             typeof window.ZaloSocialSDK.reload === "function"
