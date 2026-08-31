@@ -165,35 +165,6 @@
     "id": "nha-vuon-1667m2-khong-gian-nghi-duong-tien-nghiorgan-san-bay-quoc-te-lien-khuongorbds-ven-dalat"
   },
   {
-    "id": "nha-xuan-tho-xuan-truong-001",
-    "type": "nha",
-    "typeName": "Nhà",
-    "location": "xuan-tho-xuan-truong",
-    "locationName": "Xuân Thọ - Xuân Trường",
-    "title": "Nhà Xuân Thọ - Xuân Trường",
-    "price": "Liên hệ",
-    "description": "Nhà phù hợp để ở, nghỉ dưỡng hoặc đầu tư tại khu vực Xuân Thọ - Xuân Trường.",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
-    "images": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85"
-    ],
-    "address": "Xuân Thọ - Xuân Trường, Đà Lạt, Lâm Đồng",
-    "area": "",
-    "residentialArea": "",
-    "frontage": "",
-    "direction": "",
-    "road": "",
-    "legal": "",
-    "deposit": "",
-    "leaseTerm": "",
-    "furniture": "",
-    "summary": "Nhà tại khu vực Xuân Thọ - Xuân Trường, phù hợp để ở, nghỉ dưỡng hoặc đầu tư.",
-    "content": "Bất động sản nằm tại khu vực Xuân Thọ - Xuân Trường. Thông tin chi tiết về diện tích, hiện trạng, vị trí và pháp lý sẽ được cập nhật khi có dữ liệu thực tế.",
-    "highlights": "Khu vực phù hợp nhu cầu sinh sống, nghỉ dưỡng hoặc đầu tư.",
-    "videoId": "",
-    "url": "bat-dong-san/nha/nha-xuan-tho-xuan-truong/"
-  },
-  {
     "id": "villa-duc-trong-001",
     "type": "villa",
     "typeName": "Biệt Thự",
