@@ -1955,13 +1955,13 @@ header .logo.brand-two-lines .brand-line:first-child {
 }
 
 .highlights-box h2 {
-    margin: 0;
-    padding: 18px 20px;
+    margin: -18px -18px 15px;
+    padding: 10px 12px;
 
     background: #d79b16;
     color: #fff;
 
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 700;
     text-align: center;
 }
