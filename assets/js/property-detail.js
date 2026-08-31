@@ -428,23 +428,16 @@ function renderInlineMarkdown(text) {
          * =========================================
          */
 
-        let images = [];
+let images = [];
 
-        if (
-            Array.isArray(property.images) &&
-            property.images.length > 0
-        ) {
+if (
+    Array.isArray(property.images) &&
+    property.images.length > 0
+) {
 
-            images = property.images;
+    images = property.images;
 
-        } else if (property.image) {
-
-            images = [
-                property.image
-            ];
-
-        }
-
+}
 
         const imagesHtml =
             images
