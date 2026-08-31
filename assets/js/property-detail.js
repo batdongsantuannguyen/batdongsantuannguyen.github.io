@@ -779,7 +779,7 @@ if (formatMatch) {
 
 
                 <aside class="sidebar">
-                    ${highlightsHtml}
+                    <div class="sidebar-box highlights-box">
                     <div
                         class="sidebar-box property-info"
                     >
