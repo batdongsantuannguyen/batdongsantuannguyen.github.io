@@ -153,8 +153,8 @@ jobs:
               if not location:
                   location = location_names.get(location_code, location_code)
               detail_url = (
-                  "https://tuannguyenbdsdalat68-alt.github.io/"
-                  "tuannguyen-batdongsan/bat-dong-san/chi-tiet/?id="
+                  "https://batdongsantuannguyen.github.io/"
+                  "bat-dong-san/chi-tiet/?id="
                   + urllib.parse.quote(property_id)
               )
 
@@ -187,7 +187,7 @@ jobs:
                   image_url = image
           else:
               image_url = (
-                  "https://tuannguyenbdsdalat68-alt.github.io"
+                  "https://batdongsantuannguyen.github.io"
                   + image
               )
 
