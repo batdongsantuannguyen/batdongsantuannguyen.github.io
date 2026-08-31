@@ -1926,3 +1926,18 @@ header .logo.brand-two-lines .brand-line:first-child {
     letter-spacing: -1px !important;
     text-align: center;
 }
+/* THƯƠNG HIỆU GIỮA HERO */
+
+.hero .hero-brand {
+    text-shadow: none !important;
+}
+
+.hero .hero-brand-green {
+    color: #124f3a !important;
+    -webkit-text-fill-color: #124f3a !important;
+}
+
+.hero .hero-brand-gold {
+    color: #d79b16 !important;
+    -webkit-text-fill-color: #d79b16 !important;
+}
