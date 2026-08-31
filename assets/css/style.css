@@ -1950,3 +1950,34 @@ header .logo.brand-two-lines .brand-line:first-child {
     color: #d79b16 !important;
     -webkit-text-fill-color: #d79b16 !important;
 }
+.highlights-box {
+    margin-bottom: 24px;
+}
+
+.highlights-box h2 {
+    margin: 0;
+    padding: 18px 20px;
+
+    background: #111;
+    color: #fff;
+
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.highlights-box .property-highlights {
+    margin: 0;
+    padding: 22px 26px 22px 48px;
+
+    background: #fff;
+}
+
+.highlights-box .property-highlights li {
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
+
+.highlights-box .property-highlights li:last-child {
+    margin-bottom: 0;
+}
