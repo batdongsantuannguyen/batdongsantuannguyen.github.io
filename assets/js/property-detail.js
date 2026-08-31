@@ -765,7 +765,7 @@ if (formatMatch) {
         class="zalo-share-button"
         data-href="${window.location.href}"
         data-oaid="1485615162178011782"
-        data-layout="3"
+        data-layout="1"
         data-color="blue"
         data-customize="false"
     >
