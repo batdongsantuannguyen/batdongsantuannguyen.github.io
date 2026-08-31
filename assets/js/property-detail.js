@@ -639,50 +639,6 @@ const highlightsHtml =
                     <h1>
                         ${property.title}
                     </h1>
-<div class="social-share">
-
-    <a
-        class="share-button facebook"
-        href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}"
-        target="_blank"
-        rel="noopener"
-        title="Chia sẻ Facebook"
-        aria-label="Chia sẻ Facebook"
-    >
-        f
-    </a>
-
-    <a
-        class="share-button zalo"
-        href="https://zalo.me/share?url=${encodeURIComponent(window.location.href)}"
-        target="_blank"
-        rel="noopener"
-        title="Chia sẻ Zalo"
-        aria-label="Chia sẻ Zalo"
-    >
-        Z
-    </a>
-
-    <a
-        class="share-button messenger"
-        href="fb-messenger://share/?link=${encodeURIComponent(window.location.href)}"
-        title="Chia sẻ Messenger"
-        aria-label="Chia sẻ Messenger"
-    >
-        M
-    </a>
-
-    <button
-        class="share-button copy-link"
-        type="button"
-        title="Sao chép liên kết"
-        aria-label="Sao chép liên kết"
-        onclick="navigator.clipboard.writeText(window.location.href).then(() => alert('Đã sao chép liên kết'))"
-    >
-        🔗
-    </button>
-
-</div>
 
                     <div class="article-meta">
                         Tuấn Nguyên BĐS
@@ -784,6 +740,50 @@ if (formatMatch) {
 
                     ${videoHtml}
 
+<div class="social-share">
+
+    <a
+        class="share-button facebook"
+        href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}"
+        target="_blank"
+        rel="noopener"
+        title="Chia sẻ Facebook"
+        aria-label="Chia sẻ Facebook"
+    >
+        f
+    </a>
+
+    <a
+        class="share-button zalo"
+        href="https://zalo.me/share?url=${encodeURIComponent(window.location.href)}"
+        target="_blank"
+        rel="noopener"
+        title="Chia sẻ Zalo"
+        aria-label="Chia sẻ Zalo"
+    >
+        Z
+    </a>
+
+    <a
+        class="share-button messenger"
+        href="fb-messenger://share/?link=${encodeURIComponent(window.location.href)}"
+        title="Chia sẻ Messenger"
+        aria-label="Chia sẻ Messenger"
+    >
+        M
+    </a>
+
+    <button
+        class="share-button copy-link"
+        type="button"
+        title="Sao chép liên kết"
+        aria-label="Sao chép liên kết"
+        onclick="navigator.clipboard.writeText(window.location.href).then(() => alert('Đã sao chép liên kết'))"
+    >
+        🔗
+    </button>
+
+</div>
 
                     <h2 id="lien-he">
                         Liên hệ xem bất động sản
