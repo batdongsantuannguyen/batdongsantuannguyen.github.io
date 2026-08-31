@@ -130,7 +130,12 @@ document.addEventListener(
 
                 </main>
             `;
-
+if (
+    window.ZaloSocialSDK &&
+    typeof window.ZaloSocialSDK.reload === "function"
+) {
+    window.ZaloSocialSDK.reload();
+}
             return;
         }
 
@@ -753,16 +758,19 @@ if (formatMatch) {
         f
     </a>
 
-    <a
-        class="share-button zalo"
-        href="https://zalo.me/share?url=${encodeURIComponent(window.location.href)}"
-        target="_blank"
-        rel="noopener"
-        title="Chia sẻ Zalo"
-        aria-label="Chia sẻ Zalo"
+  <div
+    class="zalo-share-wrap"
+>
+    <div
+        class="zalo-share-button"
+        data-href="${window.location.href}"
+        data-oaid="1485615162178011782"
+        data-layout="3"
+        data-color="blue"
+        data-customize="false"
     >
-        Z
-    </a>
+    </div>
+</div>
 
     <a
         class="share-button messenger"
