@@ -519,15 +519,6 @@
   {
     "type": "nha",
     "location": "da-lat",
-    "title": "TEST FACEBOOK TỰ ĐỘNG 01",
-    "price": "Liên hệ",
-    "description": "Kiểm tra đăng tự động sau khi sửa tên file tiến",
-    "image": "",
-    "id": "kiểm-tra-facebook-tự-động-sau-sửa-lỗi"
-  },
-  {
-    "type": "nha",
-    "location": "da-lat",
     "title": "Kiểm tra đăng Facebook có hình ảnh",
     "price": "Liên hệ",
     "description": "Kiểm tra hệ thống tự động đăng bài kèm hình ảnh.",
