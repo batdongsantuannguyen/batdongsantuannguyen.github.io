@@ -130,12 +130,7 @@ document.addEventListener(
 
                 </main>
             `;
-if (
-    window.ZaloSocialSDK &&
-    typeof window.ZaloSocialSDK.reload === "function"
-) {
-    window.ZaloSocialSDK.reload();
-}
+
             return;
         }
 
