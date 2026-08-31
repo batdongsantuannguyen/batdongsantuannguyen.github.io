@@ -758,19 +758,20 @@ if (formatMatch) {
         f
     </a>
 
-  <div
-    class="zalo-share-wrap"
+ <button
+    class="share-button zalo"
+    type="button"
+    title="Chia sẻ Zalo"
+    aria-label="Chia sẻ Zalo"
+    onclick="navigator.share
+        ? navigator.share({
+            title: document.title,
+            url: window.location.href
+        })
+        : navigator.clipboard.writeText(window.location.href).then(() => alert('Đã sao chép liên kết'))"
 >
-    <div
-        class="zalo-share-button"
-        data-href="${window.location.href}"
-        data-oaid="1485615162178011782"
-        data-layout="1"
-        data-color="blue"
-        data-customize="false"
-    >
-    </div>
-</div>
+    Z
+</button>
 
     <a
         class="share-button messenger"
