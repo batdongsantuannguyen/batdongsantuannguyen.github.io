@@ -49,10 +49,10 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: 1px;
-    line-height: 2.0;
+    line-height: 2.05;
 
     white-space: nowrap;
 }
