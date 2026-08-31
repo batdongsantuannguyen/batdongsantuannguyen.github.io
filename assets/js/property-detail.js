@@ -927,8 +927,15 @@ if (formatMatch) {
 
                 </aside>
 
-            </div>
+                      </div>
         `;
+
+        if (
+            window.ZaloSocialSDK &&
+            typeof window.ZaloSocialSDK.reload === "function"
+        ) {
+            window.ZaloSocialSDK.reload();
+        }
 
     }
 );
