@@ -1819,3 +1819,69 @@ header .logo span,
 .formatted-text[data-line="2.0"] {
     line-height: 2;
 }
+/* =========================================
+   NÚT CHIA SẺ MẠNG XÃ HỘI
+========================================= */
+
+.social-share {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 14px 0 22px;
+}
+
+.share-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 42px;
+    padding: 0 16px;
+
+    border: 0;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: transform .2s ease;
+}
+
+.share-button:hover {
+    transform: translateY(-2px);
+}
+
+.share-button.facebook {
+    background: #1877f2;
+    color: #fff;
+}
+
+.share-button.zalo {
+    background: #0068ff;
+    color: #fff;
+}
+
+.share-button.messenger {
+    background: #0084ff;
+    color: #fff;
+}
+
+.share-button.copy-link {
+    background: #f0f0f0;
+    color: #222;
+}
+
+@media (max-width: 600px) {
+
+    .social-share {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .share-button {
+        width: 100%;
+    }
+}
