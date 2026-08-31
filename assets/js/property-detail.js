@@ -634,10 +634,7 @@ const highlightsHtml =
                     </h1>
 
 <div class="article-meta">
-    Tuấn Nguyên BĐS ·
-    <span id="goatcounter-views">
-        đang tải lượt xem...
-    </span>
+    Tuấn Nguyên
 </div>
 
                     <p class="article-summary">
