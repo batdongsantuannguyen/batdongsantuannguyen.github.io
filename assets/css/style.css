@@ -1646,8 +1646,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    line-height: 1.05;
-    gap: 3px;
+
+    line-height: 1;
+    gap: 0;
 }
 
 .logo.brand-two-lines .brand-line {
@@ -1733,17 +1734,20 @@ header .logo,
     filter: none !important;
 }
 
-header .logo span,
-.header-container .logo span {
-    color: #d79b16 !important;
+/* Dòng 1: BẤT ĐỘNG SẢN */
+header .logo.brand-two-lines .brand-line:first-child {
+    color: #124f3a !important;
+    -webkit-text-fill-color: #124f3a !important;
     background: none !important;
-    background-image: none !important;
-    -webkit-background-clip: border-box !important;
-    background-clip: border-box !important;
-    -webkit-text-fill-color: #d79b16 !important;
-
     text-shadow: none !important;
-    filter: none !important;
+}
+
+/* Dòng 2: TUẤN NGUYÊN */
+header .logo.brand-two-lines .brand-line:last-child {
+    color: #d79b16 !important;
+    -webkit-text-fill-color: #d79b16 !important;
+    background: none !important;
+    text-shadow: none !important;
 }
 /* ẢNH CHÈN TRONG NỘI DUNG CHI TIẾT */
 
