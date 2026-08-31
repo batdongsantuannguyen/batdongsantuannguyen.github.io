@@ -195,8 +195,17 @@ jobs:
                       ? image.replace(oldBase, "")
                       : image
                   );
+             }
+             if (
+                  property.content &&
+                  typeof property.content === "string"
+              ) {
+                  property.content =
+                      property.content.replaceAll(
+                          oldBase,
+                          ""
+                      );
               }
-
               if (
                 property.url &&
                 typeof property.url === "string"
