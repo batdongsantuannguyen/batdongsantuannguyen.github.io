@@ -21,13 +21,6 @@ Quản trị | Tuấn Nguyên BĐS
 <body>
 
 
-<!--
-=========================================
-KHỞI ĐỘNG DECAP THỦ CÔNG
-Để đăng ký component trước khi CMS chạy
-=========================================
--->
-
 <script>
 window.CMS_MANUAL_INIT = true;
 </script>
@@ -63,114 +56,82 @@ CMS.registerEditorComponent({
 
     label: "Đoạn văn định dạng",
 
-
     fields: [
 
         {
-
             name: "align",
-
             label: "Căn lề",
-
             widget: "select",
 
             options: [
-
                 {
                     label: "Căn trái",
                     value: "left"
                 },
-
                 {
                     label: "Căn giữa",
                     value: "center"
                 },
-
                 {
                     label: "Căn phải",
                     value: "right"
                 },
-
                 {
                     label: "Căn đều hai bên",
                     value: "justify"
                 }
-
             ],
 
             default: "left"
-
         },
 
-
         {
-
             name: "lineHeight",
-
             label: "Giãn dòng",
-
             widget: "select",
 
             options: [
-
                 {
                     label: "1.4 - Gọn",
                     value: "1.4"
                 },
-
                 {
                     label: "1.6 - Tiêu chuẩn",
                     value: "1.6"
                 },
-
                 {
                     label: "1.8 - Thoáng",
                     value: "1.8"
                 },
-
                 {
                     label: "2.0 - Rộng",
                     value: "2.0"
                 }
-
             ],
 
             default: "1.6"
-
         },
 
-
         {
-
             name: "text",
-
             label: "Nội dung",
-
             widget: "text"
-
         }
 
     ],
 
-
     pattern:
-    /^:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::$/m,
-
+    /^:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::$/ms,
 
     fromBlock: function(match) {
 
         return {
-
             align: match[1],
-
             lineHeight: match[2],
-
             text: match[3]
-
         };
 
     },
-
 
     toBlock: function(obj) {
 
@@ -185,7 +146,6 @@ CMS.registerEditorComponent({
         );
 
     },
-
 
     toPreview: function(obj) {
 
@@ -208,230 +168,7 @@ CMS.registerEditorComponent({
 
 
 /* =========================================
-   CHỈ KHỞI ĐỘNG CMS SAU KHI ĐÃ
-   ĐĂNG KÝ formatted-text
-========================================= */
-
-initCMS();
-
-
-</script>
-
-
-</body>
-
-</html><!doctype html>
-<html lang="vi">
-
-<head>
-
-<meta charset="utf-8">
-
-<meta name="viewport"
-      content="width=device-width, initial-scale=1">
-
-<meta name="robots"
-      content="noindex">
-
-<title>
-Quản trị | Tuấn Nguyên BĐS
-</title>
-
-</head>
-
-
-<body>
-
-
-<!--
-=========================================
-KHỞI ĐỘNG DECAP THỦ CÔNG
-Để đăng ký component trước khi CMS chạy
-=========================================
--->
-
-<script>
-window.CMS_MANUAL_INIT = true;
-</script>
-
-
-<script
-src="https://unpkg.com/decap-cms@^3.8.3/dist/decap-cms.js">
-</script>
-
-
-<script>
-
-const CMS = window.CMS;
-const initCMS = window.initCMS;
-
-
-/* =========================================
-   PREVIEW DÙNG CHUNG CSS WEBSITE
-========================================= */
-
-CMS.registerPreviewStyle(
-    "../assets/css/style.css"
-);
-
-
-/* =========================================
-   ĐOẠN VĂN ĐỊNH DẠNG
-========================================= */
-
-CMS.registerEditorComponent({
-
-    id: "formatted-text",
-
-    label: "Đoạn văn định dạng",
-
-
-    fields: [
-
-        {
-
-            name: "align",
-
-            label: "Căn lề",
-
-            widget: "select",
-
-            options: [
-
-                {
-                    label: "Căn trái",
-                    value: "left"
-                },
-
-                {
-                    label: "Căn giữa",
-                    value: "center"
-                },
-
-                {
-                    label: "Căn phải",
-                    value: "right"
-                },
-
-                {
-                    label: "Căn đều hai bên",
-                    value: "justify"
-                }
-
-            ],
-
-            default: "left"
-
-        },
-
-
-        {
-
-            name: "lineHeight",
-
-            label: "Giãn dòng",
-
-            widget: "select",
-
-            options: [
-
-                {
-                    label: "1.4 - Gọn",
-                    value: "1.4"
-                },
-
-                {
-                    label: "1.6 - Tiêu chuẩn",
-                    value: "1.6"
-                },
-
-                {
-                    label: "1.8 - Thoáng",
-                    value: "1.8"
-                },
-
-                {
-                    label: "2.0 - Rộng",
-                    value: "2.0"
-                }
-
-            ],
-
-            default: "1.6"
-
-        },
-
-
-        {
-
-            name: "text",
-
-            label: "Nội dung",
-
-            widget: "text"
-
-        }
-
-    ],
-
-
-    pattern:
-    /^:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::$/m,
-
-
-    fromBlock: function(match) {
-
-        return {
-
-            align: match[1],
-
-            lineHeight: match[2],
-
-            text: match[3]
-
-        };
-
-    },
-
-
-    toBlock: function(obj) {
-
-        return (
-            ':::format align="' +
-            obj.align +
-            '" line="' +
-            obj.lineHeight +
-            '"\n' +
-            obj.text +
-            '\n:::'
-        );
-
-    },
-
-
-    toPreview: function(obj) {
-
-        return (
-            '<div ' +
-            'class="formatted-text" ' +
-            'data-align="' +
-            obj.align +
-            '" ' +
-            'data-line="' +
-            obj.lineHeight +
-            '">' +
-            obj.text +
-            '</div>'
-        );
-
-    }
-
-});
-
-
-/* =========================================
-   CHỈ KHỞI ĐỘNG CMS SAU KHI ĐÃ
-   ĐĂNG KÝ formatted-text
+   KHỞI ĐỘNG CMS SAU KHI ĐĂNG KÝ COMPONENT
 ========================================= */
 
 initCMS();
