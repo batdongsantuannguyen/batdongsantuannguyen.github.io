@@ -639,7 +639,42 @@ const highlightsHtml =
                     <h1>
                         ${property.title}
                     </h1>
+<div class="social-share">
 
+    <a
+        class="share-button facebook"
+        href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}"
+        target="_blank"
+        rel="noopener"
+    >
+        f&nbsp;&nbsp;Chia sẻ Facebook
+    </a>
+
+    <a
+        class="share-button zalo"
+        href="https://zalo.me/share?url=${encodeURIComponent(window.location.href)}"
+        target="_blank"
+        rel="noopener"
+    >
+        Zalo
+    </a>
+
+    <a
+        class="share-button messenger"
+        href="fb-messenger://share/?link=${encodeURIComponent(window.location.href)}"
+    >
+        Messenger
+    </a>
+
+    <button
+        class="share-button copy-link"
+        type="button"
+        onclick="navigator.clipboard.writeText(window.location.href).then(() => alert('Đã sao chép liên kết'))"
+    >
+        🔗 Sao chép link
+    </button>
+
+</div>
 
                     <div class="article-meta">
                         Tuấn Nguyên BĐS
