@@ -705,9 +705,6 @@ if (formatMatch) {
 </div>
 
 
-                    ${highlightsHtml}
-
-
                     ${videoHtml}
 
 <div class="social-share">
@@ -782,7 +779,7 @@ if (formatMatch) {
 
 
                 <aside class="sidebar">
-
+                    ${highlightsHtml}
                     <div
                         class="sidebar-box property-info"
                     >
