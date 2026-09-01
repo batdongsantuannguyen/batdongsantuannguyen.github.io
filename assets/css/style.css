@@ -1974,10 +1974,14 @@ header .logo.brand-two-lines .brand-line:first-child {
 }
 
 .highlights-box .property-highlights li {
-    margin-bottom: 14px;
+    margin: 0;
+    padding: 12px 0;
+
     line-height: 1.6;
+
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .highlights-box .property-highlights li:last-child {
-    margin-bottom: 0;
+    border-bottom: none;
 }
