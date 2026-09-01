@@ -133,16 +133,17 @@ collections:
           - "image"
           - "code-block"
 
-          - label: "Ưu điểm nổi bật"
-            name: "highlights"
-            widget: "list"
-            required: false
-            label_singular: "Ưu điểm"
-            hint: "Mỗi dòng là một ưu điểm nổi bật"
-            field:
-              label: "Ưu điểm"
-              name: "highlight"
-              widget: "string"
+      - label: "Ưu điểm nổi bật"
+        name: "highlights"
+        widget: "list"
+        required: false
+        label_singular: "Ưu điểm"
+        hint: "Mỗi dòng là một ưu điểm nổi bật"
+        field:
+          label: "Ưu điểm"
+          name: "highlight"
+          widget: "string"
+          
       - label: "Hashtag / Từ khóa liên quan"
         name: "tags"
         widget: "list"
