@@ -1,7 +1,14 @@
 name: Build SEO Pages
 
 "on":
-  workflow_dispatch: {}
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+    paths:
+      - "assets/data/properties.json"
 
 permissions:
   contents: write
