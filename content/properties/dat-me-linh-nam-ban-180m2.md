@@ -4,7 +4,7 @@ locationName: Mê Linh - Nam Ban
 typeName: Đất
 type: dat
 location: lam-ha
-title: Đất Mê Linh - Nam Ban 180m², 132m² thổ cư
+title: Bán 180m2 Sổ Hồng Riêng| Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban\ 1,6tỷ
 price: 1,6 tỷ
 description: Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m,
   cách ĐT725 khoảng 200m.
