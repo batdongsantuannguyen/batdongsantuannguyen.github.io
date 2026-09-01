@@ -49,6 +49,13 @@ content: >-
 
 
   <https://www.tiktok.com/@batdongsantuannguyen>
+highlights: |-
+  Khu đô thị Vạn Xuân, hạ tầng đồng bộ
+  262,5m² thổ cư 100%
+  Mặt tiền rộng 15m
+  Đường nhựa 9m có vỉa hè
+  Sổ hồng riêng, pháp lý rõ ràng
+  Gần Langbiang Land và trung tâm phường
 tags:
   - Langbiang- Đà Lạt
   - khu đô thị Vạn Xuân
