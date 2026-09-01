@@ -11,7 +11,9 @@ name: Build properties JSON
 
 permissions:
   contents: write
-
+concurrency:
+  group: build-properties-json
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
