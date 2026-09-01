@@ -377,14 +377,15 @@ jobs:
 
             return "";
           }
-
-          function infoRow(label, value) {
+          
+          function infoRow(icon, label, value) {
             if (!value) return "";
-
+          
             return `
               <div class="info-row">
-                <span>${escapeHtml(label)}</span>
-                <strong>${escapeHtml(value)}</strong>
+                <span class="info-icon">${icon}</span>
+                <span class="info-label">${escapeHtml(label)}</span>
+                <strong class="info-value">${escapeHtml(value)}</strong>
               </div>
             `;
           }
@@ -449,26 +450,17 @@ jobs:
                             : "";
             
                         const propertyInfo = [
-                          infoRow("Giá", property.price),
-                          infoRow("Địa chỉ", property.address),
-                          infoRow("Diện tích", property.area),
-                          infoRow(
-                            "Thổ cư",
-                            property.residentialArea
-                          ),
-                          infoRow("Mặt tiền", property.frontage),
-                          infoRow("Hướng", property.direction),
-                          infoRow("Đường", property.road),
-                          infoRow("Pháp lý", property.legal),
-                          infoRow(
-                            "Tiền đặt cọc",
-                            property.deposit
-                          ),
-                          infoRow(
-                            "Thời hạn thuê",
-                            property.leaseTerm
-                          ),
-                          infoRow("Nội thất", property.furniture)
+                          infoRow("💰", "Giá", property.price),
+                          infoRow("📍", "Địa chỉ", property.address),
+                          infoRow("📐", "Diện tích", property.area),
+                          infoRow("🏡", "Thổ cư", property.residentialArea),
+                          infoRow("↔️", "Mặt tiền", property.frontage),
+                          infoRow("🧭", "Hướng", property.direction),
+                          infoRow("🛣️", "Đường", property.road),
+                          infoRow("📕", "Pháp lý", property.legal),
+                          infoRow("💵", "Tiền đặt cọc", property.deposit),
+                          infoRow("📅", "Thời hạn thuê", property.leaseTerm),
+                          infoRow("🪑", "Nội thất", property.furniture)
                         ].join("");
             
                         const summary =
@@ -675,27 +667,29 @@ jobs:
           </article>
 
           <aside class="sidebar">
-
+          
           ${highlightsHtml}
-
-          <div class="sidebar-box property-info">
-
-          <h2>
-            ${property.type === "cho-thue"
-              ? "THÔNG TIN CHO THUÊ"
-              : "THÔNG TIN BẤT ĐỘNG SẢN"
-            }
-          </h2>
-
-          ${propertyInfo}
-
-          <a class="button"
+          
+          <div class="sidebar-box property-info-box">
+            <h2>THÔNG TIN BẤT ĐỘNG SẢN</h2>
+          
+            <div class="property-info-list">
+              ${propertyInfo}
+            </div>
+          </div>
+          
+          <a class="sidebar-action"
              href="tel:0843156768">
             📞 084 315 67 68
           </a>
-
-          </div>
-
+          
+          <a class="sidebar-action"
+             href="https://zalo.me/0843156768"
+             target="_blank"
+             rel="noopener noreferrer">
+            💬 Zalo
+          </a>
+          
           </aside>
 
           </div>
