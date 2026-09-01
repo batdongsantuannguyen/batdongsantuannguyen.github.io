@@ -49,19 +49,24 @@ content: >-
 
    Giá bán ***chỉ 4,7 tỷ***, còn thương lượng trực tiếp với chủ.
 
-   **\> > >** **\> > >** **\> > >** **\> > >  *  LangBiang Xây Dựng***: LABIANP67 **< < < < << < < < << < < < <**
+  ***LangBiang Xây Dựng***: LABIANP67
 
-   **\> > >** **\> > >** **\> > >** **\> > >** 0843156768 – Tuấn Nguyên  **< < < < << < < < << < < < <**
+   0843156768 – Tuấn Nguyên  
 
-   **\> > >** **\> > >** **\> > >**  Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây **< < < < << < < < <<** 
+   Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây
 
-   **\> > >** **\> > >** **\> > >** [https://www.youtube.com/@tuannguyenbatdongsan ](https://www.youtube.com/@tuannguyenbatdongsan) **< < << < < < <<** 
+   [https://www.youtube.com/@tuannguyenbatdongsan ](https://www.youtube.com/@tuannguyenbatdongsan) 
 
-   **\> > >** **\> > >** **\> > >** <https://www.tiktok.com/@batdongsantuannguyen>   **< < << < < < <<**
+  <https://www.tiktok.com/@batdongsantuannguyen>
 highlights: |-
   Nhà Mặt Tiền Đường Nhựa
   Có Sân Đậu Xe
   Trung Tâm Tiện Ích
   Thuận Tiện Kinh Doanh
+tags:
+  - nhà sổ riêng đà lạt
+  - nhà trung tâm
+  - sổ hồng riêng
+  - Langbiang - Đà Lạt
 videoId: https://www.youtube.com/watch?v=aVoFnULSetk
 ---
