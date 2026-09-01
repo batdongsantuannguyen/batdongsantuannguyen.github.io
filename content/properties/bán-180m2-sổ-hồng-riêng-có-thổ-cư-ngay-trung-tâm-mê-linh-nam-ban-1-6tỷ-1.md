@@ -14,12 +14,12 @@ area: 180m²
 residentialArea: 132m²
 frontage: 6m
 direction: Đông Nam
-legal: Sổ hồng riêng
-deposit: ""
 leaseTerm: ""
 furniture: Đất trống
 summary: ""
 url: /tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/
+legal: Sổ hồng riêng
+deposit: ""
 content: >-
   Chỉ 1,6tỷ \[KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư, Thửa đất này đã có sẵn, mặt
   tiền sổ hồng riêng ngay trung tâm dân cư \
@@ -42,12 +42,21 @@ content: >-
 
 
   ![](/tuannguyen-batdongsan/assets/images/z7665670053236_1e9ba9b00f0993ca84a2ed7d72807e6a.jpg)
-videoId: https://www.youtube.com/watch?v=N--4djY6ZYY
-id: dat-me-linh-nam-ban-180m2
 highlights: |-
   Nằm cạnh các địa danh du lịch nổi tiếng
   Đường xe hơi -> Gần ĐT725
   Đất bằng phẳng, không hầm
   Khu dân cư dễ dàng tiếp cận các tiện ích
   Sổ hồng riêng - có thổ cư
+tags:
+  - đất Mê Linh
+  - đất Nam Ban
+  - đất Lâm Hà
+  - đất thổ cư
+  - sổ hồng riêng
+  - đất gần ĐT725
+  - đất 180m²
+  - đất giá 1,6 tỷ
+videoId: https://www.youtube.com/watch?v=N--4djY6ZYY
+id: dat-me-linh-nam-ban-180m2
 ---
