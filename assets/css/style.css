@@ -2142,3 +2142,55 @@ header .logo.brand-two-lines .brand-line:first-child {
         margin-top: 22px;
     }
 }
+/* =========================================
+   HASHTAG / TỪ KHÓA LIÊN QUAN
+========================================= */
+
+.property-article .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: 14px 0 22px;
+}
+
+.property-article .tag-link {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 9px 14px;
+
+    background: #eeeeee;
+    color: #777777;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        background .2s ease,
+        color .2s ease,
+        transform .2s ease;
+}
+
+.property-article .tag-link:hover {
+    background: #124f3a;
+    color: #ffffff;
+
+    transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+
+    .property-article .tags {
+        gap: 7px;
+    }
+
+    .property-article .tag-link {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+}
