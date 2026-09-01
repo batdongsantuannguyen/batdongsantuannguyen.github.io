@@ -135,7 +135,11 @@ collections:
         name: "highlights"
         widget: "text"
         required: false
-
+      - label: "Hashtag / Từ khóa liên quan"
+        name: "tags"
+        widget: "list"
+        required: false
+        hint: "Ví dụ: đất Mê Linh, đất Nam Ban, đất Lâm Hà, sổ hồng riêng"
       - label: "Link video YouTube"
         name: "videoId"
         widget: "string"
