@@ -6,8 +6,7 @@ type: dat
 location: lam-ha
 title: Bán 180m2 Sổ Hồng Riêng| Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban\ 1,6tỷ
 price: 1,6 tỷ
-description: Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m,
-  cách ĐT725 khoảng 200m.
+description: ""
 image: /tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg
 images: null
 address: Mê Linh - Nam Ban, Lâm Hà, Lâm Đồng
