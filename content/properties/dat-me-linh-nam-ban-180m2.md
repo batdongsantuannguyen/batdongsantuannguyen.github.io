@@ -22,9 +22,8 @@ summary: Đất Mê Linh - Nam Ban diện tích 180m², có 132m² thổ cư, m�
   đường bê tông 4,5m và cách ĐT725 khoảng 200m.
 url: /tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/
 content: >-
-  ***Chỉ 1,6tỷ \[KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư,*** \
-
-  Thửa đất này đã có sẵn, mặt tiền sổ hồng riêng ngay trung tâm dân cư \
+  Chỉ 1,6tỷ \[KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư, Thửa đất này đã có sẵn, mặt
+  tiền sổ hồng riêng ngay trung tâm dân cư \
 
   Cách đường DT725 chỉ 200m, nằm cạnh với các khu du lịch lớn như KDL Chuồn Chuồn, Cafe Mê Linh, The Florest Hoa Trong Rừng. 
 
