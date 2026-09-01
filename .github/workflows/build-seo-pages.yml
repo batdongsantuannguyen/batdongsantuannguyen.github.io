@@ -750,7 +750,71 @@ jobs:
 
             generated++;
           }
+/*
+ * =========================================
+ * TỰ ĐỘNG TẠO SITEMAP
+ * =========================================
+ */
 
+const sitemapUrls = new Set([
+  `${SITE}/`,
+  `${SITE}/bat-dong-san/`,
+  `${SITE}/bat-dong-san/nha/`,
+  `${SITE}/bat-dong-san/dat/`,
+  `${SITE}/bat-dong-san/villa/`,
+  `${SITE}/bat-dong-san/khach-san/`,
+  `${SITE}/bat-dong-san/can-ho/`,
+  `${SITE}/bat-dong-san/homestay/`,
+  `${SITE}/bat-dong-san/cho-thue/`,
+
+  /*
+   * Giữ các trang SEO viết tay hiện có.
+   */
+  `${SITE}/bat-dong-san/nha/nha-trung-tam-da-lat/`,
+  `${SITE}/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/`,
+  `${SITE}/bat-dong-san/cho-thue/cho-thue-nha-trung-tam-da-lat/`
+]);
+
+for (const property of properties) {
+
+  if (!property || !property.title) {
+    continue;
+  }
+
+  const seoPath = getSeoPath(property);
+
+  if (!seoPath) {
+    continue;
+  }
+
+  sitemapUrls.add(
+    `${SITE}/${seoPath.replace(/^\/+|\/+$/g, "")}/`
+  );
+}
+
+const sitemap =
+`<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+${Array.from(sitemapUrls)
+  .map(url => `  <url>
+    <loc>${url}</loc>
+  </url>`)
+  .join("\n\n")}
+
+</urlset>
+`;
+
+fs.writeFileSync(
+  "sitemap.xml",
+  sitemap,
+  "utf8"
+);
+
+console.log(
+  `Sitemap updated with ${sitemapUrls.size} URLs.`
+);
           console.log(
             `Generated/updated ${generated} SEO pages.`
           );
@@ -763,7 +827,7 @@ jobs:
       - name: Commit generated SEO pages
         shell: bash
         run: |
-          git add bat-dong-san/
+          git add bat-dong-san/ sitemap.xml
 
           if git diff --cached --quiet; then
             echo "SEO pages are already up to date."
