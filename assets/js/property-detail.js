@@ -237,7 +237,7 @@ document.addEventListener(
 
                     <a
                         class="button"
-                        href="/tuannguyen-batdongsan/bat-dong-san/"
+                        href="/bat-dong-san/"
                     >
                         Xem bất động sản
                     </a>
@@ -594,7 +594,7 @@ const highlightsHtml =
             <div class="breadcrumb">
 
                 <a
-                    href="/tuannguyen-batdongsan/"
+                    href="/"
                 >
                     Trang chủ
                 </a>
@@ -602,7 +602,7 @@ const highlightsHtml =
                 &gt;
 
                 <a
-                    href="/tuannguyen-batdongsan/bat-dong-san/"
+                    href="/bat-dong-san/"
                 >
                     Bất động sản
                 </a>
@@ -610,7 +610,7 @@ const highlightsHtml =
                 &gt;
 
                 <a
-                    href="/tuannguyen-batdongsan/bat-dong-san/${property.type}/"
+                    href="/bat-dong-san/${property.type}/"
                 >
                    ${typeName}
                 </a>
