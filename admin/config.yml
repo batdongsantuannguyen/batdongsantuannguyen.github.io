@@ -139,7 +139,12 @@ collections:
         name: "tags"
         widget: "list"
         required: false
-        hint: "Ví dụ: đất Mê Linh, đất Nam Ban, đất Lâm Hà, sổ hồng riêng"
+        label_singular: "Từ khóa"
+        hint: "Mỗi dòng là một từ khóa liên quan"
+        field:
+          label: "Từ khóa"
+          name: "tag"
+          widget: "string"
       - label: "Link video YouTube"
         name: "videoId"
         widget: "string"
