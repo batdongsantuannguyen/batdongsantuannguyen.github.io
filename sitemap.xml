@@ -1,64 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <!-- TRANG CHỦ -->
-
-    <url>
+    
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+      <url>
         <loc>https://batdongsantuannguyen.github.io/</loc>
-    </url>
+      </url>
 
-
-    <!-- BẤT ĐỘNG SẢN -->
-
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/</loc>
-    </url>
+      </url>
 
-
-    <!-- DANH MỤC -->
-
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/nha/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/dat/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/villa/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/khach-san/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/can-ho/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/homestay/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/cho-thue/</loc>
-    </url>
+      </url>
 
-
-    <!-- SẢN PHẨM CÓ URL SEO RIÊNG -->
-
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/nha/nha-trung-tam-da-lat/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/</loc>
-    </url>
+      </url>
 
-    <url>
+  <url>
         <loc>https://batdongsantuannguyen.github.io/bat-dong-san/cho-thue/cho-thue-nha-trung-tam-da-lat/</loc>
-    </url>
+      </url>
 
-</urlset>
+  <url>
+        <loc>https://batdongsantuannguyen.github.io/bat-dong-san/dat/ban-262-5m2-so-hong-rieng-khu-do-thi-van-xuan-da-lat/</loc>
+      </url>
+
+  <url>
+        <loc>https://batdongsantuannguyen.github.io/bat-dong-san/nha/ban-nha-le-hong-phong-da-lat/</loc>
+      </url>
+
+  <url>
+        <loc>https://batdongsantuannguyen.github.io/bat-dong-san/nha/ban-nha-mat-tien-phuong-lang-biang-da-lat-shr-chi-4-7ty/</loc>
+      </url>
+
+  <url>
+        <loc>https://batdongsantuannguyen.github.io/bat-dong-san/nha/ban-nha-mat-tien-phuong-lang-biang-da-lat/</loc>
+      </url>
+
+  <url>
+        <loc>https://batdongsantuannguyen.github.io/bat-dong-san/nha/nha-vuon-1667m2-khong-gian-nghi-duong-tien-nghiorgan-san-bay-quoc-te-lien-khuongorbds-ven-dalat/</loc>
+      </url>
+    
+    </urlset>
+    
