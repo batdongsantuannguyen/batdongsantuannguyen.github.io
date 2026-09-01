@@ -64,9 +64,9 @@ highlights: |-
   Trung Tâm Tiện Ích
   Thuận Tiện Kinh Doanh
 tags:
-  - nhà sổ riêng đà lạt
   - nhà trung tâm
   - sổ hồng riêng
   - Langbiang - Đà Lạt
+  - nhà đà lat
 videoId: https://www.youtube.com/watch?v=aVoFnULSetk
 ---
