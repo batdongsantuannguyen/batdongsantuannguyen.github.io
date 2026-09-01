@@ -1,27 +1,56 @@
 ---
-id: "dat-me-linh-nam-ban-180m2"
-type: "dat"
-typeName: "Đất"
-location: "lam-ha"
-locationName: "Mê Linh - Nam Ban"
-title: "Đất Mê Linh - Nam Ban 180m², 132m² thổ cư"
-price: "1,6 tỷ"
-description: "Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m, cách ĐT725 khoảng 200m."
-image: "/tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg"
-images: ["/tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg"]
-address: "Mê Linh - Nam Ban, Lâm Hà, Lâm Đồng"
-area: "180m²"
-residentialArea: "132m²"
-frontage: "6m"
-direction: ""
-road: "Đường bê tông 4,5m"
-legal: ""
+road: Đường bê tông 4,5m
+locationName: Mê Linh - Nam Ban
+typeName: Đất
+type: dat
+location: lam-ha
+title: Đất Mê Linh - Nam Ban 180m², 132m² thổ cư
+price: 1,6 tỷ
+description: Đất 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m,
+  cách ĐT725 khoảng 200m.
+image: /tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg
+images: null
+address: Mê Linh - Nam Ban, Lâm Hà, Lâm Đồng
+area: 180m²
+residentialArea: 132m²
+frontage: 6m
+direction: Đông Nam
+legal: Sổ hồng riêng
 deposit: ""
 leaseTerm: ""
-furniture: ""
-summary: "Đất Mê Linh - Nam Ban diện tích 180m², có 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m và cách ĐT725 khoảng 200m."
-content: "Bất động sản có diện tích 180m², trong đó có sẵn 132m² thổ cư. Mặt tiền rộng 6m, tiếp cận bằng đường bê tông rộng khoảng 4,5m. Vị trí cách ĐT725 khoảng 200m."
-highlights: "Diện tích 180m², có sẵn 132m² thổ cư, mặt tiền 6m, đường bê tông 4,5m và cách ĐT725 khoảng 200m."
-videoId: ""
-url: "/tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/"
+furniture: Đất trống
+summary: Đất Mê Linh - Nam Ban diện tích 180m², có 132m² thổ cư, mặt tiền 6m,
+  đường bê tông 4,5m và cách ĐT725 khoảng 200m.
+url: /tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/
+content: >-
+  ***Chỉ 1,6tỷ \[KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư,*** \
+
+  Thửa đất này đã có sẵn, mặt tiền sổ hồng riêng ngay trung tâm dân cư \
+
+  Cách đường DT725 chỉ 200m, nằm cạnh với các khu du lịch lớn như KDL Chuồn Chuồn, Cafe Mê Linh, The Florest Hoa Trong Rừng. 
+
+
+  ![](/tuannguyen-batdongsan/assets/images/z7665669953012_1b1553e2156d1054d37d612e929a2483.jpg)
+
+
+  Diện tích 180m2 có sẵn 132m2 thổ cư, đất bằng phẳng vuông vắn mặt tiền rộng 6m, phong thuỷ hướng Đông nam mát mẻ. 
+
+
+  ![](/tuannguyen-batdongsan/assets/images/z7665668006629_84e6a949e8de6247d582aa147a3b6a93.jpg)
+
+
+  \
+
+  Đường xe hơi rộng rãi kết nối trực tiếp với đường ĐT725 nên giao thông rất thuận tiện Vị trí đầy đủ các tiện ích, trường học, quán xá và uỷ ban xã. 
+
+
+  ![](/tuannguyen-batdongsan/assets/images/z7665670053236_1e9ba9b00f0993ca84a2ed7d72807e6a.jpg)
+videoId: https://www.youtube.com/watch?v=N--4djY6ZYY
+id: dat-me-linh-nam-ban-180m2
+highlights: |-
+  Nằm cạnh các địa danh du lịch nổi tiếng
+  Đường xe hơi -> Gần ĐT725
+  Đất bằng phẳng, không hầm
+  Khu dân cư dễ dàng tiếp cận các tiện ích
+  Sổ hồng riêng - có thổ cư
 ---
