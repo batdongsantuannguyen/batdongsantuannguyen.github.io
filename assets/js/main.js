@@ -356,9 +356,25 @@ async function renderProperties() {
 
 
     container.innerHTML = "";
+
+/*
+ * =========================================
+ * XÁC ĐỊNH TRANG CHỦ
+ * =========================================
+ */
+
 const isHomePage =
     path === "/" ||
-    path.endsWith("/index.html");
+    path === "/index.html";
+
+/*
+ * Trang chủ:
+ * chỉ hiển thị tối đa 8 sản phẩm.
+ *
+ * Các trang danh mục:
+ * giữ toàn bộ dữ liệu để currentType
+ * lọc đúng Nhà, Đất, Villa...
+ */
 
 const propertiesToShow =
     isHomePage
