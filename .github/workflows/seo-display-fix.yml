@@ -242,29 +242,29 @@ jobs:
                               "•";
 
 
-                          return `
-<div class="info-row">
+                                                    return `
+          <div class="info-row">
 
-    <span
-        class="info-icon"
-        aria-hidden="true">
-        ${icon}
-    </span>
+              <span
+                  class="info-icon"
+                  aria-hidden="true">
+                  ${icon}
+              </span>
 
-    <span class="info-text">
+              <span class="info-text">
 
-        <span class="info-label">
-            ${label}:
-        </span>
+                  <span class="info-label">
+                      ${label}:
+                  </span>
 
-        <strong class="info-value">
-            ${value}
-        </strong>
+                  <strong class="info-value">
+                      ${value}
+                  </strong>
 
-    </span>
+              </span>
 
-</div>
-`;
+          </div>
+          `;
                       }
                   );
 
@@ -284,8 +284,7 @@ jobs:
                   html =
                       html.replace(
                           "</head>",
-                          `${style}
-</head>`
+                          `${style}\n</head>`
                       );
               }
 
