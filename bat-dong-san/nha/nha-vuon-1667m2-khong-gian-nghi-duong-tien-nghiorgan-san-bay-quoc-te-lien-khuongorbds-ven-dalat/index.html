@@ -92,6 +92,86 @@
 }
 </script>
 
+
+<!-- SEO DISPLAY FIX -->
+
+<style>
+
+.property-info {
+    padding: 18px;
+}
+
+.property-info > h2 {
+    margin: -18px -18px 15px;
+    padding: 12px;
+
+    background: #d79b16;
+    color: #fff;
+
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.property-info .info-row {
+    display: grid;
+
+    grid-template-columns:
+        30px
+        minmax(0, 1fr);
+
+    column-gap: 10px;
+
+    align-items: start;
+
+    padding: 11px 0;
+
+    border-bottom:
+        1px solid #e5e5e5;
+}
+
+.property-info .info-row:last-of-type {
+    border-bottom: none;
+}
+
+.property-info .info-icon {
+    display: block;
+
+    width: 30px;
+
+    text-align: center;
+
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.property-info .info-text {
+    display: block;
+
+    min-width: 0;
+
+    line-height: 1.55;
+}
+
+.property-info .info-label {
+    font-weight: 400;
+}
+
+.property-info .info-value {
+    font-weight: 700;
+}
+
+.property-info .button {
+    display: block;
+
+    width: fit-content;
+
+    margin: 16px auto 0;
+}
+
+</style>
+
 </head>
 
 <body>
@@ -200,50 +280,221 @@
 </h2>
 
 
-    <div class="info-row">
-      <span>Giá</span>
-      <strong>3.200.000.000</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        💰
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Giá:
+        </span>
+
+        <strong class="info-value">
+            3.200.000.000
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Địa chỉ</span>
-      <strong>Liên Hiệp</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        📍
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Địa chỉ:
+        </span>
+
+        <strong class="info-value">
+            Liên Hiệp
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Diện tích</span>
-      <strong>1667</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        📐
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Diện tích:
+        </span>
+
+        <strong class="info-value">
+            1667
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Thổ cư</span>
-      <strong>0</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        🏡
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Thổ cư:
+        </span>
+
+        <strong class="info-value">
+            0
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Mặt tiền</span>
-      <strong>25</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        ↔
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Mặt tiền:
+        </span>
+
+        <strong class="info-value">
+            25
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Hướng</span>
-      <strong>Đông nam</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        🧭
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Hướng:
+        </span>
+
+        <strong class="info-value">
+            Đông nam
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Đường</span>
-      <strong>Bê tông 4m</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        🛣️
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Đường:
+        </span>
+
+        <strong class="info-value">
+            Bê tông 4m
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Pháp lý</span>
-      <strong>Sổ riêng</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        📕
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Pháp lý:
+        </span>
+
+        <strong class="info-value">
+            Sổ riêng
+        </strong>
+
+    </span>
+
+</div>
+
   
-    <div class="info-row">
-      <span>Nội thất</span>
-      <strong>Cơ bản</strong>
-    </div>
+    
+<div class="info-row">
+
+    <span
+        class="info-icon"
+        aria-hidden="true">
+        🛋️
+    </span>
+
+    <span class="info-text">
+
+        <span class="info-label">
+            Nội thất:
+        </span>
+
+        <strong class="info-value">
+            Cơ bản
+        </strong>
+
+    </span>
+
+</div>
+
   
 
 <a class="button"
