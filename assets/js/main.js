@@ -100,41 +100,65 @@ function getLocationName(property) {
 function getPropertyUrl(property) {
 
     /*
-     * Các sản phẩm Cho thuê cũ
-     * nếu đã có URL riêng thì giữ nguyên
+     * Nếu sản phẩm đã có URL tĩnh SEO
+     * thì ưu tiên sử dụng URL đó.
      */
 
     if (
-        property.type === "cho-thue" &&
         property.url &&
-        String(property.url).trim() !== ""
+        String(property.url).trim() !== "" &&
+        !String(property.url).includes("/chi-tiet/")
     ) {
 
-        if (
-            property.url.startsWith("http")
-        ) {
-            return property.url;
-        }
+        return property.url;
 
-        return new URL(
-            property.url,
-            window.location.origin + "/"
-        ).href;
     }
 
 
     /*
-     * Tất cả sản phẩm mới:
-     * tự tạo URL từ ID
+     * Tạo slug SEO từ ID.
      */
 
+    const slug = String(
+        property.id ||
+        property.title ||
+        "bat-dong-san"
+    )
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d")
+        .replace(/Đ/g, "D")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .replace(/-+/g, "-");
+
+
+    const allowedTypes = [
+        "nha",
+        "dat",
+        "villa",
+        "khach-san",
+        "can-ho",
+        "homestay",
+        "cho-thue"
+    ];
+
+
+    const type =
+        allowedTypes.includes(property.type)
+            ? property.type
+            : "bat-dong-san";
+
+
     return (
-    
-        "/bat-dong-san/chi-tiet/?id=" +
-        encodeURIComponent(property.id)
+        "/bat-dong-san/" +
+        type +
+        "/" +
+        slug +
+        "/"
     );
 }
-
 
 /*
  * =========================================
