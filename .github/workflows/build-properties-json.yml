@@ -20,34 +20,31 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install YAML parser
+        run: npm install js-yaml
+
       - name: Build properties.json from Markdown
         shell: bash
         run: |
           node <<'NODE'
           const fs = require("fs");
           const path = require("path");
+          const yaml = require("js-yaml");
 
           const sourceDir = "content/properties";
           const outputFile = "assets/data/properties.json";
 
-          function parseValue(value) {
-            value = value.trim();
-
-            if (value === "") return "";
-
-            try {
-              return JSON.parse(value);
-            } catch {
-              return value
-                .replace(/^"(.*)"$/, "$1")
-                .replace(/^'(.*)'$/, "$1");
-            }
-          }
-
           function parseMarkdown(filePath) {
             const text = fs.readFileSync(filePath, "utf8");
 
-            const match = text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*(?:\r?\n)?([\s\S]*)$/);
+            const match = text.match(
+              /^---\s*\r?\n([\s\S]*?)\r?\n---\s*(?:\r?\n)?([\s\S]*)$/
+            );
 
             if (!match) {
               console.warn(`Skipping ${filePath}: no front matter`);
@@ -57,97 +54,15 @@ jobs:
             const frontMatter = match[1];
             const body = match[2].trim();
 
-            const data = {};
+            let data;
 
-                     const lines = frontMatter.split(/\r?\n/);
-
-          for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-
-            const keyMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
-
-            if (!keyMatch) continue;
-
-            const key = keyMatch[1];
-            const rawValue = keyMatch[2];
-
-            const blockMatch = rawValue.match(/^([>|])([+-])?$/);
-
-            if (blockMatch) {
-              const blockLines = [];
-              let j = i + 1;
-
-              while (j < lines.length) {
-                const nextLine = lines[j];
-
-                if (/^[A-Za-z0-9_-]+:\s*/.test(nextLine)) {
-                  break;
-                }
-
-                blockLines.push(nextLine);
-                j++;
-              }
-
-              const nonEmptyLines = blockLines.filter(
-                item => item.trim() !== ""
-              );
-
-              let minIndent = 0;
-
-              if (nonEmptyLines.length > 0) {
-                minIndent = Math.min(
-                  ...nonEmptyLines.map(item => {
-                    const match = item.match(/^(\s*)/);
-                    return match ? match[1].length : 0;
-                  })
-                );
-              }
-
-              const cleanedLines = blockLines.map(item => {
-                if (item.trim() === "") return "";
-                return item.slice(minIndent);
-              });
-
-              while (
-                cleanedLines.length > 0 &&
-                cleanedLines[cleanedLines.length - 1] === ""
-              ) {
-                cleanedLines.pop();
-              }
-
-              data[key] = cleanedLines.join("\n").trim();
-
-              i = j - 1;
-              continue;
+            try {
+              data = yaml.load(frontMatter) || {};
+            } catch (error) {
+              console.error(`YAML error in ${filePath}`);
+              console.error(error.message);
+              process.exit(1);
             }
-
-            if (rawValue === "") {
-              const list = [];
-              let j = i + 1;
-
-              while (j < lines.length) {
-                const listMatch =
-                  lines[j].match(/^\s*-\s+(.*)$/);
-
-                if (!listMatch) break;
-
-                list.push(
-                  parseValue(listMatch[1])
-                );
-
-                j++;
-              }
-
-              if (list.length > 0) {
-                data[key] = list;
-                i = j - 1;
-              } else {
-                data[key] = "";
-              }
-            } else {
-              data[key] = parseValue(rawValue);
-            }
-          }
 
             if (body && !data.content) {
               data.content = body;
@@ -166,26 +81,33 @@ jobs:
             .filter(file => file.endsWith(".md"))
             .sort();
 
-                    const properties = files
+          const properties = files
             .map(file => {
               const filePath = path.join(sourceDir, file);
               const property = parseMarkdown(filePath);
 
               if (!property) return null;
 
-              if (!property.id || String(property.id).trim() === "") {
-                property.id = path.basename(file, ".md");
+              if (
+                !property.id ||
+                String(property.id).trim() === ""
+              ) {
+                property.id =
+                  path.basename(file, ".md");
               }
 
-              /* Chuẩn hóa đường dẫn sau khi chuyển sang User Pages */
-              const oldBase = "/tuannguyen-batdongsan";
+              const oldBase =
+                "/tuannguyen-batdongsan";
 
               if (
                 property.image &&
                 typeof property.image === "string"
               ) {
                 property.image =
-                  property.image.replace(oldBase, "");
+                  property.image.replace(
+                    oldBase,
+                    ""
+                  );
               }
 
               if (Array.isArray(property.images)) {
@@ -195,23 +117,46 @@ jobs:
                       ? image.replace(oldBase, "")
                       : image
                   );
-             }
-             if (
-                  property.content &&
-                  typeof property.content === "string"
-              ) {
-                  property.content =
-                      property.content.replaceAll(
-                          oldBase,
-                          ""
-                      );
               }
+
+              if (
+                property.content &&
+                typeof property.content === "string"
+              ) {
+                property.content =
+                  property.content.replaceAll(
+                    oldBase,
+                    ""
+                  );
+              }
+
               if (
                 property.url &&
                 typeof property.url === "string"
               ) {
                 property.url =
-                  property.url.replace(oldBase, "");
+                  property.url.replace(
+                    oldBase,
+                    ""
+                  );
+              }
+
+              if (Array.isArray(property.tags)) {
+                property.tags =
+                  property.tags
+                    .map(tag =>
+                      String(tag).trim()
+                    )
+                    .filter(Boolean);
+              }
+
+              if (Array.isArray(property.highlights)) {
+                property.highlights =
+                  property.highlights
+                    .map(item =>
+                      String(item).trim()
+                    )
+                    .filter(Boolean);
               }
 
               return property;
@@ -219,20 +164,40 @@ jobs:
             .filter(Boolean);
 
           if (properties.length === 0) {
-            console.error("No properties found.");
+            console.error(
+              "No properties found."
+            );
             process.exit(1);
           }
 
-          fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+          fs.mkdirSync(
+            path.dirname(outputFile),
+            { recursive: true }
+          );
 
           fs.writeFileSync(
             outputFile,
-            JSON.stringify(properties, null, 2) + "\n",
+            JSON.stringify(
+              properties,
+              null,
+              2
+            ) + "\n",
             "utf8"
           );
 
-          console.log(`Built ${properties.length} properties.`);
-          console.log(`Output: ${outputFile}`);
+          console.log(
+            `Built ${properties.length} properties.`
+          );
+
+          properties.forEach(property => {
+            console.log(
+              property.id,
+              "tags:",
+              Array.isArray(property.tags)
+                ? property.tags
+                : []
+            );
+          });
           NODE
 
       - name: Commit generated properties.json
