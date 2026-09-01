@@ -150,12 +150,25 @@ jobs:
                     .filter(Boolean);
               }
 
-              if (Array.isArray(property.highlights)) {
+              if (typeof property.highlights === "string") {
                 property.highlights =
                   property.highlights
-                    .map(item =>
-                      String(item).trim()
-                    )
+                    .split(/\r?\n/)
+                    .map(item => item.trim())
+                    .filter(Boolean);
+              
+              } else if (Array.isArray(property.highlights)) {
+                property.highlights =
+                  property.highlights
+                    .map(item => String(item).trim())
+                    .filter(Boolean);
+              
+              } else if (property.highlights == null) {
+                property.highlights = [];
+              
+              } else {
+                property.highlights =
+                  [String(property.highlights).trim()]
                     .filter(Boolean);
               }
 
