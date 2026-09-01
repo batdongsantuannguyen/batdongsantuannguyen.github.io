@@ -2101,3 +2101,44 @@ header .logo.brand-two-lines .brand-line:first-child {
         margin: 18px auto;
     }
 }
+/* =========================================
+   VIDEO TRANG CHI TIẾT SEO
+   TỶ LỆ CHUẨN 16:9
+========================================= */
+
+.property-article .video-wrap {
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    margin: 28px 0 10px;
+
+    overflow: hidden;
+
+    background: #000;
+}
+
+.property-article .video-wrap iframe {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    border: 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .property-article .video-wrap {
+        margin-top: 22px;
+    }
+}
