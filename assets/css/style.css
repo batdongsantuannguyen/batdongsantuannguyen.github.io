@@ -2249,3 +2249,192 @@ header .logo.brand-two-lines .brand-line:first-child {
         font-size: 12px;
     }
 }
+/* =========================================
+   SIDEBAR DETAIL - FINAL STANDARD
+========================================= */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.sidebar-box {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+
+.sidebar-box > h2 {
+    margin: 0;
+    padding: 16px 18px;
+
+    background: #dca008;
+    color: #fff;
+
+    text-align: center;
+
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+/* ƯU ĐIỂM NỔI BẬT */
+
+.property-highlights {
+    list-style: none;
+    margin: 0;
+    padding: 20px 24px;
+}
+
+.property-highlights li {
+    position: relative;
+
+    padding: 15px 10px 15px 42px;
+
+    border-bottom: 1px solid #e5e5e5;
+
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.property-highlights li:last-child {
+    border-bottom: 0;
+}
+
+.property-highlights li::before {
+    content: "✅";
+
+    position: absolute;
+    left: 5px;
+    top: 15px;
+}
+
+/* THÔNG TIN BẤT ĐỘNG SẢN */
+
+.property-info-list {
+    padding: 10px 22px 18px;
+}
+
+.property-info-list .info-row {
+    display: grid;
+
+    grid-template-columns:
+        30px
+        auto
+        1fr;
+
+    align-items: start;
+
+    gap: 8px;
+
+    padding: 13px 0;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.property-info-list .info-row:last-child {
+    border-bottom: 0;
+}
+
+.info-icon {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.info-label {
+    white-space: nowrap;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.info-value {
+    min-width: 0;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+    overflow-wrap: anywhere;
+}
+
+/* PHONE + ZALO */
+
+.sidebar-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 14px 18px;
+
+    background: #dca008;
+    color: #12382d;
+
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    transition: .2s;
+}
+
+.sidebar-action:hover {
+    background: #124f3a;
+    color: #fff;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .sidebar {
+        gap: 14px;
+    }
+
+    .sidebar-box > h2 {
+        padding: 14px 12px;
+        font-size: 18px;
+    }
+
+    .property-highlights {
+        padding: 14px 18px;
+    }
+
+    .property-highlights li {
+        padding:
+            12px
+            6px
+            12px
+            38px;
+
+        font-size: 15px;
+    }
+
+    .property-info-list {
+        padding: 8px 16px 14px;
+    }
+
+    .property-info-list .info-row {
+        grid-template-columns:
+            26px
+            auto
+            1fr;
+
+        gap: 6px;
+
+        padding: 11px 0;
+    }
+
+    .info-icon,
+    .info-label,
+    .info-value {
+        font-size: 14px;
+    }
+
+    .sidebar-action {
+        font-size: 16px;
+        padding: 13px 14px;
+    }
+}
