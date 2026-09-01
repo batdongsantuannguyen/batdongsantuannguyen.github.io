@@ -756,7 +756,9 @@ jobs:
       - name: Commit generated SEO pages
         shell: bash
         run: |
-          if git diff --quiet -- bat-dong-san/; then
+          git add bat-dong-san/
+
+          if git diff --cached --quiet; then
             echo "SEO pages are already up to date."
             exit 0
           fi
@@ -764,6 +766,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add bat-dong-san/
           git commit -m "Build SEO property pages"
           git push
