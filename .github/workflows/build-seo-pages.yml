@@ -407,72 +407,95 @@ jobs:
 
             const highlights =
               normalizeHighlights(property.highlights);
-
-            const highlightsHtml =
-              highlights.length
-                ? `
-                  <div class="sidebar-box highlights-box">
-                    <h2>ƯU ĐIỂM NỔI BẬT</h2>
-
-                    <ul class="property-highlights">
-                      ${highlights
-                        .map(item =>
-                          `<li>${escapeHtml(item)}</li>`
-                        )
-                        .join("\n")}
-                    </ul>
-                  </div>
-                `
-                : "";
-
-            const propertyInfo = [
-              infoRow("Giá", property.price),
-              infoRow("Địa chỉ", property.address),
-              infoRow("Diện tích", property.area),
-              infoRow(
-                "Thổ cư",
-                property.residentialArea
-              ),
-              infoRow("Mặt tiền", property.frontage),
-              infoRow("Hướng", property.direction),
-              infoRow("Đường", property.road),
-              infoRow("Pháp lý", property.legal),
-              infoRow(
-                "Tiền đặt cọc",
-                property.deposit
-              ),
-              infoRow(
-                "Thời hạn thuê",
-                property.leaseTerm
-              ),
-              infoRow("Nội thất", property.furniture)
-            ].join("");
-
-            const summary =
-              property.summary ||
-              property.description ||
-              "";
-
-            const contentHtml =
-              renderMarkdown(property.content || "");
-
-            const video =
-              youtubeId(property.videoId || "");
-
-            const videoHtml =
-              video
-                ? `
-                  <div class="video-wrap">
-                    <iframe
-                      src="https://www.youtube.com/embed/${video}"
-                      title="${escapeHtml(title)}"
-                      loading="lazy"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen>
-                    </iframe>
-                  </div>
-                `
-                : "";
+            const tags =
+                Array.isArray(property.tags)
+                    ? property.tags
+                        .map(tag => String(tag).trim())
+                        .filter(Boolean)
+                    : [];
+            
+            const tagsHtml =
+                tags.length
+                    ? `
+                      <div class="tags">
+                        ${tags
+                          .map(tag => `
+                            <a
+                              href="/bat-dong-san/?tag=${encodeURIComponent(tag)}"
+                              class="tag-link"
+                            >
+                              ${escapeHtml(tag)}
+                            </a>
+                          `)
+                          .join("")}
+                      </div>
+                    `
+                    : "";
+                        const highlightsHtml =
+                          highlights.length
+                            ? `
+                              <div class="sidebar-box highlights-box">
+                                <h2>ƯU ĐIỂM NỔI BẬT</h2>
+            
+                                <ul class="property-highlights">
+                                  ${highlights
+                                    .map(item =>
+                                      `<li>${escapeHtml(item)}</li>`
+                                    )
+                                    .join("\n")}
+                                </ul>
+                              </div>
+                            `
+                            : "";
+            
+                        const propertyInfo = [
+                          infoRow("Giá", property.price),
+                          infoRow("Địa chỉ", property.address),
+                          infoRow("Diện tích", property.area),
+                          infoRow(
+                            "Thổ cư",
+                            property.residentialArea
+                          ),
+                          infoRow("Mặt tiền", property.frontage),
+                          infoRow("Hướng", property.direction),
+                          infoRow("Đường", property.road),
+                          infoRow("Pháp lý", property.legal),
+                          infoRow(
+                            "Tiền đặt cọc",
+                            property.deposit
+                          ),
+                          infoRow(
+                            "Thời hạn thuê",
+                            property.leaseTerm
+                          ),
+                          infoRow("Nội thất", property.furniture)
+                        ].join("");
+            
+                        const summary =
+                          property.summary ||
+                          property.description ||
+                          "";
+            
+                        const contentHtml =
+                          renderMarkdown(property.content || "");
+            
+                        const video =
+                          youtubeId(property.videoId || "");
+            
+                        const videoHtml =
+                          video
+                            ? `
+                              <div class="video-wrap">
+                                <iframe
+                                  src="https://www.youtube.com/embed/${video}"
+                                  title="${escapeHtml(title)}"
+                                  loading="lazy"
+                                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                  allowfullscreen>
+                                </iframe>
+                              </div>
+                            `
+                            : "";
 
             const schema = {
               "@context": "https://schema.org",
@@ -635,7 +658,9 @@ jobs:
           <div class="article-meta">
             Tác giả: Tuấn Nguyên
           </div>
-
+          
+          ${tagsHtml}
+          
           ${summary
             ? `<div class="property-summary">${renderInline(summary)}</div>`
             : ""
