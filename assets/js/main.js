@@ -304,7 +304,17 @@ async function renderProperties() {
 
     const path =
         window.location.pathname;
+    const params =
+        new URLSearchParams(
+            window.location.search
+        );
 
+const currentTag =
+    (
+        params.get("tag") || ""
+    )
+        .toLowerCase()
+        .trim();
     let currentType = "";
 
 
@@ -405,16 +415,47 @@ const propertiesToShow =
         ? properties.slice(0, 8)
         : properties;
 
-    propertiesToShow.forEach(
-        function (property) {
-
-            if (
-                currentType !== "" &&
-                property.type !== currentType
-            ) {
-                return;
+        propertiesToShow.forEach(
+            function (property) {
+    
+                if (
+                    currentType !== "" &&
+                    property.type !== currentType
+                ) {
+                    return;
+                }
+                if (currentTag !== "") {
+    
+                const tags =
+                    Array.isArray(property.tags)
+                        ? property.tags
+                        : [];
+    
+                const normalizedTags =
+                    tags.map(tag =>
+                        String(tag)
+                            .toLowerCase()
+                            .trim()
+                    );
+    
+                const searchableText = [
+                    property.title,
+                    property.description,
+                    property.locationName,
+                    property.address,
+                    ...normalizedTags
+                ]
+                    .filter(Boolean)
+                    .join(" ")
+                    .toLowerCase();
+    
+                if (
+                    !normalizedTags.includes(currentTag) &&
+                    !searchableText.includes(currentTag)
+                ) {
+                    return;
+                }
             }
-
 
             const article =
                 document.createElement(
