@@ -18,8 +18,7 @@ legal: Sổ hồng riêng
 deposit: ""
 leaseTerm: ""
 furniture: Đất trống
-summary: Đất Mê Linh - Nam Ban diện tích 180m², có 132m² thổ cư, mặt tiền 6m,
-  đường bê tông 4,5m và cách ĐT725 khoảng 200m.
+summary: ""
 url: /tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/
 content: >-
   Chỉ 1,6tỷ \[KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư, Thửa đất này đã có sẵn, mặt
