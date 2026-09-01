@@ -54,5 +54,11 @@ content: >-
 
 
   \    <https://www.tiktok.com/@batdongsantuannguyen>
+tags:
+  - Langbiang- Đà Lạt
+  - khu đô thị Vạn Xuân
+  - đất sổ riêng
+  - đất thổ cư
+  - đất đà lạt
 videoId: https://www.youtube.com/watch?v=1SzKaN6ovKc
 ---
