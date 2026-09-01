@@ -1968,18 +1968,31 @@ header .logo.brand-two-lines .brand-line:first-child {
 
 .highlights-box .property-highlights {
     margin: 0;
-    padding: 22px 26px 22px 48px;
+    padding: 10px 26px;
 
     background: #fff;
+
+    list-style: none;
 }
 
 .highlights-box .property-highlights li {
+    position: relative;
+
     margin: 0;
-    padding: 12px 0;
+    padding: 12px 0 12px 32px;
 
     line-height: 1.6;
 
     border-bottom: 1px solid #e5e5e5;
+}
+
+.highlights-box .property-highlights li::before {
+    content: "✅";
+
+    position: absolute;
+
+    left: 0;
+    top: 12px;
 }
 
 .highlights-box .property-highlights li:last-child {
