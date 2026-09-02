@@ -647,6 +647,10 @@ jobs:
 
           <h1>${escapeHtml(title)}</h1>
 
+          <div class="article-meta">
+            Tác giả: Tuấn Nguyên
+          </div>
+          
           <div class="social-share">
             <a class="share-button facebook"
                href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}"
