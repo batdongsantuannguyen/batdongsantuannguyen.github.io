@@ -219,141 +219,159 @@ jobs:
 
             return text;
           }
-
           function renderMarkdown(markdown = "") {
-            const source = String(markdown || "")
-              .replace(/\r\n/g, "\n");
+  const source = String(markdown || "")
+    .replace(/\r\n/g, "\n");
 
-            if (!source.trim()) {
-              return "";
-            }
+  if (!source.trim()) {
+    return "";
+  }
 
-            /*
-             * :::format do Decap CMS tạo.
-             */
-            const formattedBlocks = [];
+  /*
+   * :::format do Decap CMS tạo.
+   */
+  const formattedBlocks = [];
 
-            let prepared = source.replace(
-              /:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::/g,
-              (_, align, line, body) => {
-                const token =
-                  `___FORMATTED_BLOCK_${formattedBlocks.length}___`;
+  let prepared = source.replace(
+    /:::format align="(left|center|right|justify)" line="(1\.4|1\.6|1\.8|2\.0)"\n([\s\S]*?)\n:::/g,
+    (_, align, line, body) => {
+      const token =
+        `___FORMATTED_BLOCK_${formattedBlocks.length}___`;
 
-                formattedBlocks.push(
-                  `<div class="formatted-text" style="text-align:${align};line-height:${line};">${renderMarkdown(body)}</div>`
-                );
+      formattedBlocks.push(
+        `<div class="formatted-text" style="text-align:${align};line-height:${line};">${renderMarkdown(body)}</div>`
+      );
 
-                return token;
-              }
-            );
+      return token;
+    }
+  );
 
-            /*
-             * Ảnh Markdown.
-             */
-            prepared = prepared.replace(
-              /!\[([^\]]*)\]\(([^)]+)\)/g,
-              (_, alt, src) => {
-                return `\n<figure class="article-image"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">${alt ? `<figcaption>${escapeHtml(alt)}</figcaption>` : ""}</figure>\n`;
-              }
-            );
+  /*
+   * Loại bỏ dấu "\" thừa do dữ liệu Decap cũ tạo ra.
+   * Chỉ xử lý "\" đứng cuối dòng hoặc đứng một mình.
+   */
+  prepared = prepared
+    .split("\n")
+    .map(line => {
+      const trimmed = line.trim();
 
-            const lines = prepared.split("\n");
-            const html = [];
+      if (trimmed === "\\") {
+        return "";
+      }
 
-            let paragraph = [];
-            let list = [];
+      return line.replace(/\s*\\\s*$/, "");
+    })
+    .join("\n");
 
-            function flushParagraph() {
-              if (paragraph.length === 0) return;
+  /*
+   * Ảnh Markdown.
+   */
+  prepared = prepared.replace(
+    /!\[([^\]]*)\]\(([^)]+)\)/g,
+    (_, alt, src) => {
+      return `\n<figure class="article-image"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">${alt ? `<figcaption>${escapeHtml(alt)}</figcaption>` : ""}</figure>\n`;
+    }
+  );
 
-              html.push(
-                `<p>${renderInline(paragraph.join(" "))}</p>`
-              );
+  const lines = prepared.split("\n");
+  const html = [];
 
-              paragraph = [];
-            }
+  let paragraph = [];
+  let list = [];
 
-            function flushList() {
-              if (list.length === 0) return;
+  function flushParagraph() {
+    if (paragraph.length === 0) return;
 
-              html.push(
-                `<ul>${list
-                  .map(item => `<li>${renderInline(item)}</li>`)
-                  .join("")}</ul>`
-              );
+    html.push(
+      `<p>${paragraph
+        .map(line => renderInline(line))
+        .join("<br>")}</p>`
+    );
 
-              list = [];
-            }
+    paragraph = [];
+  }
 
-            for (const rawLine of lines) {
-              const line = rawLine.trim();
+  function flushList() {
+    if (list.length === 0) return;
 
-              if (!line) {
-                flushParagraph();
-                flushList();
-                continue;
-              }
+    html.push(
+      `<ul>${list
+        .map(item => `<li>${renderInline(item)}</li>`)
+        .join("")}</ul>`
+    );
 
-              if (/^___FORMATTED_BLOCK_\d+___$/.test(line)) {
-                flushParagraph();
-                flushList();
+    list = [];
+  }
 
-                const index = Number(
-                  line.match(/\d+/)[0]
-                );
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
 
-                html.push(formattedBlocks[index]);
-                continue;
-              }
+    if (!line) {
+      flushParagraph();
+      flushList();
+      continue;
+    }
 
-              if (line.startsWith("<figure")) {
-                flushParagraph();
-                flushList();
-                html.push(line);
-                continue;
-              }
+    if (/^___FORMATTED_BLOCK_\d+___$/.test(line)) {
+      flushParagraph();
+      flushList();
 
-              const heading = line.match(/^(#{1,6})\s+(.+)$/);
+      const index = Number(
+        line.match(/\d+/)[0]
+      );
 
-              if (heading) {
-                flushParagraph();
-                flushList();
+      html.push(formattedBlocks[index]);
+      continue;
+    }
 
-                const level = Math.min(
-                  heading[1].length + 1,
-                  6
-                );
+    if (line.startsWith("<figure")) {
+      flushParagraph();
+      flushList();
+      html.push(line);
+      continue;
+    }
 
-                html.push(
-                  `<h${level}>${renderInline(heading[2])}</h${level}>`
-                );
+    const heading = line.match(/^(#{1,6})\s+(.+)$/);
 
-                continue;
-              }
+    if (heading) {
+      flushParagraph();
+      flushList();
 
-              const listItem = line.match(/^[-*•]\s+(.+)$/);
+      const level = Math.min(
+        heading[1].length + 1,
+        6
+      );
 
-              if (listItem) {
-                flushParagraph();
-                list.push(listItem[1]);
-                continue;
-              }
+      html.push(
+        `<h${level}>${renderInline(heading[2])}</h${level}>`
+      );
 
-              if (/^<[^>]+>/.test(line)) {
-                flushParagraph();
-                flushList();
-                html.push(line);
-                continue;
-              }
+      continue;
+    }
 
-              paragraph.push(line);
-            }
+    const listItem = line.match(/^[-*•]\s+(.+)$/);
 
-            flushParagraph();
-            flushList();
+    if (listItem) {
+      flushParagraph();
+      list.push(listItem[1]);
+      continue;
+    }
 
-            return html.join("\n");
-          }
+    if (/^<[^>]+>/.test(line)) {
+      flushParagraph();
+      flushList();
+      html.push(line);
+      continue;
+    }
+
+    paragraph.push(line);
+  }
+
+  flushParagraph();
+  flushList();
+
+  return html.join("\n");
+}
 
           function youtubeId(value = "") {
             const text = String(value || "").trim();
