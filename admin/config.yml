@@ -44,7 +44,7 @@ collections:
       - label: "Tiêu đề"
         name: "title"
         widget: "string"
-
+        hint: "SEO: Loại BĐS + khu vực + diện tích/đặc điểm mạnh + pháp lý hoặc giá. Ví dụ: Bán đất Xuân Thọ Đà Lạt 1152m², mặt tiền đường nhựa, sổ hồng riêng."
       - label: "Giá"
         name: "price"
         widget: "string"
