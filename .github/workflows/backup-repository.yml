@@ -1,1 +1,57 @@
+name: Backup Repository
 
+"on":
+  workflow_dispatch:
+
+  schedule:
+    - cron: "30 18 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create daily backup branch
+        shell: bash
+        run: |
+          BACKUP_BRANCH="backup/daily"
+          CURRENT_SHA="${GITHUB_SHA}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin
+
+          if git ls-remote --exit-code --heads origin "$BACKUP_BRANCH" >/dev/null 2>&1; then
+            git push origin "$CURRENT_SHA:refs/heads/$BACKUP_BRANCH" --force
+          else
+            git push origin "$CURRENT_SHA:refs/heads/$BACKUP_BRANCH"
+          fi
+
+      - name: Create monthly restore point
+        shell: bash
+        run: |
+          DAY_OF_MONTH="$(date -u +%d)"
+
+          if [ "$DAY_OF_MONTH" != "01" ]; then
+            echo "Not the first day of the month. Skipping monthly restore point."
+            exit 0
+          fi
+
+          MONTH_TAG="backup-$(date -u +%Y-%m)"
+
+          if git rev-parse "$MONTH_TAG" >/dev/null 2>&1; then
+            echo "$MONTH_TAG already exists."
+            exit 0
+          fi
+
+          git tag "$MONTH_TAG" "$GITHUB_SHA"
+          git push origin "$MONTH_TAG"
