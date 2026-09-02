@@ -7,7 +7,7 @@ image: /assets/images/ảnh-màn-hình-2026-08-02-lúc-11.54.42.png
 address: Cầu Đất - Đà Lạt
 area: 438m2
 residentialArea: 200m2
-frontage: "11"
+frontage: 11m
 road: Bê Tông 3m
 legal: Sổ hồng riêng
 content: >-
