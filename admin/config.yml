@@ -129,6 +129,7 @@ collections:
         name: "content"
         widget: "markdown"
         required: false
+        hint: "Viết nội dung theo thứ tự: 1) thông tin chính của BĐS, 2) vị trí và kết nối, 3) giá trị sử dụng/đầu tư, 4) pháp lý và giá bán. Ưu tiên thông tin thực tế, đoạn ngắn, dễ đọc; chèn ảnh đúng vị trí nội dung."
         editor_components:
           - "formatted-text"
           - "image"
