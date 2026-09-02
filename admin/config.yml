@@ -155,3 +155,4 @@ collections:
         name: "videoId"
         widget: "string"
         required: false
+        hint: "Dán link video YouTube đúng với bất động sản đang đăng. Ưu tiên video quay thực tế cùng tài sản và dùng tiêu đề YouTube gần với từ khóa chính của bài."
