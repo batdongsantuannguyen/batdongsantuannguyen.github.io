@@ -123,7 +123,7 @@ collections:
         name: "summary"
         widget: "text"
         required: false
-
+        hint: "Viết 2–4 câu nêu nhanh giá trị thực của bất động sản: vị trí, diện tích, đường/mặt tiền, pháp lý và điểm nổi bật. Không lặp nguyên văn Mô tả ngắn."
       - label: "Nội dung chi tiết"
         name: "content"
         widget: "markdown"
