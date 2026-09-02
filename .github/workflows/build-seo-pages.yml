@@ -647,10 +647,30 @@ jobs:
 
           <h1>${escapeHtml(title)}</h1>
 
-          <div class="article-meta">
-            Tác giả: Tuấn Nguyên
-          </div>
+          <div class="social-share">
+            <a class="share-button facebook"
+               href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Chia sẻ Facebook">f</a>
           
+            <a class="share-button messenger"
+               href="https://www.facebook.com/dialog/send?link=${encodeURIComponent(canonicalUrl)}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Chia sẻ Messenger">💬</a>
+          
+            <a class="share-button zalo"
+               href="https://zalo.me/share?url=${encodeURIComponent(canonicalUrl)}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Chia sẻ Zalo">Z</a>
+          
+            <button class="share-button copy-link"
+                    type="button"
+                    onclick="navigator.clipboard.writeText(window.location.href)"
+                    aria-label="Sao chép liên kết">🔗</button>
+          </div>
           ${tagsHtml}
           
           ${summary
