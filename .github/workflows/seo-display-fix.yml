@@ -2,15 +2,6 @@ name: SEO Display Fix
 
 "on":
   workflow_dispatch:
-
-  push:
-    branches:
-      - main
-
-    paths:
-      - "bat-dong-san/**/index.html"
-      - ".github/workflows/seo-display-fix.yml"
-
 permissions:
   contents: write
 
