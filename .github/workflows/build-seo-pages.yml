@@ -513,28 +513,6 @@ jobs:
                             `
                             : "";
 
-            const schema = {
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": title,
-              "description": description,
-              "url": canonical
-            };
-
-            if (image) {
-              schema.image = [image];
-            }
-
-            if (property.address) {
-              schema.additionalProperty = [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Địa chỉ",
-                  "value": String(property.address)
-                }
-              ];
-            }
-
             const breadcrumbSchema = {
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
