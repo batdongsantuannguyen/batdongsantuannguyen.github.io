@@ -1,0 +1,27 @@
+name: Test Backup Token
+
+"on":
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test access to private backup repository
+        env:
+          BACKUP_TOKEN: ${{ secrets.BACKUP_TOKEN }}
+        run: |
+          STATUS=$(curl -s -o response.json -w "%{http_code}" \
+            -H "Authorization: Bearer ${BACKUP_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/batdongsantuannguyen/batdongsantuannguyen-backup)
+
+          echo "HTTP status: $STATUS"
+
+          if [ "$STATUS" != "200" ]; then
+            cat response.json
+            exit 1
+          fi
+
+          echo "Token can access backup repository."
