@@ -3,18 +3,20 @@ name: Build SEO Pages
 "on":
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
-
-    paths:
-      - "assets/data/properties.json"
+  workflow_run:
+    workflows:
+      - "Build properties JSON"
+    types:
+      - completed
 
 permissions:
   contents: write
 
 jobs:
   build:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
