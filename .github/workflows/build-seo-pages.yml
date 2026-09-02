@@ -589,10 +589,6 @@ jobs:
                 href="/assets/css/style.css">
 
           <script type="application/ld+json">
-          ${JSON.stringify(schema, null, 2)}
-          </script>
-
-          <script type="application/ld+json">
           ${JSON.stringify(breadcrumbSchema, null, 2)}
           </script>
 
