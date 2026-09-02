@@ -139,7 +139,7 @@ collections:
         name: "highlights"
         widget: "text"
         required: false
-        hint: "Mỗi dòng là một ưu điểm nổi bật"
+        hint: "Mỗi dòng là một ưu điểm nổi bật. Nên nhập 4–6 ý ngắn, cụ thể và có giá trị thực tế như: mặt tiền đường nhựa, sổ hồng riêng, có thổ cư, gần chợ/trường học, view đẹp."
        
       - label: "Hashtag / Từ khóa liên quan"
         name: "tags"
