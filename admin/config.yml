@@ -54,7 +54,7 @@ collections:
         name: "description"
         widget: "text"
         required: false
-
+        hint: "SEO: Viết 1–2 câu ngắn, nêu rõ loại BĐS + khu vực + diện tích + điểm mạnh + pháp lý hoặc giá. Ví dụ: Bán đất Xuân Thọ Đà Lạt 1152m², có 400m² thổ cư, mặt tiền đường nhựa 21m, sổ hồng riêng, giá 10 tỷ."
       - label: "Ảnh đại diện"
         name: "image"
         widget: "image"
