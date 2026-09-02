@@ -146,7 +146,7 @@ collections:
         widget: "list"
         required: false
         label_singular: "Từ khóa"
-        hint: "Mỗi dòng là một từ khóa liên quan"
+        hint: "SEO: Nên nhập 5–8 cụm từ khóa sát với bài đăng, ưu tiên loại BĐS + khu vực + đặc điểm thật. Ví dụ: đất Xuân Thọ Đà Lạt, đất thổ cư Xuân Thọ, đất sổ hồng riêng Đà Lạt. Không nhồi quá nhiều từ khóa."
         field:
           label: "Từ khóa"
           name: "tag"
