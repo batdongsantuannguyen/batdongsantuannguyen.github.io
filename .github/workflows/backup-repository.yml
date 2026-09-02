@@ -55,6 +55,7 @@ jobs:
 
           git tag "$MONTH_TAG" "$GITHUB_SHA"
           git push origin "$MONTH_TAG"
+
       - name: Mirror repository to private backup
         shell: bash
         env:
@@ -63,7 +64,10 @@ jobs:
           git remote remove backup 2>/dev/null || true
 
           git remote add backup \
-            "https://x-access-token:${BACKUP_TOKEN}@github.com/batdongsantuannguyen/batdongsantuannguyen-backup.git"
+            "https://github.com/batdongsantuannguyen/batdongsantuannguyen-backup.git"
 
-          git push backup --all --force
-          git push backup --tags --force
+          git -c http.extraheader="AUTHORIZATION: bearer ${BACKUP_TOKEN}" \
+            push backup --all --force
+
+          git -c http.extraheader="AUTHORIZATION: bearer ${BACKUP_TOKEN}" \
+            push backup --tags --force
