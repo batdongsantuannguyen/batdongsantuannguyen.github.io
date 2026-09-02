@@ -268,10 +268,13 @@ jobs:
             /*
              * Ảnh Markdown.
              */
-            prepared = prepared.replace(
-              /!\[([^\]]*)\]\(([^)]+)\)/g,
-              (_, alt, src) => {
-                return `\n<figure class="article-image"><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">${alt ? `<figcaption>${escapeHtml(alt)}</figcaption>` : ""}</figure>\n`;
+             prepared = prepared.replace(
+              /!\[([^\]]*)\]\(\s*(\S+?)(?:\s+["']([^"']*)["'])?\s*\)/g,
+              (_, alt, src, title) => {
+                const imageAlt =
+                  String(alt || title || "").trim();
+            
+                return `\n<figure class="article-image"><img src="${escapeHtml(src)}" alt="${escapeHtml(imageAlt)}" loading="lazy">${imageAlt ? `<figcaption>${escapeHtml(imageAlt)}</figcaption>` : ""}</figure>\n`;
               }
             );
 
