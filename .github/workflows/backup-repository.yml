@@ -66,8 +66,14 @@ jobs:
           git remote add backup \
             "https://github.com/batdongsantuannguyen/batdongsantuannguyen-backup.git"
 
-          git -c http.extraheader="AUTHORIZATION: bearer ${BACKUP_TOKEN}" \
-            push backup --all --force
+          git config --global credential.helper store
 
-          git -c http.extraheader="AUTHORIZATION: bearer ${BACKUP_TOKEN}" \
-            push backup --tags --force
+          printf "https://x-access-token:%s@github.com\n" "$BACKUP_TOKEN" \
+            > ~/.git-credentials
+
+          chmod 600 ~/.git-credentials
+
+          git push backup --all --force
+          git push backup --tags --force
+
+          rm -f ~/.git-credentials
