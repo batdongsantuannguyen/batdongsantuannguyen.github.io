@@ -11,13 +11,13 @@ frontage: 21m
 road: Đường nhựa 7m
 legal: Sổ hồng riêng
 furniture: Nhà trống
-content: >-
+summary: >
   Chỉ chưa đến 9tr/m2 cho Một Bất Động Sản ( Mặt Tiền Đường Nhựa).Cho toàn bộ
   thửa đất diện tích 1152m2, đã có sẵn 400m2 đất ở ( ngoài ra nhà đầu tư có thể
   chuyển đổi thêm để phù hợp cho nhu cầu sử dụng).
-
-
-  Trên đất hiện hữu căn nhà cấp 4, xây dựng kiên cố có thể dọn dẹp nhẹ và cho thuê và ở thoải mái.\
+content: >-
+  Trên đất hiện hữu căn nhà cấp 4, xây dựng kiên cố có thể dọn dẹp nhẹ và cho
+  thuê và ở thoải mái.\
 
   Điện - cáp mạng và nước máy đầy đủ - thuận tiện cho việc sinh hoạt định cư.
 
@@ -51,7 +51,6 @@ content: >-
 
   Giá bán chỉ 10tỷ cho toàn bộ diện tích và căn nhà hiện hữu
 
-   
 
   :::format align="center" line="1.8"
 
