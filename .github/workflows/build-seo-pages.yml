@@ -843,16 +843,16 @@ jobs:
               return "";
             }
 
-            return `
-${STATIC_LINKS_START}
-<section class="seo-static-links" aria-label="Danh sách bất động sản">
-  <h2>Bất động sản mới cập nhật</h2>
-  <ul>
-${items}
-  </ul>
-</section>
-${STATIC_LINKS_END}
-`;
+            return [
+              STATIC_LINKS_START,
+              '<section class="seo-static-links" aria-label="Danh sách bất động sản">',
+              '  <h2>Bất động sản mới cập nhật</h2>',
+              '  <ul>',
+              items,
+              '  </ul>',
+              '</section>',
+              STATIC_LINKS_END
+            ].join("\n");
           }
 
           for (const [type, categoryFile] of Object.entries(categoryFiles)) {
