@@ -786,6 +786,136 @@ jobs:
 
             generated++;
           }
+          /*
+           * =========================================
+           * TẠO LIÊN KẾT HTML TĨNH CHO TRANG DANH MỤC
+           * =========================================
+           */
+
+          const STATIC_LINKS_START =
+            "<!-- AUTO STATIC SEO LINKS START -->";
+
+          const STATIC_LINKS_END =
+            "<!-- AUTO STATIC SEO LINKS END -->";
+
+          const categoryFiles = {
+            nha: "bat-dong-san/nha/index.html",
+            dat: "bat-dong-san/dat/index.html",
+            villa: "bat-dong-san/villa/index.html",
+            "khach-san": "bat-dong-san/khach-san/index.html",
+            "can-ho": "bat-dong-san/can-ho/index.html",
+            homestay: "bat-dong-san/homestay/index.html",
+            "cho-thue": "bat-dong-san/cho-thue/index.html"
+          };
+
+          function buildStaticLinks(type) {
+            const items = properties
+              .filter(property =>
+                property &&
+                property.title &&
+                normalizeType(property.type) === type
+              )
+              .map(property => {
+                const seoPath = getSeoPath(property);
+
+                if (!seoPath) {
+                  return "";
+                }
+
+                const href =
+                  "/" +
+                  seoPath
+                    .replace(/^\/+|\/+$/g, "") +
+                  "/";
+
+                return `
+                  <li>
+                    <a href="${escapeHtml(href)}">
+                      ${escapeHtml(property.title)}
+                    </a>
+                  </li>
+                `;
+              })
+              .filter(Boolean)
+              .join("\n");
+
+            if (!items) {
+              return "";
+            }
+
+            return `
+${STATIC_LINKS_START}
+<section class="seo-static-links" aria-label="Danh sách bất động sản">
+  <h2>Bất động sản mới cập nhật</h2>
+  <ul>
+${items}
+  </ul>
+</section>
+${STATIC_LINKS_END}
+`;
+          }
+
+          for (const [type, categoryFile] of Object.entries(categoryFiles)) {
+            if (!fs.existsSync(categoryFile)) {
+              console.log(
+                `Category file not found: ${categoryFile}`
+              );
+              continue;
+            }
+
+            let html =
+              fs.readFileSync(categoryFile, "utf8");
+
+            const staticLinks =
+              buildStaticLinks(type);
+
+            if (!staticLinks) {
+              continue;
+            }
+
+            const existingPattern =
+              new RegExp(
+                `${STATIC_LINKS_START}[\\s\\S]*?${STATIC_LINKS_END}`,
+                "g"
+              );
+
+            if (existingPattern.test(html)) {
+              html =
+                html.replace(
+                  existingPattern,
+                  staticLinks.trim()
+                );
+            } else {
+              const productsMarker =
+                '<div class="products">';
+
+              const markerIndex =
+                html.indexOf(productsMarker);
+
+              if (markerIndex === -1) {
+                console.log(
+                  `Products marker not found: ${categoryFile}`
+                );
+                continue;
+              }
+
+              html =
+                html.slice(0, markerIndex) +
+                staticLinks +
+                "\n\n" +
+                html.slice(markerIndex);
+            }
+
+            fs.writeFileSync(
+              categoryFile,
+              html,
+              "utf8"
+            );
+
+            console.log(
+              `Static SEO links updated: ${categoryFile}`
+            );
+          }
               /*
                * =========================================
                * TỰ ĐỘNG TẠO SITEMAP
