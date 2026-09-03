@@ -2,19 +2,20 @@
 type: nha
 location: xuan-tho-xuan-truong
 title: Bán Nhà Vườn Homestay View Đồi Chè - Đồi Điện Gió Cấu Đất - Chỉ 3,7tỷ
-price: 3,7tỷ
+price: 3,7 tỷ
+description: "Bán căn nhà vườn nghỉ dưỡng với diện tích trên sổ 438m², diện tích
+  thực tế khoảng 513m², trong đó đã chuyển đổi 200m² đất ở. "
 image: /assets/images/ảnh-màn-hình-2026-08-02-lúc-11.54.42.png
 address: Cầu Đất - Đà Lạt
 area: 438m2
 residentialArea: 200m2
-frontage: 11m
-road: Bê Tông 3m
+frontage: 11,22m
+road: bê tông 3m
 legal: Sổ hồng riêng
 content: >-
-  Bán căn nhà vườn nghỉ dưỡng với diện tích trên sổ 438m², diện tích thực tế
-  khoảng 513m², trong đó đã chuyển đổi 200m² đất ở. \
-
-  Trên đất hiện hữu căn nhà homestay có thiết kế độc đáo, hài hòa với thiên nhiên, mang đến không gian sống gần gũi, yên bình và phù hợp để nghỉ dưỡng hoặc khai thác lưu trú.
+  Trên đất hiện hữu căn nhà homestay có thiết kế độc đáo, hài hòa với thiên
+  nhiên, mang đến không gian sống gần gũi, yên bình và phù hợp để nghỉ dưỡng
+  hoặc khai thác lưu trú.
 
 
   ![](/assets/images/unnamed-3-.webp "Bán Nhà Vườn Homestay View Đồi Chè - Đồi Điện Gió Cấu Đất - Chỉ 3,7tỷ")
