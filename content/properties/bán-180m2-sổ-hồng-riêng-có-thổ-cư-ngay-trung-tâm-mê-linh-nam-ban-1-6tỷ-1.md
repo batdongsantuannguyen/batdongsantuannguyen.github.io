@@ -6,7 +6,8 @@ type: dat
 location: lam-ha
 title: Bán 180m2 Sổ Hồng Riêng| Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban\ 1,6tỷ
 price: 1,6 tỷ
-description: ""
+description: "Chỉ 1,6tỷ [KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư, Thửa đất này đã có
+  sẵn, mặt tiền sổ hồng riêng ngay trung tâm dân cư "
 image: /tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg
 images: null
 address: Mê Linh - Nam Ban, Lâm Hà, Lâm Đồng
@@ -21,10 +22,8 @@ url: /tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/
 legal: Sổ hồng riêng
 deposit: ""
 content: >-
-  Chỉ 1,6tỷ \[KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư, Thửa đất này đã có sẵn, mặt
-  tiền sổ hồng riêng ngay trung tâm dân cư \
-
-  Cách đường DT725 chỉ 200m, nằm cạnh với các khu du lịch lớn như KDL Chuồn Chuồn, Cafe Mê Linh, The Florest Hoa Trong Rừng. 
+  Cách đường DT725 chỉ 200m, nằm cạnh với các khu du lịch lớn như KDL Chuồn
+  Chuồn, Cafe Mê Linh, The Florest Hoa Trong Rừng. 
 
 
   ![](/tuannguyen-batdongsan/assets/images/z7665669953012_1b1553e2156d1054d37d612e929a2483.jpg)
@@ -42,6 +41,16 @@ content: >-
 
 
   ![](/tuannguyen-batdongsan/assets/images/z7665670053236_1e9ba9b00f0993ca84a2ed7d72807e6a.jpg)
+
+
+  Hiện nay ggiá trị cần bán của thửa đất này chỉ với **1,6 tỷ** 
+
+
+  :::format align="center" line="1.6"
+
+  LÂM HÀ XÂY DỰNG - MLXD78
+
+  :::
 highlights: |-
   Nằm cạnh các địa danh du lịch nổi tiếng
   Đường xe hơi -> Gần ĐT725
