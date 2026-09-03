@@ -1,9 +1,14 @@
 ---
 type: nha
 location: da-lat
-title: Bán Nhà Mặt Tiền , Phường Lang Biang - Đà Lạt| SHR| Chỉ 4,7tỷ
+title: Bán 1 Trệt, 1 Lầu, Mặt Tiền Đường Nhựa, Phường Lang Biang - Đà Lạt| Sổ
+  Hồng Riêng| Chỉ 4,7tỷ
 price: 4,700,000,000
-description: ""
+description: >
+  Một căn nhà có vị trí đẹp để vừa an cư vừa khai thác kinh doanh hoặc cho thuê
+  thì đây là một lựa chọn rất đáng cân nhắc.
+
+  Căn nhà nằm ngay mặt tiền đường Lạc Long Quân, trung tâm phường Lang Biang, Đà Lạt. 
 image: /tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2026-06-24-lúc-13.15.15.png
 address: Phường LangBiang - Đà Lạt
 area: 146,7m2
@@ -15,16 +20,8 @@ legal: "Sổ hồng "
 furniture: ""
 summary: ""
 content: >-
-  ***🏡 NHÀ MẶT TIỀN TRUNG TÂM LANG BIANG – VỪA Ở, VỪA KINH DOANH CHỈ 4,7 TỶ***
-
-
-  Một căn nhà có vị trí đẹp để vừa an cư vừa khai thác kinh doanh hoặc cho thuê thì đây là một lựa chọn rất đáng cân nhắc.
-
-
-  Căn nhà nằm ngay mặt tiền đường Lạc Long Quân, trung tâm phường Lang Biang, Đà Lạt. 
-
-
-  Đường trước nhà rộng 12m, có vỉa hè thoáng, xe ô tô lưu thông hai chiều thuận tiện, dễ dàng đỗ xe và bốc dỡ hàng hóa. 
+  Đường trước nhà rộng 12m, có vỉa hè thoáng, xe ô tô lưu thông hai chiều thuận
+  tiện, dễ dàng đỗ xe và bốc dỡ hàng hóa. 
 
 
   ![](/tuannguyen-batdongsan/assets/images/d5d86847-0b1a-48a4-826c-ca7335d56c81.png)
@@ -68,5 +65,8 @@ tags:
   - nhà trung tâm
   - sổ hồng riêng
   - Langbiang - Đà Lạt
+  - nhà mặt tiền
+  - langbiang
+  - nhà bán
 videoId: https://www.youtube.com/watch?v=aVoFnULSetk
 ---
