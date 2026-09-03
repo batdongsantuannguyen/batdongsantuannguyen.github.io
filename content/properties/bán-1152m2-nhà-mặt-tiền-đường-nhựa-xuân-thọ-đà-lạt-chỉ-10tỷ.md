@@ -31,7 +31,7 @@ content: >-
 
   \
 
-  Mặt tiền bám đường nhựa rộng 21m mặt sau hướng view bát ngát không bị che khuất. \
+  Mặt tiền bám đường nhựa rộng ***21m*** mặt sau hướng view bát ngát không bị che khuất. \
 
   Hiện trạng đường nhựa đẹp - bằng phẳng rộng 7m xe tải lưu thông thoải mái, 2 làn xe hơi tránh nhau thuận tiện.
 
@@ -53,7 +53,7 @@ content: >-
 
   \
 
-  Giá bán chỉ 10tỷ cho toàn bộ diện tích và căn nhà hiện hữu
+  Giá bán chỉ **10tỷ** cho toàn bộ diện tích và căn nhà hiện hữu
 
 
 
