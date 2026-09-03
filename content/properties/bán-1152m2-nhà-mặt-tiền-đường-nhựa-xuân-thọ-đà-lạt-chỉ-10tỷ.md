@@ -56,12 +56,17 @@ content: >-
   Giá bán chỉ 10tỷ cho toàn bộ diện tích và căn nhà hiện hữu
 
 
-  ***Xuân Thọ Xây Dựng*** - **XTXD433**
 
 
   :::format align="center" line="1.8"
 
-  XUÂN THỌ XÂY DỰNG - XTXD433
+  Xuân Thọ Xây Dựng - XTXD433
+
+
+
+
+
+
 
 
   :::
