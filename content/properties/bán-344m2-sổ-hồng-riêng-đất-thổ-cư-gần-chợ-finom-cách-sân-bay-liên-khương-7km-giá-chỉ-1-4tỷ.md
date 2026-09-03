@@ -41,6 +41,13 @@ content: >-
 
 
   Một lựa chọn đáng cân nhắc cho anh/chị đang tìm đất xây nhà, đầu tư tích lũy hoặc đón đầu sự phát triển của khu vực Đức Trọng.
+
+
+  :::format align="center" line="1.6"
+
+  ĐỨC TRỌNG XÂY DỰNG - HTXD415
+
+  :::
 highlights: |-
   Khu trung tâm dân cư đông đúc, đầy đủ tiện ích
   Gần chợ lớn dân sinh - quốc lộ 27 - Sân bay Quốc tế Liên Khương
