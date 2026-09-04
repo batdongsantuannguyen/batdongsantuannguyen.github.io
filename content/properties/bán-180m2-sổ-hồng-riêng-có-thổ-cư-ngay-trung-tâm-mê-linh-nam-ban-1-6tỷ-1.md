@@ -32,7 +32,7 @@ content: >-
   Diện tích 180m2 có sẵn 132m2 thổ cư, đất bằng phẳng vuông vắn mặt tiền rộng 6m, phong thuỷ hướng Đông nam mát mẻ. 
 
 
-  ![](/tuannguyen-batdongsan/assets/images/z7665668006629_84e6a949e8de6247d582aa147a3b6a93.jpg)
+  ![](/tuannguyen-batdongsan/assets/images/z7665668006629_84e6a949e8de6247d582aa147a3b6a93.jpg "Bán 180m2 Sổ Hồng Riêng| Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban\ 1,6tỷ")
 
 
   \
@@ -40,7 +40,7 @@ content: >-
   Đường xe hơi rộng rãi kết nối trực tiếp với đường ĐT725 nên giao thông rất thuận tiện Vị trí đầy đủ các tiện ích, trường học, quán xá và uỷ ban xã. 
 
 
-  ![](/tuannguyen-batdongsan/assets/images/z7665670053236_1e9ba9b00f0993ca84a2ed7d72807e6a.jpg)
+  ![](/tuannguyen-batdongsan/assets/images/z7665670053236_1e9ba9b00f0993ca84a2ed7d72807e6a.jpg "Bán 180m2 Sổ Hồng Riêng| Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban\ 1,6tỷ")
 
 
   Hiện nay ggiá trị cần bán của thửa đất này chỉ với **1,6 tỷ** 
