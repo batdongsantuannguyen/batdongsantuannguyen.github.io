@@ -53,8 +53,7 @@ content: >-
   :::
 
 
-  ***Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây***
-
+  ***Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây***\
 
   <https://www.youtube.com/@tuannguyenbatdongsan>
 
