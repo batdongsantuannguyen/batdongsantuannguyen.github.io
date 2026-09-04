@@ -58,14 +58,6 @@ content: >-
 
 
   :::
-
-
-  ***Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây***\
-
-  <https://www.youtube.com/@tuannguyenbatdongsan>
-
-
-  <https://www.tiktok.com/@batdongsantuannguyen>
 highlights: |-
   Nhà 5 tầng liên kế hiện đại
   Vị trí trung tâm đủ mọi tiện ích
