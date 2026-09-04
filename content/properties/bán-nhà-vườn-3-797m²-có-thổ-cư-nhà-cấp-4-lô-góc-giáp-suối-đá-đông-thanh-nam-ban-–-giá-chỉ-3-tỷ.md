@@ -59,13 +59,7 @@ content: >-
   :::
 
 
-  ***Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây***
-
-
-  <https://www.youtube.com/@tuannguyenbatdongsan>
-
-
-  <https://www.tiktok.com/@batdongsantuannguyen>
+  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: |-
   Diện tích rộng vườn cây tự nhiên
   Cạnh suối đá thuận tiện nguồn nước
