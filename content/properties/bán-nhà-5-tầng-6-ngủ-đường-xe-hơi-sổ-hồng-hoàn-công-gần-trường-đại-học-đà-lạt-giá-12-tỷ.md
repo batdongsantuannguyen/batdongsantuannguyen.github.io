@@ -44,8 +44,14 @@ content: >-
   **Pháp lý:** Sổ hồng riêng, nhà đã hoàn công.
 
 
-
   **Giá bán:** **12 tỷ đồng**, còn thương lượng.
+
+
+  :::format align="center" line="1.6"
+
+  NHÀ PHỐ - P8NP348
+
+  :::
 highlights: |-
   Nhà 5 tầng liên kế hiện đại
   Vị trí trung tâm đủ mọi tiện ích
