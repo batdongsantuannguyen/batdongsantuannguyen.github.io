@@ -1,7 +1,8 @@
 ---
 type: nha
 location: da-lat
-title: Bán Nhà Mặt Tiền Phường Lang Biang Đà Lạt
+title: Bán Nhà Mặt Tiền, 1 Trệt, 1 Lầu, Sổ Hồng Riêng, Ngay Trung Tâm, Phường
+  Lang Biang - Đà Lạt - Giá Cần Bán 4,8 tỷ
 price: 4,8tỷ
 description: Căn Nhà Mặt Tiền Đường Nhựa Rộng 12m, Ngay Trung Tâm Phường, Thuận
   Tiện Kinh Doanh Buôn Bán, Giá Trị Để Đầu Tư.
