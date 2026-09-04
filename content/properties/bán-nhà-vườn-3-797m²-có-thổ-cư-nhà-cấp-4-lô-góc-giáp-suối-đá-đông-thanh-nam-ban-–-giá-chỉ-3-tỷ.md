@@ -46,8 +46,6 @@ content: >-
   Vị trí gần trung tâm xã, thuận tiện tiếp cận các tiện ích sinh hoạt hằng ngày. Với diện tích gần 3.800m², mặt đường dài, có nhà ở, cây trồng và nguồn nước sẵn, bất động sản phù hợp làm nhà vườn nghỉ dưỡng, trang trại gia đình, sản xuất nông nghiệp hoặc đầu tư giữ đất lâu dài.
 
 
-
-
   Pháp lý: Sổ hồng riêng.
 
 
@@ -64,11 +62,10 @@ content: >-
   ***Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây***
 
 
+  <https://www.youtube.com/@tuannguyenbatdongsan>
 
-  https://www.youtube.com/@tuannguyenbatdongsan
 
-
-  https://www.tiktok.com/@batdongsantuannguyen
+  <https://www.tiktok.com/@batdongsantuannguyen>
 highlights: |-
   Diện tích rộng vườn cây tự nhiên
   Cạnh suối đá thuận tiện nguồn nước
