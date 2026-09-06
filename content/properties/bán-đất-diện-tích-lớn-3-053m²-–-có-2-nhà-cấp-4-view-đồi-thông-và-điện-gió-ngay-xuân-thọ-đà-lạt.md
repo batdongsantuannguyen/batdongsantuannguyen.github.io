@@ -41,7 +41,7 @@ content: >-
 
   ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: |
-  Diện tích rộng - có thổ cư
+  Diện tích rộng - có sẵn thổ cư
   Có nhà sẵn - công trình kiên cố
   Có view - Yên tĩnh - Giá trị nghỉ dưỡng
   Đường xe hơi bằng phẳng, gần QL 20
