@@ -16,9 +16,9 @@ direction: Tây bắc
 road: Bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  
+  ![]()
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.34.18.jpg "Bán Thửa Đất 440m2| Lô Góc Thổ Cư | 2 Mặt Tiền Gần Chợ | Có View Đường Xe Hơi Thuận Tiện Ngay Cầu Đất – Đà Lạt")
+
 
 
   ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.34.18.jpg "Bán Khu Đất Diện Tích 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ - Đà Lạt")
