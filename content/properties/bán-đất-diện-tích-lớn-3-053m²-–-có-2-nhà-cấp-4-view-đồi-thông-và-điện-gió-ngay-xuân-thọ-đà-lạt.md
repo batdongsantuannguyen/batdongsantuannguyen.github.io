@@ -10,7 +10,7 @@ description: Bán thửa đất lô góc 2 mặt tiền đường xe hơi, nằm
 image: /assets/images/ban_dat_tho_cư_da_lat-2.jpg
 address: Xuân Trường - Đà Lạt
 area: 440,6m2
-residentialArea: 440m2
+residentialArea: 440,6m2
 frontage: 21,57m
 direction: Tây Nam
 road: Bê tông 4m
