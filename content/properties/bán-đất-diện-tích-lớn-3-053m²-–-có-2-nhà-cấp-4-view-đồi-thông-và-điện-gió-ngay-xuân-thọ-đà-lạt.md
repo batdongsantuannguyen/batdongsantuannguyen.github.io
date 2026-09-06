@@ -1,58 +1,61 @@
 ---
 type: dat
 location: xuan-tho-xuan-truong
-title: Bán Đất Diện Tích Lớn 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện
-  Gió Ngay Xuân Thọ - Đà Lạt
-price: 12 tỷ
-description: Vị trí cách Quốc lộ 20 khoảng 250m, cách Chợ Đêm Đà Lạt khoảng
-  15km, thuận tiện di chuyển vào trung tâm nhưng không gian vẫn yên tĩnh, trong
-  lành.
-image: /assets/images/chatgpt-image-10_31_15-29-thg-7-2026.jpg
-address: Xuân Thọ - Đà Lạt
-area: 3053m2
+title: Bán Thửa Đất 440m2| Lô Góc Thổ Cư | 2 Mặt Tiền Gần Chợ | Có View Đường Xe
+  Hơi Thuận Tiện Ngay Cầu Đất – Đà Lạt
+price: 5,7 tỷ
+description: Bán thửa đất lô góc 2 mặt tiền đường xe hơi, nằm gần chợ Cầu Đất –
+  Đà Lạt. Vị trí thuận tiện, phù hợp xây dựng nhà ở, làm nhà vườn, nghỉ dưỡng
+  hoặc đầu tư lâu dài tại khu vực Cầu Đất.
+image: /assets/images/ban_dat_tho_cư_da_lat-2.jpg
+address: Xuân Trường - Đà Lạt
+area: 440,6m2
 residentialArea: 400m2
-frontage: 36m
-direction: Tây Bắc
+frontage: 21,57m
+direction: Tây Nam
 road: Bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.35.18.jpg "Bán Đất Diện
-  Tích Lớn 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ -
+  ![](/assets/images/ban_dat_tho_cư_da_lat-1.jpg "Bán Thửa Đất 440m2| Lô Góc
+  Thổ Cư | 2 Mặt Tiền Gần Chợ | Có View Đường Xe Hơi Thuận Tiện Ngay Cầu Đất –
   Đà Lạt")
 
 
-  Khu đất có diện tích **3.053m²**, trong đó có sẵn **400m² thổ cư** và **2 căn nhà cấp 4 xây dựng kiên cố**. Mặt tiền bám đường bê tông khoảng **36m**, ô tô vào tận nơi.
+  Thửa đất có tổng diện tích **440,6m²**, mặt tiền rộng lên đến **21,57m** và đặc biệt **toàn bộ diện tích là đất thổ cư**. Lợi thế lô góc cùng hai mặt tiền đường xe hơi giúp việc di chuyển thuận tiện và có nhiều phương án bố trí công trình.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.34.18.jpg "Bán Đất Diện Tích Lớn 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ - Đà Lạt")
+  ![](/assets/images/ban_dat_tho_cư_da_lat-4.jpg "Bán Thửa Đất 440m2| Lô Góc Thổ Cư | 2 Mặt Tiền Gần Chợ | Có View Đường Xe Hơi Thuận Tiện Ngay Cầu Đất – Đà Lạt")
 
 
-  Đất có địa thế triền nhẹ, tầm nhìn rộng và không bị che chắn. Từ khu đất có thể ngắm đồi thông, Đồi Chè Cầu Đất và khu đồi điện gió. Với nhà ở và đất thổ cư sẵn có, nơi đây phù hợp cho gia đình làm nhà vườn nghỉ dưỡng lâu dài.
+  Một điểm đáng chú ý là **tầm nhìn trực diện Đồi Chè và đồi điện gió Cầu Đất**. View rộng, thoáng và không bị che khuất, phù hợp với người mua yêu thích cảnh quan đặc trưng của khu vực này.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.32.00.jpg "Bán Đất Diện Tích Lớn 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ - Đà Lạt")
+  ![](/assets/images/ban_dat_tho_cư_da_lat-3.jpg "Bán Thửa Đất 440m2| Lô Góc Thổ Cư | 2 Mặt Tiền Gần Chợ | Có View Đường Xe Hơi Thuận Tiện Ngay Cầu Đất – Đà Lạt")
 
 
-  Người mua đầu tư có thể nghiên cứu phát triển farmstay, homestay, camping, biệt thự vườn hoặc chuyển thêm thổ cư theo quy hoạch và quy định của địa phương.
+  Từ thửa đất di chuyển khoảng **800m là đến chợ Cầu Đất**, thuận tiện tiếp cận các tiện ích và đáp ứng nhu cầu sinh hoạt hằng ngày.
 
 
-  **Giá bán toàn bộ: 12 tỷ đồng.**
+  **Pháp lý: Sổ hồng riêng.**
+
+
+  **Giá bán: 5,7 tỷ đồng.**
 
 
   ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: |
-  Diện tích rộng - có sẵn thổ cư
-  Có nhà sẵn - công trình kiên cố
-  Có view - Yên tĩnh - Giá trị nghỉ dưỡng
-  Đường xe hơi bằng phẳng, gần QL 20
+  Lô góc 2 mặt tiền - thổ cư toàn bộ
+  View đối diện đồi chè - đồi điện gió đẹp nhất
+  Trung tâm khu dân cư - gần chợ - đủ tiện ích
+  Đem đến không gian nghỉ dưỡng tốt nhất
 tags:
   - bán đất thổ cư
-  - đất xuân thọ - xuân trường
-  - bán đất xuân thọ đà lạt
-  - xuân thọ - đà lạt
+  - đất gần đồi chè xuân trường
+  - bán đất xuân trường
+  - "xuân thọ - xuân trường "
   - sổ hồng riêng
   - đất thổ cư
   - "đất có view "
   - đất xây dựng
-videoId: https://www.youtube.com/watch?v=9yoxgvIF7yM
+videoId: https://www.youtube.com/watch?v=biIX2VDKxAw
 ---
