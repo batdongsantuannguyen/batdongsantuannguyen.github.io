@@ -1,62 +1,71 @@
 ---
 type: dat
 location: xuan-tho-xuan-truong
-title: Bán Khu Đất Diện Tích 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện
-  Gió Ngay Xuân Thọ - Đà Lạt
-price: 12 tỷ
-description: Vị trí cách Quốc lộ 20 khoảng 250m, cách Chợ Đêm Đà Lạt khoảng
-  15km, thuận tiện di chuyển vào trung tâm nhưng không gian vẫn yên tĩnh, trong
-  lành.
-image: /assets/images/chatgpt-image-10_31_15-29-thg-7-2026.jpg
-address: Xuân Thọ - Đà Lạt
-area: 3.053m²
-residentialArea: 400m²
-frontage: 36m
-direction: Tây bắc
-road: Bê tông 4m
+title: "Bán 409m² Đất Sổ Riêng Xây Dựng  Mặt Tiền Đường Nhựa – View Đồi Chè Cầu
+  Đất, Xuân Trường - Đà Lạt "
+price: 7,5 tỷ
+description: Lô đất nằm tại trung tâm Xuân Trường – Đà Lạt, cách Quốc lộ 20 và
+  chợ Cầu Đất khoảng 1km. Gần đất có trung tâm y tế, công viên và khu dân cư
+  hiện hữu, thuận tiện sinh hoạt hằng ngày.
+image: /assets/images/ban_dat_so_rieng_xay_dung_da_lat-3.jpg
+address: Cầu Đất - Đà Lạt
+area: 409m²
+residentialArea: 409m²
+frontage: 21m
+direction: Đông Nam
+road: Bê nhựa 6m
 legal: Sổ hồng riêng
 content: >-
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.35.18.jpg "Bán Khu Đất
-  Diện Tích 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ -
-  Đà Lạt")
+  ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-1.jpg "Bán 409m² Đất Sổ
+  Riêng Xây Dựng Mặt Tiền Đường Nhựa – View Đồi Chè Cầu Đất, Xuân Trường - Đà
+  Lạt")
 
 
-  Khu đất có diện tích **3.053m²**, trong đó có sẵn **400m² thổ cư** và **2 căn nhà cấp 4 xây dựng kiên cố**. Mặt tiền bám đường bê tông khoảng **36m**, ô tô vào tận nơi.
+  Tổng diện tích **409m², toàn bộ là đất thổ cư**. Mặt tiền rộng khoảng **21m**, đất nở hậu, thế đất dương và có nhiều không gian để bố trí nhà ở, sân vườn hoặc công trình nghỉ dưỡng.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.32.00.jpg "Bán Khu Đất Diện Tích 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ - Đà Lạt")
+  ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-4.jpg "Bán 409m² Đất Sổ Riêng Xây Dựng Mặt Tiền Đường Nhựa – View Đồi Chè Cầu Đất, Xuân Trường - Đà Lạt")
 
 
-  Đất có địa thế triền nhẹ, tầm nhìn rộng và không bị che chắn. Từ khu đất có thể ngắm đồi thông, Đồi Chè Cầu Đất và khu đồi điện gió. Với nhà ở và đất thổ cư sẵn có, nơi đây phù hợp cho gia đình làm nhà vườn nghỉ dưỡng lâu dài.
+  Đất hướng **Đông Nam**, sở hữu **tầm nhìn trực diện Đồi Chè và đồi điện gió Cầu Đất**, không bị che khuất. Phía trước là **đường nhựa rộng 6m**, đường thông nhiều hướng, ô tô đi lại thuận tiện. Hai bên đường đã trồng Mai Anh Đào và Phượng Tím, tạo cảnh quan đẹp vào mùa hoa.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-29-lúc-09.34.18.jpg "Bán Khu Đất Diện Tích 3.053m² – Có 2 Nhà Cấp 4, View Đồi Thông Và Điện Gió Ngay Xuân Thọ - Đà Lạt")
+  ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-2.jpg "Bán 409m² Đất Sổ Riêng Xây Dựng Mặt Tiền Đường Nhựa – View Đồi Chè Cầu Đất, Xuân Trường - Đà Lạt")
 
 
-  Nhà đầu tư có thể nghiên cứu phát triển farmstay, homestay, camping, biệt thự vườn hoặc chuyển thêm thổ cư theo quy hoạch và quy định của địa phương.
+  Với diện tích rộng, mặt tiền lớn và 100% đất ở, bất động sản phù hợp xây nhà ở lâu dài, biệt thự sân vườn hoặc nghiên cứu khai thác homestay, lưu trú theo quy hoạch và quy định hiện hành.
 
 
-  **Pháp lý: Sổ hồng riêng**
+  ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-5.jpg "Bán 409m² Đất Sổ Riêng Xây Dựng Mặt Tiền Đường Nhựa – View Đồi Chè Cầu Đất, Xuân Trường - Đà Lạt")
 
 
-  **Giá bán toàn bộ: 12 tỷ đồng**
+  **Pháp lý: Sổ hồng riêng, mốc ranh rõ ràng.**
+
+
+  **Giá bán: 7,2 tỷ đồng.**
+
+
 
 
   ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
-highlights: |-
-  Có sẵn nhà ở - công trình kiên cố
-  Đường xe hơi thuận tiện, gần QL 20
-  Sổ hồng riêng - diện tích rộng lớn - có sẵn thổ cư
-  Đất có view - không gian thông thoáng - thiên nhiên
-  Phù hợp cho không gian quần thể nghỉ dưỡng - ẩm thực - check in
+highlights: >-
+  Diện tích rộng - Thổ cư 100% - không tốn thêm chi phí và thời gian chuyển đổi
+
+  Mặt tiền rộng - đất nở hậu - thế dương đẹp về phong thuỷ, dễ dàng thiết kế công trình
+
+  Vị trí trung tâm, dễ dàng tiếp cận các tiện ích - sức khoẻ
+
+  View trực diện Đồi Chè và đồi điện gió không gian nghỉ dưỡng gần gũi thiên nhiên
+
+  Sổ hồng riêng - ranh mốc rõ ràng - yên tâm sở hữu - đầu tư
 tags:
   - đất xây dựng
   - thổ cư đà lạt
   - đất sổ riêng
   - sổ hồng riêng
-  - xuân thọ - xuân trường
-  - đất diện tích lớn
+  - Cầu đất - xuân trường
+  - hướng Đông nam
   - đất có view
-  - xuân thọ - đà lạt
-videoId: https://www.youtube.com/watch?v=sTJKltwDOUc
+  - mặt tiền đường nhựa
+videoId: https://www.youtube.com/watch?v=5Aw12svbQGg
 ---
