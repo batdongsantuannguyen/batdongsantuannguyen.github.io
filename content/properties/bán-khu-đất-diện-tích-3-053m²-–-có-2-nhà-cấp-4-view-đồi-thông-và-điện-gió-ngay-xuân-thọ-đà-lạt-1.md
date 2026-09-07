@@ -13,7 +13,7 @@ area: 409m²
 residentialArea: 409m²
 frontage: 21m
 direction: Đông Nam
-road: Bê nhựa 6m
+road: nhựa 6m - đường thông
 legal: Sổ hồng riêng
 content: >-
   ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-1.jpg "Bán 409m² Đất Sổ
