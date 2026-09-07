@@ -412,7 +412,13 @@ const isHomePage =
 
 const propertiesToShow =
     isHomePage
-        ? properties.slice(0, 8)
+        ? [...properties]
+            .sort(
+                (a, b) =>
+                    Number(b._createdAt || 0) -
+                    Number(a._createdAt || 0)
+            )
+            .slice(0, 8)
         : properties;
 
         propertiesToShow.forEach(
