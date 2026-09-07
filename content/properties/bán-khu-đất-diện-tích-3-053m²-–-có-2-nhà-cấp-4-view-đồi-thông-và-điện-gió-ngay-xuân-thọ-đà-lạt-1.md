@@ -1,8 +1,8 @@
 ---
 type: dat
 location: da-lat
-title: Bán 2 Thửa Đất Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh
-  Hoài Đức – Đà Lạt
+title: Bán 2 Thửa Đất 417m² Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự
+  Trịnh Hoài Đức – Đà Lạt
 price: 17,5 tỷ
 description: Khu đất nằm tại khu biệt thự Trịnh Hoài Đức, xung quanh có nhiều
   biệt thự, quán cà phê, cơ sở lưu trú và khu nghỉ dưỡng Nam Hồ. Vị trí cách
@@ -17,22 +17,20 @@ direction: Tây Nam
 road: bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  ![](/assets/images/dat_so_rieng_xay_dung_da_lat-5.jpg "Bán 2 Thửa Đất Liền Kế
-  Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh Hoài Đức – Đà Lạt")
+  ![](/assets/images/dat_so_rieng_xay_dung_da_lat-5.jpg "Bán 2 Thửa Đất 417m²
+  Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh Hoài Đức – Đà Lạt")
 
 
   Tổng diện tích khuôn viên **417m²**, mặt tiền rộng khoảng **20m**. Đặc biệt, **toàn bộ diện tích đã chuyển 100% đất ở đô thị**, gồm **2 sổ hồng riêng** và có thể bán riêng từng thửa.
 
 
-  ![](/assets/images/dat_so_rieng_xay_dung_da_lat-3.jpg "Bán 2 Thửa Đất Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh Hoài Đức – Đà Lạt")
+  ![](/assets/images/dat_so_rieng_xay_dung_da_lat-3.jpg "Bán 2 Thửa Đất 417m² Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh Hoài Đức – Đà Lạt")
 
 
   Đường ô tô vào tận đất; khu vực phía trước đủ rộng để đậu xe và quay đầu thuận tiện. Khuôn viên đã xây dựng bờ ranh rõ ràng, giúp người mua dễ kiểm tra hiện trạng và quản lý tài sản.
 
 
-
-
-  ![](/assets/images/dat_so_rieng_xay_dung_da_lat-4.jpg "Bán 2 Thửa Đất Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh Hoài Đức – Đà Lạt")
+  ![](/assets/images/dat_so_rieng_xay_dung_da_lat-4.jpg "Bán 2 Thửa Đất 417m² Liền Kế Nhau| Sổ Hồng Đất Thổ Cư Tại Khu Biệt Thự Trịnh Hoài Đức – Đà Lạt")
 
 
   Mặt sau thửa đất hiện tiếp giáp khu đất công vụ có vườn thông, tạo khoảng thoáng, không gian yên tĩnh và gần gũi thiên nhiên. Người mua nên kiểm tra thêm quy hoạch và kế hoạch sử dụng khu đất liền kề để có thông tin lâu dài chính xác.
