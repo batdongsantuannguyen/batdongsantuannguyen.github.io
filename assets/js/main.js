@@ -491,7 +491,19 @@ const propertiesToShow =
 
             const productUrl =
                 getPropertyUrl(property);
-
+            const createdDate =
+                property._createdAt
+                    ? new Date(
+                        Number(property._createdAt) * 1000
+                      ).toLocaleDateString(
+                        "vi-VN",
+                        {
+                            day: "2-digit",
+                            month: "2-digit",
+                            year: "numeric"
+                        }
+                      )
+                    : "";
 
             article.innerHTML = `
 
@@ -518,7 +530,14 @@ const propertiesToShow =
                     <div class="location">
                         📍 ${locationName}
                     </div>
-
+                    
+                    ${createdDate
+                        ? `<div class="property-date">
+                               📅 Ngày đăng: ${createdDate}
+                           </div>`
+                        : ""
+                    }
+                    
                     <p>
                         ${property.description || ""}
                     </p>
