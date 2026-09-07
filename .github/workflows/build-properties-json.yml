@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -37,10 +39,42 @@ jobs:
           const fs = require("fs");
           const path = require("path");
           const yaml = require("js-yaml");
+          const { execFileSync } = require("child_process");
 
           const sourceDir = "content/properties";
           const outputFile = "assets/data/properties.json";
-
+          function getCreatedTime(filePath) {
+            try {
+              const result = execFileSync(
+                "git",
+                [
+                  "log",
+                  "--follow",
+                  "--diff-filter=A",
+                  "--format=%ct",
+                  "--",
+                  filePath
+                ],
+                {
+                  encoding: "utf8"
+                }
+              )
+                .trim()
+                .split(/\r?\n/)
+                .filter(Boolean);
+          
+              if (result.length > 0) {
+                return Number(result[0]);
+              }
+          
+            } catch (error) {
+              console.warn(
+                `Không lấy được ngày tạo: ${filePath}`
+              );
+            }
+          
+            return 0;
+          }
           function parseMarkdown(filePath) {
             const text = fs.readFileSync(filePath, "utf8");
 
@@ -87,9 +121,11 @@ jobs:
             .map(file => {
               const filePath = path.join(sourceDir, file);
               const property = parseMarkdown(filePath);
-
+              
               if (!property) return null;
-
+              
+              property._createdAt =
+                getCreatedTime(filePath);
               if (
                 !property.id ||
                 String(property.id).trim() === ""
