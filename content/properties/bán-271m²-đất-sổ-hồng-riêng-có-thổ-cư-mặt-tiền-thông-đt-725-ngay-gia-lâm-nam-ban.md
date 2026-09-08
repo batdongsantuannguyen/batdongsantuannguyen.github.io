@@ -6,7 +6,7 @@ title: Bán 271m² Đất Sổ Hồng Riêng, Có Thổ Cư, Mặt Tiền Thông
 price: 1 tỷ 130 triệu
 description: Diện tích 271m², mặt tiền 6,8m, trong đó đã có sẵn 80m² đất thổ cư.
   Diện tích vừa đủ để bố trí nhà ở, sân đậu xe và khoảng vườn riêng. Đất hướng
-  Đông Bắc, đường bê tông rộng khoảng 4m, kết nối trực tiếp ra ĐT725.
+  Đông Bắc, đường bê tông rộng 4m, kết nối trực tiếp ra ĐT725.
 image: /assets/images/ban_dat_gia_lam_nam_ban-6.jpg
 address: Gia Lâm - Nam Ban - Lâm Hà
 area: 271m²
