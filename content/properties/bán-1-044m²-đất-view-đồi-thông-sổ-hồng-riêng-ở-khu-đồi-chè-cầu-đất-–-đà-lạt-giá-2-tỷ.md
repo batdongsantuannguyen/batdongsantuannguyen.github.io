@@ -15,9 +15,8 @@ frontage: 27m - nở hậu 32m
 road: bê tông 3,5m
 legal: Sổ hồng riêng
 content: >-
-  
-
-  ![](/assets/images/ban_dat_so_rieng_da_lat-1.jpg "Bán 1.044m² Đất View Đồi Thông| Sổ Hồng Riêng Ở Khu Đồi Chè Cầu Đất – Đà Lạt | Giá 2 tỷ")
+  ![](/assets/images/ban_dat_so_rieng_da_lat-1.jpg "Bán 1.044m² Đất View Đồi
+  Thông| Sổ Hồng Riêng Ở Khu Đồi Chè Cầu Đất – Đà Lạt | Giá 2 tỷ")
 
 
   Phía sau đất là **tầm nhìn về đồi thông và không gian xanh**, mang lại không gian thông thoáng, phù hợp với người ưu tiên cảnh quan và sự yên tĩnh của vùng Cầu Đất. 
@@ -34,7 +33,7 @@ content: >-
   Giá bán bất động sản: ***2 tỷ***
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](<Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây>)***
+  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: |
   Diện tích rộng - mặt tiền dài đường đã tiếp cận trực tiếp
   Không gian xung quanh thông thoáng, thiên nhiên trong lành
