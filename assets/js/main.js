@@ -410,16 +410,16 @@ const isHomePage =
  * lọc đúng Nhà, Đất, Villa...
  */
 
+const sortedProperties = [...properties].sort(
+    (a, b) =>
+        Number(b._createdAt || 0) -
+        Number(a._createdAt || 0)
+);
+
 const propertiesToShow =
     isHomePage
-        ? [...properties]
-            .sort(
-                (a, b) =>
-                    Number(b._createdAt || 0) -
-                    Number(a._createdAt || 0)
-            )
-            .slice(0, 8)
-        : properties;
+        ? sortedProperties.slice(0, 8)
+        : sortedProperties;
 
         propertiesToShow.forEach(
             function (property) {
