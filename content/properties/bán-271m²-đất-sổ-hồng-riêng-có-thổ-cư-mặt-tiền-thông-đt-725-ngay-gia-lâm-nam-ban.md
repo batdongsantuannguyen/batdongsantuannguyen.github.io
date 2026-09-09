@@ -1,5 +1,5 @@
 ---
-type: nha
+type: dat
 location: lam-ha
 title: Bán 271m² Đất Sổ Hồng Riêng, Có Thổ Cư, Mặt Tiền Thông ĐT 725 Ngay Gia
   Lâm - Nam Ban
