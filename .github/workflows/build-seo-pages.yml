@@ -810,11 +810,21 @@ jobs:
 
           function buildStaticLinks(type) {
             const items = properties
+          
               .filter(property =>
                 property &&
                 property.title &&
                 normalizeType(property.type) === type
               )
+          
+              .sort(
+                (a, b) =>
+                  (Number(b._createdAt) || 0) -
+                  (Number(a._createdAt) || 0)
+              )
+          
+              .slice(0, 3)
+          
               .map(property => {
                 const seoPath = getSeoPath(property);
 
