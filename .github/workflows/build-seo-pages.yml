@@ -930,7 +930,7 @@ jobs:
                * TỰ ĐỘNG TẠO SITEMAP
                * =========================================
                */
-              
+              const sitemapLastmod = new Map();
               const sitemapUrls = new Set([
                 `${SITE}/`,
                 `${SITE}/bat-dong-san/`,
@@ -962,9 +962,21 @@ jobs:
                   continue;
                 }
               
-                sitemapUrls.add(
-                  `${SITE}/${seoPath.replace(/^\/+|\/+$/g, "")}/`
-                );
+                const url =
+                  `${SITE}/${seoPath.replace(/^\/+|\/+$/g, "")}/`;
+              
+                sitemapUrls.add(url);
+              
+                if (property.date) {
+                  const date = new Date(property.date);
+              
+                  if (!Number.isNaN(date.getTime())) {
+                    sitemapLastmod.set(
+                      url,
+                      date.toISOString().slice(0, 10)
+                    );
+                  }
+                }
               }
               
               const sitemap =
@@ -973,9 +985,15 @@ jobs:
               <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
               
               ${Array.from(sitemapUrls)
-                .map(url => `  <url>
-                  <loc>${url}</loc>
-                </url>`)
+                .map(url => {
+                  const lastmod =
+                    sitemapLastmod.get(url);
+              
+                  return `  <url>
+                  <loc>${url}</loc>${lastmod ? `
+                  <lastmod>${lastmod}</lastmod>` : ""}
+                </url>`;
+                })
                 .join("\n\n")}
               
               </urlset>
