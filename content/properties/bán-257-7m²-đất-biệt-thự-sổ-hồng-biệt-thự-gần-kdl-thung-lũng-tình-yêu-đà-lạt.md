@@ -1,6 +1,7 @@
 ---
 type: dat
 location: da-lat
+date: 2026-09-07T09:00:00+07:00
 title: Bán 257,7m² Đất Biệt Thự Sổ Hồng Biệt Thự| Gần KDL Thung Lũng Tình Yêu - Đà Lạt
 price: 12 tỷ
 description: Thửa đất nằm trong khu biệt thự đường Vòng Lâm Viên. Đặc biệt, toàn
