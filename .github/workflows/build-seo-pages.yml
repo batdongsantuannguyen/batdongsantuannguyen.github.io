@@ -823,8 +823,6 @@ jobs:
                   (Number(a._createdAt) || 0)
               )
           
-              .slice(0, 3)
-          
               .map(property => {
                 const seoPath = getSeoPath(property);
 
@@ -856,15 +854,16 @@ jobs:
             return [
               STATIC_LINKS_START,
               '<section class="seo-static-links" aria-label="Danh sách bất động sản">',
-              '  <h2>Bất động sản mới cập nhật</h2>',
-              '  <ul>',
+              '  <details>',
+              '    <summary>Xem thêm bất động sản</summary>',
+              '    <ul>',
               items,
-              '  </ul>',
+              '    </ul>',
+              '  </details>',
               '</section>',
               STATIC_LINKS_END
             ].join("\n");
-          }
-
+            }
           for (const [type, categoryFile] of Object.entries(categoryFiles)) {
             if (!fs.existsSync(categoryFile)) {
               console.log(
