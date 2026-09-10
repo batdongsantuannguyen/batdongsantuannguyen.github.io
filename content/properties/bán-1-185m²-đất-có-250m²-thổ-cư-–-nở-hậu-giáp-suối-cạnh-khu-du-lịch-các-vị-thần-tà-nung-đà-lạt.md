@@ -14,7 +14,7 @@ residentialArea: 250m²
 frontage: 14,5m - nở hậu17m
 direction: Đông nam
 road: bê tông 4m - đường thông
-legal: Sổ hồng riêng
+legal: Sổ hồng riêng - hiện tại đất nông nghiệp
 content: >-
   ![](/assets/images/ban_dat_tho_cu_ta_nung_da_lat-4.jpg "Bán 1.185m² Đất Có
   250m² Thổ Cư – Nở Hậu Giáp Suối, Cạnh Khu Du Lịch Các Vị Thần| Tà Nung - Đà
