@@ -16,9 +16,8 @@ direction: Đông bắc
 road: hẻm 2,2m
 legal: Sổ hồng riêng
 content: >-
-  
-
-  ![](/assets/images/ban_nha_so_hong_rieng_da_lat-2.jpg "Bán Nhà Đà Lạt – 3 Phòng Ngủ, Sổ Hồng Riêng, Cách Hồ Than Thở 200m")
+  ![](/assets/images/ban_nha_so_hong_rieng_da_lat-2.jpg "Bán Nhà Đà Lạt – 3
+  Phòng Ngủ, Sổ Hồng Riêng, Cách Hồ Than Thở 200m")
 
 
   Nhà hướng **Đông Bắc**; đường trước nhà rộng khoảng **2,2m**, địa hình bằng phẳng và chỉ cách đường lớn một đoạn ngắn. 
@@ -47,6 +46,9 @@ content: >-
   NHÀ PHỐ - P12NP339
 
   :::
+
+
+  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: >-
   Sổ hồng riêng
 
