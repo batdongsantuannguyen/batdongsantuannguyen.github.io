@@ -2432,13 +2432,6 @@ header .logo.brand-two-lines .brand-line:first-child {
     .info-value {
         font-size: 14px;
     }
-.seo-static-links {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
     .sidebar-action {
         font-size: 16px;
         padding: 13px 14px;
