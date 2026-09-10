@@ -14,7 +14,7 @@ address: "Tà Nung - Đà Lạt "
 area: 7.062m²
 frontage: 52m và 146m
 road: bê tông 4m
-legal: Sổ hồng riêng
+legal: Sổ hồng riêng - hiện tại đất nông nghiệp
 content: >-
   
 
