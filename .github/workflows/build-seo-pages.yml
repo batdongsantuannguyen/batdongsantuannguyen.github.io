@@ -596,7 +596,8 @@ jobs:
 
           <link rel="stylesheet"
                 href="/assets/css/style.css">
-
+          <link rel="stylesheet" 
+                href="/assets/css/mobile-menu.css">
           <script type="application/ld+json">
           ${JSON.stringify(breadcrumbSchema, null, 2)}
           </script>
