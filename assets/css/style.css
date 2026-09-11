@@ -2437,3 +2437,117 @@ header .logo.brand-two-lines .brand-line:first-child {
         padding: 13px 14px;
     }
 }
+/* =====================================================
+   MOBILE CATEGORY PAGES - COMPACT SHARED
+   Áp dụng đồng bộ các trang danh mục
+===================================================== */
+
+@media (max-width: 600px) {
+
+    /* HERO DANH MỤC */
+
+    body:not(#home) .hero {
+        min-height: 330px;
+        padding: 38px 15px;
+    }
+
+    body:not(#home) .hero h1 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    body:not(#home) .hero p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 18px;
+    }
+
+    body:not(#home) .hero-label {
+        margin-bottom: 8px;
+    }
+
+    body:not(#home) .button {
+        padding: 11px 20px;
+    }
+
+
+    /* KHU VỰC DANH SÁCH */
+
+    body:not(#home) section {
+        padding: 32px 15px;
+    }
+
+    body:not(#home) .section-title {
+        margin-bottom: 22px;
+    }
+
+    body:not(#home) .section-label {
+        margin-bottom: 4px;
+    }
+
+    body:not(#home) .section-title h2 {
+        font-size: 28px;
+        line-height: 1.25;
+        margin-bottom: 7px;
+    }
+
+    body:not(#home) .section-title p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+
+    /* BỘ LỌC TÌM KIẾM */
+
+    body:not(#home) .filter-box {
+        margin:
+            0 15px 22px;
+
+        padding: 14px;
+
+        border-radius: 12px;
+    }
+
+    body:not(#home) .filter-grid {
+        gap: 10px;
+    }
+
+    body:not(#home) .filter-grid select,
+    body:not(#home) .filter-grid input,
+    body:not(#home) .filter-button {
+        min-height: 46px;
+    }
+
+
+    /* DANH SÁCH SẢN PHẨM */
+
+    body:not(#home) .products {
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+
+        padding:
+            0 15px;
+    }
+
+    body:not(#home) .product-content {
+        padding: 14px;
+    }
+
+    body:not(#home) .product h3 {
+        font-size: 18px;
+        line-height: 1.3;
+
+        margin-bottom: 7px;
+    }
+
+    body:not(#home) .price {
+        font-size: 18px;
+
+        margin-bottom: 5px;
+    }
+
+    body:not(#home) .location {
+        margin-bottom: 7px;
+    }
+}
