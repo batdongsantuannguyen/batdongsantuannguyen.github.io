@@ -952,7 +952,13 @@
 
         font-size: 21px;
     }
-
+    #home #danh-muc {
+        padding-bottom: 10px;
+    }
+      
+    #home #bat-dong-san {
+        padding-top: 8px;
+      }
     #home .products {
         grid-template-columns:
             1fr;
