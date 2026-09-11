@@ -2754,3 +2754,38 @@ header .logo.brand-two-lines .brand-line:first-child {
         height: 38px;
     }
 }
+/* =====================================================
+   MOBILE DETAIL FOOTER / SIDEBAR - FINAL COMPACT
+   Chỉ chỉnh hiển thị, không đổi cấu trúc SEO
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .sidebar-box {
+        margin-bottom: 10px;
+    }
+
+    .sidebar-box > h2 {
+        margin: 0;
+    }
+
+    .property-highlights,
+    .property-info-list {
+        margin: 0;
+    }
+
+    .sidebar-actions {
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .sidebar-action {
+        min-height: 46px;
+        border-radius: 10px;
+    }
+
+    body:not(#home) footer {
+        margin-top: 12px;
+        padding: 18px 15px;
+    }
+}
