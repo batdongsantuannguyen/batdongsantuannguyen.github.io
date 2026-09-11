@@ -900,14 +900,14 @@
         font-size: 18px;
     }
 
-    #home .hero {
-        min-height: 340px;
-
-        padding:
-            45px
-            16px
-            90px;
-    }
+   #home .hero {
+       min-height: 300px;
+   
+       padding:
+           30px
+           16px
+           70px;
+   }
 
     #home .hero h1 {
         font-size: 38px;
