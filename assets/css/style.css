@@ -2581,3 +2581,145 @@ header .logo.brand-two-lines .brand-line:first-child {
         margin-bottom: 7px;
     }
 }
+/* =====================================================
+   MOBILE PROPERTY DETAIL - COMPACT SHARED
+   Chỉ chỉnh hiển thị, không đổi cấu trúc SEO
+===================================================== */
+
+@media (max-width: 600px) {
+
+    /* KHUNG TRANG */
+
+    .page-wrap {
+        max-width: calc(100% - 12px);
+        margin: 5px auto 14px;
+    }
+
+
+    /* BREADCRUMB */
+
+    .breadcrumb {
+        padding: 7px 10px;
+        margin-bottom: 8px;
+
+        font-size: 12px;
+        line-height: 1.45;
+    }
+
+    .breadcrumb span {
+        margin: 0 3px;
+    }
+
+
+    /* NỘI DUNG BÀI */
+
+    .property-article {
+        padding: 12px;
+    }
+
+    .property-article h1 {
+        margin-bottom: 8px;
+
+        font-size: 21px;
+        line-height: 1.25;
+    }
+
+    .property-article .tags {
+        gap: 5px;
+        margin: 6px 0 12px;
+    }
+
+    .property-article .tag-link {
+        padding: 4px 8px;
+
+        font-size: 12px;
+    }
+
+    .property-article p {
+        margin-top: 8px;
+        margin-bottom: 10px;
+
+        line-height: 1.55;
+    }
+
+
+    /* ẢNH TRONG BÀI */
+
+    .property-article .article-image {
+        margin: 12px auto;
+    }
+
+    .property-article .article-image figcaption {
+        margin-top: 5px;
+
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+
+    /* VIDEO */
+
+    .property-article .video-wrap {
+        margin-top: 14px;
+        margin-bottom: 8px;
+    }
+
+
+    /* SIDEBAR / KHỐI THÔNG TIN */
+
+    .sidebar {
+        gap: 10px;
+    }
+
+    .sidebar-box > h2 {
+        padding: 10px 10px;
+
+        font-size: 17px;
+    }
+
+    .property-highlights {
+        padding: 8px 14px 12px;
+    }
+
+    .property-highlights li {
+        padding:
+            9px
+            4px
+            9px
+            34px;
+
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+    .property-info-list {
+        padding: 6px 14px 10px;
+    }
+
+    .property-info-list .info-row {
+        grid-template-columns:
+            24px
+            auto
+            1fr;
+
+        gap: 5px;
+
+        padding: 8px 0;
+    }
+
+    .info-icon,
+    .info-label,
+    .info-value {
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+
+    /* NÚT LIÊN HỆ */
+
+    .sidebar-action {
+        padding: 11px 12px;
+
+        font-size: 16px;
+    }
+}
