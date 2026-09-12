@@ -267,15 +267,48 @@ jobs:
               .join("\n");
 
             /*
-             * Ảnh Markdown.
+             * Ảnh Markdown tối ưu.
+             * Ưu tiên WebP 1200px nếu file đã tồn tại.
+             * Nếu chưa có WebP, giữ nguyên ảnh gốc.
              */
-             prepared = prepared.replace(
+            prepared = prepared.replace(
               /!\[([^\]]*)\]\(\s*(\S+?)(?:\s+["']([^"']*)["'])?\s*\)/g,
               (_, alt, src, title) => {
                 const imageAlt =
                   String(alt || title || "").trim();
             
-                return `\n<figure class="article-image"><img src="${escapeHtml(src)}" alt="${escapeHtml(imageAlt)}" loading="lazy">${imageAlt ? `<figcaption>${escapeHtml(imageAlt)}</figcaption>` : ""}</figure>\n`;
+                let displaySrc =
+                  String(src || "").trim();
+            
+                if (
+                  displaySrc.startsWith("/assets/images/") &&
+                  !displaySrc.startsWith("/assets/images/optimized/")
+                ) {
+                  const cleanSrc =
+                    displaySrc
+                      .split("?")[0]
+                      .split("#")[0];
+            
+                  const match =
+                    cleanSrc.match(
+                      /^\/assets\/images\/(.+)\.(jpg|jpeg|png|webp)$/i
+                    );
+            
+                  if (match) {
+                    const optimizedWebPath =
+                      `/assets/images/optimized/${match[1]}-1200.webp`;
+            
+                    const optimizedFilePath =
+                      optimizedWebPath.replace(/^\/+/, "");
+            
+                    if (fs.existsSync(optimizedFilePath)) {
+                      displaySrc =
+                        optimizedWebPath;
+                    }
+                  }
+                }
+            
+                return `\n<figure class="article-image"><img src="${escapeHtml(displaySrc)}" alt="${escapeHtml(imageAlt)}" loading="lazy" decoding="async">${imageAlt ? `<figcaption>${escapeHtml(imageAlt)}</figcaption>` : ""}</figure>\n`;
               }
             );
 
