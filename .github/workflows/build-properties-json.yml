@@ -38,11 +38,13 @@ jobs:
           node <<'NODE'
           const fs = require("fs");
           const path = require("path");
+          const crypto = require("crypto");
           const yaml = require("js-yaml");
           const { execFileSync } = require("child_process");
 
           const sourceDir = "content/properties";
           const outputFile = "assets/data/properties.json";
+          const versionFile = "assets/data/properties-version.json";
           function getCreatedTime(filePath) {
             try {
               const result = execFileSync(
@@ -226,20 +228,48 @@ jobs:
             { recursive: true }
           );
 
-          fs.writeFileSync(
-            outputFile,
+          const jsonContent =
             JSON.stringify(
               properties,
+              null,
+              2
+            ) + "\n";
+          
+          fs.writeFileSync(
+            outputFile,
+            jsonContent,
+            "utf8"
+          );
+          
+          /*
+           * Version ổn định theo chính nội dung properties.json.
+           * Dữ liệu không đổi → version không đổi.
+           * Dữ liệu thay đổi → version tự đổi.
+           */
+          const version =
+            crypto
+              .createHash("sha256")
+              .update(jsonContent)
+              .digest("hex")
+              .slice(0, 16);
+          
+          fs.writeFileSync(
+            versionFile,
+            JSON.stringify(
+              { version },
               null,
               2
             ) + "\n",
             "utf8"
           );
-
+          
           console.log(
             `Built ${properties.length} properties.`
           );
-
+          
+          console.log(
+            `Properties version: ${version}`
+          );
           properties.forEach(property => {
             console.log(
               property.id,
@@ -254,15 +284,20 @@ jobs:
       - name: Commit generated properties.json
         shell: bash
         run: |
-          if git diff --quiet -- assets/data/properties.json; then
-            echo "properties.json is already up to date."
+          if [ -z "$(git status --porcelain -- \
+            assets/data/properties.json \
+            assets/data/properties-version.json)" ]; then
+          
+            echo "Property data is already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/data/properties.json
+          git add \
+          assets/data/properties.json \
+          assets/data/properties-version.json
           git commit -m "Build properties.json from CMS entries"
           
           git pull --rebase origin main
