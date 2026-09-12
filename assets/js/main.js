@@ -6,19 +6,56 @@
 
 async function loadProperties() {
 
-    const response = await fetch(
-        "/assets/data/properties.json",
-        {
-            cache: "no-store"
+    let version = "";
+
+    try {
+
+        const versionResponse =
+            await fetch(
+                "/assets/data/properties-version.json",
+                {
+                    cache: "no-cache"
+                }
+            );
+
+        if (versionResponse.ok) {
+
+            const versionData =
+                await versionResponse.json();
+
+            version =
+                String(
+                    versionData.version || ""
+                ).trim();
         }
-    );
+
+    } catch (error) {
+
+        console.warn(
+            "Không tải được properties-version.json",
+            error
+        );
+    }
+
+    const dataUrl =
+        version
+            ? "/assets/data/properties.json?v=" +
+              encodeURIComponent(version)
+            : "/assets/data/properties.json";
+
+    const response =
+        await fetch(
+            dataUrl,
+            {
+                cache: "default"
+            }
+        );
 
     if (!response.ok) {
 
         throw new Error(
             "Không thể tải properties.json"
         );
-
     }
 
     return await response.json();
