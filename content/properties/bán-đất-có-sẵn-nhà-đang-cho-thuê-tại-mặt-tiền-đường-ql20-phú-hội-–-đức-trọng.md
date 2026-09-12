@@ -4,7 +4,7 @@ location: duc-trong
 date: 2026-09-12T22:21:00+07:00
 title: Bán Đất Có Sẵn Nhà Đang Cho Thuê Tại Mặt Tiền Đường QL20 Phú Hội – Đức Trọng
 price: 3,3 tỷ
-description: Cần bán nhà mặt tiền Quốc lộ 20 tại Phù Hội, Đức Trọng, phù hợp với
+description: Cần bán nhà mặt tiền Quốc lộ 20 tại Phú Hội, Đức Trọng, phù hợp với
   người muốn vừa ở vừa kinh doanh hoặc mua tài sản có sẵn dòng tiền. Nhà có diện
   tích 155m², trong đó 130m² thổ cư, mặt tiền rộng 6m, lợi thế nằm trực tiếp
   trên QL20 nên thuận tiện đi lại, nhận diện kinh doanh và khai thác cho thuê.
@@ -16,8 +16,12 @@ frontage: 6m
 road: mặt tiền QL 20
 legal: Sổ hồng riêng
 content: >-
-  Căn nhà với **mặt tiền chỉ 6m không phải quá rộng**, nhưng giá trị chính nằm ở
-  **mặt tiền Quốc lộ 20 và khả năng khai thác thực tế**. 
+  
+
+  ![](/assets/images/ảnh-màn-hình-2025-06-10-lúc-08.29.20.png "Bán Đất Có Sẵn Nhà Đang Cho Thuê Tại Mặt Tiền Đường QL20 Phú Hội – Đức Trọng")
+
+
+  Căn nhà với **mặt tiền chỉ 6m không phải quá rộng**, nhưng giá trị chính nằm ở **mặt tiền Quốc lộ 20 và khả năng khai thác thực tế**. 
 
 
   ![](/assets/images/ảnh-màn-hình-2025-06-10-lúc-08.34.54.png "Bán Đất Có Sẵn Nhà Đang Cho Thuê Tại Mặt Tiền Đường QL20 Phú Hội – Đức Trọng")
