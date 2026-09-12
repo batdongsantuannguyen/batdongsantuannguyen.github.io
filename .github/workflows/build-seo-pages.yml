@@ -229,7 +229,7 @@ jobs:
             if (!source.trim()) {
               return "";
             }
-
+            let markdownImageIndex = 0;
             /*
              * :::format do Decap CMS tạo.
              */
@@ -307,8 +307,11 @@ jobs:
                     }
                   }
                 }
-            
-                return `\n<figure class="article-image"><img src="${escapeHtml(displaySrc)}" alt="${escapeHtml(imageAlt)}" loading="lazy" decoding="async">${imageAlt ? `<figcaption>${escapeHtml(imageAlt)}</figcaption>` : ""}</figure>\n`;
+                            
+                 const isFirstMarkdownImage = markdownImageIndex === 0;
+                markdownImageIndex++;
+                
+                return `\n<figure class="article-image"><img src="${escapeHtml(displaySrc)}" alt="${escapeHtml(imageAlt)}" loading="${isFirstMarkdownImage ? "eager" : "lazy"}" ${isFirstMarkdownImage ? 'fetchpriority="high"' : 'decoding="async"'}>${imageAlt ? `<figcaption>${escapeHtml(imageAlt)}</figcaption>` : ""}</figure>\n`;
               }
             );
 
