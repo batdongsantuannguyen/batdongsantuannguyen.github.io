@@ -1,0 +1,232 @@
+name: Optimize responsive images
+
+"on":
+  workflow_dispatch: {}
+
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/images/**"
+      - "!assets/images/optimized/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: optimize-responsive-images
+  cancel-in-progress: false
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Sharp
+        run: npm install --no-save sharp
+
+      - name: Build responsive WebP images
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+          const path = require("path");
+          const sharp = require("sharp");
+
+          const sourceDir = "assets/images";
+          const outputDir = "assets/images/optimized";
+
+          const widths = [
+            480,
+            800,
+            1200
+          ];
+
+          const supported =
+            new Set([
+              ".jpg",
+              ".jpeg",
+              ".png",
+              ".webp"
+            ]);
+
+          fs.mkdirSync(
+            outputDir,
+            {
+              recursive: true
+            }
+          );
+
+          const files =
+            fs
+              .readdirSync(
+                sourceDir,
+                {
+                  withFileTypes: true
+                }
+              )
+              .filter(
+                entry =>
+                  entry.isFile()
+              )
+              .map(
+                entry =>
+                  entry.name
+              )
+              .filter(
+                name =>
+                  supported.has(
+                    path
+                      .extname(name)
+                      .toLowerCase()
+                  )
+              )
+              .sort();
+
+          async function run() {
+
+            let created = 0;
+
+            for (
+              const file
+              of files
+            ) {
+
+              const input =
+                path.join(
+                  sourceDir,
+                  file
+                );
+
+              const ext =
+                path.extname(file);
+
+              const base =
+                path.basename(
+                  file,
+                  ext
+                );
+
+              let metadata;
+
+              try {
+
+                metadata =
+                  await sharp(input)
+                    .metadata();
+
+              } catch (error) {
+
+                console.warn(
+                  `Skip unreadable image: ${file}`
+                );
+
+                continue;
+              }
+
+              if (
+                !metadata.width ||
+                !metadata.height
+              ) {
+
+                continue;
+              }
+
+              for (
+                const width
+                of widths
+              ) {
+
+                const output =
+                  path.join(
+                    outputDir,
+                    `${base}-${width}.webp`
+                  );
+
+                await sharp(input)
+
+                  .rotate()
+
+                  .resize({
+                    width,
+                    withoutEnlargement:
+                      true,
+                    fit:
+                      "inside"
+                  })
+
+                  .webp({
+                    quality:
+                      80,
+                    effort:
+                      4,
+                    smartSubsample:
+                      true
+                  })
+
+                  .toFile(
+                    output
+                  );
+
+                created++;
+              }
+            }
+
+            console.log(
+              `Created ${created} optimized images.`
+            );
+          }
+
+          run()
+            .catch(
+              error => {
+
+                console.error(
+                  error
+                );
+
+                process.exit(1);
+              }
+            );
+
+          NODE
+
+      - name: Commit optimized images
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain assets/images/optimized)" ]; then
+
+            echo "Optimized images are already up to date."
+
+            exit 0
+
+          fi
+
+          git config user.name \
+          "github-actions[bot]"
+
+          git config user.email \
+          "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+          assets/images/optimized
+
+          git commit \
+          -m "Build optimized responsive images"
+
+          git pull \
+          --rebase \
+          origin main
+
+          git push \
+          origin main
