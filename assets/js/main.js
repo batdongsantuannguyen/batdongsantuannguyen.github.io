@@ -159,7 +159,77 @@ function getPropertyUrl(property) {
         "/"
     );
 }
+/*
+ * =========================================
+ * ẢNH TỐI ƯU CHO THẺ SẢN PHẨM
+ * =========================================
+ */
 
+function getProductImageSources(imagePath) {
+
+    const original =
+        String(imagePath || "")
+            .trim();
+
+    if (
+        !original.startsWith("/assets/images/") ||
+        original.startsWith("/assets/images/optimized/")
+    ) {
+
+        return {
+            original: original,
+            optimized: ""
+        };
+    }
+
+    const cleanPath =
+        original
+            .split("?")[0]
+            .split("#")[0];
+
+    const match =
+        cleanPath.match(
+            /^\/assets\/images\/(.+)\.(jpg|jpeg|png|webp)$/i
+        );
+
+    if (!match) {
+
+        return {
+            original: original,
+            optimized: ""
+        };
+    }
+
+    const baseName =
+        match[1];
+
+    /*
+     * Mobile dùng 480px.
+     * Tablet + Desktop dùng 800px.
+     *
+     * Ảnh card hiện tại không cần tải
+     * bản 1200px.
+     */
+
+    const width =
+        window.innerWidth <= 600
+            ? 480
+            : 800;
+
+    const optimized =
+        encodeURI(
+            "/assets/images/optimized/" +
+            baseName +
+            "-" +
+            width +
+            ".webp"
+        );
+
+    return {
+        original: original,
+        optimized: optimized
+    };
+}
 /*
  * =========================================
  * TÌM KIẾM BẤT ĐỘNG SẢN
@@ -421,6 +491,12 @@ const propertiesToShow =
         ? sortedProperties.slice(0, 8)
         : sortedProperties;
 
+/*
+ * Đếm sản phẩm thực tế đã render.
+ * Ảnh đầu tiên sẽ được tải ưu tiên.
+ */
+let renderedCount = 0;
+
         propertiesToShow.forEach(
             function (property) {
     
@@ -504,15 +580,28 @@ const propertiesToShow =
                         }
                       )
                     : "";
+            const imageSources =
+                getProductImageSources(
+                    property.image
+                );
 
+            const productImage =
+                imageSources.optimized ||
+                imageSources.original;
+
+            const isPriorityImage =
+                renderedCount === 0;
             article.innerHTML = `
 
                 <img
-                    src="${property.image || ""}"
+                    src="${productImage}"
                     alt="${property.title || ""}"
-                    loading="lazy"
+                    loading="${isPriorityImage ? "eager" : "lazy"}"
+                    ${isPriorityImage
+                        ? 'fetchpriority="high"'
+                        : 'decoding="async"'
+                    }
                 >
-
                 <div class="product-content">
 
                     <div class="product-tag">
@@ -551,7 +640,32 @@ const propertiesToShow =
 
                 </div>
             `;
+const productImageElement =
+    article.querySelector("img");
 
+if (
+    productImageElement &&
+    imageSources.optimized
+) {
+
+    productImageElement.addEventListener(
+        "error",
+        function handleOptimizedImageError() {
+
+            /*
+             * Chỉ fallback một lần.
+             * Tránh vòng lặp nếu cả ảnh gốc cũng lỗi.
+             */
+            productImageElement.removeEventListener(
+                "error",
+                handleOptimizedImageError
+            );
+
+            productImageElement.src =
+                imageSources.original;
+        }
+    );
+}
 article.style.cursor = "pointer";
 
 article.addEventListener("click", function (event) {
@@ -566,7 +680,7 @@ article.addEventListener("click", function (event) {
             container.appendChild(
                 article
             );
-
+            renderedCount++;
         }
     );
 }
