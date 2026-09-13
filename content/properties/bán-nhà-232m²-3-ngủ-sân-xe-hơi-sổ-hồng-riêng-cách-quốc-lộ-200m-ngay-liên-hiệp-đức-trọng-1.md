@@ -41,6 +41,13 @@ content: >-
   Giá bán bất động sản: ***2 tỷ 680 triệu***
 
 
+  :::format align="center" line="1.6"
+
+  ĐỨC TRỌNG XÂY DỰNG - LHXD72
+
+  :::
+
+
   ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: >-
   Công năng đã đủ cho một gia đình định cư và hợp lý cho gia đình có thế hệ ông
