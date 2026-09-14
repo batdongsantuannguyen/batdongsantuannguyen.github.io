@@ -1,7 +1,7 @@
 ---
 type: dat
 location: duc-trong
-date: 2026-09-14T22:11:00+07:00
+date: 2026-09-14T23:16:00+07:00
 title: Bán Đất vườn Rộng 4,46ha | Có Sẵn Cà Phê, Nhà Ở, Giáp Suối| Đường Xe Hơi
   Thuận Tiên Ngay Ninh Gia - Đức Trọng
 price: 360 triệu/1.000m²
@@ -14,6 +14,7 @@ image: /assets/images/ảnh-màn-hình-2025-12-22-lúc-11.36.58.png
 address: Ninh Gia - Đức Trọng
 area: 44.600m² (4,46ha)
 frontage: 300m
+road: bê tông 4m
 legal: Sổ hồng riêng
 content: >-
   ![](/assets/images/ảnh-màn-hình-2026-09-14-lúc-22.21.19.png "Bán Đất vườn
