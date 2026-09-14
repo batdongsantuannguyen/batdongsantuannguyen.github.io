@@ -75,5 +75,5 @@ tags:
   - gần cao tốc
   - đất mặt tiền
   - Định An - Đức Trọng
-videoId: https://www.youtube.com/@tuannguyenbatdongsan
+videoId: https://www.youtube.com/@tuannguyenbatdongsan/videos
 ---
