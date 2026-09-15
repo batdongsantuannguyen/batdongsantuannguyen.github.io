@@ -44,6 +44,9 @@ content: >-
   ĐỨC TRỌNG NÔNG NGHIỆP - LHNN68
 
   :::
+
+
+  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: >-
   Nhà vườn đã hình thành với khuôn viên 1.667m² đã có nhà, sân vườn, cây ăn
   trái, điện nước và camera. 
