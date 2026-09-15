@@ -17,15 +17,18 @@ direction: Đông nam
 road: bê tông 5,5m - đường thông
 legal: Sổ hồng riêng
 content: >-
-  Một không gian rộng rãi và yên tĩnh, tuy nhiên vẫn đầy đủ các tiện ích và giao
-  thông thuận tiện, phù hợp để lựa chọn làm nơi nghỉ ngơi sau quãng ngày làm làm
-  việc áp lực. 
-
+  
 
   ![](/assets/images/20250627_092128.jpg "Bán Đất Có Nhà Cấp 4 Mặt Tiền Đường Xe Hơi| 338m² Sổ Hồng Riêng| Ngay Mê Linh - Nam Ban| Giá Chỉ 2tỷ")
 
 
-  Với tổng diện tích khuôn viên 338m2 thửa đất đã được rõ ràng khuôn viên bằng hàng rào B40 và trụ mốc bê tông kiên cố. \
+  Một không gian rộng rãi và yên tĩnh, tuy nhiên vẫn đầy đủ các tiện ích và giao thông thuận tiện, phù hợp để lựa chọn làm nơi nghỉ ngơi sau quãng ngày làm làm việc áp lực. 
+
+
+  Với tổng diện tích khuôn viên 338m2 thửa đất đã được rõ ràng khuôn viên bằng hàng rào B40 và trụ mốc bê tông kiên cố. 
+
+
+  \
 
   Nhà và đất thế dương đừng từ nơi nhà chúng ta có tầm nhìn rộng về trung tâm khu thị trấn Nam Ban, xung quanh nhà không gian xanh còn nhiều mang đến cho chúng ta không gian thư giãn yên tĩnh trong lành.
 
