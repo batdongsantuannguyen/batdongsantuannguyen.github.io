@@ -21,7 +21,7 @@ content: >-
   Tế Ngay Liên Hiệp - Đức Trọng")
 
 
-  Khuôn viên đã được đầu tư sẵn nhà ở đầy đủ tiện nghi, sân vườn, nhiều loại cây ăn trái, giếng khoan  cùng hệ thống camera quản lý từ xa.
+  Khuôn viên đã được đầu tư khuôn viên rõ ràng, với nhiều loại cây ăn trái trong vườn đã cho thu hoạch, tiện nghi giếng khoan, hệ thống nước năng lượng, cùng hệ thống camera quản lý từ xa.
 
 
   ![](/assets/images/z6099069353207_39346c622a94c156d6e49e90e3f4a789.jpg "Bán Nhà Vườn 1.667m²| 3 Ngủ Đầy Đủ Công Năng| Vườn Cây Ăn Trái| Gần Sân Bay Quốc Tế Ngay Liên Hiệp - Đức Trọng")
@@ -60,5 +60,5 @@ tags:
   - đường xe hơi
   - gần quốc lộ
   - ven đà lạt
-videoId: https://www.youtube.com/watch?v=4kbD6MLiWg4
+videoId: ""
 ---
