@@ -8,7 +8,7 @@ description: >-
   Cần bán thửa đất 2 mặt tiền Diện tích rộng đến 2.009m² , có sẵn có sẵn 200m²
   thổ cư,
 
-  Ngay khu dân cư Mê Linh - Nam Ban, cách chợ Thăng Long Nam Ban khoảng 1,5km, cách ĐT725 khoảng 3km.
+  Ngay khu dân cư Mê Linh - Nam Ban, cách chợ Thăng Long Nam Ban khoảng 3km, cách ĐT725 khoảng 1,5km.
 image: /assets/images/ảnh-màn-hình-2023-06-19-lúc-16.32.15.png
 address: Mê Linh - Nam Ban - Lâm Hà
 area: 2.009m²
@@ -57,7 +57,7 @@ highlights: >-
 
   Khu Dân Cư - Mặt tiền đường giao thông thuận kết nối đi các hướng và đường ĐT 725
 
-  Sổ hồng riêng - ranh giới khuôn viên rõ ràng - giúp nàh đầu tư yên tâm sở hữu và quản lý khi ở xa.
+  Sổ hồng riêng - ranh giới khuôn viên rõ ràng - giúp Nhà Đầu Tư yên tâm sở hữu và quản lý khi ở xa.
 tags:
   - đất sào thổ cư
   - mặt tiền
