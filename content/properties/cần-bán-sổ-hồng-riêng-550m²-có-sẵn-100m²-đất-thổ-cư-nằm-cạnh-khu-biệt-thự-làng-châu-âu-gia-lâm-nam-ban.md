@@ -50,7 +50,7 @@ content: >-
   :::
 
 
-  *[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)*
+  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: >-
   Giá 1,9 tỷ – vốn vào tương đối thấp cho quỹ đất 550m².
 
