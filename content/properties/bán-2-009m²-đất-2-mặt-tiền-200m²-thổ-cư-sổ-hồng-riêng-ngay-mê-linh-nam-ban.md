@@ -18,12 +18,12 @@ direction: Tây bắc
 road: bê tông 5m - đường thông
 legal: Sổ hồng riêng
 content: >-
-  Lô đất có lợi thế **2 mặt tiền đường**, mặt tiền đường chính dài khoảng
-  **40m**, mặt tiền còn lại dài khoảng **66m**, khuôn viên rộng, đã được rõ ràng
-  ranh giới bằng hệ thống trụ bê tông kiên cố và lưới rào B40. 
-
+  
 
   ![](/assets/images/ảnh-màn-hình-2023-06-19-lúc-16.31.55.png "Bán 2.009m² Đất 2 Mặt Tiền| 200m² Thổ Cư| Sổ Hồng Riêng| Ngay Mê Linh - Nam Ban")
+
+
+  Lô đất có lợi thế **2 mặt tiền đường**, mặt tiền đường chính dài khoảng **40m**, mặt tiền còn lại dài khoảng **66m**, khuôn viên rộng, đã được rõ ràng ranh giới bằng hệ thống trụ bê tông kiên cố và lưới rào B40. 
 
 
   Thửa đất nằm vị trí khu dân cư hàng xóm xung thân thiện, thời  thiết ấm áp, xung quanh mảng xanh của thiên nhiên còn rất nhiều, đem đến một không gian trong lành và yên tĩnh rất phù hợp làm **nhà vườn, biệt thự sân vườn nghỉ dưỡng cùng với đó là đầu tư giữ quỹ đất dài hạn**.
@@ -48,7 +48,7 @@ content: >-
   :::
 
 
-  ***Xem thêm thông tin các sản phẩm mới nhất tại đây:***
+  ***[Xem thêm thông tin các sản phẩm mới nhất tại đây:](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: >-
   Diện tích rộng - 2 mặt tiền - không gian rộng rãi để thiết kế nhà - biệt thự
   có sân vườn
