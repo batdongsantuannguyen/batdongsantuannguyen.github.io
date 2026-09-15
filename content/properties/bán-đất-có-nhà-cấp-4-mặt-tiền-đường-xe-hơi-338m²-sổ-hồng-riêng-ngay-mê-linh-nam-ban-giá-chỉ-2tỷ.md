@@ -47,7 +47,14 @@ content: >-
   Giá bán bất động sản: ***2 tỷ***
 
 
-  ***[Xem thêm các sản phẩm mới nhất tại đây:](www.youtube.com/@tuannguyenbatdongsan)***
+  :::format align="center" line="1.6"
+
+  MÊ LINH XÂY DỰNG - MLNP69
+
+  :::
+
+
+  ***[Xem thêm thông tin các sản phẩm mới nhất tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
 highlights: >-
   Thửa đất có sẵn nhà ở thuận tiện cho Nhà Đầu Tư không có nhiều thời gian để
   xây dựng.
