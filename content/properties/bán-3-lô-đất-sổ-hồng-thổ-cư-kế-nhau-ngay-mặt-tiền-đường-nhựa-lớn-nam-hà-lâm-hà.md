@@ -47,7 +47,7 @@ content: >-
 
   :::format align="center" line="1.6"
 
-  LÂM HÀ XÂU DỰNG - NHXD72
+  LÂM HÀ XÂY DỰNG - NHXD72
 
   :::
 
