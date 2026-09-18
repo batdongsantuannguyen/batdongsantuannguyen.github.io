@@ -67,7 +67,7 @@ content: >-
   :::
 
 
-  ***Xem thêm thông tin các sản phẩm mới nhất tại đây.***
+  ***[Xem thêm thông tin các sản phẩm mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >
   Thửa đất có diện tích 1187m² - có thổ cư 250m² với mặt tiền rộng 12,5m, nở hậu
   15,8m vừa đẹp về khuôn viên vừa đẹp về phong thuỷ.
