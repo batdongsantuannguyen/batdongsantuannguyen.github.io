@@ -4,7 +4,7 @@ location: lam-ha
 date: 2026-09-17T22:10:00+07:00
 title: "Bán 3 Lô Đất Sổ Hồng Thổ Cư Kế Nhau| Ngay Mặt Tiền Đường Nhựa Lớn| Nam
   Hà - Lâm Hà "
-price: 1,6 tỷ
+price: 1,7 tỷ
 description: Cần bán 3 thửa đất liền kề tại Nam Hà – Lâm Hà, nằm trực tiếp trên
   mặt tiền đường nhựa, tuyến giao thông kết nối khu vực Nam Hà – Đinh Văn và các
   hướng đi Đà Lạt, sân bay Liên Khương. Thuận tiện cho Nhà Đầu Tư có thể mua 1
