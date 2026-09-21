@@ -5,7 +5,7 @@ date: 2026-09-21T15:24:00+07:00
 title: Bán Đất Rộng 5.187m² Mặt Tiền 101m| Sổ Hồng Riêng| View Thoáng Các Hướng|
   Nam Hà – Lâm Hà| Giá Chỉ 800 Triệu/1.000m²
 price: 800 Triệu/1.000m²
-description: Cần bán quỹ đất lớn tại Hoàn Kiếm 1 – Nam Hà, phù hợp đẻ Nhà Đầu Tư
+description: Cần bán quỹ đất lớn tại Hoàn Kiếm 1 – Nam Hà, phù hợp để Nhà Đầu Tư
   có một tài sản vùng ven để làm nhà vườn, farm nghỉ dưỡng hoặc đầu tư nắm giữ
   dài hạn. Tổng diện tích 5.187m², đặc biệt có mặt tiền dài 101m trên đường bê
   tông 4m. Với chiều ngang lớn, người mua có nhiều không gian hơn để nghiên cứu
