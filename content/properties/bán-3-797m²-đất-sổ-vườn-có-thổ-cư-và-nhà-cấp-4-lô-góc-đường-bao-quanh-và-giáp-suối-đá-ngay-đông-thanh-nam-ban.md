@@ -20,15 +20,17 @@ direction: Tây bắc
 road: bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  Trên tổng diện tích đất đã **có sẵn 100m² thổ cư** và nằm trong khu vực **quy
-  hoạch phủ hồng toàn bộ là đất ở**, tạo điều kiện thuận lợi cho Nhà Đầu Tư có
-  nhu cầu xin chuyển thêm mục đích sử dụng đất để phù hợp với quy mô ở và đầu
-  tư.\
-
-  Hướng bất động sản Tây Bắc, trên đất hiện có 2 căn nhà cấp 4 xây dựng kiên cố, có thể sử dụng để ở, trông coi vườn hoặc cải tạo phục vụ mô hình farmstay. 
+  ![](/assets/images/ban_dat_nam_ban_3797m2-3.png "Bán 3.797m² Đất Vườn Có Thổ
+  Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay
+  Đông Thanh - Nam Ban")
 
 
-  ![](/assets/images/ban_dat_nam_ban_3797m2-3.png "Bán 3.797m² Đất Vườn Có Thổ Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay Đông Thanh - Nam Ban")
+  Trên tổng diện tích đất đã **có sẵn 100m² thổ cư** và nằm trong khu vực **quy hoạch phủ hồng toàn bộ là đất ở**, tạo điều kiện thuận lợi cho Nhà Đầu Tư có nhu cầu xin chuyển thêm mục đích sử dụng đất để phù hợp với quy mô ở và đầu tư.\
+
+  Hướng bất động sản Tây Bắc, **trên đất hiện có 2 căn nhà cấp 4 xây dựng kiên cố**, có thể sử dụng để ở, trông coi vườn hoặc cải tạo phục vụ mô hình farmstay. 
+
+
+  ![](/assets/images/chatgpt-image-09_40_55-23-thg-9-2026.png "Bán 3.797m² Đất Vườn Có Thổ Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay Đông Thanh - Nam Ban")
 
 
   Địa hình **đất rất bằng phẳng, không taly hay hầm, không gian yên tĩnh và có nhiều cây xanh.**\
@@ -36,13 +38,13 @@ content: >-
   Một cạnh t**hửa đất tiếp giáp suối đá tự nhiên, nguồn nước quanh năm, thuận tiện tưới tiêu và chăm sóc vườn.** 
 
 
-  ![](/assets/images/ban_dat_nam_ban_3797m2-6.png "Bán 3.797m² Đất Vườn Có Thổ Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay Đông Thanh - Nam Ban")
+  ![](/assets/images/chatgpt-image-15_44_20-22-thg-9-2026.png "Bán 3.797m² Đất Vườn Có Thổ Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay Đông Thanh - Nam Ban")
 
 
   Trên đất hiện đang có sẵn một số loại **cây ăn trái như Sầu riêng, Xoài, Bưởi, Thanh long, Bơ, cà phê và mắc ca**, giúp Nhà Đầu Tư có sẵn hoa trái sạch để sử dụng và **nguồn thu có sẵn từ các nông sản có sẵn**, bên cạnh đó vườn cây ăn trái có sẵn sẽ giúp Nhà Đầu Tư **dễ dàng chọn lọc bố trí cây cối khi cải tạo vườn** và phát t**riển mô hình nghỉ dưỡng theo nhu cầu, mà không mất thêm thời gian và chi phí để mua cây và chăm sóc ngay từ đầu.**
 
 
-  ![](/assets/images/chatgpt-image-15_44_20-22-thg-9-2026.png "Bán 3.797m² Đất Vườn Có Thổ Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay Đông Thanh - Nam Ban")
+  ![](/assets/images/chatgpt-image-09_42_21-23-thg-9-2026.png "Bán 3.797m² Đất Vườn Có Thổ Cư và Nhà Cấp 4| Sổ Hồng Riêng- Lô Góc Đường Bao Quanh và Giáp Suối Đá| Ngay Đông Thanh - Nam Ban")
 
 
   Vị trí gần trung tâm xã, thuận tiện tiếp cận các tiện ích sinh hoạt hằng ngày. \
