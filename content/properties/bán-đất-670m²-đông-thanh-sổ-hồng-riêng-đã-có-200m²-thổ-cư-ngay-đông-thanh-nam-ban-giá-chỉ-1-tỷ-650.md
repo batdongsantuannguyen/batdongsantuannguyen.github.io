@@ -9,8 +9,8 @@ description: "Thửa đất nằm ngay khu đan cư Đông Thanh - Nam Ban, có 
   tích 670m², mặt tiền 10m, trong đó đã có sẵn 200m² thổ cư. đường xe hơi đi
   thông xuất, đất bằng phẳng, ranh mốc rõ ràng. Vị trí cách Linh Ẩn Tự khoảng
   4km, trung tâm Đà Lạt khoảng 25km. "
-images:
-  - /assets/images/ảnh-màn-hình-2025-10-30-lúc-09.47.10.png
+image: /assets/images/ảnh-màn-hình-2025-10-30-lúc-09.47.10.png
+images: null
 address: Đông Thanh - Nam Ban - Lâm Hà
 area: 670m²
 residentialArea: 200m²
@@ -19,10 +19,12 @@ direction: Tây bắc
 road: bê tông 5m - đường thông
 legal: Sổ hồng riêng
 content: >-
-  Với **670m² mặt tiền rộng 10m với có sẵn 200m² thổ cư trên tổng 670m²** khoảng
-  **30% diện tích đã là đất ở**, đủ rộng để bố trí nhà ở khuông viên rộng rãi
-  cho gia đình, trong khi vẫn còn khoảng **470m²** cho sân, vườn và không gian
-  xanh. 
+  ![](/assets/images/ảnh-màn-hình-2025-10-30-lúc-09.47.41.png "Bán Đất 670m²
+  Đông Thanh| Sổ Hồng Riêng| Đã Có 200m² Thổ Cư| Ngay Đông Thanh - Nam Ban| Giá
+  chỉ 1 tỷ 650")
+
+
+  Với **670m² mặt tiền rộng 10m với có sẵn 200m² thổ cư trên tổng 670m²** khoảng **30% diện tích đã là đất ở**, đủ rộng để bố trí nhà ở khuông viên rộng rãi cho gia đình, trong khi vẫn còn khoảng **470m²** cho sân, vườn và không gian xanh. 
 
 
   ![](/assets/images/ảnh-màn-hình-2025-10-30-lúc-09.47.10.png "Bán Đất 670m² Đông Thanh| Sổ Hồng Riêng| Đã Có 200m² Thổ Cư| Ngay Đông Thanh - Nam Ban| Giá chỉ 1 tỷ 650")
