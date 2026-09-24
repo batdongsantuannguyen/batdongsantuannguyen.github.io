@@ -21,9 +21,9 @@ road: hẻm 2m
 legal: Sổ hồng riêng
 furniture: cơ bản
 content: >-
-  
-
-  ![](/assets/images/chatgpt-image-09_12_22-24-thg-9-2026.png "Bán 2 Căn Nhà Liền Kế Nhau| Đang Có Thu Nhập Cho Thuê Hàng Tháng| Ngay Đường Phan Đình Phùng - Đà Lạt")
+  ![](/assets/images/chatgpt-image-09_12_22-24-thg-9-2026.png "Bán 2 Căn Nhà
+  Liền Kế Nhau| Đang Có Thu Nhập Cho Thuê Hàng Tháng| Ngay Đường Phan Đình Phùng
+  - Đà Lạt")
 
 
   Trên thực tế **2 căn nhà xây dựng liền kế nhau, tường riêng biệt** cùng trên một **Sổ hồng**, hiện trạng như vậy để Nhà Đầu Tư có thể s**ử dụng bất động sản để vừa ở vừa cho thuê khi chỉ phải bỏ ra sổ vốn là 7tỷ**.
@@ -74,7 +74,7 @@ content: >-
   ***[Xem thêm Nhà hiện đang bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/nha/)***
 
 
-  ***[Xem thêm thêm thông tin các sản phẩm mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
+  ***[Xem thêm thông tin các sản phẩm mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >-
   Nhà ở ngay trung tâm Đà Lạt - thuận tiện đi lại, tiếp cập các tiện ích đều
   trong khoảng thời gian ngắn nhất.
