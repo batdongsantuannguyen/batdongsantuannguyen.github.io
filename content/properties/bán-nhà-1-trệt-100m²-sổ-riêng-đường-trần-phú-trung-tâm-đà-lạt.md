@@ -32,7 +32,13 @@ content: >-
   ![](/assets/images/z7175212506240_c570ca627c5893a7cab142fbb309230e.jpg "Bán Nhà 1 Trệt - 100m²| Sổ Riêng Đường Trần Phú - Trung Tâm Đà Lạt")
 
 
-  Điểm **để Nhà Đầu tư có thêm thông tin tham khảo** là hiện nay với tầm tài chính tương tự Nhà Đầu Tư có thể **mua được các căn nhà xây 2 tầng - 3 tầng** vị trí có thể xa hơn một chút nhưng vẫn lân cận trung tâm, đường xe hơi tương tự với khoảng diện tích giao động từ 60m² - 90m². \
+  Điểm **để Nhà Đầu tư có thêm thông tin tham khảo** là hiện nay với tầm tài chính tương tự Nhà Đầu Tư có thể **mua được các căn nhà xây 2 tầng - 3 tầng** vị trí có thể xa hơn một chút nhưng vẫn lân cận trung tâm, đường xe hơi tương tự với khoảng diện tích giao động từ 60m² - 90m². 
+
+
+  ![](/assets/images/z7175212515902_4aa03fb3a27d5eb866d3d02f25ac8325.jpg "Bán Nhà 1 Trệt - 100m²| Sổ Riêng Đường Trần Phú - Trung Tâm Đà Lạt")
+
+
+  \
 
   Tuy nhiên đối với Bất Động Sản này hiện nay hiện hữu sẵn căn nhà cấu trúc 1 trệt với công năng 2 ngủ thì **vẫn chưa thể khai thác hết được công năng giá trị của vị trí**. Cơ hội có còn ở đó để chờ đón các Nhà Đầu Tư với tầm nhìn kế hoạch khai thác phù hợp.
 
