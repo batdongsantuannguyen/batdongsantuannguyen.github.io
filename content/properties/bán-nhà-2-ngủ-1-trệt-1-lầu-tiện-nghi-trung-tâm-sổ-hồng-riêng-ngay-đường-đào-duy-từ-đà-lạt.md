@@ -9,9 +9,9 @@ description: >-
   Căn nhà ở ngay khu vực trung tâm Đà Lạt, thuận tiện sinh hoạt hằng ngày nhưng
   mức tài chính chỉ 4,25 tỷ.
 
-  Nhà nằm tại  Đường Đào Duy Từ – Đà Lạt, cách chợ Đà Lạt khoảng 1,5km, gần Viện Pasteur, Dinh 1 và khu trung tâm hành chính tỉnh Lâm Đồng. 
+  Nhà nằm tại  Đường Đào Duy Từ – Đà Lạt, cách chợ Đà Lạt khoảng 2,5km, gần Viện Pasteur, Dinh 1 và khu trung tâm hành chính tỉnh Lâm Đồng. 
 
-  Diện tích đất 55m², mặt tiền rộng 6,4m, diện tích sử dụng khoảng 100m². Nhà xây 1 trệt, 1 lầu, gồm phòng khách, bếp, 2 phòng ngủ, 2 toilet và có sân để xe máy. 
+  Diện tích sổ hồng 55m², mặt tiền rộng 6,4m, căn nhà được xây dựng kiến trúc nhà liền kế, 1 trệt , 1 lầu với diện tích sử dụng rộng lên đến 100m², gồm phòng khách, bếp, 2 phòng ngủ, 2 toilet và có sân để xe máy. 
 image: /assets/images/ảnh-chatgpt-15_42_04-26-thg-9-2026.png
 address: Đào Duy Từ, Xuân Hương - Đà Lạt
 area: 55m²
@@ -27,13 +27,13 @@ content: >-
   Lạt.")
 
 
-  Một căn nhà phù hợp cho gia đình ở và định cư để thuận tiện cho công việc đi lại và học hành của con em, ở ngay khu vực trung tâm Đà Lạt tiếp cận mọi tiện ích, sức khoẻ và học tập đều dễ dàng và nhanh chóng.
+  Một căn nhà phù hợp cho gia đình ở và định cư để thuận tiện cho công việc đi lại và học hành của con em, ở ngay khu vực trung tâm Đà Lạt dễ dàng tiếp cận mọi tiện ích, sức khoẻ và học tập đều thuận tiện và nhanh chóng.
 
 
   ![](/assets/images/ảnh-chatgpt-15_42_11-26-thg-9-2026.png "Bán Nhà 2 Ngủ| 1 Trệt, 1 Lầu Tiện Nghi Trung Tâm| Sổ Hồng Riêng| Ngay Đường Đào Duy Từ - Đà Lạt.")
 
 
-  Tuy là nhà trong hẻm nhưng với **mặt tiền nhà rộng 6,4m, không gian nhà thoáng hơn so với nhiều căn nhà phố có ngang nhỏ**. \
+  Tuy là nhà trong hẻm nhưng với **mặt tiền nhà rộng 6,4m, đem đến không gian Nhà  ở thoáng hơn so với nhiều căn nhà phố có ngang nhỏ**. \
 
   **Nhà kết cấu 2 tầng** - diện tích sử dụng lên đến **100m²**, công năng gồm 2 phòng ngủ được bố trí rất rộng rãi tạo thêm không gian sinh hoạt thoải mái cho gia đình.
 
