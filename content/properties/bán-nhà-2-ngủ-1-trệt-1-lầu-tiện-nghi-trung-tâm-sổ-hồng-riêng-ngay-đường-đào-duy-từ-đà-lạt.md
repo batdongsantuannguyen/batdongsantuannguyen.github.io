@@ -9,7 +9,7 @@ description: >-
   Căn nhà ở ngay khu vực trung tâm Đà Lạt, thuận tiện sinh hoạt hằng ngày nhưng
   mức tài chính chỉ 4,25 tỷ.
 
-  Nhà nằm tại 117 Đào Duy Từ – Đà Lạt, cách chợ Đà Lạt khoảng 1,5km, gần Viện Pasteur, Dinh 1 và khu trung tâm hành chính tỉnh Lâm Đồng. 
+  Nhà nằm tại  Đường Đào Duy Từ – Đà Lạt, cách chợ Đà Lạt khoảng 1,5km, gần Viện Pasteur, Dinh 1 và khu trung tâm hành chính tỉnh Lâm Đồng. 
 
   Diện tích đất 55m², mặt tiền rộng 6,4m, diện tích sử dụng khoảng 100m². Nhà xây 1 trệt, 1 lầu, gồm phòng khách, bếp, 2 phòng ngủ, 2 toilet và có sân để xe máy. 
 image: /assets/images/ảnh-chatgpt-15_42_04-26-thg-9-2026.png
