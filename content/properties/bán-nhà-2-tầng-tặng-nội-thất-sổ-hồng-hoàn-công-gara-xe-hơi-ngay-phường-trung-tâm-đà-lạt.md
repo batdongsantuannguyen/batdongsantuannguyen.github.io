@@ -12,7 +12,7 @@ description: >-
 
 
   Từ nhà cách Chợ đêm Đà Lạt khoảng 3km, đứng tại vị trí  cảu nhà chúng ta quan sát thấy Nhà thờ Con Gà. Khu vực dân cư đông đúc, xung quanh có chợ, quán xá, trường học và nhiều tiện ích sinh hoạt, đồng thời gần khu vực Dinh 3 Bảo Đại.
-image: /assets/images/z6729262564989_0a1e6df19a9c17783bf072b7fb9a905a.jpg
+image: /assets/images/ảnh-chatgpt-20_53_40-27-thg-9-2026.png
 address: Nguyễn Trung Trực, Xuân Hương - Đà Lạt
 area: 64,36m²
 residentialArea: "64,36m² - diện tích sàn 79,81m² "
