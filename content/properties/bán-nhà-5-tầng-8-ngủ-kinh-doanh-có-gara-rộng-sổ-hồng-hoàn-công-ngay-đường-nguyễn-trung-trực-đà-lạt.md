@@ -17,7 +17,7 @@ image: /assets/images/ảnh-chatgpt-09_09_33-28-thg-9-2026.png
 address: Nguyễn Trung Trực, Xuân Hương - Đà Lạt
 area: 113m² - Diện tích sàn 384m²
 residentialArea: 113m²
-frontage: rộng 5m - nở hậu 6,5m
+frontage: rộng 5,14m - nở hậu 6,5m
 direction: Đông nam
 road: bê tông 4m
 legal: Sổ hồng riêng - Đã hoàn công
