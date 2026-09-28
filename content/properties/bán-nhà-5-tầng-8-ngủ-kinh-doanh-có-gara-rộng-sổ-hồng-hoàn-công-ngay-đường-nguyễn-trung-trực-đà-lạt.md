@@ -8,11 +8,11 @@ price: 13,5 tỷ
 description: >
   Không có thời gian để vận hành kinh doanh - để ở không thì lãng phí công năng,
   gia chủ thì cũng ở xa nên cần bán lại căn nhà nằm ngay đường Nguyễn Trung Trực
-  - phường Xuân Hương - trung tâm Đà Lạt. Nhà được thiết kế 5 tầng với tổng thể
-  8 ngủ và gara đậu được 2 xe 7 chỗ cùng với không gian phòng ngủ cho tài xế -
-  phù hợp với người Nhà Đầu Tư tìm một bất động sản có thể vừa ở lâu dài, vừa
-  khai thác cho thuê tạo dòng tiền. Cách chợ đêm trung tâm tâm Đà Lạt - Hồ Xuân
-  Hương chỉ 3,8km
+  - phường Xuân Hương - trung tâm Đà Lạt. Nhà được thiết kế 5 tầng với 8 ngủ
+  kinh doanh và gara đậu được 2 xe 7 chỗ cùng với không gian phòng ngủ cho tài
+  xế - phù hợp với người Nhà Đầu Tư tìm một bất động sản có thể vừa ở lâu dài,
+  vừa khai thác cho thuê tạo dòng tiền. Cách chợ đêm trung tâm tâm Đà Lạt - Hồ
+  Xuân Hương chỉ 3,8km
 image: /assets/images/ảnh-chatgpt-09_09_33-28-thg-9-2026.png
 address: Nguyễn Trung Trực, Xuân Hương - Đà Lạt
 area: 113m² - Diện tích sàn 384m²
