@@ -60,7 +60,9 @@ highlights: >-
 
   Cách trường Đại Học Đà Lạt chỉ 1,5km - bên cạnh là trung tâm cảu các tiện ích - giá trị lớn cho định cư lâu dài.
 
-  Mặt tiền đường nhựa thông suốt - cách Thung Lũng Tình Yêu (3km) - Sân Golf Đà Lạt (1,5km) - Chợ Đêm và Hồ Xuân Hương (3km) một khoảng cách phù hợp để Nhà Đầu Tư thuận tiện chuyển hướng kinh doanh khách sạn - căn hộ - homestay.
+  Mặt tiền đường nhựa thông suốt - cách Thung Lũng Tình Yêu (3km) - Sân Golf Đà Lạt (1,5km) - Chợ Đêm và Hồ Xuân Hương (3km) 
+
+  Một khoảng cách phù hợp để Nhà Đầu Tư thuận tiện chuyển hướng kinh doanh khách sạn - căn hộ - homestay.
 tags:
   - hướng tây nam
   - nhà trung tâm Đà Lạt
