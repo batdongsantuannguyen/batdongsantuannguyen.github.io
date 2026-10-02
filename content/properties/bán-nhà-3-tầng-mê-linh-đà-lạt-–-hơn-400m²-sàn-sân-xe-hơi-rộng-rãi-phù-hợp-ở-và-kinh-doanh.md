@@ -36,7 +36,7 @@ content: >-
   ![](/assets/images/sân-thượng-hiện-đại-nhìn-ra-phố.png "Bán Nhà 3 Tầng Mê Linh Đà Lạt – Hơn 400m² Sàn, Sân Xe Hơi Rộng Rãi, Phù Hợp Ở và Kinh Doanh")
 
 
-  Nhà hướng **Đông Bắc**, pháp lý **sổ hồng riêng, đã hoàn công**, giúp người mua thuận tiện kiểm tra hồ sơ và sử dụng lâu dài.
+  Nhà hướng **Đông Bắc**, pháp lý **hoàn chỉnh - minh bạch - nhà  đã hoàn công**, giúp Nhà Đầu Tư thuận tiện kiểm tra hồ sơ và sử dụng lâu dài.
 
 
   Pháp lý bất động sản: ***Sổ hồng riêng***
@@ -45,7 +45,7 @@ content: >-
   Giá bán bất động sản: ***12,6 tỷ*** 
 
 
-  :::format align="right" line="1.6"
+  :::format align="center" line="1.6"
 
   NHÀ PHỐ - P9NP343
 
