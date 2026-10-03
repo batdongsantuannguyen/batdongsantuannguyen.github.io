@@ -17,9 +17,9 @@ frontage: 27m – 30m – 31m
 road: bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  ![](/assets/images/ảnh-màn-hình-2025-10-01-lúc-16.26.28.png "Bán Sổ Hồng
-  1.045m² Đất Sổ Hồng Có 100m² Thổ Cư và Căn Nhà Cấp 4| 3 Mặt Đường Xe Hơi -
-  View Đẹp| Mê Linh - Nam Ban")
+  ![](/assets/images/1790999788614_211711693051524901_6631683564647338461_821b34a7406bdd86a6b2149e45ae4e88.jpg
+  "Bán Sổ Hồng 1.045m² Đất Sổ Hồng Có 100m² Thổ Cư và Căn Nhà Cấp 4| 3 Mặt Đường
+  Xe Hơi - View Đẹp| Mê Linh - Nam Ban")
 
 
   Đường bê tông **4m ô tô vào đất**, khu vực dân cư hiện hữu, xung quanh còn **nhiều không gian xanh, gần đồi thông và suối**, lợi thế đất thoáng không gian mở, điều này mang đến sự thuận lợi cho Nhà Đầu Tư khi sở hữu thửa đất chúng ta **dễ dàng bố trí cảnh quan công trình nhà ở và sân vườn.** 
