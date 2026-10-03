@@ -1,61 +1,86 @@
 ---
 type: nha
 location: duc-trong
-title: Nhà Vườn 1667m2 Không Gian Nghỉ Dưỡng Tiện Nghi|Gần Sân Bay Quốc Tế Liên
-  Khương|bds ven dalat
+date: 2026-10-03T21:21:00+07:00
+title: Bán Nhà Diện Tích 1.667m²| 3 Ngủ| Sân Vườn Rộng| Xung Quanh View Cực Đẹp|
+  Gần Sân Bay Quốc Tế Liên Khương – Giá 3,2 Tỷ
 price: 3.200.000.000
-description: Nhà Vườn, gần sân bay Quốc Tế Liên Khương, Sổ Hổng Riêng
-image: /tuannguyen-batdongsan/assets/images/c473924e6a6cb432ed7d13.jpg
-images:
-  - /tuannguyen-batdongsan/assets/images/c3fde9f411d6cf8896c76.jpg
-address: Liên Hiệp
-area: "1667"
+description: "Một không gian sống yên tĩnh với khuôn viên rộng 1.667m², có sẵn
+  nhà 3 phòng ngủ và vườn cây ăn quả đang cho trái. Căn nhà nằm ở vị trí góc,
+  mặt tiền khoảng 25m, đường bê tông ô tô ra vào thuận tiện, nằm ngay Liên Hiệp
+  - Đưc Trọng, vị trí cách Quốc lộ 27 chỉ  500m và sân bay quốc tế Liên Khương
+  khoảng 4,5km. "
+image: /assets/images/nhà-vườn-giữa-đồi-xanh.png
+images: null
+address: Liên Hiệp - Đức Trọng
+area: 1.667m²
 residentialArea: "0"
 frontage: "25"
 direction: Đông nam
 road: Bê tông 4m
 legal: Sổ riêng
 furniture: Cơ bản
-summary: Nhà vườn tại Liên Hiệp, Đức Trọng, không gian rộng rãi, gần sân bay
-  Liên Khương, đường ô tô thuận tiện, sổ riêng.
+summary: ""
 content: >-
-  Bình yên thật sự bên căn nhà 3 ngủ, rộng rãi, có sẵn vườn cây ăn quả đang mùa
-  cho trái, nhà căn góc đường xe hơi ra vào thuận tiện , cách đường quốc lộ chỉ
-  500m, cách sân bay quốc tế Liên Khương chỉ 4,5km. 
+  ![](/assets/images/toàn-cảnh-nông-trại-gần-sân-bay-liên-khương.png
+  "Bán Nhà Diện Tích 1.667m²| 3 Ngủ| Sân Vườn Rộng| Xung Quanh View Cực Đẹp| Gần
+  Sân Bay Quốc Tế Liên Khương – Giá 3,2 Tỷ")
 
 
-  Vị trí trung điểm kết nối thuận tiện giữa trung tâm Đà Lạt Du Lịch - trung tâm
-  Hành Chính công tác ở Đức Trọng - và tuyến Đường quốc lộ 27. 
+  Vị trí tạo lợi thế kết nối giữa **Đà Lạt – trung tâm Đức Trọng – Quốc lộ 27**, phù hợp với Nhà Đầu Tư vừa muốn có **không gian nhà vườn để ở, nghỉ ngơi**, vừa cần di chuyển thường xuyên cho công việc.\
+
+  Tổng khuôn viên **1.667m²**, hiện hữu căn nhà thiết kế **1 hầm, 1 gác, gồm 3 phòng ngủ rộng rãi**, khu vực phòng tắm và toilet được bố trí riêng biệt.
 
 
-  Tổng khuôn viên diện tích rộng rãi: 1667m², hiện hữu là căn nhà 1 hầm, 1 gác,
-  với 3 ngủ rộng rãi, tiện phòng tắm và toilet riêng biệt. 
+  ![](/assets/images/ngôi-nhà-nông-thôn-giữa-ruộng-xanh.png "Bán Nhà Diện Tích 1.667m²| 3 Ngủ| Sân Vườn Rộng| Xung Quanh View Cực Đẹp| Gần Sân Bay Quốc Tế Liên Khương – Giá 3,2 Tỷ")
 
 
-  Hầm được thiết kế không sàn mở để phù hợp cho vừa đậu xe vừa làm nơi sinh hoạt
-  BBQ cho gia đình. 
+  Điểm đáng chú ý là **tầng hầm thiết kế dạng không gian mở**, có thể tận dụng **đậu xe kết hợp khu sinh hoạt, BBQ cho gia đình**. Nhà còn có **ban công chạy bao quanh**, tạo thêm không gian thư giãn và quan sát cảnh quan xung quanh.
 
 
-  Căn nhà được thiết ban công bao quanh nhà, thoải mái cho việc không gian ngắm
-  view xung quanh nhà. 
+  ![](/assets/images/vườn-cây-xanh-bên-ngôi-nhà-quê.png "Bán Nhà Diện Tích 1.667m²| 3 Ngủ| Sân Vườn Rộng| Xung Quanh View Cực Đẹp| Gần Sân Bay Quốc Tế Liên Khương – Giá 3,2 Tỷ")
 
 
-  Căn nhà là một lựa chọn không những cho nhu cầu nghỉ ngơi, mang lại sự yên
-  tĩnh nhẹ nhàng, bên cạnh đó là là cả các sự thuận tiện cả về sinh hoạt lẫn
-  công việc cho quý anh chị Nhà Đầu Tư. 
+  Phần đất rộng đã có **vườn cây ăn quả**, phù hợp với người thích không gian xanh, trồng thêm cây, rau hoặc tiếp tục hoàn thiện theo mô hình **nhà vườn nghỉ dưỡng** mà không phải bắt đầu từ một khu đất trống hoàn toàn.
 
 
-  Pháp lý sổ hồng riêng - tọa độ rõ ràng - khuôn viên cũng được rào lưới, trụ rõ
-  ràng. 
+  ![](/assets/images/ngôi-nhà-vườn-giữa-màu-xanh-quê-nhà.png "Bán Nhà Diện Tích 1.667m²| 3 Ngủ| Sân Vườn Rộng| Xung Quanh View Cực Đẹp| Gần Sân Bay Quốc Tế Liên Khương – Giá 3,2 Tỷ")
 
 
-  Giá bán hiện nay chỉ: 3,2tỷ
-highlights: |-
-  Nhà vườn không gian rộng rãi
-  Gần sân bay Quốc tế Liên Khương
-  Đường bê tông ô tô thuận tiện
-  Mặt tiền khoảng 25m
-  Sổ riêng, pháp lý rõ ràng
-  Phù hợp ở, nghỉ dưỡng và làm nhà vườn
-videoId: https://www.youtube.com/watch?v=4kbD6MLiWg4
+  Về pháp lý, bất động sản có **sổ hồng riêng, tọa độ rõ ràng**; khuôn viên đã được **rào lưới và có trụ xác định ranh**, thuận tiện cho việc kiểm tra hiện trạng và quản lý tài sản.
+
+
+  Giá bán bất động sản: 3,2 tỷ
+
+
+  :::format align="center" line="1.6"
+
+  ĐỨC TRỌNG NÔNG NGHIỆP - LHNN68
+
+  :::
+
+
+  ***[Xem thêm các thông tin Nhà đang bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/nha/)***
+
+
+  ***[Xem thêm thông tin các sản phẩm mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
+highlights: >-
+  Không gian rộng rãi 1.667m², lô góc sở hữu 2 mặt tiền thông thoáng - yên tĩnh.
+
+  Có sẵn công trình nhà ở, gồm 3 ngủ rộng rãi, thuận tiện cho Nhà Đầu Tư dọn vào ở ngay.
+
+  Nhà công năng đầy đủ, và tiện ích sẵn có hệ thống nước sạch, camera an ninh, vườn cây ăn quả.
+
+  Không quá gần với Sân Bay Quốc tế nên vẫn đảm bảo được không gian yên tĩnh cho gia đình nhưng vẫn đảm bảo được sự thuận tiện về giao thông.
+tags:
+  - nhà vườn rộng
+  - sổ hồng riêng
+  - Liên hiệp Đức Trọng
+  - gần sân bay
+  - đất đức trọng
+  - homestay
+  - Đức Trọng Lâm Đồng
+  - ven đà lạt
+  - mặt tiền rộng
+videoId: ""
 ---
