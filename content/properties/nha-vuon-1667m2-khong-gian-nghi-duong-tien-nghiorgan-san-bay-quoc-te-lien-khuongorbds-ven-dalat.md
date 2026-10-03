@@ -15,10 +15,10 @@ images: null
 address: Liên Hiệp - Đức Trọng
 area: 1.667m²
 residentialArea: "0"
-frontage: "25"
+frontage: 25m
 direction: Đông nam
-road: Bê tông 4m
-legal: Sổ riêng
+road: bê tông 4m
+legal: Sổ hồng riêng
 furniture: Cơ bản
 summary: ""
 content: >-
@@ -50,7 +50,7 @@ content: >-
   Về pháp lý, bất động sản có **sổ hồng riêng, tọa độ rõ ràng**; khuôn viên đã được **rào lưới và có trụ xác định ranh**, thuận tiện cho việc kiểm tra hiện trạng và quản lý tài sản.
 
 
-  Giá bán bất động sản: 3,2 tỷ
+  Giá bán bất động sản: **3,2 tỷ**
 
 
   :::format align="center" line="1.6"
