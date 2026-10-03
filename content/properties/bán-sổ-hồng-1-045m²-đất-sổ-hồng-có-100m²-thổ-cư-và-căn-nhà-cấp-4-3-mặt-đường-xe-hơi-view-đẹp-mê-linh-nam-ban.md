@@ -9,7 +9,7 @@ description: Cần bán 1.045m² đất tại Mê Linh – Nam Ban, có 3 mặt 
   hơi tương ứng với chiều dài các mặt tiền là  27m – 30m – 31m. Đã có sẵn 100m²
   thổ cư, và căn nhà cấp 4. Vị trí cách ĐT725 khoảng 2,5km, chợ Thăng Long – Nam
   Ban khoảng 4,5km, Chợ đêm Đà Lạt khoảng 25km.
-image: /assets/images/ảnh-màn-hình-2025-10-01-lúc-16.25.30.png
+image: /assets/images/1790999788614_211711693051524901_6631683564647338461_821b34a7406bdd86a6b2149e45ae4e88.jpg
 address: Mê Linh - Nam Ban - Lâm Hà
 area: "1.045m² "
 residentialArea: "100m² "
@@ -25,7 +25,7 @@ content: >-
   Đường bê tông **4m ô tô vào đất**, khu vực dân cư hiện hữu, xung quanh còn **nhiều không gian xanh, gần đồi thông và suối**, lợi thế đất thoáng không gian mở, điều này mang đến sự thuận lợi cho Nhà Đầu Tư khi sở hữu thửa đất chúng ta **dễ dàng bố trí cảnh quan công trình nhà ở và sân vườn.** 
 
 
-  ![](/assets/images/ảnh-màn-hình-2025-09-30-lúc-16.19.06.png "Bán Sổ Hồng 1.045m² Đất Sổ Hồng Có 100m² Thổ Cư và Căn Nhà Cấp 4| 3 Mặt Đường Xe Hơi - View Đẹp| Mê Linh - Nam Ban")
+  ![](/assets/images/1790999887865_211711693051524901_6631683564647338461_97623b2561e8ef2b6968074df37bd91f.jpg "Bán Sổ Hồng 1.045m² Đất Sổ Hồng Có 100m² Thổ Cư và Căn Nhà Cấp 4| 3 Mặt Đường Xe Hơi - View Đẹp| Mê Linh - Nam Ban")
 
 
   Bên cạnh đó một thửa đất vuông vắn với 3 mặt thoáng và mặt còn lại hướng view như thửa đất này chúng ta sẽ thuận lợi hơn trong quá trình tái đầu tư.\
@@ -44,6 +44,9 @@ content: >-
   MÊ LINH XÂY DỰNG - MLXD77
 
   :::
+
+
+  ***[Xem thêm thông tin Nhà đang bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/nha/)***
 
 
   ***[Xem thêm thông tin các bất động sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan)***
