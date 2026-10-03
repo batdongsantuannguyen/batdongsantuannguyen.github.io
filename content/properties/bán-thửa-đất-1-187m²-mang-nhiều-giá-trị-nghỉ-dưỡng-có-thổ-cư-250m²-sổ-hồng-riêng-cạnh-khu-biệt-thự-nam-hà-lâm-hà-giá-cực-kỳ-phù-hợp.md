@@ -51,7 +51,7 @@ content: >-
   Thêm vào đó dựa vào dữ liệu khảo sát định giá tại khu vực thì thửa đất này đang có giá bán rất tốt chỉ **dưới 2 triệu/ mét** vuông trong khi đó hiện nay xung quanh đang có giá bán từ **3 triệu -> 5 triệu/mét vuông.**
 
 
-  ![](/assets/images/photo-output.jpeg "Bán Thửa Đất 1.187m² Mang Nhiều Giá Trị Nghỉ Dưỡng| Có Thổ Cư 250m²| Sổ Hồng Riêng Cạnh Khu Biệt Thự Nam Hà - Lâm Hà| Giá Cực Kỳ Phù Hợp")
+  ![](/assets/images/1789699011156_6631683564647338461_6631683564647338461_16e44ab6849be48f74b9dc0ae94f56e3.jpg "Bán Thửa Đất 1.187m² Mang Nhiều Giá Trị Nghỉ Dưỡng| Có Thổ Cư 250m²| Sổ Hồng Riêng Cạnh Khu Biệt Thự Nam Hà - Lâm Hà| Giá Cực Kỳ Phù Hợp")
 
 
   Pháp lý bất động sản: ***Sổ hồng riêng***
