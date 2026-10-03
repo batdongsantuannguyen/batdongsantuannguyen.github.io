@@ -33,7 +33,7 @@ content: >-
 
   Với **5 phòng ngủ + gần 200m² diện tích sử dụng**, một không gian rộng rãi cho gia đình đông thành viên có thể **vào ở ngay, hoặc Nhà Đầu Tư có thể nghiên cứu khai thác homestay** mà không cần bắt đầu từ một khu đất trống. \
 
-  Bên cạnh đó vị trí cách **chợ đêm Đà Lạt 4km**, vừa đủ thuận tiện để kết nối với các địa điểm vui chơi tiện ích trung tâm tạo lợi thế cho nhu cầu ở, nghỉ dưỡng và khai thác lưu trú.
+  Bên cạnh đó vị trí cách **chợ đêm Đà Lạt 4,5km**, vừa đủ thuận tiện để kết nối với các địa điểm vui chơi tiện ích trung tâm tạo lợi thế cho nhu cầu ở, nghỉ dưỡng và khai thác lưu trú.
 
 
   ![](/assets/images/bếp-sáng-ngập-nắng-và-bàn-ăn-gỗ.png "Bán Nhà View Đẹp Đường Hoàng Hoa Thám Đà Lạt – 5 Phòng Ngủ, Gần 200m² Sử Dụng – Giá 2,7 Tỷ")
