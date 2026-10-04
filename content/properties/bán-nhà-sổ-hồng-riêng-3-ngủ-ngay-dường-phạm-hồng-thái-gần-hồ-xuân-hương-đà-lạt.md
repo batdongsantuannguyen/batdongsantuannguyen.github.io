@@ -69,5 +69,13 @@ highlights: >
   Nhà 3 Ngủ có phòng ngủ tầng trệt thuận tiện cho gia đình em bé hoặc ông bà lớn tuổi
 
   Sổ hồng riêng thuận tiện cho nhà đầu tư mua sở hữu, quản lý tài sản, cũng như các thưa tục mua bán - cho thuê để nhanh chóng
-tags: []
+tags:
+  - nhà đà lạt
+  - nhà trung tâm
+  - nhà gần chợ đêm Đà Lạt
+  - Nhà sổ hồng riêng
+  - Đông nam
+  - nhà 3 ngủ
+  - phạm hồng thái
+  - phường xuân hương
 ---
