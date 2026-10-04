@@ -5,10 +5,11 @@ date: 2026-10-04T19:22:00+07:00
 title: "Bán 197m² Đất Thổ Cư| Sổ Hồng Riêng| Bằng Phẳng Đường Xe Hơi| Đường
   Nguyễn Đình Quân Đà Lạt "
 price: 6,9 tỷ
-description: Sở hữu 197m² đất với mặt tiền rộng 9,29m tại đường Nguyễn Đình
-  Quân, phường 5, Đà Lạt. Vị trí cách chợ đêm Đà Lạt chỉ 4km, phù hợp với khách
-  hàng muốn xây dựng nhà ở lâu dài, biệt thự gia đình hoặc kết hợp khai thác cho
-  thuê, vừa thuận tiện kết nối trung tâm vừa có không gian sinh hoạt riêng tư.
+description: Sở hữu 197m² đất Sổ hồng riêng với mặt tiền rộng 9,29m tại đường
+  Nguyễn Đình Quân, phường 5, Đà Lạt. Vị trí cách chợ đêm Đà Lạt chỉ 4km, phù
+  hợp với Nhà Đầu Tư có kế hoạch  xây dựng nhà ở lâu dài, biệt thự gia đình hoặc
+  kết hợp khai thác cho thuê, vừa thuận tiện kết nối trung tâm vừa có không gian
+  sinh hoạt riêng tư.
 image: /assets/images/lô-đất-trống-với-ranh-giới-đo-đạc-cam-đỏ.png
 address: Nguyễn Đình Quân, Cam ly - Đà Lạt
 area: "197m² "
