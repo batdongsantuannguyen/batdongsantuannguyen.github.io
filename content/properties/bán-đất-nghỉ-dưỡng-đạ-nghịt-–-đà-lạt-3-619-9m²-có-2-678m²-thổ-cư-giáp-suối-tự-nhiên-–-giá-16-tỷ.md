@@ -53,7 +53,7 @@ content: >-
   :::
 
 
-  ***[Xem thêm thông tin các vị trí đất đang bán tại đây;](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+  ***[Xem thêm thông tin các vị trí Đất đang bán tại đây;](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
 
 
   ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây;](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
