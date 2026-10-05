@@ -10,6 +10,7 @@ description: Sở hữu quỹ đất rộng 3.619,9m², trong đó có sẵn 2.6
   dưỡng như Kiwuki Dalat Resort, Quỷ Núi, Pini Đà Lạt và cách chợ đêm Đà Lạt
   khoảng 20km. Đây là vị trí đáng quan tâm với khách hàng tìm kiếm không gian
   nghỉ dưỡng riêng hoặc quỹ đất lớn để đầu tư lâu dài.
+image: /assets/images/ảnh-màn-hình-2026-10-05-lúc-20.54.21.png
 address: Đạ Nghịt, Lang Biang - Đà Lạt
 area: 3.619,9m²
 residentialArea: 2.678m²
@@ -47,7 +48,7 @@ content: >-
 
   :::format align="center" line="1.6"
 
-  XÂY DỰNG - LABI
+  XÂY DỰNG - LABIAXD80
 
   :::
 
@@ -56,4 +57,22 @@ content: >-
 
 
   ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây;](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
+highlights: >
+  Thửa đất rộng 3.619,9m² thổ cư đã chuyển 2.678m², một quỹ đất lớn phù hợp để
+  phát triển dự án, quần thể sinh thái.
+
+  Giáp suối đá - đồi cây xanh tự nhiên đem đến không gian nghỉ dưỡng trong lành - yên tĩnh gần gũi thiên nhiên
+
+  Khuôn viên đã có các cây hoa tiểu cảnh đẹp - hệ thống điện chiếu sáng
+
+  Sổ hồng riêng thổ cư đã chuyển giúp Nhà Đầu Tư dẽ dàng quản lý tài sản và tiết kiệm rất nhiều chi phí.
+tags:
+  - đất ven đà lạt
+  - đất rộng có view
+  - đất farm homestay
+  - đất rộng thổ cư
+  - thổ cư đà lạt
+  - Lang biang - đà lạt
+  - hướng tây bắc
+  - giáp suối đá - có cây xanh
 ---
