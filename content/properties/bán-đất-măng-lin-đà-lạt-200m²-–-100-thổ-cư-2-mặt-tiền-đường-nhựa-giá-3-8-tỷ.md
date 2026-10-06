@@ -39,6 +39,13 @@ content: >-
   Giá bán bất động sản: ***3,8 tỷ***
 
 
+  :::format align="center" line="1.6"
+
+  ĐẤT XÂY DỰNG - P7XD473
+
+  :::
+
+
   ***[Xem thêm các thông tin Đất đang bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
 
 
