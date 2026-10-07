@@ -3,7 +3,7 @@ type: dat
 location: da-lat
 date: 2026-10-07T15:37:00+07:00
 title: Bán Đất Thổ Cư| 70m² Nở Hậu| Sổ Hồng Hẻm Đường Nhựa| Ngay Phước Thành - Đà Lạt
-price: 2,5 tỷ
+price: 2,6 tỷ
 description: Thửa đất tại Phước Thành, Đà Lạt, diện tích 70m², mặt tiền 4,2m, nở
   hậu 5,35m, hướng Tây Bắc. Đất bằng phẳng đường nhựa xe hơi đi thông cả 2
   đầu.  Vị trí nằm trên tuyến đường kết nối từ chợ đêm Đà Lạt đi Langbiang,
@@ -41,7 +41,7 @@ content: >-
   Pháp lý bất động sản: S**ổ hồng phân quyền 3 sổ**
 
 
-  Giá bán bất động sản: **2,5tỷ**
+  Giá bán bất động sản: **2,6tỷ**
 
 
   :::format align="center" line="1.6"
@@ -66,7 +66,7 @@ tags:
   - đất xây dựng đà lạt
   - đường nhựa
   - đường xe hơi
-  - Sổ hồng 2,5 tỷ
+  - Sổ hồng 2,6 tỷ
   - nhà gần chợ đêm
   - Lang biang - Đà Lạt
   - hướng Tây bắc
