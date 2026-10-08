@@ -19,11 +19,12 @@ direction: Đông nam
 road: bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  Thửa đất nằm ở khu vực có xây dựng quy hoạch **kiến trúc biệt thự biệt lập,
-  mật độ xây dựng 60%**, tạo điều kiện bố trí không gian nhà ở riêng tư kết hợp
-  sân vườn. Với diện tích đất hiện hữu, Nhà Đầu Tư có thể nghiên cứu phương án
-  **xây dựng biệt thự gia đình, nhà vườn hoặc không gian nghỉ dưỡng riêng**, tùy
-  theo quy hoạch và giấy phép xây dựng.
+  ![](/assets/images/khu-đất-trống-viền-hồng-giữa-các-mái-nhà.png
+  "Bán Đất Biệt Thự 238,4m²,Sổ Hồng Thổ Cư, Đường Xe Hơi, Khu Dân Cư Đông Đúc,
+  Đường Cao Thắng - Đà Lạt")
+
+
+  Thửa đất nằm ở khu vực có xây dựng quy hoạch **kiến trúc biệt thự biệt lập, mật độ xây dựng 60%**, tạo điều kiện bố trí không gian nhà ở riêng tư kết hợp sân vườn. Với diện tích đất hiện hữu, Nhà Đầu Tư có thể nghiên cứu phương án **xây dựng biệt thự gia đình, nhà vườn hoặc không gian nghỉ dưỡng riêng**, tùy theo quy hoạch và giấy phép xây dựng.
 
 
   ![](/assets/images/khu-đất-trống-bên-hẻm-nắng-rực.png "Bán Đất Biệt Thự 238,4m²,Sổ Hồng Thổ Cư, Đường Xe Hơi, Khu Dân Cư Đông Đúc, Đường Cao Thắng - Đà Lạt")
