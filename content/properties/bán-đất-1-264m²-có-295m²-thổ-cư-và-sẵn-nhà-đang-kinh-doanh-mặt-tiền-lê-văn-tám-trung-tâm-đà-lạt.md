@@ -30,7 +30,7 @@ content: >-
   Thửa đất **mặt tiền mặt trước tiếp giáp đường nhựa** thuận tiện cho mặt bằng kinh doanh, p**hía sau giáp suối tự nhiên**, địa hình thoải dốc về phía sau và có tầm nhìn thoáng. Đây là lợi thế để nghiên cứu xây dựng **biệt thự nghỉ dưỡng, khách sạn, homestay hoặc mô hình cà phê sân vườn có view.**
 
 
-  ![](/assets/images/bản-đồ-3d-đà-lạt-và-hồ-xuân-hương.png "Bán Đất 1.264m² Có 295m² Thổ Cư Và Sẵn Nhà Đang Kinh Doanh, Mặt Tiền Lê Văn Tám Trung Tâm Đà Lạt")
+  ![](/assets/images/bản-đồ-đà-lạt-mũi-tên-chuẩn.png "Bán Đất 1.264m² Có 295m² Thổ Cư Và Sẵn Nhà Đang Kinh Doanh, Mặt Tiền Lê Văn Tám Trung Tâm Đà Lạt")
 
 
   **Đường nhựa hiện hữu 5m**, có kế hoạch mở rộng lên 10m. Vị trí gần trung tâm, kết nối giao thông thuận tiện khi **cách Quốc Lộ 20 (Vòng Xoay Khe Sanh) 100m, đầu đường là khu khách sạn và khu căn hộ lớn là Panorama và Merple.** 
