@@ -30,7 +30,7 @@ content: >-
 
   Trước nhà là **đường nhựa 8m** rất rộng rãi đây là con **đường nối thông giữa đường Nguyên Tử Lực và khu dân cư Trần Anh Tông**. \
 
-  Cách đường chính Nguyễn Tử Lực và bãi đậu xe KQH Trần Anh Tông cùng khoảng **50m**, nên xe cộ di chuyển - việc đón khách, hướng dẫn đường đi và sử dụng tiện ích khu vực rất dễ dàng. \
+  Cách đường chính Nguyễn Tử Lực và bãi đậu xe KQH Trần Anh Tông cũng chỉ **50m**, nên xe cộ di chuyển - việc đón khách, hướng dẫn đường đi và sử dụng tiện ích khu vực rất dễ dàng. \
 
   Mặt bằng cũng rất thuận lợi để **Nhà Đầu Tư tạo sự nhận diện và nhìn thấy thương hiệu** khi xây dựng cơ sở kinh doanh.
 
