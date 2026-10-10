@@ -4,23 +4,24 @@ locationName: Mê Linh - Nam Ban
 typeName: Đất
 type: dat
 location: lam-ha
-title: Bán 180m2 Sổ Hồng Riêng| Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban\ 1,6tỷ
+date: 2026-10-10T09:54:00+07:00
+title: Bán 180m2 Sổ Hồng Riêng, Có Thổ Cư| Ngay Trung Tâm Mê Linh - Nam Ban| Giá
+  chỉ 1,6tỷ
 price: 1,6 tỷ
-description: "Chỉ 1,6tỷ [KHÔNG TỐN THÊM CHI PHÍ] thêm thổ cư, Thửa đất này đã có
-  sẵn, mặt tiền sổ hồng riêng ngay trung tâm dân cư "
+description: ""
 image: /tuannguyen-batdongsan/assets/images/dat-me-linh-nam-ban-180m2/dat-me-linh-nam-ban-180m2-flycam.jpg
 images: null
 address: Mê Linh - Nam Ban, Lâm Hà, Lâm Đồng
 area: 180m²
 residentialArea: 132m²
 frontage: 6m
-direction: Đông Nam
+legal: Sổ hồng riêng
+deposit: ""
 leaseTerm: ""
 furniture: Đất trống
 summary: ""
 url: /tuannguyen-batdongsan/bat-dong-san/dat/dat-me-linh-nam-ban-180m2-1-6-ty/
-legal: Sổ hồng riêng
-deposit: ""
+direction: Đông Nam
 content: >-
   Cách đường DT725 chỉ 200m, nằm cạnh với các khu du lịch lớn như KDL Chuồn
   Chuồn, Cafe Mê Linh, The Florest Hoa Trong Rừng. 
@@ -74,6 +75,6 @@ tags:
   - đất gần ĐT725
   - đất 180m²
   - đất giá 1,6 tỷ
-videoId: https://www.youtube.com/watch?v=N--4djY6ZYY
+videoId: ""
 id: dat-me-linh-nam-ban-180m2
 ---
