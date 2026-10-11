@@ -16,7 +16,7 @@ image: /assets/images/toàn-cảnh-đồi-cỏ-và-thị-trấn-xanh.png
 address: Trịnh Hoài Đức - Xuân Trường - Đà Lạt
 area: 256,70m²
 residentialArea: 256,70m²
-frontage: 25m
+frontage: 26m
 direction: Tây nam
 road: bê tông 3,5m
 legal: Sổ hồng riêng
