@@ -11,7 +11,7 @@ description: Bán 3 thửa đất vị trí có tầm nhìn vô cùng đẹp, m�
   tách thành 3 thửa đất với Diện tích từ 1000m² tương ứng 3 cuốn sổ hồng riêng
   biệt. Vị trí cách đường Quốc Lộ 20 chỉ 800m, cách khu du lịch (Làng Châu Âu)
   Euro Garden Cầu Đất 1,7km, cách chợ đêm Đà Lạt chỉ 26km.
-image: /assets/images/thửa-đất-xanh-giữ-nguyên-viền-ngoài.png
+image: /assets/images/đồi-hoa-anh-đào-bên-hồ.png
 area: 1.020m²
 residentialArea: 378m²
 frontage: 10m
@@ -19,34 +19,30 @@ direction: Tây nam
 road: bê tông 4m
 legal: Sổ hồng riêng
 content: >-
-  3 thửa đất được tách tương ứng với các **Sổ hồng riêng** với diện tích
-  **1020m2 - mặt tiền rộng 10m, diện tích 1005,2m2 -  mặt tiền rộng 17,41m, diện
-  tích 1000m2 -mặt tiền 22,12m**. Thế đất ôm triền có view toàn cảnh **mặt tiền
-  hướng view hồ Phát Chi và đồi thông, mặt sau view đồi chè, đồi điện gió và đồi
-  hoa Mai anh đào rất đẹp.** 
-
+  
 
   ![](/assets/images/thửa-đất-xanh-giữ-nguyên-viền-ngoài.png "Bán 3 Thửa Đất Sổ Hồng Thổ Cư, Ngay Khu Đồi Mai Anh Đào, View Cực Đẹp, Cầu Đất , Xuân Trường - Đà Lạt")
 
 
-  Một không gian yên tĩnh hoà vào thiên nhiên **thổ cư có sẵn** nên rất lý tưởng để Nhà Đầu Tư xây dựng không gian nghỉ dưỡng mơ ước, hoặc Nhà Đầu Tư cũng có thể nghiên cứu khai thác kinh doanh các lĩnh lưu trú - checkin từ tầm nhìn toàn cảnh đẹp của vị trí.
+  3 thửa đất được tách tương ứng với các **Sổ hồng riêng** với diện tích **1020m2 - mặt tiền rộng 10m, diện tích 1005,2m2 -  mặt tiền rộng 17,41m, diện tích 1000m2 -mặt tiền 22,12m**. Thế đất ôm triền có view toàn cảnh **mặt tiền hướng view hồ Phát Chi và đồi thông, mặt sau view đồi chè, đồi điện gió và đồi hoa Mai anh đào rất đẹp.** 
 
 
   ![](/assets/images/đồi-hoa-anh-đào-bên-hồ.png "Bán 3 Thửa Đất Sổ Hồng Thổ Cư, Ngay Khu Đồi Mai Anh Đào, View Cực Đẹp, Cầu Đất , Xuân Trường - Đà Lạt")
 
 
-  Là một khu có tầm nhìn đẹp tuy nhiên lại sát cạnh ngay khu dân cư đông đúc với đầy đủ các tiện ích xung quanh là rất **rất nhiều các địa điểm cafe và săn mây hotrend** và **thuận tiện giao thông di chuyển.** 
+  Một không gian yên tĩnh hoà vào thiên nhiên **thổ cư có sẵn** nên rất lý tưởng để Nhà Đầu Tư xây dựng không gian nghỉ dưỡng mơ ước, hoặc Nhà Đầu Tư cũng có thể nghiên cứu khai thác kinh doanh các lĩnh lưu trú - checkin từ tầm nhìn toàn cảnh đẹp của vị trí.
 
 
   ![](/assets/images/đồi-xanh-nhà-kính-và-tuabin-gió.png "Bán 3 Thửa Đất Sổ Hồng Thổ Cư, Ngay Khu Đồi Mai Anh Đào, View Cực Đẹp, Cầu Đất , Xuân Trường - Đà Lạt")
 
 
-  \
-
-  Từ vị trí của các thửa đất cách đường Quốc Lộ 20 chỉ 800m, cách khu du lịch Làng Châu Âu Euro Garden Cầu Đất 1,7km và chỉ 26km là chúng ta đã lên đến chợ đêm trung tâm Đà Lạt.
+  Là một khu có tầm nhìn đẹp tuy nhiên lại sát cạnh ngay khu dân cư đông đúc với đầy đủ các tiện ích xung quanh là rất **rất nhiều các địa điểm cafe và săn mây hotrend** và **thuận tiện giao thông di chuyển.** 
 
 
   ![](/assets/images/bản-đồ-đường-đà-lạt-chính-xác.png "Bán 3 Thửa Đất Sổ Hồng Thổ Cư, Ngay Khu Đồi Mai Anh Đào, View Cực Đẹp, Cầu Đất , Xuân Trường - Đà Lạt")
+
+
+  Từ vị trí của các thửa đất cách đường Quốc Lộ 20 chỉ 800m, cách khu du lịch Làng Châu Âu Euro Garden Cầu Đất 1,7km và chỉ 26km là chúng ta đã lên đến chợ đêm trung tâm Đà Lạt.
 
 
   Pháp lý bất động sản: **Sổ hồng riêng**
