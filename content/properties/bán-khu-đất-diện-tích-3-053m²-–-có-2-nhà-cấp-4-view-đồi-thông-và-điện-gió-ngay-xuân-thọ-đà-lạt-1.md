@@ -1,6 +1,7 @@
 ---
 type: dat
-location: da-lat
+location: xuan-tho-xuan-truong
+date: 2026-10-14T14:56:00+07:00
 title: Bán Khu Đất Diện Tích 3.053m²| Có 2 Nhà Cấp 4| View Đồi Thông và Đồi Điện
   Gió Ngay Xuân Thọ - Đà Lạt
 price: 12 tỷ
