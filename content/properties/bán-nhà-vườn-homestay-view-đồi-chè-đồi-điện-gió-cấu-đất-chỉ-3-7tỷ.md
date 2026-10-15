@@ -21,9 +21,8 @@ direction: Tây nam
 road: bê tông 3m
 legal: Sổ hồng riêng
 content: >-
-  
-
-  ![](/assets/images/unnamed-3-.webp "Bán Nhà Vườn Homestay View Đồi Chè - Đồi Điện Gió Cấu Đất - Chỉ 3,7tỷ")
+  ![](/assets/images/unnamed-3-.webp "Bán Nhà Vườn Homestay View Đồi Chè - Đồi
+  Điện Gió Cấu Đất - Chỉ 3,7tỷ")
 
 
   Trên đất **hiện hữu căn nhà homestay có thiết kế độc đáo**, hài hòa với thiên nhiên, khuôn viên có sân vườn rộng rãi, nhiều không gian xanh gần nguồn nước tự nhiên, tạo cảm giác trong lành và thư giãn quanh năm, phù hợp để **ở nghỉ dưỡng, làm nhà vườn cuối tuần hoặc khai thác homestay cho thuê**.
@@ -58,10 +57,10 @@ content: >-
   Giá bán bất động sản: **3,7 tỷ.**
 
 
-  ***Xem thêm thông tin các Homestay đang bán tại đây.***
+  ***[Xem thêm thông tin các Homestay đang bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/homestay/)***
 
 
-  ***Xem thêm thông tin các Bất Động Sản mới nhất tại đây.***
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >
   Căn Homestay không gian rộng rãi 438m² - thực tế  513m², kiến trúc độc đáo,
   view đẹp tại nhà, khoảng xanh mát mẻ, gần gũi thiên nhiên
