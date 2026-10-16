@@ -1,6 +1,7 @@
 ---
 type: villa
 location: da-lat
+date: 2026-10-16T15:03:00+07:00
 title: Bán Căn Biệt Thự 1 Trệt, 1 Lầu| 3 Ngủ, Sổ Hồng Riêng, Cạnh Khu Biệt
   Thự  RoYal Măng Lin - Đà Lạt
 price: 8,5 tỷ
@@ -8,7 +9,7 @@ description: Biệt thự nằm trong khu vực, xung quanh có nhiều biệt t
   nghỉ dưỡng. Đây cũng là nơi được nhiều nghệ sĩ lựa chọn sinh sống, phù hợp với
   gia đình cần không gian riêng tư và chất lượng sống tốt.
 image: /assets/images/ban_nha_biet_thu_da_lat-5.jpg
-address: Măng Lin - Đà Lạt
+address: Măng Lin, Lang biang - Đà Lạt
 area: 204m² - Diện tích sàn sử dụng 238m²
 residentialArea: 204m²
 frontage: 10m
@@ -16,9 +17,8 @@ direction: Đông bắc
 road: nhựa 4m
 legal: Sổ hồng riêng
 content: >-
-  
-
-  ![](/assets/images/ban_nha_biet_thu_da_lat-6.jpg "Bán Căn Biệt Thự 1 Trệt, 1 Lầu| 3 Ngủ, Sổ Hồng Riêng, Cạnh Khu Biệt Thự RoYal Măng Lin - Đà Lạt")
+  ![](/assets/images/ban_nha_biet_thu_da_lat-6.jpg "Bán Căn Biệt Thự 1 Trệt, 1
+  Lầu| 3 Ngủ, Sổ Hồng Riêng, Cạnh Khu Biệt Thự RoYal Măng Lin - Đà Lạt")
 
 
   Biệt thự được xây dựng trên khuôn viên đất **204m²**, kết cấu **1 trệt, 1 lầu**, tổng diện tích sàn **238m²**. Công năng gồm **3 phòng ngủ rộng rãi**, thiết kế theo hướng không gian mở. Các phòng đều có cửa đón ánh sáng tự nhiên và tầm nhìn thoáng.
@@ -52,7 +52,10 @@ content: >-
   :::
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vị trí Biệt Thự bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/villa/)***
+
+
+  ***[Xem thêm các thông tin Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >-
   Xung quanh chủ yếu là biệt thự và resort, phù hợp để ở lâu dài hoặc nghỉ
   dưỡng.
@@ -73,5 +76,5 @@ tags:
   - nhà 2 tầng
   - nhà sổ riêng
   - Măng lin
-videoId: https://www.youtube.com/watch?v=kRSPlxpVVvM
+videoId: ""
 ---
