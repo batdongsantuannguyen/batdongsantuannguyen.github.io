@@ -1,6 +1,7 @@
 ---
 type: dat
 location: xuan-tho-xuan-truong
+date: 2026-10-16T15:01:00+07:00
 title: Bán 409m² Sổ Hồng Riêng Đất Thổ Cư Mặt Tiền Đường Nhựa – View Đồi Chè Cầu
   Đất| Xuân Trường - Đà Lạt
 price: 7,2 tỷ
@@ -8,7 +9,7 @@ description: Lô đất nằm tại trung tâm Xuân Trường – Đà Lạt, c
   chợ Cầu Đất khoảng 1km. Gần đất có trung tâm y tế, công viên và khu dân cư
   hiện hữu, thuận tiện sinh hoạt hằng ngày.
 image: /assets/images/ban_dat_so_rieng_xay_dung_da_lat-3.jpg
-address: Xuân Trường - Đà Lạt
+address: Cầu Đất, Xuân Trường - Đà Lạt
 area: 409m²
 residentialArea: 409m²
 frontage: 21m - nở hậu rộng
@@ -16,9 +17,9 @@ direction: Đông nam
 road: nhựa 6m - đường thông
 legal: Sổ hồng riêng
 content: >-
-  
-
-  ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-1.jpg "Bán 409m² Sổ Hồng Riêng Đất Thổ Cư Mặt Tiền Đường Nhựa – View Đồi Chè Cầu Đất| Xuân Trường - Đà Lạt")
+  ![](/assets/images/ban_dat_so_rieng_xay_dung_da_lat-1.jpg "Bán 409m² Sổ Hồng
+  Riêng Đất Thổ Cư Mặt Tiền Đường Nhựa – View Đồi Chè Cầu Đất| Xuân Trường - Đà
+  Lạt")
 
 
   Tổng diện tích **409m², toàn bộ là đất thổ cư**. Mặt tiền rộng khoảng **21m**, đất nở hậu, thế đất dương và có nhiều không gian để bố trí nhà ở, sân vườn hoặc công trình nghỉ dưỡng.
@@ -45,7 +46,10 @@ content: >-
   **Giá bán: 7,2 tỷ đồng.**
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm các thông tin Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >-
   100% Đất thổ cư - tiết kiệm thời gian và chi phí chuyển mục đích sử dụng đất
 
@@ -63,5 +67,5 @@ tags:
   - đất mặt tiền
   - diện tích rộng
   - đất xây biệt thự
-videoId: https://www.youtube.com/watch?v=5Aw12svbQGg
+videoId: ""
 ---
