@@ -1,6 +1,7 @@
 ---
 type: dat
 location: lam-ha
+date: 2026-10-16T14:49:00+07:00
 title: Bán Nhà Vườn 3.797m², Có Thổ Cư, Nhà Cấp 4, Lô Góc, Giáp Suối Đá, Đông
   Thanh - Nam Ban – Giá Chỉ 3 tỷ
 price: 3 tỷ
@@ -46,10 +47,10 @@ content: >-
   Vị trí gần trung tâm xã, thuận tiện tiếp cận các tiện ích sinh hoạt hằng ngày. Với diện tích gần 3.800m², mặt đường dài, có nhà ở, cây trồng và nguồn nước sẵn, bất động sản phù hợp làm nhà vườn nghỉ dưỡng, trang trại gia đình, sản xuất nông nghiệp hoặc đầu tư giữ đất lâu dài.
 
 
-  Pháp lý: Sổ hồng riêng.
+  Pháp lý bất động sản: **Sổ hồng riêng.**
 
 
-  Giá bán: ***3 tỷ đồng.***
+  Giá bán bất động sản: ***3 tỷ đồng.***
 
 
   :::format align="center" line="1.6"
@@ -59,7 +60,10 @@ content: >-
   :::
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm thông tin các vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |-
   Diện tích rộng vườn cây tự nhiên
   Cạnh suối đá thuận tiện nguồn nước
@@ -75,5 +79,5 @@ tags:
   - đất rộng nghỉ dưỡng
   - đất rộng có vườn
   - lô góc
-videoId: https://www.youtube.com/watch?v=IICqq412WQk
+videoId: ""
 ---
