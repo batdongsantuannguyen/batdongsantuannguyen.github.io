@@ -1,6 +1,7 @@
 ---
 type: nha
 location: da-lat
+date: 2026-10-16T09:11:00+07:00
 title: Bán 1 Trệt, 1 Lầu, Mặt Tiền Đường Nhựa, Phường Lang Biang - Đà Lạt| Sổ
   Hồng Riêng| Chỉ 4,7tỷ
 price: 4,700,000,000
@@ -24,7 +25,7 @@ content: >-
   tiện, dễ dàng đỗ xe và bốc dỡ hàng hóa. 
 
 
-  ![](/tuannguyen-batdongsan/assets/images/d5d86847-0b1a-48a4-826c-ca7335d56c81.png)
+  ![](/tuannguyen-batdongsan/assets/images/d5d86847-0b1a-48a4-826c-ca7335d56c81.png "Bán 1 Trệt, 1 Lầu, Mặt Tiền Đường Nhựa, Phường Lang Biang - Đà Lạt| Sổ Hồng Riêng| Chỉ 4,7tỷ")
 
 
   Từ đây chỉ mất vài phút để tiếp cận chợ, siêu thị, ngân hàng, bưu điện và các tiện ích thiết yếu khác.
@@ -36,30 +37,32 @@ content: >-
   Trên đất hiện có nhà xây dựng kiên cố gồm 1 trệt 1 lầu, tổng diện tích sử dụng khoảng 200m², sân rộng thoải mái cho sinh hoạt hoặc kinh doanh.
 
 
-  ![](/tuannguyen-batdongsan/assets/images/2aoboqepflwkcfelun7jrynq74tpi44tb1708afk6.jpg)
+  ![](/tuannguyen-batdongsan/assets/images/2aoboqepflwkcfelun7jrynq74tpi44tb1708afk6.jpg "Bán 1 Trệt, 1 Lầu, Mặt Tiền Đường Nhựa, Phường Lang Biang - Đà Lạt| Sổ Hồng Riêng| Chỉ 4,7tỷ")
 
 
   Đất hướng Tây Bắc, thế đất nở hậu nhẹ mang ý nghĩa phong thủy tốt. 
 
 
-  Pháp lý sổ hồng riêng, sang tên nhanh chóng.
+  Pháp lý bất động sản: **Sổ hồng riêng**
 
-   Giá bán ***chỉ 4,7 tỷ***, còn thương lượng trực tiếp với chủ.
+   Giá bán bất động sản: ***4,7 tỷ***, còn thương lượng.
 
-  ***LangBiang Xây Dựng***: LABIANP67
+  :::format align="center" line="1.6"
 
-   0843156768 – Tuấn Nguyên  
+  XÂY DỰNG LANGBIANG : LABIANP67
 
-   Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây
+  :::
 
-   [https://www.youtube.com/@tuannguyenbatdongsan ](https://www.youtube.com/@tuannguyenbatdongsan) 
 
-  <https://www.tiktok.com/@batdongsantuannguyen>
+  ***[Xem thêm thông tin các Nhà đang bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/nha/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |-
-  Nhà Mặt Tiền Đường Nhựa
-  Có Sân Đậu Xe
-  Trung Tâm Tiện Ích
-  Thuận Tiện Kinh Doanh
+  Nhà 1 trệt, 1 lầu ngay mặt tiền đường nhựa thuận tiện kinh doanh buôn bán
+  Nhà ngay trung tâm của phường, khu dân cư đông đúc - tiện ích đầy đủ 
+  Giao thông thuận tiện - lộ giới thông 2 đầu - view núi Langbiang
+  Sổ hồng riêng - nhà có sẵn - phù hợp để ở hoặc cho thuê luôn
 tags:
   - nhà sổ riêng đà lạt
   - nhà trung tâm
@@ -68,5 +71,5 @@ tags:
   - nhà mặt tiền
   - langbiang
   - nhà bán
-videoId: https://www.youtube.com/watch?v=aVoFnULSetk
+videoId: ""
 ---
