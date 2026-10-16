@@ -1,6 +1,7 @@
 ---
 type: dat
 location: lam-ha
+date: 2026-10-16T15:12:00+07:00
 title: Bán 271m² Đất Sổ Hồng Riêng, Có Thổ Cư, Mặt Tiền Thông ĐT 725 Ngay Gia
   Lâm - Nam Ban
 price: 1 tỷ 130 triệu
@@ -47,7 +48,10 @@ content: >-
   :::
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vi trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm các thông tin Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >
   Chỉ cách ĐT725-  350m đường thông 2 đầu với tỉnh lộ thuận tiện đi lại kết nối.
 
@@ -63,5 +67,5 @@ tags:
   - ven đà lạt
   - mặt tiền rộng
   - dưới 2tỷ
-videoId: https://www.youtube.com/watch?v=FlEJxeagR6U
+videoId: ""
 ---
