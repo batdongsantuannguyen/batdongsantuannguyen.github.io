@@ -1,6 +1,7 @@
 ---
 type: dat
 location: duc-trong
+date: 2026-10-16T14:37:00+07:00
 title: Bán 344m2 Sổ Hồng Riêng Đất Thổ Cư, Gần Chợ Finom, Cách Sân Bay Liên
   Khương 7km, Giá Chỉ 1,4tỷ
 price: 1,4 tỷ
@@ -19,13 +20,15 @@ direction: Đông nam
 road: Bê tông 4m - đường thông 2 đầu với Quốc Lộ
 legal: Sổ hồng riêng
 content: >-
-  ![](/assets/images/ảnh-màn-hình-2026-07-08-lúc-10.01.51.png)
+  ![](/assets/images/ảnh-màn-hình-2026-07-08-lúc-10.01.51.png "Bán 344m2 Sổ
+  Hồng Riêng Đất Thổ Cư, Gần Chợ Finom, Cách Sân Bay Liên Khương 7km, Giá Chỉ
+  1,4tỷ")
 
 
   Vị trí chỉ 1,5km đến chợ Finôm, 250m ra Quốc lộ 27 và khoảng 7km đến Sân bay Quốc tế Liên Khương, thuận tiện cho nhu cầu sinh sống, đi lại, làm việc và khai thác giá trị bất động sản trong tương lai.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-08-lúc-10.02.20.png)
+  ![](/assets/images/ảnh-màn-hình-2026-07-08-lúc-10.02.20.png "Bán 344m2 Sổ Hồng Riêng Đất Thổ Cư, Gần Chợ Finom, Cách Sân Bay Liên Khương 7km, Giá Chỉ 1,4tỷ")
 
 
   ![]()
@@ -34,7 +37,7 @@ content: >-
   Pháp lý là điểm cộng lớn khi đã có sổ hồng riêng, quy hoạch và tọa độ rõ ràng, công chứng sang tên nhanh, đồng thời thuận tiện vay vốn ngân hàng nếu cần.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-07-08-lúc-10.02.55.png)
+  ![](/assets/images/ảnh-màn-hình-2026-07-08-lúc-10.02.55.png "Bán 344m2 Sổ Hồng Riêng Đất Thổ Cư, Gần Chợ Finom, Cách Sân Bay Liên Khương 7km, Giá Chỉ 1,4tỷ")
 
 
   Hiện chủ đất ở xa nên cần bán nhanh với mức giá chỉ 1,4 tỷ. 
@@ -48,6 +51,12 @@ content: >-
   ĐỨC TRỌNG XÂY DỰNG - HTXD415
 
   :::
+
+
+  ***[Xem thêm thông tin các vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |-
   Khu trung tâm dân cư đông đúc, đầy đủ tiện ích
   Gần chợ lớn dân sinh - quốc lộ 27 - Sân bay Quốc tế Liên Khương
@@ -62,5 +71,5 @@ tags:
   - đất đức trọng
   - hướng Đông nam
   - Đức Trọng Lâm Đồng
-videoId: https://www.youtube.com/watch?v=am2ksh3Gawc
+videoId: ""
 ---
