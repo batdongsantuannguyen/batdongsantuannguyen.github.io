@@ -46,10 +46,10 @@ content: >-
   Đây là một khoảng cách đủ gần trung tâm và điểm du lịch để thuận tiện di chuyển, nhưng vẫn có môi trường sống riêng tư hơn khu lõi trung tâm.
 
 
-  **Pháp lý bất động sản: Sổ hồng riêng**
+  Pháp lý bất động sản: **Sổ hồng riêng**
 
 
-  **Giá bán: 12 tỷ**
+  Giá bán bất động sản: **12 tỷ**
 
 
   :::format align="center" line="1.6"
@@ -59,7 +59,10 @@ content: >-
   :::
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |
   Nằm trong khu biệt thự chứ không phải khu dân cư tự phát, yên tĩnh, riêng tư.
   Có bảo vệ an ninh thường xuyên và bãi đậu xe chung an toàn cho tài sản
@@ -73,5 +76,5 @@ tags:
   - hướng Tây bắc
   - gần chợ đà lạt
   - đường xe hơi
-videoId: https://www.youtube.com/watch?v=swwkVIzonYA
+videoId: ""
 ---
