@@ -1,6 +1,7 @@
 ---
 type: dat
 location: xuan-tho-xuan-truong
+date: 2026-10-16T15:09:00+07:00
 title: Bán Đất Rộng 4.176m² Sổ Hồng Riêng| Ngay Khu Đồi Chè Cầu Đất| Xuân Trường
   - Đà Lạt
 price: 4,1 tỷ
@@ -41,7 +42,10 @@ content: >-
   Giá bán bất động sản: ***4,1tỷ***
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vi trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 tags:
   - cầu đất - đà lạt
   - sổ hồng riêng
@@ -51,5 +55,5 @@ tags:
   - đất rộng có view
   - xuân trường - đà lạt
   - sổ riêng đà lạt
-videoId: https://www.youtube.com/watch?v=Rrr8gxb6NxM
+videoId: ""
 ---
