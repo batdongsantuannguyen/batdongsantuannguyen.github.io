@@ -1,6 +1,7 @@
 ---
 type: dat
 location: xuan-tho-xuan-truong
+date: 2026-10-16T15:14:00+07:00
 title: Bán 1.044m² Đất View Đồi Thông| Sổ Hồng Riêng Ở Khu Đồi Chè Cầu Đất – Đà
   Lạt | Giá 2 tỷ
 price: 2 tỷ
@@ -33,7 +34,10 @@ content: >-
   Giá bán bất động sản: ***2 tỷ***
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm các thông tin Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |
   Diện tích rộng - mặt tiền dài đường đã tiếp cận trực tiếp
   Không gian xung quanh thông thoáng, thiên nhiên trong lành
@@ -48,5 +52,5 @@ tags:
   - ven đà lạt
   - đất farm homestay
   - xuân trường - đà lạt
-videoId: https://www.youtube.com/watch?v=bsQWn2bkDus
+videoId: ""
 ---
