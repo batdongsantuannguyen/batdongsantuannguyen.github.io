@@ -25,7 +25,7 @@ content: >-
   không gian vừa đủ và pháp lý đầy đủ để an tâm sử dụng lâu dài.
 
 
-  ![](/tuannguyen-batdongsan/assets/images/z7719679904562_059ab77a22c387ebf06a75793cd612f3.jpg)
+  ![](/tuannguyen-batdongsan/assets/images/z7719679904562_059ab77a22c387ebf06a75793cd612f3.jpg "Bán Sổ Hồng Riêng, Đường Lê Hồng Phong, Phường Trung Tâm Đà Lạt - Giá chỉ 6,6 tỷ")
 
 
   Nhà có diện tích **67,11 m²**, mặt tiền rộng **4,46 m**, thiết kế theo kiểu **nhà liên kế sân vườn**, gồm **1 trệt và 1 sàn gỗ**. Công năng hiện tại có phòng khách, bếp, **3 phòng ngủ và 2 toilet**; gia đình đông người có thể bố trí lại thành **4 phòng ngủ**.
@@ -34,7 +34,7 @@ content: >-
   Nhà hướng **Nam**, nằm trong hẻm nhựa rộng khoảng **3,5 m**. Theo quy hoạch, tuyến đường sẽ kết nối thông với đường **Ngô Thì Nhậm**, thuận tiện hơn cho việc đi lại sau này.
 
 
-  ![](/tuannguyen-batdongsan/assets/images/z7720847814468_42c95a693a8d50cbb74977a5bf181272.jpg)
+  ![](/tuannguyen-batdongsan/assets/images/z7720847814468_42c95a693a8d50cbb74977a5bf181272.jpg "Bán Sổ Hồng Riêng, Đường Lê Hồng Phong, Phường Trung Tâm Đà Lạt - Giá chỉ 6,6 tỷ")
 
 
   Từ nhà di chuyển đến các tiện ích trung tâm khá gần:
@@ -49,10 +49,10 @@ content: >-
   * Cách Quảng trường Lâm Viên khoảng **3 km**
 
 
-  Pháp lý rõ ràng, **sổ hồng riêng, nhà đã hoàn công**, thuận tiện sang tên và vay ngân hàng.
+  Pháp lý bất động sản: **Sổ hồng riêng, nhà đã hoàn công**, thuận tiện sang tên và vay ngân hàng.
 
 
-  💰 **Giá bán: 6,6 tỷ đồng**
+  Giá bán bất động sản: **6,6 tỷ đồng**
 
 
   :::format align="center" line="1.6"
@@ -60,6 +60,12 @@ content: >-
   NHÀ PHỐ - P4NP325
 
   :::
+
+
+  ***[Xem thêm các thông tin Nhà bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/nha/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |+
   Sổ hồng riêng - thuận tư - vay vốn
   Nhà ngay phường trung tâm đầy đủ tiện ích
