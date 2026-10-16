@@ -1301,6 +1301,7 @@
   {
     "type": "nha",
     "location": "da-lat",
+    "date": "2026-10-16T09:05:00+07:00",
     "title": "Bán Sổ Hồng Riêng, Đường Lê Hồng Phong, Phường Trung Tâm Đà Lạt - Giá chỉ 6,6 tỷ",
     "price": "6,6tỷ",
     "description": "Bán căn nhà ngay phường trung tâm, đường xe hơi vào tận nơi với diện tích 67,11m2 - mặt tiền rộng 4,46m - căn nhà xây dựng 1 trệt, 1 lầu, sàn ốp gỗ, ban công thông thoáng. \nĐường xe hơi vào tận nơi, cách nhựa chính chỉ 30m. ",
@@ -1330,7 +1331,7 @@
       "nhà bán",
       "đất bán"
     ],
-    "videoId": "https://www.youtube.com/watch?v=OCVlX407sjM",
+    "videoId": "",
     "_createdAt": 1788000272,
     "id": "bán-nhà-lê-hồng-phong-đà-lạt"
   },
