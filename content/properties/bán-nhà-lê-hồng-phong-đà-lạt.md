@@ -1,6 +1,7 @@
 ---
 type: nha
 location: da-lat
+date: 2026-10-16T09:05:00+07:00
 title: Bán Sổ Hồng Riêng, Đường Lê Hồng Phong, Phường Trung Tâm Đà Lạt - Giá chỉ
   6,6 tỷ
 price: 6,6tỷ
@@ -74,5 +75,5 @@ tags:
   - nhà 6tỷ
   - nhà bán
   - đất bán
-videoId: https://www.youtube.com/watch?v=OCVlX407sjM
+videoId: ""
 ---
