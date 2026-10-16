@@ -1,6 +1,7 @@
 ---
 type: dat
 location: lam-ha
+date: 2026-10-16T15:07:00+07:00
 title: Bán 1,2ha Có 400m² Thổ Cư và Căn Nhà Mái Thái Để Nghỉ Dưỡng| Ngay Nam Ban
   - Lâm Hà| Giá chỉ 6,5tỷ
 price: 6,5 tỷ
@@ -39,12 +40,15 @@ content: >-
 
   :::format align="center" line="1.6"
 
-  NAM BAN - LÂM HÀ: TDTTNP69
+  NAM BAN XÂY DỰNG: TDTTNP69
 
   :::
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vị trí Đất bán tại đây](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***.
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >-
   Có giá trị cho cả ở và đầu tư dài hạn: Với 12.000m² đất + 400m² thổ cư + nhà
   hiện hữu
@@ -65,5 +69,5 @@ tags:
   - đất có view
   - lô góc
   - thổ cư
-videoId: https://www.youtube.com/watch?v=UtkqWlgCm-o
+videoId: ""
 ---
