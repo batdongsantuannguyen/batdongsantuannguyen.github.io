@@ -1,6 +1,7 @@
 ---
 type: dat
 location: da-lat
+date: 2026-10-16T09:31:00+07:00
 title: Bán 262,5m2 Sổ Hồng Riêng, Khu Đô Thị Vạn Xuân - Đà Lạt, Đầy Đủ Tiện Nghi
   Giá Trị Nghỉ Dưỡng - Chỉ 6,6tỷ
 price: 6.600.000.000
@@ -9,7 +10,7 @@ description: Đối diện với khu du lịch Langbiang Land - Cách trung tâm
   đường quốc lộ 27C khoảng 15km. Cách khu du lịch Lang biang khoảng 1,5km
 image: /tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2025-07-30-lúc-22.51.18.png
 images: null
-address: Khu Đô Thị Vạn Xuân
+address: KĐT Vạn Xuân, Lang Biang - Đà Lạt
 area: 262,5m2
 residentialArea: 262,5m2
 frontage: 15m - hậu 15m
@@ -23,31 +24,35 @@ content: >-
   gian vô cùng thông thoáng để xây dựng nhà ở và biệt thự.
 
 
-  ![](/tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2025-07-30-lúc-22.52.00.png)
+  ![](/tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2025-07-30-lúc-22.52.00.png "Bán 262,5m2 Sổ Hồng Riêng, Khu Đô Thị Vạn Xuân - Đà Lạt, Đầy Đủ Tiện Nghi Giá Trị Nghỉ Dưỡng - Chỉ 6,6tỷ")
 
 
   Phức hợp trong khu hiện nay đang hoàn thiện khi trung tâm thương mại - Viện điều dưỡng, ngoài ra còn rất nhiều các hạng mục tiện ích khi hoàn thiện sẽ đem đến cho chúng ta một môi trường sống với đầy đủ tiện ích .
 
 
-  ![](/tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2025-07-30-lúc-22.51.46.png)
+  ![](/tuannguyen-batdongsan/assets/images/ảnh-màn-hình-2025-07-30-lúc-22.51.46.png "Bán 262,5m2 Sổ Hồng Riêng, Khu Đô Thị Vạn Xuân - Đà Lạt, Đầy Đủ Tiện Nghi Giá Trị Nghỉ Dưỡng - Chỉ 6,6tỷ")
 
 
   Giao thông đường nội khu rộng 9m có vỉa hè rất rộng rãi - hạ tầng đồng bộ hoàn thiện đẹp thoải mái cho xe cộ tránh nhau - đậu, đỗ - và hành lang đi bộ thể dục.
 
 
-  Sổ hồng riêng biệt toàn bộ đã được chuyển đổi thổ cư - công việc sau khi nhận chuyển nhượng chỉ chỉ là nghiên cứu kiến trúc phù hợp, xin giấy phép và xây dựng.
+  Pháp lý bất động sản: **Sổ hồng riêng biệt** toàn bộ đã được chuyển đổi thổ cư - công việc sau khi nhận chuyển nhượng chỉ chỉ là nghiên cứu kiến trúc phù hợp, xin giấy phép và xây dựng.
 
 
-  Giá bán hiện nay cho thửa đất ngày chỉ ***6,6tỷ***
-
-
+  Giá bán bất động sản: ***6,6tỷ***
 
 
   :::format align="center" line="1.6"
 
-  ĐÀ LẠT XÂY DỰNG - LDXD75
+  ĐÀ LẠT XÂY DỰNG - LABIAXD75
 
   :::
+
+
+  ***[Xem thêm thông tin các Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |+
   Kết nối giao thông thuận tiện Đà Lạt - Nha Trang
   Phân khu rõ ràng - hạ tầng đẹp
@@ -60,5 +65,5 @@ tags:
   - đất sổ riêng
   - đất thổ cư
   - đất đà lạt
-videoId: https://www.youtube.com/watch?v=1SzKaN6ovKc
+videoId: ""
 ---
