@@ -1,6 +1,7 @@
 ---
 type: can-ho
 location: da-lat
+date: 2026-10-16T14:50:00+07:00
 title: Bán Chung Cư 3 Phòng Ngủ, Đã Có Sổ Hồng, Gần Chợ  Huyền Trân Công Chúa,
   Trung Tâm Đà Lạt - Giá chỉ 2 tỷ 250
 price: 2 tỷ 250
@@ -43,7 +44,10 @@ content: >-
   :::
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm thông tin vị trí các Chung Cư bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/can-ho/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |-
   Đã có sổ hồng riêng
   Căn hộ căn bìa thoáng 3 mặt
@@ -59,5 +63,5 @@ tags:
   - chung cư gần chợ
   - chung cư
   - sổ hồng riêng
-videoId: https://www.youtube.com/watch?v=US77qIqdWHg
+videoId: ""
 ---
