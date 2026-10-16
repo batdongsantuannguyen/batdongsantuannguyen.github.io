@@ -1,6 +1,7 @@
 ---
 type: dat
 location: xuan-tho-xuan-truong
+date: 2026-10-16T14:54:00+07:00
 title: Bán Thửa Đất 440m2| Lô Góc Thổ Cư | 2 Mặt Tiền Gần Chợ | Có View Đường Xe
   Hơi Thuận Tiện Ngay Cầu Đất – Đà Lạt
 price: 5,7 tỷ
@@ -36,13 +37,16 @@ content: >-
   Từ thửa đất di chuyển khoảng **800m là đến chợ Cầu Đất**, thuận tiện tiếp cận các tiện ích và đáp ứng nhu cầu sinh hoạt hằng ngày.
 
 
-  **Pháp lý: Sổ hồng riêng.**
+  Pháp lý bất động sản: **Sổ hồng riêng.**
 
 
-  **Giá bán: 5,7 tỷ đồng.**
+  Giá bán bất động sản: **5,7 tỷ đồng.**
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm thông tin các vị trí Đất bán tại đây](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |
   Lô góc 2 mặt tiền - thổ cư toàn bộ
   View đối diện đồi chè - đồi điện gió đẹp nhất
@@ -57,5 +61,5 @@ tags:
   - đất thổ cư
   - "đất có view "
   - đất xây dựng
-videoId: https://www.youtube.com/watch?v=biIX2VDKxAw
+videoId: ""
 ---
