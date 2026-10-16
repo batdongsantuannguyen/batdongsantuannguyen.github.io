@@ -10,7 +10,7 @@ description: Thửa đất 3.053m² có mặt tiền đường bê tông khoản
   tiện kết nối về trung tâm nhưng vẫn giữ được không gian sống yên tĩnh, thoáng
   và gần thiên nhiên.
 image: /assets/images/chatgpt-image-10_31_15-29-thg-7-2026.png
-address: Xuân Thọ - Đà Lạt
+address: Xuân Thọ , Xuân Trường - Đà Lạt
 area: 3.053m²
 residentialArea: 400m²
 frontage: 36m
@@ -38,13 +38,16 @@ content: >-
   Với diện tích hơn **3.053m²**, đã có **400m² đất ở hiện hữu**, thuận lợi hơn cho Nhà Đầu Tư có thể nghiên cứu các phương án như **biệt thự nhà vườn, farmstay, homestay, camping hoặc mô hình nghỉ dưỡng phù hợp với quy hoạch và quy định hiện hành,** thay vì mua đất hoàn toàn là đất nông nghiệp.mặt tiền rộng và cảnh quan sẵn có, 
 
 
-  **Hướng đất: Tây bắc.**
+  Hướng bất động sản**: Tây bắc.**
 
 
-  **Giá bán toàn bộ: 12 tỷ đồng** 
+  Giá bán bất động sản**: 12 tỷ đồng** 
 
 
-  ***[Xem thêm các nhà, đất giá tốt nhất hiện nay tại đây](https://www.youtube.com/@tuannguyenbatdongsan)***
+  ***[Xem thêm các thông tin vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >-
   Quỹ đất lớn, có sẵn thổ cư và có thể chuyển thêm để tăng diện tích Đầu Tư Xây
   Dựng
@@ -65,5 +68,5 @@ tags:
   - hướng Tây bắc
   - homestay
   - gần quốc lộ
-videoId: https://www.youtube.com/watch?v=sTJKltwDOUc
+videoId: ""
 ---
