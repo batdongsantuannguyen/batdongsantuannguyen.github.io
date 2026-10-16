@@ -1,6 +1,7 @@
 ---
 type: nha
 location: da-lat
+date: 2026-10-16T14:43:00+07:00
 title: Bán Nhà 5 Tầng, 6 Ngủ, Đường Xe Hơi, Sổ Hồng Hoàn Công, Gần Trường Đại
   Học Đà Lạt - Giá 12 tỷ
 price: 12 tỷ
@@ -56,8 +57,15 @@ content: >-
 
   :::format align="center" line="1.6"
 
+  NHÀ PHỐ ĐÀ LẠT - P8NP348
 
   :::
+
+
+  ***[Xem thêm thông tin các vị trí Nhà bán hiện nay.](https://batdongsantuannguyen.github.io/bat-dong-san/nha/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: |-
   Nhà 5 tầng liên kế hiện đại
   Vị trí trung tâm đủ mọi tiện ích
@@ -74,5 +82,5 @@ tags:
   - nhà đông nam
   - nhà nhiều phòng
   - đường xe hơi
-videoId: https://www.youtube.com/watch?v=TYNejsUHFoc
+videoId: ""
 ---
