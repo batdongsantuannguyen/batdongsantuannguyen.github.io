@@ -26,7 +26,7 @@ content: >-
   Thửa đất **bằng phẳng ở các cạnh, không hầm, không taluy**, giúp tiết kiệm chi phí cải tạo mặt bằng khi xây dựng. Một cạnh dài tiếp giáp **suối tự nhiên**, có ranh giới rõ ràng trên quy hoạch và thực tế. Yếu tố này cũng tạo thuận tiện về hệ thống thoát nước khi nhà đầu tư xây dựng nhà ở hoặc hình thành khu dân cư mới về sau.
 
 
-  ![](/assets/images/bản-đồ-địa-chính-vệ-tinh-1-.png "Bán Đất 804,9m² Sổ Hồng Riêng, Tại Làng Con Gà, Hiệp Thạnh – Đức Trọng, View Núi Voi - Gần Quốc Lộ 20")
+  ![](/assets/images/ảnh-màn-hình-2026-10-17-lúc-16.42.06.png "Bán Đất 804,9m² Sổ Hồng Riêng, Tại Làng Con Gà, Hiệp Thạnh – Đức Trọng, View Núi Voi - Gần Quốc Lộ 20")
 
 
   Tiếp giáp mặt tiền đất là **đường bê tông hiện trạng rộng 4m, xe hơi đến tận nơi**. Phía đối diện qua đường là khu dân cư hiện hữu, được hình thành bởi các thửa đất liền kề có kích thước **6m × 17m**. Sau khi hoàn tất nhận chuyển nhượng, nhà đầu tư có thể **xem xét phương án chuyển đổi thổ cư và tách thửa với kích thước tương tự**.
