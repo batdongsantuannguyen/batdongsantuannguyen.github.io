@@ -37,7 +37,7 @@ content: >-
 
   **Cách Sân bay quốc tế Liên Khương chỉ 11km** đây cũng là một khoảng cách hợp lý, khi cần thiết chúng ta chỉ cần tranh thủ thời gian di chuyển khoảng 15 phút là đã đến với sân bay.
 
-  Khi cần có sự náo nhiệt để thay đổi không khí và tiếp cận với các đại điểm du lịch nổi tiếng thì chúng ta cũng chỉ cần **di chuyển 20km bằng tuyến đường quốc lộ 20 hoặc cao tốc Liên Khương là chúng ta đã lên đến trung tâm Đà Lạt**.
+  Khi cần có sự náo nhiệt để thay đổi không khí và tiếp cận với các địa điểm du lịch nổi tiếng thì chúng ta cũng chỉ cần **di chuyển 20km bằng tuyến đường quốc lộ 20 hoặc cao tốc Liên Khương là chúng ta đã lên đến trung tâm Đà Lạt**.
 
 
   ![](/assets/images/bản-đồ-vệ-tinh-định-vị.png "Bán 2 Sổ Hồng Riêng 265m²| Thổ Cư 161m²| Gần Quốc Lộ Ngay Hiệp Thạnh - Đức Trọng")
@@ -52,7 +52,6 @@ content: >-
 
 
   Pháp lý bất động sản: **Sổ hồng riêng ( 2 sổ riêng biệt liền kề nhau)**
-
 
 
   Giá bán tổng thể của cả 2 thửa đất chỉ: **2 tỷ và có bán riêng từng sổ** để phù hợp với tầm tài chính và nhu cầu sử dụng của Nhà Đầu Tư.
