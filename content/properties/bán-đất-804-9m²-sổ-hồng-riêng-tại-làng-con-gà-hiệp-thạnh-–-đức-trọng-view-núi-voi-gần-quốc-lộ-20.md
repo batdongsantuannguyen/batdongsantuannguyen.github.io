@@ -13,7 +13,7 @@ description: Bán thửa đất tại địa danh Chicken Village (Làng Con Gà
 image: /assets/images/vệ-tinh-lô-đất-đức-trọng.png
 address: HIệp Thạnh - Đức Trọng - Lâm Đồng
 area: 804,9m²
-frontage: 46,14m
+frontage: 46,14m - nở hậu 48m
 direction: Đông bắc
 road: bê tông 4m
 legal: Sổ hồng riêng
