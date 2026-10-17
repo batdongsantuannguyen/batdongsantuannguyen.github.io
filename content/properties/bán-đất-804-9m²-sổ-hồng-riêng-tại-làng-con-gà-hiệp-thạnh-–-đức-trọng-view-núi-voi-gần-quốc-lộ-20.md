@@ -45,6 +45,19 @@ content: >-
 
 
   Giá bán bất động sản: **3,3 tỷ**
+
+
+  :::format align="center" line="1.6"
+
+  ĐỨC TRỌNG NÔNG NGHIỆP - HTNN68
+
+  :::
+
+
+  ***[Xem thêm thông tin các vị trí Đất bán tại đây.](https://batdongsantuannguyen.github.io/bat-dong-san/dat/)***
+
+
+  ***[Xem thêm thông tin các Bất Động Sản mới nhất tại đây.](https://www.youtube.com/@tuannguyenbatdongsan/videos)***
 highlights: >-
   Thửa đất diện tích rộng 804,9m², mặt tiền rộng 46,14m, nở hậu hơn 48m, giáp
   suối, view núi.
