@@ -10,6 +10,7 @@ description: "Bán khu biệt thự nhà vườn tại Trại Mát, phường 11
   biệt thự 1 trệt, 1 lầu và sân thượng với 6 phòng ngủ rộng rãi, thiết kế mở,
   hướng nhìn đồi thông; khối nhà cà phê 1 trệt, 1 lầu và sân thượng; cùng một
   nhà tôn cấp 4. Vị trí cách Quốc lộ 20 chỉ 300m, cách chợ đêm Đà Lạt 10km."
+image: /assets/images/biệt-thự-trắng-giữa-đồi-thông.png
 address: Trại Mát, Xuân Trường - Đà Lạt
 area: 7.444m²
 residentialArea: 400m²
