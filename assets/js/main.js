@@ -273,30 +273,29 @@ function getProductImageSources(imagePath) {
  * =========================================
  */
 
-function searchProperty() {
 
-    const typeElement =
-        document.getElementById(
-            "propertyType"
-        );
-
-    const locationElement =
-        document.getElementById(
-            "propertyLocation"
-        );
-
-    const keywordElement =
-        document.getElementById(
-            "propertyKeyword"
-        );
-
-    if (
-        !typeElement ||
-        !locationElement ||
-        !keywordElement
-    ) {
-        return;
+    function searchProperty() {
+        const typeElement =
+            document.getElementById("propertyType");
+    
+        const locationElement =
+            document.getElementById("propertyLocation");
+    
+        const keywordElement =
+            document.getElementById("propertyKeyword");
+    
+        if (
+            !typeElement ||
+            !locationElement ||
+            !keywordElement
+        ) {
+            return;
+        }
+    
+        // Tìm kiếm lại trên toàn bộ dữ liệu bất động sản.
+        renderProperties();
     }
+
 
     const type =
         typeElement.value;
@@ -523,10 +522,35 @@ const sortedProperties = [...properties].sort(
         Number(a._createdAt || 0)
 );
 
+
+const typeFilterElement =
+    document.getElementById("propertyType");
+
+const locationFilterElement =
+    document.getElementById("propertyLocation");
+
+const keywordFilterElement =
+    document.getElementById("propertyKeyword");
+
+const selectedType =
+    typeFilterElement ? typeFilterElement.value : "";
+
+const selectedLocation =
+    locationFilterElement ? locationFilterElement.value : "";
+
+const selectedKeyword =
+    keywordFilterElement
+        ? keywordFilterElement.value.toLowerCase().trim()
+        : "";
+
+const hasActiveSearch =
+    Boolean(selectedType || selectedLocation || selectedKeyword);
+
 const propertiesToShow =
-    isHomePage
+    isHomePage && !hasActiveSearch
         ? sortedProperties.slice(0, 8)
         : sortedProperties;
+
 
 /*
  * Đếm sản phẩm thực tế đã render.
@@ -536,6 +560,46 @@ let renderedCount = 0;
 
         propertiesToShow.forEach(
             function (property) {
+
+if (
+    selectedType !== "" &&
+    String(property.type || "") !== selectedType
+) {
+    return;
+}
+
+if (
+    selectedLocation !== "" &&
+    String(property.location || "") !== selectedLocation
+) {
+    return;
+}
+
+
+const keywordText = [
+    property.title,
+    property.description,
+    property.locationName,
+    property.address,
+    property.price,
+    property.area,
+    property.residentialArea,
+    property.frontage,
+    property.road,
+    property.legal,
+    property.direction,
+    ...(Array.isArray(property.tags) ? property.tags : [])
+]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+if (
+    selectedKeyword !== "" &&
+    !keywordText.includes(selectedKeyword)
+) {
+    return;
+}
     
                 if (
                     currentType !== "" &&
@@ -714,13 +778,23 @@ article.addEventListener("click", function (event) {
     window.location.href = productUrl;
 
 });
-            container.appendChild(
-                article
-            );
-            renderedCount++;
+
+container.appendChild(
+    article
+);
+renderedCount++;
         }
     );
+
+if (hasActiveSearch && renderedCount === 0) {
+    const emptyState = document.createElement("p");
+    emptyState.className = "no-results";
+    emptyState.textContent =
+        "Không tìm thấy bất động sản phù hợp. Vui lòng thay đổi điều kiện tìm kiếm.";
+    container.appendChild(emptyState);
 }
+}
+
 
 
 /*
