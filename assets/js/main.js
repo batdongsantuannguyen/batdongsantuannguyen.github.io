@@ -273,102 +273,28 @@ function getProductImageSources(imagePath) {
  * =========================================
  */
 
+function searchProperty() {
+    const typeElement =
+        document.getElementById("propertyType");
 
-    function searchProperty() {
-        const typeElement =
-            document.getElementById("propertyType");
-    
-        const locationElement =
-            document.getElementById("propertyLocation");
-    
-        const keywordElement =
-            document.getElementById("propertyKeyword");
-    
-        if (
-            !typeElement ||
-            !locationElement ||
-            !keywordElement
-        ) {
-            return;
-        }
-    
-        // Tìm kiếm lại trên toàn bộ dữ liệu bất động sản.
-        renderProperties();
+    const locationElement =
+        document.getElementById("propertyLocation");
+
+    const keywordElement =
+        document.getElementById("propertyKeyword");
+
+    if (
+        !typeElement ||
+        !locationElement ||
+        !keywordElement
+    ) {
+        console.error(
+            "Không tìm thấy đầy đủ các trường tìm kiếm."
+        );
+        return;
     }
 
-
-    const type =
-        typeElement.value;
-
-    const location =
-        locationElement.value;
-
-    const keyword =
-        keywordElement.value
-            .toLowerCase()
-            .trim();
-
-    const products =
-        document.querySelectorAll(
-            ".product"
-        );
-
-    let found = 0;
-
-    products.forEach(
-        function (product) {
-
-            const productType =
-                product.dataset.type || "";
-
-            const productLocation =
-                product.dataset.location || "";
-
-            const productText =
-                product.innerText
-                    .toLowerCase();
-
-            const matchType =
-                type === "" ||
-                productType === type;
-
-            const matchLocation =
-                location === "" ||
-                productLocation === location;
-
-            const matchKeyword =
-                keyword === "" ||
-                productText.includes(
-                    keyword
-                );
-
-            if (
-                matchType &&
-                matchLocation &&
-                matchKeyword
-            ) {
-
-                product.style.display = "";
-
-                found++;
-
-            } else {
-
-                product.style.display =
-                    "none";
-
-            }
-
-        }
-    );
-
-    if (found === 0) {
-
-        alert(
-            "Không tìm thấy bất động sản phù hợp. Vui lòng thử lại."
-        );
-
-    }
+    renderProperties();
 }
 
 
