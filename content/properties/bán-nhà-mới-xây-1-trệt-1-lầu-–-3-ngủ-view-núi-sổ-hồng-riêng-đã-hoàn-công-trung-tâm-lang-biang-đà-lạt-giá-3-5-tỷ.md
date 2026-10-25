@@ -50,10 +50,10 @@ content: >-
   ![](/assets/images/nhà-trắng-không-còn-cột-điện-dây-điện.png "Bán Nhà Mới Xây 1 Trệt, 1 Lầu – 3 Ngủ, View Núi, Sổ Hồng Riêng Đã Hoàn Công| Trung Tâm Lang Biang - Đà Lạt, Giá 3,5 Tỷ")
 
 
-  Căn nhà cũng **đã được hoàn công - đã ghi nhận tài sản ở trên đất** - thực địa thì **khuôn viên rõ ràng**, trên sổ thì **toạ độ chuẩn chỉnh, sổ hồng mới nhất**, nên rất minh bạch và chỉn chu để Nhà Đầu Tư yên tâm sở hữu và quản lý tài sản của mình khi mua.
+  Căn nhà cũng **đã được hoàn công - đã ghi nhận tài sản ở trên đất** - thực địa thì **khuôn viên rõ ràng**, trên sổ thì **toạ độ chuẩn chỉnh, sổ hồng mới nhất**, nên rất minh bạch và chỉnh chu để Nhà Đầu Tư yên tâm sở hữu và quản lý tài sản của mình khi mua.
 
 
-  **Giá bán hiện nay của căn nhà chỉ: 3,5 tỷ**
+  Giá bán hiện nay của căn nhà chỉ**: 3,5 tỷ**
 
 
   :::format align="center" line="1.6"
