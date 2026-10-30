@@ -2,7 +2,7 @@
 type: dat
 location: xuan-tho-xuan-truong
 date: 2026-10-30T10:20:00+07:00
-title: Bán Đất 121,8m², Sổ Hồng Riêng, ĐƯờng Xe Hơi, View Đẹp, Gần Quốc Lộ 20,
+title: Bán Đất 121,8m², Sổ Hồng Riêng, Đường Xe Hơi, View Đẹp, Gần Quốc Lộ 20,
   Ngay Xuân Thọ - Đà Lạt.
 price: 3 tỷ
 description: Bán thửa đất Sổ Hồng Riêng đất thổ cư, với tổng diện tích 121m2,
@@ -21,25 +21,27 @@ road: bê tông 4m - QH mở rộng 8m
 legal: Sổ hồng riêng
 summary: ""
 content: >-
-  ![](/assets/images/toàn-cảnh-làng-đồi-giữa-núi-xanh.png)
+  ![](/assets/images/toàn-cảnh-làng-đồi-giữa-núi-xanh.png "Bán Đất
+  121,8m², Sổ Hồng Riêng, Đường Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ
+  - Đà Lạt.")
 
 
   Thửa đất **thế dương, bằng phẳng, nền đất tự nhiên -** view sau hướng về đường Quốc Lộ 20, Nhà thờ Đa Lộc, xa xa là tầm nhìn đồi điện gió Cầu Đất rất đẹp.
 
 
-  ![](/assets/images/khu-đất-xanh-giữa-thị-trấn-đồi-núi.png "Bán Đất 121,8m², Sổ Hồng Riêng, ĐƯờng Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
+  ![](/assets/images/khu-đất-xanh-giữa-thị-trấn-đồi-núi.png "Bán Đất 121,8m², Sổ Hồng Riêng, Đường Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
 
 
   Một bất động sản không quá gần trung tâm Đà Lạt nhưng lại nằm trong khu **có kiến trúc xây dựng nhà ở Liên Kế,** bên cạnh đó là trung tâm của đầy đủ các tiện ích, từ vị trí Đất để **đi bộ ra đến chợ, trường học, trung tâm y tế, ATM, trung tâm hành chính chỉ 300m**, nên ngay tại vị trí này Nhà Đầu Tư chúng ta có thể nghiên cứu để xây dựng các cơ sở lưu trú, homestay, căn hộ cho thuê để tăng thêm giá trị Bất Động Sản khi sở hữu.
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-10-30-lúc-10.51.29.png "Bán Đất 121,8m², Sổ Hồng Riêng, ĐƯờng Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
+  ![](/assets/images/ảnh-màn-hình-2026-10-30-lúc-10.51.29.png "Bán Đất 121,8m², Sổ Hồng Riêng, Đường Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
 
 
   Vị trí cách đường Quốc Lộ 20 cũng chỉ có 300m, đường xe hơi từ Quốc Lộ vào đến vị trí Đất rất thuận tiện nên việc kết nối giao thông cực kỳ dễ dàng. 
 
 
-  ![](/assets/images/ảnh-màn-hình-2026-10-30-lúc-09.24.26.png "Bán Đất 121,8m², Sổ Hồng Riêng, ĐƯờng Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
+  ![](/assets/images/ảnh-màn-hình-2026-10-30-lúc-09.24.26.png "Bán Đất 121,8m², Sổ Hồng Riêng, Đường Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
 
 
   \
