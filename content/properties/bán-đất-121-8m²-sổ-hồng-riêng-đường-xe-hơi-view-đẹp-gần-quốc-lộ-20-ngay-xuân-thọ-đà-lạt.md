@@ -21,8 +21,10 @@ road: bê tông 4m - QH mở rộng 8m
 legal: Sổ hồng riêng
 summary: ""
 content: >-
-  Thửa đất **thế dương, bằng phẳng, nền đất tự nhiên -** view sau hướng về đường
-  Quốc Lộ 20, Nhà thờ Đa Lộc, xa xa là tầm nhìn đồi điện gió Cầu Đất rất đẹp.
+  ![](/assets/images/toàn-cảnh-làng-đồi-giữa-núi-xanh.png)
+
+
+  Thửa đất **thế dương, bằng phẳng, nền đất tự nhiên -** view sau hướng về đường Quốc Lộ 20, Nhà thờ Đa Lộc, xa xa là tầm nhìn đồi điện gió Cầu Đất rất đẹp.
 
 
   ![](/assets/images/khu-đất-xanh-giữa-thị-trấn-đồi-núi.png "Bán Đất 121,8m², Sổ Hồng Riêng, ĐƯờng Xe Hơi, View Đẹp, Gần Quốc Lộ 20, Ngay Xuân Thọ - Đà Lạt.")
