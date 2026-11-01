@@ -1,7 +1,7 @@
 ---
 type: nha
 location: da-lat
-date: 2026-11-01T20:19:00+07:00
+date: 2026-11-01T21:57:00+07:00
 title: Bán Nhà 3 Ngủ - 2 Mặt Tiền| View Suối Camly, Sổ Hồng Riêng, Đường Hoàng
   Văn Thụ, Trung Tâm Đà Lạt
 price: 7,8 tỷ
