@@ -56,7 +56,7 @@ content: >-
 highlights: >-
   Hai thửa đất nằm liền kế nhau và cung tiếp giáp với mặt tiền đường nhựa rộng
 
-  Tổng diện tích 706,2m2 mặt tiền rộng 20m, thổ cư có sẵn 200m2 - Giếng khoan có sẵn
+  Tổng diện tích 706,2m² mặt tiền rộng 20m, thổ cư có sẵn 200m² - Giếng khoan có sẵn
 
   Đất tiền nhẹ hướng view đẹp, thuận lợi để khai thác đầu tư và nghỉ dưỡng
 
